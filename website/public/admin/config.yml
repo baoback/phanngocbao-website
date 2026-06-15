@@ -1,0 +1,47 @@
+# =================================================================
+#  CẤU HÌNH TRANG QUẢN TRỊ (Decap CMS) — đăng nhập bằng GitHub
+#  >>> CẦN SỬA 2 CHỖ: "repo" và "base_url" <<<
+# =================================================================
+backend:
+  name: github
+  repo: TEN-GITHUB/phanngocbao-website   # ⚠️ Đổi thành: tên-tài-khoản-github/tên-repo
+  branch: main
+  base_url: https://phanngocbao.vn      # ⚠️ Đổi thành URL thật của site (khi chưa gắn tên miền thì dùng địa chỉ ...vercel.app)
+  auth_endpoint: /api/auth
+
+# Nơi lưu ảnh khi bạn tải lên trong trang quản trị
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  # ---------- Bài viết blog ----------
+  - name: "blog"
+    label: "Bài viết"
+    label_singular: "Bài viết"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["pubDate", "title"]
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Mô tả ngắn (cho SEO & thẻ tóm tắt)", name: "description", widget: "text", required: false }
+      - { label: "Ngày đăng", name: "pubDate", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Ảnh bìa", name: "cover", widget: "image", required: false, hint: "Ảnh hiển thị trên lưới trang chủ" }
+      - { label: "Thẻ / chủ đề", name: "tags", widget: "list", required: false, hint: "Ví dụ: Content, Thương hiệu" }
+      - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
+      - { label: "Nội dung bài viết", name: "body", widget: "markdown" }
+
+  # ---------- Trang Hồ sơ cá nhân ----------
+  - name: "pages"
+    label: "Trang cố định"
+    files:
+      - name: "about"
+        label: "Trang Hồ sơ"
+        file: "content/about.md"
+        fields:
+          - { label: "Họ tên", name: "name", widget: "string" }
+          - { label: "Vai trò / chức danh", name: "role", widget: "string" }
+          - { label: "Ảnh đại diện", name: "avatar", widget: "image", required: false }
+          - { label: "Câu giới thiệu ngắn", name: "tagline", widget: "text", required: false }
+          - { label: "Nội dung trang", name: "body", widget: "markdown" }
