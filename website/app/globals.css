@@ -1587,38 +1587,35 @@ img {
   .story-stats { grid-template-columns: 1fr; gap: 28px; }
 }
 
-/* ---- Showcase: khối ảnh full-bleed tự chuyển (Journey style) ---- */
+/* ---- Showcase: ảnh "lướt lên" lấp khoảng trắng khi cuộn (Journey style) ---- */
 .story-showcase {
   position: relative;
-  min-height: 86vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  background: #1c1812;
+  background: var(--bg);
+  --reveal: 0;
 }
-.showcase-stack {
+.showcase-reveal {
   position: absolute;
   inset: 0;
+  clip-path: inset(calc((1 - var(--reveal)) * 100%) 0 0 0);
+  -webkit-clip-path: inset(calc((1 - var(--reveal)) * 100%) 0 0 0);
+  will-change: clip-path;
 }
+.showcase-stack { position: absolute; inset: 0; }
 .showcase-slide {
   position: absolute;
   inset: 0;
   opacity: 0;
   transition: opacity 1.4s var(--ease);
 }
-.showcase-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.showcase-slide.active {
-  opacity: 1;
-}
-.showcase-slide.active img {
-  animation: showcaseZoom 7s ease-out both;
-}
+.showcase-slide img { width: 100%; height: 100%; object-fit: cover; }
+.showcase-slide.active { opacity: 1; }
+.showcase-slide.active img { animation: showcaseZoom 7s ease-out both; }
 @keyframes showcaseZoom {
   from { transform: scale(1.04); }
   to { transform: scale(1.14); }
@@ -1629,7 +1626,7 @@ img {
 .story-showcase-veil {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(18, 14, 9, 0.5) 0%, rgba(18, 14, 9, 0.2) 45%, rgba(18, 14, 9, 0.55) 100%);
+  background: linear-gradient(180deg, rgba(18, 14, 9, 0.45) 0%, rgba(18, 14, 9, 0.15) 45%, rgba(18, 14, 9, 0.5) 100%);
 }
 .story-showcase-inner {
   position: relative;
@@ -1639,5 +1636,11 @@ img {
   align-items: center;
   gap: 22px;
 }
-.story-showcase-inner .story-eyebrow { color: rgba(255, 255, 255, 0.85); }
-.story-showcase-inner .story-display { color: #fff; }
+.story-showcase-inner .story-eyebrow {
+  color: var(--story-muted);
+  color: color-mix(in srgb, rgba(255, 255, 255, 0.92) calc(var(--reveal) * 100%), var(--story-muted));
+}
+.story-showcase-inner .story-display {
+  color: var(--story-ink);
+  color: color-mix(in srgb, #ffffff calc(var(--reveal) * 100%), var(--story-ink));
+}
