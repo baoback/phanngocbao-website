@@ -96,6 +96,15 @@ export function getAbout() {
     email: data.email || '',
     linkedin: data.linkedin || '',
     facebook: data.facebook || '',
+    heroEyebrow: data.heroEyebrow || '',
+    heroTitle: data.heroTitle || '',
+    heroImage: data.heroImage || '',
+    lead: data.lead || '',
+    stats: Array.isArray(data.stats) ? data.stats : [],
+    storyBlocks: Array.isArray(data.storyBlocks) ? data.storyBlocks : [],
+    skills: Array.isArray(data.skills) ? data.skills : [],
+    ctaTitle: data.ctaTitle || '',
+    ctaText: data.ctaText || '',
     html: marked.parse(content),
   };
 }
