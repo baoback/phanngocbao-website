@@ -90,6 +90,12 @@ const DEFAULT_SETTINGS = {
   ctaText: 'Xem câu chuyện sự nghiệp, các dự án thực chiến và cách mình tư duy hệ thống.',
   ctaButton: 'Khám phá hồ sơ & kết nối',
   footerNote: 'Blog Marketing & Hồ sơ cá nhân',
+  newsletterTitle: 'Nhận bài viết mới qua email',
+  newsletterText: 'Mỗi tuần một góc nhìn Marketing thực chiến, không spam.',
+  newsletterButton: 'Đăng ký',
+  newsletterAction: '',
+  portfolioTitle: 'Dự án thực chiến',
+  portfolioSubtitle: 'Một số dự án Marketing mình đã đồng hành.',
 };
 
 export function getSettings() {
@@ -102,4 +108,42 @@ export function getSettings() {
     // dùng mặc định nếu lỗi
   }
   return DEFAULT_SETTINGS;
+}
+
+
+const PROJECTS_DIR = path.join(process.cwd(), 'content', 'projects');
+
+function readProjectFile(file) {
+  const slug = file.replace(/\.md$/, '');
+  const raw = fs.readFileSync(path.join(PROJECTS_DIR, file), 'utf-8');
+  const { data, content } = matter(raw);
+  return {
+    slug,
+    title: data.title || slug,
+    description: data.description || '',
+    cover: data.cover || null,
+    url: data.url || '',
+    role: data.role || '',
+    year: data.year ? String(data.year) : '',
+    order: typeof data.order === 'number' ? data.order : 999,
+    draft: !!data.draft,
+    content,
+  };
+}
+
+export function getAllProjects() {
+  if (!fs.existsSync(PROJECTS_DIR)) return [];
+  return fs
+    .readdirSync(PROJECTS_DIR)
+    .filter((f) => f.endsWith('.md'))
+    .map(readProjectFile)
+    .filter((p) => !p.draft)
+    .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+}
+
+export function getProjectBySlug(slug) {
+  const fp = path.join(PROJECTS_DIR, `${slug}.md`);
+  if (!fs.existsSync(fp)) return null;
+  const p = readProjectFile(`${slug}.md`);
+  return { ...p, html: marked.parse(p.content) };
 }
