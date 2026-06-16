@@ -4,6 +4,7 @@ import { getSettings } from '@/lib/posts';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollReveal from './components/ScrollReveal';
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 const inter = Inter({ subsets: ['latin', 'vietnamese'], display: 'swap', variable: '--font-inter' });
 
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <Footer note={s.footerNote} brandName={s.brandName} />
         <ScrollReveal />
+        <GoogleAnalytics gaId={s.gaId} />
       </body>
     </html>
   );
