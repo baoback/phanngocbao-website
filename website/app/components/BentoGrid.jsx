@@ -1,32 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import Link from 'next/link';
 import PostCard from './PostCard';
-
-function ProfileCard({ profile }) {
-  if (!profile || !profile.name) return null;
-  return (
-    <Link href="/about" className="card profile-card">
-      <div>
-        {profile.avatar && <img className="avatar" src={profile.avatar} alt={profile.name} />}
-        <h3 style={{ marginTop: 14 }}>{profile.name}</h3>
-        <p>{profile.role}</p>
-      </div>
-      <span className="go">Xem hồ sơ →</span>
-    </Link>
-  );
-}
-
-function QuoteCard({ quote }) {
-  if (!quote) return null;
-  return (
-    <div className="card quote-card">
-      <div className="qmark">“</div>
-      <blockquote>{quote}</blockquote>
-    </div>
-  );
-}
 
 export default function BentoGrid({ posts, tags = [], profile, quote, initialQuery = '' }) {
   const [query, setQuery] = useState(initialQuery);
@@ -95,8 +70,6 @@ export default function BentoGrid({ posts, tags = [], profile, quote, initialQue
         ) : (
           <div className="bento">
             {posts[0] && <PostCard post={posts[0]} className="featured" />}
-            <ProfileCard profile={profile} />
-            <QuoteCard quote={quote} />
             {posts[1] && <PostCard post={posts[1]} className="wide" />}
             {posts.slice(2).map((p) => <PostCard key={p.slug} post={p} />)}
           </div>
