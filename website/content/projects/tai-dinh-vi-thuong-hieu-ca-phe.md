@@ -1,7 +1,7 @@
 ---
 title: Tái định vị thương hiệu chuỗi cà phê
 description: Làm mới định vị và hệ thống nhận diện cho một chuỗi cà phê địa phương, tăng nhận biết trong nhóm khách trẻ.
-cover: https://picsum.photos/seed/ngbao-proj-coffee/1200/800?grayscale
+cover: https://picsum.photos/seed/ngbao-proj-coffee/1200/800
 role: Brand & Marketing Lead
 year: 2025
 url: ""

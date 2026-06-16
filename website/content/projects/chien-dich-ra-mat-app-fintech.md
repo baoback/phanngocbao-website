@@ -1,7 +1,7 @@
 ---
 title: Chiến dịch ra mắt ứng dụng fintech
 description: Lên kế hoạch và vận hành chiến dịch go-to-market cho một ứng dụng tài chính cá nhân.
-cover: https://picsum.photos/seed/ngbao-proj-fintech/1200/900?grayscale
+cover: https://picsum.photos/seed/ngbao-proj-fintech/1200/900
 role: Performance & Growth
 year: 2025
 url: ""

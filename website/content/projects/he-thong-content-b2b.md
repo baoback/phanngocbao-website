@@ -1,7 +1,7 @@
 ---
 title: Xây hệ thống content cho doanh nghiệp B2B
 description: Thiết lập quy trình sản xuất nội dung và pipeline phân phối cho một công ty công nghệ B2B.
-cover: https://picsum.photos/seed/ngbao-proj-b2b/1200/850?grayscale
+cover: https://picsum.photos/seed/ngbao-proj-b2b/1200/850
 role: Content Strategy
 year: 2024
 url: ""
