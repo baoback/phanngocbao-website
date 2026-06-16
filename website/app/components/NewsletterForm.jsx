@@ -19,13 +19,28 @@ export default function NewsletterForm({ action = '', button = 'Đăng ký', fie
       return;
     }
 
+    // Cho phép chỉ định tên trường qua query ?field=... (vd Google Form: entry.123456)
+    let postUrl = action;
+    let fieldName = field;
+    try {
+      const u = new URL(action);
+      const f = u.searchParams.get('field');
+      if (f) {
+        fieldName = f;
+        u.searchParams.delete('field');
+        postUrl = u.toString();
+      }
+    } catch (err) {
+      // action không phải URL tuyệt đối — dùng nguyên trạng
+    }
+
     setLoading(true);
     try {
-      await fetch(action, {
+      await fetch(postUrl, {
         method: 'POST',
         mode: 'no-cors',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams({ [field]: email }).toString(),
+        body: new URLSearchParams({ [fieldName]: email }).toString(),
       });
     } catch (err) {
       // no-cors: không đọc được phản hồi, vẫn coi như đã gửi thành công
