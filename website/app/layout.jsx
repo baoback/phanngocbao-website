@@ -8,18 +8,20 @@ import GoogleAnalytics from './components/GoogleAnalytics';
 
 const inter = Inter({ subsets: ['latin', 'vietnamese'], display: 'swap', variable: '--font-inter' });
 
-export const metadata = {
-  metadataBase: new URL('https://phanngocbao.vn'),
-  title: 'Phan Ngọc Bảo · Blog Marketing',
-  description: 'Chiến lược, thương hiệu và performance — góc nhìn Marketing thực chiến của Phan Ngọc Bảo.',
-  icons: { icon: '/favicon.svg' },
-  openGraph: {
-    title: 'Phan Ngọc Bảo · Blog Marketing',
-    description: 'Chiến lược, thương hiệu và performance — góc nhìn Marketing thực chiến của Phan Ngọc Bảo.',
-    url: 'https://phanngocbao.vn',
-    type: 'website',
-  },
-};
+export function generateMetadata() {
+  const s = getSettings();
+  const title = s.metaTitle || 'Phan Ngọc Bảo · Blog Marketing';
+  const description =
+    s.metaDescription ||
+    'Chiến lược, thương hiệu và performance — góc nhìn Marketing thực chiến của Phan Ngọc Bảo.';
+  return {
+    metadataBase: new URL('https://phanngocbao.vn'),
+    title,
+    description,
+    icons: { icon: '/favicon.svg' },
+    openGraph: { title, description, url: 'https://phanngocbao.vn', type: 'website' },
+  };
+}
 
 const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';}document.documentElement.dataset.theme=t;}catch(e){}})();`;
 
