@@ -35,6 +35,12 @@ skills:
     desc: 'Giúp người làm marketing tự xây dựng tiếng nói riêng, đáng tin cậy.'
 ctaTitle: 'Cùng xây điều gì đó đáng nhớ?'
 ctaText: 'Nếu bạn đang tìm người đồng hành cho bài toán thương hiệu hoặc performance, mình rất sẵn lòng trò chuyện.'
+showcaseTitle: 'Mỗi dự án là một hành trình'
+showcaseSubtitle: 'Khoảnh khắc & câu chuyện'
+showcaseImages:
+  - 'https://picsum.photos/seed/ngbao-show1/2200/1300'
+  - 'https://picsum.photos/seed/ngbao-show2/2200/1300'
+  - 'https://picsum.photos/seed/ngbao-show3/2200/1300'
 ---
 
 Xin chào, mình là **Phan Ngọc Bảo**. Trang này là nơi mình ghi lại, hệ thống hóa và chia sẻ những gì học được mỗi ngày trong nghề Marketing — mong rằng có điều gì đó hữu ích cho bạn.
