@@ -31,6 +31,7 @@ export default function Header({ brandName = 'Phan Ngọc Bảo', brandSuffix = 
 
         <nav className="nav">
           <Link href="/"><span className="nav-text">Bài viết</span></Link>
+          <Link href="/portfolio">Dự án</Link>
           <Link href="/about">Hồ sơ</Link>
           <ThemeToggle />
         </nav>
