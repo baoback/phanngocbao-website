@@ -2,7 +2,7 @@
 title: Vì sao mình tập thói quen viết mỗi ngày
 description: Viết hàng ngày không phải để nổi tiếng, mà để tư duy rõ ràng hơn.
 pubDate: 2026-06-14
-cover: /uploads/sample-3.svg
+cover: https://picsum.photos/seed/ngbao-habit/1200/1100?grayscale
 tags:
   - Thương hiệu cá nhân
   - Thói quen
