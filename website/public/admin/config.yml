@@ -95,3 +95,4 @@ collections:
           - { label: "CTA — mô tả", name: "ctaText", widget: "text" }
           - { label: "CTA — nút", name: "ctaButton", widget: "string" }
           - { label: "Footer — dòng phụ", name: "footerNote", widget: "string" }
+          - { label: "Mã Google Analytics (G-XXXXXXX)", name: "gaId", widget: "string", required: false, hint: "Dán Measurement ID dạng G-XXXXXXX. Để trống nếu chưa dùng." }
