@@ -10,7 +10,15 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const p = getProjectBySlug(slug);
   if (!p) return {};
-  return { title: `${p.title} · Dự án`, description: p.description };
+  const url = `https://phanngocbao.vn/portfolio/${slug}/`;
+  const images = p.cover ? [p.cover] : [];
+  return {
+    title: `${p.title} · Dự án`,
+    description: p.description,
+    alternates: { canonical: url },
+    openGraph: { title: p.title, description: p.description, url, type: 'article', images },
+    twitter: { card: 'summary_large_image', title: p.title, description: p.description, images },
+  };
 }
 
 export default async function ProjectDetail({ params }) {
