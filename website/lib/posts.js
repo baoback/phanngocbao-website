@@ -96,6 +96,9 @@ const DEFAULT_SETTINGS = {
   newsletterAction: '',
   portfolioTitle: 'Dự án thực chiến',
   portfolioSubtitle: 'Một số dự án Marketing mình đã đồng hành.',
+  heroImage: '',
+  metaTitle: 'Phan Ngọc Bảo · Blog Marketing',
+  metaDescription: 'Chiến lược, thương hiệu và performance — góc nhìn Marketing thực chiến của Phan Ngọc Bảo.',
   gaId: '',
 };
 
