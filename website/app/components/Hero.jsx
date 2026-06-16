@@ -19,6 +19,9 @@ export default function Hero() {
         </div>
 
         <div className="hero-visual reveal" aria-hidden="true">
+          {s.heroImage ? (
+            <img src={s.heroImage} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+          ) : (
           <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <radialGradient id="node" cx="50%" cy="40%" r="60%">
@@ -52,6 +55,7 @@ export default function Hero() {
             <circle cx="250" cy="250" r="34" fill="url(#node)" />
             <circle cx="250" cy="250" r="34" fill="none" stroke="#ffffff" strokeWidth="1" opacity="0.25" />
           </svg>
+          )}
         </div>
       </div>
     </section>
