@@ -30,6 +30,26 @@ collections:
       - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
       - { label: "Nội dung bài viết", name: "body", widget: "markdown" }
 
+  # ---------- Dự án / Portfolio ----------
+  - name: "projects"
+    label: "Dự án / Portfolio"
+    label_singular: "Dự án"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: ["order", "title"]
+    fields:
+      - { label: "Tên dự án", name: "title", widget: "string" }
+      - { label: "Mô tả ngắn", name: "description", widget: "text", required: false }
+      - { label: "Ảnh bìa", name: "cover", widget: "image", required: false }
+      - { label: "Vai trò của bạn", name: "role", widget: "string", required: false, hint: "Ví dụ: Brand & Marketing Lead" }
+      - { label: "Năm", name: "year", widget: "string", required: false }
+      - { label: "Link dự án (nếu có)", name: "url", widget: "string", required: false, hint: "Link tới sản phẩm/case study thực tế" }
+      - { label: "Thứ tự hiển thị", name: "order", widget: "number", required: false, default: 1, value_type: "int" }
+      - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
+      - { label: "Nội dung chi tiết", name: "body", widget: "markdown" }
+
   # ---------- Trang cố định ----------
   - name: "pages"
     label: "Trang cố định"
@@ -47,7 +67,7 @@ collections:
           - { label: "Facebook (link đầy đủ)", name: "facebook", widget: "string", required: false }
           - { label: "Nội dung trang", name: "body", widget: "markdown" }
 
-  # ---------- Cài đặt chung của website ----------
+  # ---------- Cài đặt chung ----------
   - name: "settings"
     label: "Cài đặt chung"
     files:
@@ -56,7 +76,7 @@ collections:
         file: "content/site.json"
         fields:
           - { label: "Tên thương hiệu (header)", name: "brandName", widget: "string" }
-          - { label: "Phụ đề thương hiệu", name: "brandSuffix", widget: "string", hint: "Hiện sau dấu chấm, ví dụ: Marketing" }
+          - { label: "Phụ đề thương hiệu", name: "brandSuffix", widget: "string" }
           - { label: "Hero — nhãn nhỏ phía trên", name: "heroEyebrow", widget: "string" }
           - { label: "Hero — tiêu đề chính", name: "heroTitle", widget: "string" }
           - { label: "Hero — phần tiêu đề nhấn (màu xám)", name: "heroTitleAccent", widget: "string" }
@@ -65,6 +85,12 @@ collections:
           - { label: "Hero — nút phụ", name: "heroSecondaryLabel", widget: "string" }
           - { label: "Khu bài viết — tiêu đề", name: "postsTitle", widget: "string" }
           - { label: "Khu bài viết — mô tả", name: "postsSubtitle", widget: "string" }
+          - { label: "Portfolio — tiêu đề", name: "portfolioTitle", widget: "string" }
+          - { label: "Portfolio — mô tả", name: "portfolioSubtitle", widget: "string" }
+          - { label: "Nhận tin — tiêu đề", name: "newsletterTitle", widget: "string" }
+          - { label: "Nhận tin — mô tả", name: "newsletterText", widget: "text" }
+          - { label: "Nhận tin — nút", name: "newsletterButton", widget: "string" }
+          - { label: "Nhận tin — link dịch vụ (form action)", name: "newsletterAction", widget: "string", required: false, hint: "Dán URL form từ Buttondown/Mailchimp/Formspree. Để trống nếu chưa dùng." }
           - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string" }
           - { label: "CTA — mô tả", name: "ctaText", widget: "text" }
           - { label: "CTA — nút", name: "ctaButton", widget: "string" }
