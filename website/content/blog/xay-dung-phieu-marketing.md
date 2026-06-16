@@ -2,7 +2,7 @@
 title: Xây dựng phễu marketing từ con số 0
 description: Khung phễu AARRR giúp bạn nhìn toàn cảnh hành trình khách hàng và biết nên tối ưu ở đâu.
 pubDate: 2026-06-13
-cover: https://picsum.photos/seed/ngbao-funnel/1200/800?grayscale
+cover: https://picsum.photos/seed/ngbao-funnel/1200/800
 tags:
   - Chiến lược
   - Performance

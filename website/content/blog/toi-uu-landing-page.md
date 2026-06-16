@@ -2,7 +2,7 @@
 title: Tối ưu landing page tăng tỉ lệ chuyển đổi
 description: Những thay đổi nhỏ trên trang đích có thể nhân đôi kết quả mà không tốn thêm tiền quảng cáo.
 pubDate: 2026-06-09
-cover: https://picsum.photos/seed/ngbao-landing/1200/850?grayscale
+cover: https://picsum.photos/seed/ngbao-landing/1200/850
 tags:
   - Performance
   - Content
