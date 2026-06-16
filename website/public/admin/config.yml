@@ -10,7 +10,8 @@ backend:
   auth_endpoint: /api/auth
 
 # Nơi lưu ảnh khi bạn tải lên trong trang quản trị
-media_folder: "public/uploads"
+# Lưu ý: mã nguồn web nằm trong thư mục con "website/" của repo, nên đường dẫn phải có tiền tố "website/"
+media_folder: "website/public/uploads"
 public_folder: "/uploads"
 
 collections:
@@ -18,7 +19,7 @@ collections:
   - name: "blog"
     label: "Bài viết"
     label_singular: "Bài viết"
-    folder: "content/blog"
+    folder: "website/content/blog"
     create: true
     slug: "{{slug}}"
     summary: "{{title}}"
@@ -38,7 +39,7 @@ collections:
     files:
       - name: "about"
         label: "Trang Hồ sơ"
-        file: "content/about.md"
+        file: "website/content/about.md"
         fields:
           - { label: "Họ tên", name: "name", widget: "string" }
           - { label: "Vai trò / chức danh", name: "role", widget: "string" }
