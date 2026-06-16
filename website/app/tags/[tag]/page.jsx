@@ -22,18 +22,20 @@ export default async function TagPage({ params }) {
 
   return (
     <>
-      <section className="hero">
+      <section className="page-hero">
         <div className="container">
           <h1>Chủ đề: {t}</h1>
           <p>{posts.length} bài viết</p>
         </div>
       </section>
-      <div className="container">
-        <Link href="/" className="back-link">← Tất cả bài viết</Link>
-        <div className="masonry" style={{ marginTop: 20 }}>
-          {posts.map((p) => <PostCard key={p.slug} post={p} />)}
+      <section className="section">
+        <div className="container">
+          <Link href="/" className="back-link">← Tất cả bài viết</Link>
+          <div className="bento" style={{ marginTop: 18 }}>
+            {posts.map((p) => <PostCard key={p.slug} post={p} />)}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
