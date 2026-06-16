@@ -5,7 +5,14 @@ import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import SearchBox from './SearchBox';
 
-export default function Header({ brandName = 'Phan Ngọc Bảo', brandSuffix = 'Marketing', searchIndex = [] }) {
+export default function Header({
+  brandName = 'Phan Ngọc Bảo',
+  brandSuffix = 'Marketing',
+  searchIndex = [],
+  navBlog = 'Bài viết',
+  navProjects = 'Dự án',
+  navAbout = 'Hồ sơ',
+}) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -25,9 +32,9 @@ export default function Header({ brandName = 'Phan Ngọc Bảo', brandSuffix = 
         <SearchBox index={searchIndex} />
 
         <nav className="nav">
-          <Link href="/"><span className="nav-text">Bài viết</span></Link>
-          <Link href="/portfolio">Dự án</Link>
-          <Link href="/about">Hồ sơ</Link>
+          <Link href="/"><span className="nav-text">{navBlog}</span></Link>
+          <Link href="/portfolio">{navProjects}</Link>
+          <Link href="/about">{navAbout}</Link>
           <ThemeToggle />
         </nav>
       </div>
