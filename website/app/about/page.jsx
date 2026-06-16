@@ -48,8 +48,10 @@ export default function AboutPage() {
       {/* SHOWCASE — khối ảnh tự chuyển (crossfade) */}
       {a.showcaseImages.length > 0 && (
         <section className="story-showcase">
-          <ImageRotator images={a.showcaseImages} />
-          <div className="story-showcase-veil" />
+          <div className="showcase-reveal">
+            <ImageRotator images={a.showcaseImages} />
+            <div className="story-showcase-veil" />
+          </div>
           <div className="container story-showcase-inner">
             {a.showcaseSubtitle && (
               <span className="story-eyebrow reveal-up">{a.showcaseSubtitle}</span>
