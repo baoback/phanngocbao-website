@@ -1,17 +1,14 @@
 # =================================================================
 #  CẤU HÌNH TRANG QUẢN TRỊ (Decap CMS) — đăng nhập bằng GitHub
-#  >>> CẦN SỬA 2 CHỖ: "repo" và "base_url" <<<
 # =================================================================
 backend:
   name: github
-  repo: baoback/phanngocbao-website   # ⚠️ Đổi thành: tên-tài-khoản-github/tên-repo
+  repo: baoback/phanngocbao-website
   branch: main
-  base_url: https://phanngocbao.vn      # ⚠️ Đổi thành URL thật của site (khi chưa gắn tên miền thì dùng địa chỉ ...vercel.app)
+  base_url: https://phanngocbao.vn
   auth_endpoint: /api/auth
 
-# Nơi lưu ảnh khi bạn tải lên trong trang quản trị
-# Lưu ý: mã nguồn web nằm trong thư mục con "website/" của repo, nên đường dẫn phải có tiền tố "website/"
-media_folder: "website/public/uploads"
+media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
@@ -19,7 +16,7 @@ collections:
   - name: "blog"
     label: "Bài viết"
     label_singular: "Bài viết"
-    folder: "website/content/blog"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     summary: "{{title}}"
@@ -28,21 +25,47 @@ collections:
       - { label: "Tiêu đề", name: "title", widget: "string" }
       - { label: "Mô tả ngắn (cho SEO & thẻ tóm tắt)", name: "description", widget: "text", required: false }
       - { label: "Ngày đăng", name: "pubDate", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
-      - { label: "Ảnh bìa", name: "cover", widget: "image", required: false, hint: "Ảnh hiển thị trên lưới trang chủ" }
+      - { label: "Ảnh bìa", name: "cover", widget: "image", required: false, hint: "Nên dùng ảnh thật (photography). Tải ảnh lên hoặc dán link ảnh." }
       - { label: "Thẻ / chủ đề", name: "tags", widget: "list", required: false, hint: "Ví dụ: Content, Thương hiệu" }
       - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
       - { label: "Nội dung bài viết", name: "body", widget: "markdown" }
 
-  # ---------- Trang Hồ sơ cá nhân ----------
+  # ---------- Trang cố định ----------
   - name: "pages"
     label: "Trang cố định"
     files:
       - name: "about"
         label: "Trang Hồ sơ"
-        file: "website/content/about.md"
+        file: "content/about.md"
         fields:
           - { label: "Họ tên", name: "name", widget: "string" }
           - { label: "Vai trò / chức danh", name: "role", widget: "string" }
           - { label: "Ảnh đại diện", name: "avatar", widget: "image", required: false }
           - { label: "Câu giới thiệu ngắn", name: "tagline", widget: "text", required: false }
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - { label: "LinkedIn (link đầy đủ)", name: "linkedin", widget: "string", required: false }
+          - { label: "Facebook (link đầy đủ)", name: "facebook", widget: "string", required: false }
           - { label: "Nội dung trang", name: "body", widget: "markdown" }
+
+  # ---------- Cài đặt chung của website ----------
+  - name: "settings"
+    label: "Cài đặt chung"
+    files:
+      - name: "site"
+        label: "Cài đặt trang chủ & thương hiệu"
+        file: "content/site.json"
+        fields:
+          - { label: "Tên thương hiệu (header)", name: "brandName", widget: "string" }
+          - { label: "Phụ đề thương hiệu", name: "brandSuffix", widget: "string", hint: "Hiện sau dấu chấm, ví dụ: Marketing" }
+          - { label: "Hero — nhãn nhỏ phía trên", name: "heroEyebrow", widget: "string" }
+          - { label: "Hero — tiêu đề chính", name: "heroTitle", widget: "string" }
+          - { label: "Hero — phần tiêu đề nhấn (màu xám)", name: "heroTitleAccent", widget: "string" }
+          - { label: "Hero — mô tả", name: "heroSubtitle", widget: "text" }
+          - { label: "Hero — nút chính", name: "heroPrimaryLabel", widget: "string" }
+          - { label: "Hero — nút phụ", name: "heroSecondaryLabel", widget: "string" }
+          - { label: "Khu bài viết — tiêu đề", name: "postsTitle", widget: "string" }
+          - { label: "Khu bài viết — mô tả", name: "postsSubtitle", widget: "string" }
+          - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string" }
+          - { label: "CTA — mô tả", name: "ctaText", widget: "text" }
+          - { label: "CTA — nút", name: "ctaButton", widget: "string" }
+          - { label: "Footer — dòng phụ", name: "footerNote", widget: "string" }
