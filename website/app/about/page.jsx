@@ -1,5 +1,6 @@
 import { getAbout } from '@/lib/posts';
 import ProfileFX from '@/app/components/ProfileFX';
+import ImageRotator from '@/app/components/ImageRotator';
 
 export function generateMetadata() {
   const a = getAbout();
@@ -40,6 +41,20 @@ export default function AboutPage() {
         <section className="story-section">
           <div className="container narrow">
             <p className="story-lead reveal-up">{a.lead || a.tagline}</p>
+          </div>
+        </section>
+      )}
+
+      {/* SHOWCASE — khối ảnh tự chuyển (crossfade) */}
+      {a.showcaseImages.length > 0 && (
+        <section className="story-showcase">
+          <ImageRotator images={a.showcaseImages} />
+          <div className="story-showcase-veil" />
+          <div className="container story-showcase-inner">
+            {a.showcaseSubtitle && (
+              <span className="story-eyebrow reveal-up">{a.showcaseSubtitle}</span>
+            )}
+            {a.showcaseTitle && <h2 className="story-display reveal-up">{a.showcaseTitle}</h2>}
           </div>
         </section>
       )}
