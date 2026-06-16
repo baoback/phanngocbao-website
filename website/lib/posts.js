@@ -32,11 +32,47 @@ export function getAllPosts() {
     .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
 }
 
+function slugifyVi(str) {
+  return String(str)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd')
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-');
+}
+
+function enhanceHtml(html) {
+  const headings = [];
+  const used = {};
+  const out = html.replace(/<h([23])>([\s\S]*?)<\/h\1>/g, (m, lvl, inner) => {
+    const text = inner.replace(/<[^>]+>/g, '').trim();
+    let id = slugifyVi(text) || 'muc';
+    if (used[id]) { used[id] += 1; id = `${id}-${used[id]}`; } else { used[id] = 1; }
+    headings.push({ id, text, level: Number(lvl) });
+    return `<h${lvl} id="${id}">${inner}</h${lvl}>`;
+  });
+  return { html: out, headings };
+}
+
 export function getPostBySlug(slug) {
   const filePath = path.join(BLOG_DIR, `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
   const post = readPostFile(`${slug}.md`);
-  return { ...post, html: marked.parse(post.content) };
+  const { html, headings } = enhanceHtml(marked.parse(post.content));
+  const words = post.content.trim().split(/\s+/).filter(Boolean).length;
+  const readingTime = Math.max(1, Math.round(words / 200));
+  return { ...post, html, headings, readingTime };
+}
+
+export function getRelatedPosts(slug, tags = [], limit = 3) {
+  const scored = getAllPosts()
+    .filter((p) => p.slug !== slug)
+    .map((p) => ({ p, score: p.tags.filter((t) => tags.includes(t)).length }))
+    .sort((a, b) => b.score - a.score || new Date(b.p.pubDate) - new Date(a.p.pubDate));
+  return scored.slice(0, limit).map((s) => s.p);
 }
 
 export function getAllTags() {
