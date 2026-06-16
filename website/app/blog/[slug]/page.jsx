@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllPosts, getPostBySlug } from '@/lib/posts';
+import ShareBar from '@/app/components/ShareBar';
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -31,6 +32,7 @@ export default async function BlogPost({ params }) {
     month: 'long',
     year: 'numeric',
   });
+  const url = `https://phanngocbao.vn/blog/${slug}/`;
 
   return (
     <article className="post container">
@@ -52,6 +54,7 @@ export default async function BlogPost({ params }) {
         )}
       </div>
       <div className="post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
+      <ShareBar url={url} title={post.title} />
     </article>
   );
 }
