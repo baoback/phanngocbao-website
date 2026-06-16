@@ -44,7 +44,14 @@ export default function RootLayout({ children }) {
     <html lang="vi" className={`${inter.variable} ${playfair.variable}`}>
       <body>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        <Header brandName={s.brandName} brandSuffix={s.brandSuffix} searchIndex={searchIndex} />
+        <Header
+          brandName={s.brandName}
+          brandSuffix={s.brandSuffix}
+          searchIndex={searchIndex}
+          navBlog={s.navBlog}
+          navProjects={s.navProjects}
+          navAbout={s.navAbout}
+        />
         <main>{children}</main>
         <Footer note={s.footerNote} brandName={s.brandName} />
         <ScrollReveal />
