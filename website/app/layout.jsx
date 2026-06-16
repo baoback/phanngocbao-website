@@ -1,6 +1,6 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
-import { getSettings } from '@/lib/posts';
+import { getSettings, getAllPosts } from '@/lib/posts';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollReveal from './components/ScrollReveal';
@@ -27,11 +27,17 @@ const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t!==
 
 export default function RootLayout({ children }) {
   const s = getSettings();
+  const searchIndex = getAllPosts().map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    description: p.description,
+    tags: p.tags,
+  }));
   return (
     <html lang="vi" className={inter.variable}>
       <body>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        <Header brandName={s.brandName} brandSuffix={s.brandSuffix} />
+        <Header brandName={s.brandName} brandSuffix={s.brandSuffix} searchIndex={searchIndex} />
         <main>{children}</main>
         <Footer note={s.footerNote} brandName={s.brandName} />
         <ScrollReveal />

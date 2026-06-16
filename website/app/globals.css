@@ -1030,3 +1030,107 @@ img {
     align-items: flex-start;
   }
 }
+
+/* ===== Search: dropdown gợi ý ===== */
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-hover);
+  padding: 6px;
+  z-index: 60;
+  overflow: hidden;
+}
+.search-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.search-item:hover {
+  background: var(--surface-2);
+}
+.search-item-title {
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+.search-item-tags {
+  font-size: 12px;
+  color: var(--text-faint);
+}
+.search-empty {
+  padding: 14px 12px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.search-all {
+  width: 100%;
+  text-align: left;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border: none;
+  border-top: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+  transition: color 0.15s, background 0.15s;
+}
+.search-all:hover {
+  color: var(--text);
+  background: var(--surface-2);
+}
+
+/* ===== Trang /search ===== */
+.search-page-box {
+  position: relative;
+  max-width: 640px;
+  margin: 8px 0 28px;
+}
+.search-page-box input {
+  width: 100%;
+  height: 52px;
+  padding: 0 18px 0 50px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--radius-pill);
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.search-page-box input::placeholder {
+  color: var(--text-faint);
+}
+.search-page-box input:focus {
+  border-color: #d4d4d8;
+  box-shadow: 0 0 0 4px rgba(10, 10, 10, 0.04);
+}
+.search-page-box svg {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-faint);
+}
+[data-theme='dark'] .search-page-box input:focus {
+  border-color: #3a3a40;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.04);
+}
+.search-count {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
