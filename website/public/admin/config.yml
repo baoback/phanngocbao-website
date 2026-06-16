@@ -63,8 +63,14 @@ collections:
           - { label: "Ảnh đại diện", name: "avatar", widget: "image", required: false }
           - { label: "Câu giới thiệu ngắn", name: "tagline", widget: "text", required: false }
           - { label: "Email", name: "email", widget: "string", required: false }
-          - { label: "LinkedIn (link đầy đủ)", name: "linkedin", widget: "string", required: false }
-          - { label: "Facebook (link đầy đủ)", name: "facebook", widget: "string", required: false }
+          - { label: "Số điện thoại", name: "phone", widget: "string", required: false }
+          - label: "Mạng xã hội / Kênh liên hệ"
+            name: "socials"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Tên kênh (vd Facebook, Zalo, YouTube...)", name: "label", widget: "string" }
+              - { label: "Đường dẫn (URL)", name: "url", widget: "string" }
           - { label: "Hero — nhãn nhỏ (eyebrow)", name: "heroEyebrow", widget: "string", required: false }
           - { label: "Hero — tiêu đề lớn (storytelling)", name: "heroTitle", widget: "text", required: false }
           - { label: "Hero — ảnh nền lớn", name: "heroImage", widget: "image", required: false }
@@ -112,6 +118,9 @@ collections:
         fields:
           - { label: "Tên thương hiệu (header)", name: "brandName", widget: "string" }
           - { label: "Phụ đề thương hiệu", name: "brandSuffix", widget: "string" }
+          - { label: "Menu — nhãn Bài viết", name: "navBlog", widget: "string", required: false }
+          - { label: "Menu — nhãn Dự án", name: "navProjects", widget: "string", required: false }
+          - { label: "Menu — nhãn Hồ sơ", name: "navAbout", widget: "string", required: false }
           - { label: "Hero — nhãn nhỏ phía trên", name: "heroEyebrow", widget: "string" }
           - { label: "Hero — tiêu đề chính", name: "heroTitle", widget: "string" }
           - { label: "Hero — phần tiêu đề nhấn (màu xám)", name: "heroTitleAccent", widget: "string" }
