@@ -4,8 +4,12 @@ role: Marketing Specialist
 avatar: /uploads/avatar.svg
 tagline: 'Mình viết về Marketing mỗi ngày — từ chiến lược thương hiệu đến những thử nghiệm thực chiến.'
 email: phanngocbao.vn@gmail.com
-linkedin: ""
-facebook: ""
+phone: ""
+socials:
+  - label: 'Facebook'
+    url: 'https://facebook.com'
+  - label: 'LinkedIn'
+    url: 'https://linkedin.com'
 heroEyebrow: 'Hồ sơ · Phan Ngọc Bảo'
 heroTitle: 'Mình kể câu chuyện thương hiệu bằng tư duy hệ thống và những con số.'
 heroImage: 'https://picsum.photos/seed/ngbao-profile-hero/2000/1300'
