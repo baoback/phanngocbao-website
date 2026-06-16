@@ -1,5 +1,5 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Inter, Playfair_Display } from 'next/font/google';
 import { getSettings, getAllPosts } from '@/lib/posts';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -7,6 +7,12 @@ import ScrollReveal from './components/ScrollReveal';
 import GoogleAnalytics from './components/GoogleAnalytics';
 
 const inter = Inter({ subsets: ['latin', 'vietnamese'], display: 'swap', variable: '--font-inter' });
+const playfair = Playfair_Display({
+  subsets: ['latin', 'vietnamese'],
+  weight: ['500', '600', '700'],
+  display: 'swap',
+  variable: '--font-serif',
+});
 
 export function generateMetadata() {
   const s = getSettings();
@@ -35,7 +41,7 @@ export default function RootLayout({ children }) {
     tags: p.tags,
   }));
   return (
-    <html lang="vi" className={inter.variable}>
+    <html lang="vi" className={`${inter.variable} ${playfair.variable}`}>
       <body>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <Header brandName={s.brandName} brandSuffix={s.brandSuffix} searchIndex={searchIndex} />
