@@ -1,16 +1,15 @@
 import Link from 'next/link';
+import { getSettings } from '@/lib/posts';
 
 export default function CTASection() {
+  const s = getSettings();
   return (
     <section className="section">
       <div className="container">
-        <div className="cta">
-          <h2>Bạn đang tìm người đồng hành<br />cho bài toán Marketing?</h2>
-          <p>
-            Xem câu chuyện sự nghiệp, các dự án thực chiến và cách mình tư duy hệ thống —
-            rồi kết nối nếu thấy phù hợp.
-          </p>
-          <Link href="/about" className="btn btn-primary">Khám phá hồ sơ &amp; kết nối</Link>
+        <div className="cta reveal-up">
+          <h2>{s.ctaTitle}</h2>
+          <p>{s.ctaText}</p>
+          <Link href="/about" className="btn btn-primary">{s.ctaButton}</Link>
         </div>
       </div>
     </section>

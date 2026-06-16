@@ -1,51 +1,49 @@
 import Link from 'next/link';
+import { getSettings } from '@/lib/posts';
 
 export default function Hero() {
+  const s = getSettings();
   return (
     <section className="hero">
       <div className="container hero-grid">
-        <div className="hero-copy">
-          <span className="hero-eyebrow">Chiến lược · Thương hiệu · Performance</span>
+        <div className="hero-copy reveal-up">
+          <span className="hero-eyebrow">{s.heroEyebrow}</span>
           <h1>
-            Marketing là tư duy<br />
-            hệ thống, <span className="accent">không phải may rủi.</span>
+            {s.heroTitle} <span className="accent">{s.heroTitleAccent}</span>
           </h1>
-          <p className="lead">
-            Mình chia sẻ cách xây thương hiệu và tối ưu hiệu suất bằng những nguyên tắc thực chiến —
-            đo lường được, lặp lại được, và bền vững theo thời gian.
-          </p>
+          <p className="lead">{s.heroSubtitle}</p>
           <div className="hero-actions">
-            <Link href="#bai-viet" className="btn btn-primary">Đọc bài viết mới nhất</Link>
-            <Link href="/about" className="btn btn-ghost">Về mình →</Link>
+            <Link href="#bai-viet" className="btn btn-primary">{s.heroPrimaryLabel}</Link>
+            <Link href="/about" className="btn btn-ghost">{s.heroSecondaryLabel} →</Link>
           </div>
         </div>
 
-        <div className="hero-visual" aria-hidden="true">
+        <div className="hero-visual reveal" aria-hidden="true">
           <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <radialGradient id="node" cx="50%" cy="40%" r="60%">
-                <stop offset="0%" stopColor="#1a1a1a" />
+                <stop offset="0%" stopColor="#2a2a2a" />
                 <stop offset="100%" stopColor="#0a0a0a" />
               </radialGradient>
             </defs>
-            <g stroke="#c9c9cc" strokeWidth="1" fill="none">
+            <g stroke="var(--hero-line)" strokeWidth="1" fill="none">
               <circle className="orbit" cx="250" cy="250" r="210" strokeDasharray="2 7" />
               <circle className="orbit rev" cx="250" cy="250" r="160" strokeDasharray="2 9" />
               <circle cx="250" cy="250" r="110" />
             </g>
-            <g className="orbit">
-              <circle cx="250" cy="40" r="9" fill="#0a0a0a" />
-              <circle cx="460" cy="250" r="6" fill="#1a1a1a" />
-              <circle cx="250" cy="460" r="7" fill="#2a2a2a" />
-              <circle cx="40" cy="250" r="5" fill="#3a3a3a" />
+            <g className="orbit" fill="var(--hero-dot)">
+              <circle cx="250" cy="40" r="9" />
+              <circle cx="460" cy="250" r="6" />
+              <circle cx="250" cy="460" r="7" />
+              <circle cx="40" cy="250" r="5" />
             </g>
-            <g className="orbit rev">
-              <circle cx="250" cy="90" r="5" fill="#555555" />
-              <circle cx="410" cy="250" r="7" fill="#0a0a0a" />
-              <circle cx="250" cy="410" r="5" fill="#444444" />
-              <circle cx="90" cy="250" r="6" fill="#222222" />
+            <g className="orbit rev" fill="var(--hero-dot)" opacity="0.7">
+              <circle cx="250" cy="90" r="5" />
+              <circle cx="410" cy="250" r="7" />
+              <circle cx="250" cy="410" r="5" />
+              <circle cx="90" cy="250" r="6" />
             </g>
-            <g stroke="#0a0a0a" strokeWidth="1.4" opacity="0.45">
+            <g stroke="var(--hero-dot)" strokeWidth="1.4" opacity="0.45">
               <line x1="250" y1="250" x2="250" y2="40" />
               <line x1="250" y1="250" x2="460" y2="250" />
               <line x1="250" y1="250" x2="250" y2="460" />

@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import ThemeToggle from './ThemeToggle';
 
-export default function Header() {
+export default function Header({ brandName = 'Phan Ngọc Bảo', brandSuffix = 'Marketing' }) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -17,7 +18,7 @@ export default function Header() {
     <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
       <div className="container header-inner">
         <Link href="/" className="brand">
-          Phan Ngọc Bảo<span> · Marketing</span>
+          {brandName}<span> · {brandSuffix}</span>
         </Link>
 
         <form className="search-wrap" action="/" method="get" role="search">
@@ -31,6 +32,7 @@ export default function Header() {
         <nav className="nav">
           <Link href="/"><span className="nav-text">Bài viết</span></Link>
           <Link href="/about">Hồ sơ</Link>
+          <ThemeToggle />
         </nav>
       </div>
     </header>
