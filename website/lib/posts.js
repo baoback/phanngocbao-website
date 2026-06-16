@@ -96,6 +96,7 @@ const DEFAULT_SETTINGS = {
   newsletterAction: '',
   portfolioTitle: 'Dự án thực chiến',
   portfolioSubtitle: 'Một số dự án Marketing mình đã đồng hành.',
+  gaId: '',
 };
 
 export function getSettings() {
