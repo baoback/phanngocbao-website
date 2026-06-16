@@ -8,7 +8,7 @@ backend:
   base_url: https://phanngocbao.vn
   auth_endpoint: /api/auth
 
-media_folder: "public/uploads"
+media_folder: "website/public/uploads"
 public_folder: "/uploads"
 
 collections:
@@ -16,39 +16,39 @@ collections:
   - name: "blog"
     label: "Bài viết"
     label_singular: "Bài viết"
-    folder: "content/blog"
+    folder: "website/content/blog"
     create: true
     slug: "{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["pubDate", "title"]
     fields:
-      - { label: "Tiêu đề", name: "title", widget: "string" }
-      - { label: "Mô tả ngắn (cho SEO & thẻ tóm tắt)", name: "description", widget: "text", required: false }
-      - { label: "Ngày đăng", name: "pubDate", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
-      - { label: "Ảnh bìa", name: "cover", widget: "image", required: false, hint: "Nên dùng ảnh thật (photography). Tải ảnh lên hoặc dán link ảnh." }
-      - { label: "Thẻ / chủ đề", name: "tags", widget: "list", required: false, hint: "Ví dụ: Content, Thương hiệu" }
-      - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
-      - { label: "Nội dung bài viết", name: "body", widget: "markdown" }
+          - { label: "Tiêu đề", name: "title", widget: "string" }
+          - { label: "Mô tả ngắn (cho SEO & thẻ tóm tắt)", name: "description", widget: "text", required: false }
+          - { label: "Ngày đăng", name: "pubDate", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
+          - { label: "Ảnh bìa", name: "cover", widget: "image", required: false, hint: "Nên dùng ảnh thật (photography). Tải ảnh lên hoặc dán link ảnh." }
+          - { label: "Thẻ / chủ đề", name: "tags", widget: "list", required: false, hint: "Ví dụ: Content, Thương hiệu" }
+          - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
+          - { label: "Nội dung bài viết", name: "body", widget: "markdown" }
 
   # ---------- Dự án / Portfolio ----------
   - name: "projects"
     label: "Dự án / Portfolio"
     label_singular: "Dự án"
-    folder: "content/projects"
+    folder: "website/content/projects"
     create: true
     slug: "{{slug}}"
     summary: "{{title}}"
     sortable_fields: ["order", "title"]
     fields:
-      - { label: "Tên dự án", name: "title", widget: "string" }
-      - { label: "Mô tả ngắn", name: "description", widget: "text", required: false }
-      - { label: "Ảnh bìa", name: "cover", widget: "image", required: false }
-      - { label: "Vai trò của bạn", name: "role", widget: "string", required: false, hint: "Ví dụ: Brand & Marketing Lead" }
-      - { label: "Năm", name: "year", widget: "string", required: false }
-      - { label: "Link dự án (nếu có)", name: "url", widget: "string", required: false, hint: "Link tới sản phẩm/case study thực tế" }
-      - { label: "Thứ tự hiển thị", name: "order", widget: "number", required: false, default: 1, value_type: "int" }
-      - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
-      - { label: "Nội dung chi tiết", name: "body", widget: "markdown" }
+          - { label: "Tên dự án", name: "title", widget: "string" }
+          - { label: "Mô tả ngắn", name: "description", widget: "text", required: false }
+          - { label: "Ảnh bìa", name: "cover", widget: "image", required: false }
+          - { label: "Vai trò của bạn", name: "role", widget: "string", required: false, hint: "Ví dụ: Brand & Marketing Lead" }
+          - { label: "Năm", name: "year", widget: "string", required: false }
+          - { label: "Link dự án (nếu có)", name: "url", widget: "string", required: false, hint: "Link tới sản phẩm/case study thực tế" }
+          - { label: "Thứ tự hiển thị", name: "order", widget: "number", required: false, default: 1, value_type: "int" }
+          - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
+          - { label: "Nội dung chi tiết", name: "body", widget: "markdown" }
 
   # ---------- Trang cố định ----------
   - name: "pages"
@@ -56,7 +56,7 @@ collections:
     files:
       - name: "about"
         label: "Trang Hồ sơ"
-        file: "content/about.md"
+        file: "website/content/about.md"
         fields:
           - { label: "Họ tên", name: "name", widget: "string" }
           - { label: "Vai trò / chức danh", name: "role", widget: "string" }
@@ -73,7 +73,7 @@ collections:
     files:
       - name: "site"
         label: "Cài đặt trang chủ & thương hiệu"
-        file: "content/site.json"
+        file: "website/content/site.json"
         fields:
           - { label: "Tên thương hiệu (header)", name: "brandName", widget: "string" }
           - { label: "Phụ đề thương hiệu", name: "brandSuffix", widget: "string" }
@@ -81,6 +81,7 @@ collections:
           - { label: "Hero — tiêu đề chính", name: "heroTitle", widget: "string" }
           - { label: "Hero — phần tiêu đề nhấn (màu xám)", name: "heroTitleAccent", widget: "string" }
           - { label: "Hero — mô tả", name: "heroSubtitle", widget: "text" }
+          - { label: "Hero — ảnh minh hoạ (thay khối đồ hoạ)", name: "heroImage", widget: "image", required: false, hint: "Tải ảnh để thay khối đồ hoạ mặc định bên phải Hero. Để trống = dùng khối đồ hoạ." }
           - { label: "Hero — nút chính", name: "heroPrimaryLabel", widget: "string" }
           - { label: "Hero — nút phụ", name: "heroSecondaryLabel", widget: "string" }
           - { label: "Khu bài viết — tiêu đề", name: "postsTitle", widget: "string" }
@@ -95,4 +96,6 @@ collections:
           - { label: "CTA — mô tả", name: "ctaText", widget: "text" }
           - { label: "CTA — nút", name: "ctaButton", widget: "string" }
           - { label: "Footer — dòng phụ", name: "footerNote", widget: "string" }
+          - { label: "SEO — tiêu đề trang (thẻ title)", name: "metaTitle", widget: "string", required: false, hint: "Hiện trên Google & tab trình duyệt. Để trống = dùng mặc định." }
+          - { label: "SEO — mô tả trang (meta description)", name: "metaDescription", widget: "text", required: false, hint: "Đoạn mô tả hiện dưới tiêu đề trên kết quả Google." }
           - { label: "Mã Google Analytics (G-XXXXXXX)", name: "gaId", widget: "string", required: false, hint: "Dán Measurement ID dạng G-XXXXXXX. Để trống nếu chưa dùng." }
