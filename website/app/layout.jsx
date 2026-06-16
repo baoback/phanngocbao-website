@@ -20,7 +20,7 @@ export function generateMetadata() {
     description,
     icons: { icon: '/favicon.svg' },
     openGraph: { title, description, url: 'https://phanngocbao.vn', type: 'website' },
-    alternates: { types: { 'application/rss+xml': '/rss.xml' } },
+    alternates: { types: { 'application/rss+xml': '/rss' } },
   };
 }
 
