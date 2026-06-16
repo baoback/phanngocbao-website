@@ -11,8 +11,8 @@ export default function AboutPage() {
   const a = getAbout();
   const links = [
     a.email && { label: 'Email', href: `mailto:${a.email}` },
-    a.linkedin && { label: 'LinkedIn', href: a.linkedin },
-    a.facebook && { label: 'Facebook', href: a.facebook },
+    a.phone && { label: 'Gọi điện', href: `tel:${a.phone}` },
+    ...a.socials.map((s) => ({ label: s.label, href: s.url })),
   ].filter(Boolean);
 
   return (
@@ -131,7 +131,7 @@ export default function AboutPage() {
                   key={l.label}
                   className="story-pill"
                   href={l.href}
-                  target={l.href.startsWith('mailto:') ? undefined : '_blank'}
+                  target={l.href.startsWith('http') ? '_blank' : undefined}
                   rel="noopener noreferrer"
                 >
                   {l.label}
