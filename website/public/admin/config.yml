@@ -65,6 +65,34 @@ collections:
           - { label: "Email", name: "email", widget: "string", required: false }
           - { label: "LinkedIn (link đầy đủ)", name: "linkedin", widget: "string", required: false }
           - { label: "Facebook (link đầy đủ)", name: "facebook", widget: "string", required: false }
+          - { label: "Hero — nhãn nhỏ (eyebrow)", name: "heroEyebrow", widget: "string", required: false }
+          - { label: "Hero — tiêu đề lớn (storytelling)", name: "heroTitle", widget: "text", required: false }
+          - { label: "Hero — ảnh nền lớn", name: "heroImage", widget: "image", required: false }
+          - { label: "Đoạn mở đầu (lead)", name: "lead", widget: "text", required: false }
+          - label: "Số liệu nổi bật"
+            name: "stats"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Con số", name: "number", widget: "string" }
+              - { label: "Nhãn", name: "label", widget: "string" }
+          - label: "Khối câu chuyện"
+            name: "storyBlocks"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Tiêu đề", name: "heading", widget: "string" }
+              - { label: "Nội dung", name: "text", widget: "text" }
+              - { label: "Ảnh", name: "image", widget: "image", required: false }
+          - label: "Kỹ năng / Mình làm gì"
+            name: "skills"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Tiêu đề", name: "title", widget: "string" }
+              - { label: "Mô tả", name: "desc", widget: "text" }
+          - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string", required: false }
+          - { label: "CTA — mô tả", name: "ctaText", widget: "text", required: false }
           - { label: "Nội dung trang", name: "body", widget: "markdown" }
 
   # ---------- Cài đặt chung ----------
