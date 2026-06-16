@@ -4,9 +4,9 @@
 # =================================================================
 backend:
   name: github
-  repo: TEN-GITHUB/phanngocbao-website   # ⚠️ Đổi thành: tên-tài-khoản-github/tên-repo
+  repo: baoback/phanngocbao-website   # ⚠️ Đổi thành: tên-tài-khoản-github/tên-repo
   branch: main
-  base_url: https://phanngocbao.vn      # ⚠️ Đổi thành URL thật của site (khi chưa gắn tên miền thì dùng địa chỉ ...vercel.app)
+  base_url: https://phanngocbao-website.vercel.app      # ⚠️ Đổi thành URL thật của site (khi chưa gắn tên miền thì dùng địa chỉ ...vercel.app)
   auth_endpoint: /api/auth
 
 # Nơi lưu ảnh khi bạn tải lên trong trang quản trị
