@@ -105,6 +105,11 @@ export function getAbout() {
     skills: Array.isArray(data.skills) ? data.skills : [],
     ctaTitle: data.ctaTitle || '',
     ctaText: data.ctaText || '',
+    showcaseTitle: data.showcaseTitle || '',
+    showcaseSubtitle: data.showcaseSubtitle || '',
+    showcaseImages: Array.isArray(data.showcaseImages)
+      ? data.showcaseImages.map((x) => (typeof x === 'string' ? x : x && x.image)).filter(Boolean)
+      : [],
     html: marked.parse(content),
   };
 }
