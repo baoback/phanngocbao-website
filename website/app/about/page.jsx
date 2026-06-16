@@ -21,7 +21,7 @@ export default function AboutPage() {
         </div>
       </div>
       {about.tagline && (
-        <p className="profile-body" style={{ fontSize: 20, color: 'var(--text-soft)', marginBottom: 32 }}>
+        <p className="profile-body" style={{ fontSize: 21, color: 'var(--text-muted)', marginBottom: 36 }}>
           {about.tagline}
         </p>
       )}
