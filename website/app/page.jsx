@@ -1,4 +1,4 @@
-import { getAllPosts, getAllTags, getAbout } from '@/lib/posts';
+import { getAllPosts, getAllTags, getAbout, getSettings } from '@/lib/posts';
 import Hero from './components/Hero';
 import BentoGrid from './components/BentoGrid';
 import CTASection from './components/CTASection';
@@ -9,6 +9,7 @@ export default async function Home({ searchParams }) {
   const posts = getAllPosts();
   const tags = getAllTags();
   const about = getAbout();
+  const s = getSettings();
   const quote = about.tagline || 'Nội dung tốt là nội dung có mục tiêu và đo lường được.';
 
   return (
@@ -17,10 +18,10 @@ export default async function Home({ searchParams }) {
 
       <section className="section" id="bai-viet">
         <div className="container">
-          <div className="section-head">
+          <div className="section-head reveal-up">
             <div>
-              <h2>Bài viết mới nhất</h2>
-              <p>Góc nhìn Marketing được cập nhật thường xuyên.</p>
+              <h2>{s.postsTitle}</h2>
+              <p>{s.postsSubtitle}</p>
             </div>
           </div>
 
