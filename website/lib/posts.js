@@ -57,6 +57,9 @@ export function getAbout() {
     role: data.role || '',
     avatar: data.avatar || null,
     tagline: data.tagline || '',
+    email: data.email || '',
+    linkedin: data.linkedin || '',
+    facebook: data.facebook || '',
     html: marked.parse(content),
   };
 }
@@ -67,4 +70,36 @@ export function formatDate(iso) {
     month: '2-digit',
     year: 'numeric',
   });
+}
+
+const SETTINGS_FILE = path.join(process.cwd(), 'content', 'site.json');
+
+const DEFAULT_SETTINGS = {
+  brandName: 'Phan Ngọc Bảo',
+  brandSuffix: 'Marketing',
+  heroEyebrow: 'Chiến lược · Thương hiệu · Performance',
+  heroTitle: 'Marketing là tư duy hệ thống,',
+  heroTitleAccent: 'không phải may rủi.',
+  heroSubtitle:
+    'Mình chia sẻ cách xây thương hiệu và tối ưu hiệu suất bằng những nguyên tắc thực chiến.',
+  heroPrimaryLabel: 'Đọc bài viết mới nhất',
+  heroSecondaryLabel: 'Về mình',
+  postsTitle: 'Bài viết mới nhất',
+  postsSubtitle: 'Góc nhìn Marketing được cập nhật thường xuyên.',
+  ctaTitle: 'Bạn đang tìm người đồng hành cho bài toán Marketing?',
+  ctaText: 'Xem câu chuyện sự nghiệp, các dự án thực chiến và cách mình tư duy hệ thống.',
+  ctaButton: 'Khám phá hồ sơ & kết nối',
+  footerNote: 'Blog Marketing & Hồ sơ cá nhân',
+};
+
+export function getSettings() {
+  try {
+    if (fs.existsSync(SETTINGS_FILE)) {
+      const data = JSON.parse(fs.readFileSync(SETTINGS_FILE, 'utf-8'));
+      return { ...DEFAULT_SETTINGS, ...data };
+    }
+  } catch (e) {
+    // dùng mặc định nếu lỗi
+  }
+  return DEFAULT_SETTINGS;
 }
