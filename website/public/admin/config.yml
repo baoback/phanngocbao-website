@@ -93,6 +93,13 @@ collections:
               - { label: "Mô tả", name: "desc", widget: "text" }
           - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string", required: false }
           - { label: "CTA — mô tả", name: "ctaText", widget: "text", required: false }
+          - { label: "Trình chiếu — tiêu đề lớn", name: "showcaseTitle", widget: "string", required: false }
+          - { label: "Trình chiếu — phụ đề", name: "showcaseSubtitle", widget: "string", required: false }
+          - label: "Trình chiếu — ảnh (tự chuyển)"
+            name: "showcaseImages"
+            widget: "list"
+            required: false
+            field: { label: "Ảnh", name: "image", widget: "image" }
           - { label: "Nội dung trang", name: "body", widget: "markdown" }
 
   # ---------- Cài đặt chung ----------
