@@ -927,3 +927,106 @@ img {
   border-color: var(--text);
   transform: translateY(-2px);
 }
+
+/* ===================== Share bar ===================== */
+.sharebar {
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.share-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.share-btns {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.share-btn {
+  font-size: 13.5px;
+  font-weight: 600;
+  font-family: inherit;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.18s var(--ease);
+}
+.share-btn:hover {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+  transform: translateY(-2px);
+}
+
+/* ===================== Newsletter ===================== */
+.newsletter {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 48px;
+  text-align: center;
+}
+.newsletter h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+.newsletter p {
+  color: var(--text-muted);
+  font-size: 17px;
+  margin: 0 auto 26px;
+  max-width: 460px;
+}
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  max-width: 460px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newsletter-form input {
+  flex: 1;
+  min-width: 220px;
+  height: 48px;
+  padding: 0 18px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+.newsletter-form input:focus {
+  border-color: #c9c9cc;
+  box-shadow: 0 0 0 4px rgba(10, 10, 10, 0.04);
+}
+.newsletter-msg {
+  flex-basis: 100%;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 6px 0 0;
+}
+@media (max-width: 600px) {
+  .newsletter {
+    padding: 32px 20px;
+  }
+  .sharebar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

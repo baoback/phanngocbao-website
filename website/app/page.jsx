@@ -2,6 +2,7 @@ import { getAllPosts, getAllTags, getAbout, getSettings } from '@/lib/posts';
 import Hero from './components/Hero';
 import BentoGrid from './components/BentoGrid';
 import CTASection from './components/CTASection';
+import NewsletterForm from './components/NewsletterForm';
 
 export default async function Home({ searchParams }) {
   const sp = (await searchParams) || {};
@@ -36,6 +37,16 @@ export default async function Home({ searchParams }) {
               initialQuery={q}
             />
           )}
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="newsletter reveal-up">
+            <h2>{s.newsletterTitle}</h2>
+            <p>{s.newsletterText}</p>
+            <NewsletterForm action={s.newsletterAction} button={s.newsletterButton} />
+          </div>
         </div>
       </section>
 
