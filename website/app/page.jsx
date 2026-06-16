@@ -1,28 +1,44 @@
-import { getAllPosts, getAllTags } from '@/lib/posts';
-import PostGrid from './components/PostGrid';
+import { getAllPosts, getAllTags, getAbout } from '@/lib/posts';
+import Hero from './components/Hero';
+import BentoGrid from './components/BentoGrid';
+import CTASection from './components/CTASection';
 
 export default async function Home({ searchParams }) {
   const sp = (await searchParams) || {};
   const q = (sp.q || '').toString();
   const posts = getAllPosts();
   const tags = getAllTags();
+  const about = getAbout();
+  const quote = about.tagline || 'Nội dung tốt là nội dung có mục tiêu và đo lường được.';
 
   return (
     <>
-      <section className="hero">
+      <Hero />
+
+      <section className="section" id="bai-viet">
         <div className="container">
-          <h1>Góc nhìn Marketing mỗi ngày.</h1>
-          <p>Chia sẻ kiến thức, kinh nghiệm và câu chuyện thực chiến trong nghề Marketing.</p>
+          <div className="section-head">
+            <div>
+              <h2>Bài viết mới nhất</h2>
+              <p>Góc nhìn Marketing được cập nhật thường xuyên.</p>
+            </div>
+          </div>
+
+          {posts.length === 0 ? (
+            <p className="empty">Chưa có bài viết nào. Hãy đăng bài đầu tiên trong trang quản trị /admin.</p>
+          ) : (
+            <BentoGrid
+              posts={posts}
+              tags={tags}
+              profile={{ name: about.name, role: about.role, avatar: about.avatar }}
+              quote={quote}
+              initialQuery={q}
+            />
+          )}
         </div>
       </section>
 
-      <div className="container">
-        {posts.length === 0 ? (
-          <p className="empty">Chưa có bài viết nào. Hãy đăng bài đầu tiên trong trang quản trị /admin.</p>
-        ) : (
-          <PostGrid posts={posts} tags={tags} initialQuery={q} />
-        )}
-      </div>
+      <CTASection />
     </>
   );
 }
