@@ -17,10 +17,16 @@ lead: 'Hơn cả việc chạy quảng cáo hay viết nội dung, mình tin Mar
 stats:
   - number: '8+'
     label: 'Năm làm Marketing'
+    percent: 80
   - number: '50+'
     label: 'Dự án & chiến dịch'
+    percent: 90
+  - number: '5'
+    label: 'Ngành đã đồng hành'
+    percent: 60
   - number: '1'
     label: 'Bài viết mỗi ngày'
+    percent: 100
 storyBlocks:
   - heading: 'Hành trình của mình'
     text: 'Mình bắt đầu từ những chiến dịch nhỏ, học cách lắng nghe thị trường và để dữ liệu dẫn đường. Qua từng dự án, mình dần hình thành một niềm tin — marketing tốt không đến từ may rủi, mà từ một hệ thống tư duy rõ ràng.'
@@ -31,20 +37,37 @@ storyBlocks:
 skills:
   - title: 'Chiến lược thương hiệu'
     desc: 'Định vị, thông điệp và kiến trúc thương hiệu rõ ràng, nhất quán.'
+    level: 90
   - title: 'Performance & đo lường'
     desc: 'Tối ưu hiệu suất dựa trên dữ liệu — mỗi đồng chi ra đều biết mang lại gì.'
+    level: 85
   - title: 'Content & storytelling'
     desc: 'Biến thông điệp khô khan thành câu chuyện người ta muốn nhớ và chia sẻ.'
+    level: 88
   - title: 'Thương hiệu cá nhân'
     desc: 'Giúp người làm marketing tự xây dựng tiếng nói riêng, đáng tin cậy.'
-ctaTitle: 'Cùng xây điều gì đó đáng nhớ?'
-ctaText: 'Nếu bạn đang tìm người đồng hành cho bài toán thương hiệu hoặc performance, mình rất sẵn lòng trò chuyện.'
+    level: 75
+toolkit:
+  - group: 'Quảng cáo & Performance'
+    items: ['Meta Ads', 'Google Ads', 'TikTok Ads', 'GDN']
+  - group: 'Phân tích & Đo lường'
+    items: ['GA4', 'Google Tag Manager', 'Looker Studio', 'UTM']
+  - group: 'Content & SEO'
+    items: ['Search Console', 'Ahrefs', 'Notion', 'WordPress']
+  - group: 'CRM & Automation'
+    items: ['Email automation', 'CRM', 'Zapier / Make']
+  - group: 'Sáng tạo'
+    items: ['Figma', 'Canva', 'CapCut']
+  - group: 'AI hỗ trợ'
+    items: ['ChatGPT', 'Claude', 'Midjourney']
 showcaseTitle: 'Mỗi dự án là một hành trình'
 showcaseSubtitle: 'Khoảnh khắc & câu chuyện'
 showcaseImages:
   - 'https://picsum.photos/seed/ngbao-show1/2200/1300'
   - 'https://picsum.photos/seed/ngbao-show2/2200/1300'
   - 'https://picsum.photos/seed/ngbao-show3/2200/1300'
+ctaTitle: 'Cùng xây điều gì đó đáng nhớ?'
+ctaText: 'Nếu bạn đang tìm người đồng hành cho bài toán thương hiệu hoặc performance, mình rất sẵn lòng trò chuyện.'
 ---
 
 Xin chào, mình là **Phan Ngọc Bảo**. Trang này là nơi mình ghi lại, hệ thống hóa và chia sẻ những gì học được mỗi ngày trong nghề Marketing — mong rằng có điều gì đó hữu ích cho bạn.
