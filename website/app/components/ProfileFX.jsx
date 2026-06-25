@@ -11,6 +11,9 @@ export default function ProfileFX() {
     const imgs = Array.from(document.querySelectorAll('.parallax-img'));
     const showcase = document.querySelector('.story-showcase');
     const spineFill = document.querySelector('.story-spine-fill');
+    const hero = document.querySelector('.story-hero');
+
+    const cleanups = [];
 
     // ----- Count-up -----
     const counters = Array.from(document.querySelectorAll('.countup'));
@@ -36,24 +39,50 @@ export default function ProfileFX() {
         requestAnimationFrame(step);
       };
       const co = new IntersectionObserver(
-        (es) => {
-          es.forEach((e) => {
-            if (e.isIntersecting) {
-              animateCount(e.target);
-              co.unobserve(e.target);
-            }
-          });
-        },
+        (es) => es.forEach((e) => { if (e.isIntersecting) { animateCount(e.target); co.unobserve(e.target); } }),
         { threshold: 0.4 }
       );
       counters.forEach((el) => co.observe(el));
+      cleanups.push(() => co.disconnect());
+    }
+
+    // ----- Rotating word (hero) -----
+    const rotEl = document.querySelector('.hero-rotate-word');
+    if (rotEl && !reduce) {
+      let words = [];
+      try { words = JSON.parse(rotEl.getAttribute('data-words') || '[]'); } catch (e) { words = []; }
+      if (words.length > 1) {
+        let idx = 0;
+        const timer = setInterval(() => {
+          idx = (idx + 1) % words.length;
+          rotEl.classList.add('swap');
+          setTimeout(() => {
+            rotEl.textContent = words[idx];
+            rotEl.classList.remove('swap');
+          }, 380);
+        }, 2300);
+        cleanups.push(() => clearInterval(timer));
+      }
+    }
+
+    // ----- Spotlight theo chuột (hero) -----
+    if (hero && !reduce && window.matchMedia('(pointer:fine)').matches) {
+      const onMove = (e) => {
+        const r = hero.getBoundingClientRect();
+        hero.style.setProperty('--mx', `${((e.clientX - r.left) / r.width) * 100}%`);
+        hero.style.setProperty('--my', `${((e.clientY - r.top) / r.height) * 100}%`);
+      };
+      hero.addEventListener('mousemove', onMove);
+      cleanups.push(() => hero.removeEventListener('mousemove', onMove));
     }
 
     if (reduce) {
       if (showcase) showcase.style.setProperty('--reveal', '1');
-      return undefined;
+      return () => cleanups.forEach((fn) => fn());
     }
-    if (!imgs.length && !showcase && !spineFill) return undefined;
+    if (!imgs.length && !showcase && !spineFill) {
+      return () => cleanups.forEach((fn) => fn());
+    }
 
     let raf = null;
     const update = () => {
@@ -84,17 +113,16 @@ export default function ProfileFX() {
         spineFill.style.height = (p * 100).toFixed(1) + '%';
       }
     };
-    const onScroll = () => {
-      if (!raf) raf = requestAnimationFrame(update);
-    };
+    const onScroll = () => { if (!raf) raf = requestAnimationFrame(update); };
     update();
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);
-    return () => {
+    cleanups.push(() => {
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onScroll);
       if (raf) cancelAnimationFrame(raf);
-    };
+    });
+    return () => cleanups.forEach((fn) => fn());
   }, []);
 
   return null;
