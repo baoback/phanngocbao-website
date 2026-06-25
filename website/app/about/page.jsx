@@ -24,21 +24,45 @@ export default function AboutPage() {
       <ProfileFX />
       <div className="story-spine" aria-hidden="true"><span className="story-spine-fill" /></div>
 
-      {/* HERO */}
-      <section className="story-hero">
-        <div className="story-hero-media">
-          {a.heroImage ? (
-            <img className="parallax-img" src={a.heroImage} alt="" aria-hidden="true" />
-          ) : (
-            <div className="story-hero-fallback" />
-          )}
-          <div className="story-hero-veil" />
+      {/* HERO v2 — split, kinetic, spotlight + grain */}
+      <section className="story-hero hero-v2" id="top">
+        <div className="hero-bg" aria-hidden="true">
+          {a.heroImage && <img className="parallax-img hero-bg-img" src={a.heroImage} alt="" />}
+          <div className="hero-grain" />
+          <div className="hero-spot" />
         </div>
-        <div className="container story-hero-inner">
-          {a.heroEyebrow && <span className="story-eyebrow reveal-up">{a.heroEyebrow}</span>}
-          <h1 className="story-display reveal-up">{a.heroTitle || a.tagline || a.name}</h1>
-          <span className="story-scroll reveal-up">scroll ↓</span>
+        <div className="container hero-grid">
+          <div className="hero-copy">
+            {a.heroBadge && (
+              <span className="hero-badge"><i className="dot" />{a.heroBadge}</span>
+            )}
+            {a.heroEyebrow && <span className="story-eyebrow hero-eyebrow">{a.heroEyebrow}</span>}
+            <h1 className="story-display hero-headline">{a.heroTitle || a.name}</h1>
+            {a.heroWords.length > 0 && (
+              <p className="hero-rotate">
+                {a.heroRotatePrefix ? `${a.heroRotatePrefix} ` : ''}
+                <span className="hero-rotate-word" data-words={JSON.stringify(a.heroWords)}>
+                  {a.heroWords[0]}
+                </span>
+              </p>
+            )}
+            {(a.lead || a.tagline) && <p className="hero-lead">{a.lead || a.tagline}</p>}
+            {(a.heroCtaPrimaryLabel || a.heroCtaSecondaryLabel) && (
+              <div className="hero-actions">
+                {a.heroCtaPrimaryLabel && <a className="btn-bronze" href="#case">{a.heroCtaPrimaryLabel}</a>}
+                {a.heroCtaSecondaryLabel && <a className="btn-outline" href="#contact">{a.heroCtaSecondaryLabel}</a>}
+              </div>
+            )}
+          </div>
+          <div className="hero-portrait-wrap">
+            {a.heroPortrait ? (
+              <img className="hero-portrait" src={a.heroPortrait} alt={a.name} />
+            ) : (
+              <div className="hero-portrait placeholder" />
+            )}
+          </div>
         </div>
+        <span className="story-scroll hero-scroll">scroll ↓</span>
       </section>
 
       {/* LEAD */}
@@ -113,7 +137,7 @@ export default function AboutPage() {
 
       {/* CASE STUDIES — from featured projects */}
       {cases.length > 0 && (
-        <section className="story-section">
+        <section className="story-section" id="case">
           <div className="container">
             <div className="sec-head reveal-up">
               <span className="story-eyebrow alt">Dự án thực chiến</span>
@@ -199,7 +223,7 @@ export default function AboutPage() {
       )}
 
       {/* CTA / CONTACT */}
-      <section className="story-cta-sec">
+      <section className="story-cta-sec" id="contact">
         <div className="container story-cta reveal-up">
           <span className="story-eyebrow alt">Kết nối</span>
           <h2 className="story-display sm">{a.ctaTitle || 'Kết nối với mình'}</h2>
