@@ -90,6 +90,16 @@ collections:
           - { label: "Hero — nhãn nhỏ (eyebrow)", name: "heroEyebrow", widget: "string", required: false }
           - { label: "Hero — tiêu đề lớn (storytelling)", name: "heroTitle", widget: "text", required: false }
           - { label: "Hero — ảnh nền lớn", name: "heroImage", widget: "image", required: false }
+          - { label: "Hero — ảnh chân dung (cột phải)", name: "heroPortrait", widget: "image", required: false }
+          - { label: "Hero — badge trạng thái (vd: Đang nhận dự án)", name: "heroBadge", widget: "string", required: false }
+          - { label: "Hero — chữ trước từ xoay (vd: Mình xây)", name: "heroRotatePrefix", widget: "string", required: false }
+          - label: "Hero — từ khoá xoay vòng"
+            name: "heroWords"
+            widget: "list"
+            required: false
+            field: { label: "Từ", name: "word", widget: "string" }
+          - { label: "Hero — nút chính (nhãn)", name: "heroCtaPrimaryLabel", widget: "string", required: false }
+          - { label: "Hero — nút phụ (nhãn)", name: "heroCtaSecondaryLabel", widget: "string", required: false }
           - { label: "Đoạn mở đầu (lead)", name: "lead", widget: "text", required: false }
           - label: "Số liệu nổi bật"
             name: "stats"
