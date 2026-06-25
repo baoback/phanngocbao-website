@@ -48,6 +48,22 @@ collections:
           - { label: "Link dự án (nếu có)", name: "url", widget: "string", required: false, hint: "Link tới sản phẩm/case study thực tế" }
           - { label: "Thứ tự hiển thị", name: "order", widget: "number", required: false, default: 1, value_type: "int" }
           - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
+          - { label: "Hiện ở trang Hồ sơ (nổi bật)", name: "featured", widget: "boolean", default: true }
+          - label: "Các giai đoạn (timeline)"
+            name: "phases"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Mốc / Giai đoạn", name: "label", widget: "string" }
+              - { label: "Mô tả", name: "text", widget: "text" }
+          - label: "Chỉ số (metrics)"
+            name: "metrics"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Giá trị (vd -42% CPA)", name: "value", widget: "string" }
+              - { label: "Chú thích", name: "caption", widget: "string" }
+              - { label: "Mức % cho biểu đồ (0-100, tuỳ chọn)", name: "percent", widget: "number", required: false, value_type: "int", min: 0, max: 100 }
           - { label: "Nội dung chi tiết", name: "body", widget: "markdown" }
 
   # ---------- Trang cố định ----------
@@ -82,6 +98,7 @@ collections:
             fields:
               - { label: "Con số", name: "number", widget: "string" }
               - { label: "Nhãn", name: "label", widget: "string" }
+              - { label: "Mức % cho biểu đồ (0-100, tuỳ chọn)", name: "percent", widget: "number", required: false, value_type: "int", min: 0, max: 100 }
           - label: "Khối câu chuyện"
             name: "storyBlocks"
             widget: "list"
@@ -90,13 +107,21 @@ collections:
               - { label: "Tiêu đề", name: "heading", widget: "string" }
               - { label: "Nội dung", name: "text", widget: "text" }
               - { label: "Ảnh", name: "image", widget: "image", required: false }
-          - label: "Kỹ năng / Mình làm gì"
+          - label: "Năng lực / Mình làm gì"
             name: "skills"
             widget: "list"
             required: false
             fields:
               - { label: "Tiêu đề", name: "title", widget: "string" }
               - { label: "Mô tả", name: "desc", widget: "text" }
+              - { label: "Mức thành thạo % (0-100, tuỳ chọn)", name: "level", widget: "number", required: false, value_type: "int", min: 0, max: 100 }
+          - label: "Bộ công cụ (nhóm)"
+            name: "toolkit"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Tên nhóm", name: "group", widget: "string" }
+              - { label: "Công cụ", name: "items", widget: "list", field: { label: "Tên", name: "name", widget: "string" } }
           - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string", required: false }
           - { label: "CTA — mô tả", name: "ctaText", widget: "text", required: false }
           - { label: "Trình chiếu — tiêu đề lớn", name: "showcaseTitle", widget: "string", required: false }
@@ -121,6 +146,15 @@ collections:
           - { label: "Menu — nhãn Bài viết", name: "navBlog", widget: "string", required: false }
           - { label: "Menu — nhãn Dự án", name: "navProjects", widget: "string", required: false }
           - { label: "Menu — nhãn Hồ sơ", name: "navAbout", widget: "string", required: false }
+          - label: "Màu nhấn (accent)"
+            name: "accent"
+            widget: "select"
+            default: "#B0814C"
+            options:
+              - { label: "Vàng đồng", value: "#B0814C" }
+              - { label: "Xanh petrol", value: "#1F7A6D" }
+              - { label: "Tím mận", value: "#7A4B6B" }
+              - { label: "Đen tuyền", value: "#0a0a0a" }
           - { label: "Hero — nhãn nhỏ phía trên", name: "heroEyebrow", widget: "string" }
           - { label: "Hero — tiêu đề chính", name: "heroTitle", widget: "string" }
           - { label: "Hero — phần tiêu đề nhấn (màu xám)", name: "heroTitleAccent", widget: "string" }
