@@ -7,6 +7,25 @@ year: 2025
 url: ""
 order: 1
 draft: false
+featured: true
+phases:
+  - label: 'Giai đoạn 1'
+    text: 'Nghiên cứu khách hàng, xác định lại định vị cốt lõi.'
+  - label: 'Giai đoạn 2'
+    text: 'Chuẩn hóa thông điệp và bộ nhận diện.'
+  - label: 'Giai đoạn 3'
+    text: 'Thiết kế chiến dịch ra mắt định vị trên social.'
+  - label: 'Sau 3 tháng'
+    text: 'Đo lường nhận biết và tương tác.'
+metrics:
+  - value: '+38%'
+    caption: 'Nhận biết 18–25 (số minh hoạ)'
+    percent: 38
+  - value: 'x4'
+    caption: 'Tương tác social'
+    percent: 70
+  - value: '3 tháng'
+    caption: 'Thời gian thấy kết quả'
 ---
 
 ## Bối cảnh

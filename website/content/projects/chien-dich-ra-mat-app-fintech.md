@@ -7,6 +7,25 @@ year: 2025
 url: ""
 order: 2
 draft: false
+featured: true
+phases:
+  - label: 'Giai đoạn 1'
+    text: 'Xây phễu từ nhận biết tới kích hoạt người dùng.'
+  - label: 'Giai đoạn 2'
+    text: 'Thử nghiệm nhiều nhóm thông điệp và kênh.'
+  - label: 'Giai đoạn 3'
+    text: 'Tối ưu theo CPA và tỉ lệ giữ chân.'
+  - label: 'Liên tục'
+    text: 'Phân bổ lại ngân sách theo hiệu quả.'
+metrics:
+  - value: '-42%'
+    caption: 'CPA (số minh hoạ)'
+    percent: 42
+  - value: '+35%'
+    caption: 'Tỉ lệ giữ chân'
+    percent: 35
+  - value: 'Go-to-market'
+    caption: 'Vận hành trọn giai đoạn ra mắt'
 ---
 
 ## Mục tiêu

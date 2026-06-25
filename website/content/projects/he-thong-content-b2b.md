@@ -7,6 +7,25 @@ year: 2024
 url: ""
 order: 3
 draft: false
+featured: true
+phases:
+  - label: 'Giai đoạn 1'
+    text: 'Xây khung chủ đề gắn với hành trình khách hàng.'
+  - label: 'Giai đoạn 2'
+    text: 'Lập quy trình sản xuất và lịch xuất bản.'
+  - label: 'Giai đoạn 3'
+    text: 'Đặt chỉ số đo lường cho từng loại nội dung.'
+  - label: 'Kết quả'
+    text: 'Sản lượng ổn định, lead tăng bền vững.'
+metrics:
+  - value: '+120%'
+    caption: 'Traffic organic (số minh hoạ)'
+    percent: 80
+  - value: 'x3'
+    caption: 'Lead từ nội dung'
+    percent: 75
+  - value: 'Pipeline'
+    caption: 'Quy trình sản xuất chuẩn hoá'
 ---
 
 ## Vấn đề
