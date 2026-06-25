@@ -99,6 +99,14 @@ export function getAbout() {
     heroEyebrow: data.heroEyebrow || '',
     heroTitle: data.heroTitle || '',
     heroImage: data.heroImage || '',
+    heroPortrait: data.heroPortrait || '',
+    heroBadge: data.heroBadge || '',
+    heroRotatePrefix: data.heroRotatePrefix || '',
+    heroWords: Array.isArray(data.heroWords)
+      ? data.heroWords.map((x) => (typeof x === 'string' ? x : x && x.word)).filter(Boolean)
+      : [],
+    heroCtaPrimaryLabel: data.heroCtaPrimaryLabel || '',
+    heroCtaSecondaryLabel: data.heroCtaSecondaryLabel || '',
     lead: data.lead || '',
     stats: Array.isArray(data.stats) ? data.stats : [],
     storyBlocks: Array.isArray(data.storyBlocks) ? data.storyBlocks : [],
