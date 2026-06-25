@@ -103,6 +103,7 @@ export function getAbout() {
     stats: Array.isArray(data.stats) ? data.stats : [],
     storyBlocks: Array.isArray(data.storyBlocks) ? data.storyBlocks : [],
     skills: Array.isArray(data.skills) ? data.skills : [],
+    toolkit: Array.isArray(data.toolkit) ? data.toolkit : [],
     ctaTitle: data.ctaTitle || '',
     ctaText: data.ctaText || '',
     showcaseTitle: data.showcaseTitle || '',
@@ -153,6 +154,7 @@ const DEFAULT_SETTINGS = {
   metaTitle: 'Phan Ngọc Bảo · Blog Marketing',
   metaDescription: 'Chiến lược, thương hiệu và performance — góc nhìn Marketing thực chiến của Phan Ngọc Bảo.',
   gaId: '',
+  accent: '#B0814C',
 };
 
 export function getSettings() {
@@ -183,6 +185,9 @@ function readProjectFile(file) {
     role: data.role || '',
     year: data.year ? String(data.year) : '',
     order: typeof data.order === 'number' ? data.order : 999,
+    featured: data.featured === undefined ? true : !!data.featured,
+    phases: Array.isArray(data.phases) ? data.phases : [],
+    metrics: Array.isArray(data.metrics) ? data.metrics : [],
     draft: !!data.draft,
     content,
   };
@@ -196,6 +201,12 @@ export function getAllProjects() {
     .map(readProjectFile)
     .filter((p) => !p.draft)
     .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+}
+
+export function getFeaturedProjects() {
+  const all = getAllProjects();
+  const f = all.filter((p) => p.featured);
+  return f.length ? f : all;
 }
 
 export function getProjectBySlug(slug) {
