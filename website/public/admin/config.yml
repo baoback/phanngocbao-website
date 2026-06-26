@@ -144,6 +144,42 @@ collections:
             required: false
             field: { label: "Ảnh", name: "image", widget: "image" }
           - { label: "Nội dung trang", name: "body", widget: "markdown" }
+      - name: "projectspage"
+        label: "Trang Dự án"
+        file: "website/content/projectspage.json"
+        fields:
+          - { label: "Hero — nhãn nhỏ", name: "heroEyebrow", widget: "string", required: false }
+          - { label: "Hero — tiêu đề", name: "heroTitle", widget: "string" }
+          - { label: "Hero — mô tả", name: "heroSubtitle", widget: "text", required: false }
+          - { label: "Hero — nút chính (chữ)", name: "heroCtaPrimaryLabel", widget: "string", required: false }
+          - { label: "Hero — nút chính (link)", name: "heroCtaPrimaryHref", widget: "string", required: false }
+          - { label: "Hero — nút phụ (chữ)", name: "heroCtaSecondaryLabel", widget: "string", required: false }
+          - { label: "Hero — nút phụ (link)", name: "heroCtaSecondaryHref", widget: "string", required: false }
+          - { label: "Dải chữ chạy (marquee)", name: "marquee", widget: "list", required: false }
+          - { label: "Thương hiệu — tiêu đề", name: "brandsTitle", widget: "string", required: false }
+          - { label: "Thương hiệu — mô tả", name: "brandsSubtitle", widget: "text", required: false }
+          - label: "Thương hiệu đã hợp tác"
+            name: "brands"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Tên", name: "name", widget: "string" }
+              - { label: "Logo", name: "logo", widget: "image", required: false }
+          - { label: "Dự án nổi bật — tiêu đề", name: "featuredTitle", widget: "string", required: false }
+          - { label: "Dự án nổi bật — mô tả", name: "featuredSubtitle", widget: "text", required: false }
+          - { label: "Lĩnh vực — tiêu đề", name: "servicesTitle", widget: "string", required: false }
+          - { label: "Lĩnh vực — mô tả", name: "servicesSubtitle", widget: "text", required: false }
+          - label: "Lĩnh vực / Dịch vụ"
+            name: "services"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Tiêu đề", name: "title", widget: "string" }
+              - { label: "Mô tả", name: "desc", widget: "text", required: false }
+          - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string", required: false }
+          - { label: "CTA — mô tả", name: "ctaText", widget: "text", required: false }
+          - { label: "CTA — nút (chữ)", name: "ctaButtonLabel", widget: "string", required: false }
+          - { label: "CTA — nút (link)", name: "ctaButtonHref", widget: "string", required: false }
 
   # ---------- Cài đặt chung ----------
   - name: "settings"
