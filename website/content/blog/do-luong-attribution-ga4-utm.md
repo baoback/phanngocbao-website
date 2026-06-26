@@ -1,5 +1,6 @@
 ---
 title: "Đo lường và attribution: hiểu nguồn nào thực sự mang về khách"
+category: "Marketing"
 description: GA4, UTM và bài toán gán nguồn chuyển đổi. Vì sao mọi mô hình attribution đều sai một phần, và làm sao để vẫn ra quyết định đúng dựa trên dữ liệu.
 pubDate: 2026-06-21
 cover: https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80

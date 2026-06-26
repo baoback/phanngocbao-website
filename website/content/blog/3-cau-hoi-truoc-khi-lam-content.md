@@ -1,5 +1,6 @@
 ---
 title: 3 câu hỏi cần trả lời trước khi viết bất kỳ content nào
+category: "Marketing"
 description: Một khung tư duy đơn giản giúp content luôn có mục tiêu và đo lường được.
 pubDate: 2026-06-16
 cover: https://picsum.photos/seed/ngbao-content/1200/900

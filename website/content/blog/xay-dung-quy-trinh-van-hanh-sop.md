@@ -1,5 +1,6 @@
 ---
 title: "Xây quy trình vận hành (SOP): để doanh nghiệp chạy mà không cần bạn"
+category: "Quản trị"
 description: Khi mọi việc đều phải qua tay chủ, doanh nghiệp không lớn được. SOP là cách biến kinh nghiệm trong đầu bạn thành hệ thống ai cũng làm theo được.
 pubDate: 2026-06-23
 cover: https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?auto=format&fit=crop&w=1200&q=80

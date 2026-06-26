@@ -1,5 +1,6 @@
 ---
 title: "Giữ chân khách và xây thương hiệu trên sàn: thoát khỏi cuộc đua giá"
+category: "Kinh doanh"
 description: Cạnh tranh trên sàn dễ biến thành cuộc đua xuống đáy về giá. Lối thoát là giữ chân khách cũ và xây một thương hiệu shop khiến người ta chọn bạn vì tin, không vì rẻ.
 pubDate: 2026-06-27
 cover: https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?auto=format&fit=crop&w=1200&q=80

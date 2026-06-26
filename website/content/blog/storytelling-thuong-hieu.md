@@ -1,5 +1,6 @@
 ---
 title: "Storytelling: kể chuyện thương hiệu chạm cảm xúc"
+category: "Marketing"
 description: Công thức kể chuyện đơn giản biến một thông điệp khô khan thành điều người ta muốn nhớ.
 pubDate: 2026-06-11
 cover: https://picsum.photos/seed/ngbao-story/1200/800

@@ -1,5 +1,6 @@
 ---
 title: 5 chỉ số quan trọng nhất khi chạy quảng cáo
+category: "Marketing"
 description: Đừng nhìn vào lượt thích. Đây là những con số thật sự quyết định lời lỗ.
 pubDate: 2026-06-12
 cover: https://picsum.photos/seed/ngbao-metrics/1200/900

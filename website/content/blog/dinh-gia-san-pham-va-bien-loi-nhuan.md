@@ -1,5 +1,6 @@
 ---
 title: "Định giá sản phẩm: sai một con số, mất cả lợi nhuận"
+category: "Kinh doanh"
 description: Định giá không phải là lấy giá vốn cộng thêm một ít. Đây là cách hiểu biên lợi nhuận, các bẫy định giá trên sàn, và cách đặt giá để vừa bán được vừa có lãi.
 pubDate: 2026-06-24
 cover: https://images.unsplash.com/photo-1709534486708-fb8f94150d0a?auto=format&fit=crop&w=1200&q=80

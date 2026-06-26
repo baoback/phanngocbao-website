@@ -1,5 +1,6 @@
 ---
 title: Vì sao mình tập thói quen viết mỗi ngày
+category: "Cuộc sống"
 description: Viết hàng ngày không phải để nổi tiếng, mà để tư duy rõ ràng hơn.
 pubDate: 2026-06-14
 cover: https://picsum.photos/seed/ngbao-habit/1200/1100

@@ -1,5 +1,6 @@
 ---
 title: "Tối ưu tỷ lệ chuyển đổi: nơi mỗi đồng quảng cáo được nhân lên"
+category: "Marketing"
 description: CRO là đòn bẩy bị đánh giá thấp nhất trong marketing. Tăng tỷ lệ chuyển đổi nghĩa là nhân hiệu quả mọi đồng lưu lượng bạn đang trả tiền. Đây là cách làm bài bản.
 pubDate: 2026-06-22
 cover: https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80

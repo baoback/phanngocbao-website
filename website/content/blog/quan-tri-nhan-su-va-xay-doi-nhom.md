@@ -1,5 +1,6 @@
 ---
 title: "Quản trị nhân sự trong doanh nghiệp nhỏ: thuê đúng người trước khi quản giỏi"
+category: "Quản trị"
 description: Với đội nhóm nhỏ, mỗi người tuyển sai là một gánh nặng lớn. Đây là cách tuyển, giao việc và giữ người khi bạn chưa có phòng nhân sự hay ngân sách lớn.
 pubDate: 2026-06-25
 cover: https://images.unsplash.com/photo-1604594849809-dfedbc827105?auto=format&fit=crop&w=1200&q=80

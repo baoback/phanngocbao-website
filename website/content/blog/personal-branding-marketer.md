@@ -1,5 +1,6 @@
 ---
 title: Personal branding cho người làm Marketing
+category: "Cuộc sống"
 description: Vì sao mỗi marketer nên tự xây thương hiệu cá nhân, và bắt đầu thế nào cho đỡ ngợp.
 pubDate: 2026-06-10
 cover: https://picsum.photos/seed/ngbao-personal/1200/1000

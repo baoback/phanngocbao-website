@@ -1,5 +1,6 @@
 ---
 title: Phân biệt xây dựng thương hiệu và làm marketing hiệu suất
+category: "Marketing"
 description: Hai việc khác nhau, bổ trợ cho nhau, nhưng đo bằng những thước đo rất khác.
 pubDate: 2026-06-15
 cover: https://picsum.photos/seed/ngbao-brand/1200/800

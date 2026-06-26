@@ -1,5 +1,6 @@
 ---
 title: "Tối ưu gian hàng Shopee: được tìm thấy trước khi nghĩ đến bán"
+category: "Kinh doanh"
 description: Trên sàn, sản phẩm tốt mà không ai thấy thì cũng vô nghĩa. Đây là cách tối ưu listing và SEO nội sàn để gian hàng Shopee của bạn xuất hiện đúng lúc khách tìm.
 pubDate: 2026-06-25
 cover: https://images.unsplash.com/photo-1612103198005-b238154f4590?auto=format&fit=crop&w=1200&q=80

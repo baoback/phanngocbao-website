@@ -1,5 +1,6 @@
 ---
 title: "Quản trị dòng tiền: vì sao shop có lãi vẫn có thể chết"
+category: "Quản trị"
 description: Lợi nhuận trên giấy không cứu được doanh nghiệp khi hết tiền mặt. Đây là cách hiểu và quản trị dòng tiền cho shop và doanh nghiệp nhỏ một cách thực tế.
 pubDate: 2026-06-23
 cover: https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&w=1200&q=80

@@ -1,5 +1,6 @@
 ---
 title: "Personalization và marketing automation: cá nhân hóa mà không đáng sợ"
+category: "Marketing"
 description: Cá nhân hóa đúng cách giúp khách thấy được thấu hiểu; sai cách khiến họ thấy bị theo dõi. Đây là ranh giới, và cách dùng dữ liệu để phục vụ chứ không hù dọa.
 pubDate: 2026-06-24
 cover: https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=1200&q=80
