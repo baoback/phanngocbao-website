@@ -12,6 +12,7 @@ export async function generateMetadata({ params }) {
   return {
     title: `Chủ đề: ${t} · Phan Ngọc Bảo`,
     description: `Các bài viết về chủ đề ${t}.`,
+    robots: { index: false, follow: true },
   };
 }
 
