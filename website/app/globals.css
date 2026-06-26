@@ -223,11 +223,29 @@ img {
   border-radius: var(--radius);
   background: radial-gradient(120% 120% at 30% 20%, #ffffff 0%, #f0f0f1 55%, #e4e4e6 100%);
   border: 1px solid var(--border);
-  box-shadow: var(--shadow);
+  box-shadow: 22px 22px 0 -1px rgba(176, 129, 76, 0.18),
+    0 26px 60px -22px rgba(10, 10, 10, 0.45);
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease);
+}
+.hero-visual img {
+  transition: transform 0.7s var(--ease);
+}
+.hero-visual:hover {
+  transform: translateY(-4px);
+  box-shadow: 30px 30px 0 -1px rgba(176, 129, 76, 0.24),
+    0 38px 84px -24px rgba(10, 10, 10, 0.52);
+}
+.hero-visual:hover img {
+  transform: scale(1.05);
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-visual, .hero-visual img { transition: none; }
+  .hero-visual:hover { transform: none; }
+  .hero-visual:hover img { transform: none; }
 }
 .hero-visual svg {
   width: 86%;
