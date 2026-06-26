@@ -45,6 +45,7 @@ collections:
           - { label: "Ảnh bìa", name: "cover", widget: "image", required: false }
           - { label: "Vai trò của bạn", name: "role", widget: "string", required: false, hint: "Ví dụ: Brand & Marketing Lead" }
           - { label: "Năm", name: "year", widget: "string", required: false }
+          - { label: "Thẻ (ngăn bằng ·, vd: Brand · Strategy · Social)", name: "tags", widget: "string", required: false }
           - { label: "Link dự án (nếu có)", name: "url", widget: "string", required: false, hint: "Link tới sản phẩm/case study thực tế" }
           - { label: "Thứ tự hiển thị", name: "order", widget: "number", required: false, default: 1, value_type: "int" }
           - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
