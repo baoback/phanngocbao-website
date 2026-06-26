@@ -192,6 +192,7 @@ function readProjectFile(file) {
     url: data.url || '',
     role: data.role || '',
     year: data.year ? String(data.year) : '',
+    tags: data.tags || '',
     order: typeof data.order === 'number' ? data.order : 999,
     featured: data.featured === undefined ? true : !!data.featured,
     phases: Array.isArray(data.phases) ? data.phases : [],
