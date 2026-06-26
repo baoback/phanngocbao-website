@@ -15,7 +15,7 @@ export default function Showcase({ projects = [] }) {
   useEffect(() => {
     document.body.classList.add('pf-immersive');
     const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (!reduce) document.documentElement.style.scrollSnapType = 'y mandatory';
+    if (!reduce) document.documentElement.style.scrollSnapType = 'y proximity';
     return () => {
       document.body.classList.remove('pf-immersive');
       document.documentElement.style.scrollSnapType = '';
@@ -35,7 +35,7 @@ export default function Showcase({ projects = [] }) {
         const r = s.getBoundingClientRect();
         const prog = (r.top + r.height / 2 - innerHeight / 2) / innerHeight;
         const im = s.querySelector('img');
-        if (im) im.style.transform = `translateY(${(prog * -14).toFixed(2)}%)`;
+        if (im) im.style.transform = `translateY(${(prog * -8).toFixed(2)}%)`;
       });
     };
     const onScroll = () => { if (!raf) raf = requestAnimationFrame(run); };
