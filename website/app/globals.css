@@ -2127,6 +2127,6 @@ body.pf-immersive .site-header.scrolled {
   .nav-links a:hover { background: var(--surface-2); }
 }
 @keyframes navMenuIn {
-  from { opacity: 0; transform: translateY(-8px); }
-  to { opacity: 1; transform: none; }
+  from { transform: translateY(-8px); }
+  to { transform: none; }
 }
