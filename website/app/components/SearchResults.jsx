@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import PostCard from './PostCard';
 
-export default function SearchResults({ posts = [], initialQuery = '' }) {
+export default function SearchResults({ posts = [], initialQuery = '', placeholder = 'Tìm bài viết, chủ đề quản trị, marketing...' }) {
   const [q, setQ] = useState(initialQuery);
   const query = q.toLowerCase().trim();
   const results = query
@@ -25,7 +25,7 @@ export default function SearchResults({ posts = [], initialQuery = '' }) {
           type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Tìm bài viết, chủ đề Marketing..."
+          placeholder={placeholder}
           aria-label="Tìm kiếm"
           autoComplete="off"
           autoFocus

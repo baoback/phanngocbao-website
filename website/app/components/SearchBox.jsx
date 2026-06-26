@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-export default function SearchBox({ index = [] }) {
+export default function SearchBox({ index = [], placeholder = 'Tìm bài viết, chủ đề quản trị, marketing...' }) {
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -81,7 +81,7 @@ export default function SearchBox({ index = [] }) {
               setOpen(true);
             }}
             onFocus={() => setOpen(true)}
-            placeholder="Tìm bài viết, chủ đề Marketing..."
+            placeholder={placeholder}
             aria-label="Tìm kiếm"
             autoComplete="off"
           />

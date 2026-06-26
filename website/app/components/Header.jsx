@@ -12,6 +12,7 @@ export default function Header({
   navBlog = 'Bài viết',
   navProjects = 'Dự án',
   navAbout = 'Hồ sơ',
+  searchPlaceholder,
 }) {
   const [scrolled, setScrolled] = useState(false);
 
@@ -29,7 +30,7 @@ export default function Header({
           {brandName}<span> · {brandSuffix}</span>
         </Link>
 
-        <SearchBox index={searchIndex} />
+        <SearchBox index={searchIndex} placeholder={searchPlaceholder} />
 
         <nav className="nav">
           <Link href="/"><span className="nav-text">{navBlog}</span></Link>
