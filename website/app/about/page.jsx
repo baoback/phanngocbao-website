@@ -5,7 +5,14 @@ import ImageRotator from '@/app/components/ImageRotator';
 
 export function generateMetadata() {
   const a = getAbout();
-  return { title: `${a.name} · Hồ sơ`, description: a.tagline };
+  const title = `${a.name} · Hồ sơ`;
+  const description = a.tagline;
+  return {
+    title,
+    description,
+    alternates: { canonical: '/about' },
+    openGraph: { title, description, url: 'https://phanngocbao.vn/about', type: 'profile' },
+  };
 }
 
 export default function AboutPage() {
