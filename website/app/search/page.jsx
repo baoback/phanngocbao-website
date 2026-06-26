@@ -1,4 +1,4 @@
-import { getAllPosts } from '@/lib/posts';
+import { getAllPosts, getSettings } from '@/lib/posts';
 import SearchResults from '../components/SearchResults';
 
 export const metadata = {
@@ -10,6 +10,7 @@ export default async function SearchPage({ searchParams }) {
   const sp = (await searchParams) || {};
   const q = (sp.q || '').toString();
   const posts = getAllPosts();
+  const s = getSettings();
 
   return (
     <section className="section">
@@ -20,7 +21,7 @@ export default async function SearchPage({ searchParams }) {
             <p>Tìm bài viết theo tiêu đề, mô tả hoặc thẻ.</p>
           </div>
         </div>
-        <SearchResults posts={posts} initialQuery={q} />
+        <SearchResults posts={posts} initialQuery={q} placeholder={s.searchPlaceholder} />
       </div>
     </section>
   );
