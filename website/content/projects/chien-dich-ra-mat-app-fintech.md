@@ -4,6 +4,7 @@ description: Lên kế hoạch và vận hành chiến dịch go-to-market cho m
 cover: https://picsum.photos/seed/ngbao-proj-fintech/1200/900
 role: Performance & Growth
 year: 2025
+tags: Performance · Growth · Ads
 url: ""
 order: 2
 draft: false

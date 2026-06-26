@@ -4,6 +4,7 @@ description: Thiết lập quy trình sản xuất nội dung và pipeline phân
 cover: https://picsum.photos/seed/ngbao-proj-b2b/1200/850
 role: Content Strategy
 year: 2024
+tags: Content · SEO · Process
 url: ""
 order: 3
 draft: false
