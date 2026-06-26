@@ -2130,3 +2130,57 @@ body.pf-immersive .site-header.scrolled {
   from { transform: translateY(-8px); }
   to { transform: none; }
 }
+
+/* ============ Trang Dự án v2 (My Project) ============ */
+.pp-hero { padding: 90px 0 0; text-align: center; }
+.pp-hero-eyebrow {
+  display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--text-muted);
+  background: var(--surface-2); border: 1px solid var(--border);
+  padding: 7px 16px; border-radius: var(--radius-pill);
+}
+.pp-hero-title {
+  font-size: clamp(34px, 6vw, 74px); font-weight: 800; letter-spacing: -0.04em;
+  line-height: 1.04; margin: 22px auto 0; max-width: 18ch;
+}
+.pp-hero-sub { font-size: 19px; line-height: 1.6; color: var(--text-muted); max-width: 62ch; margin: 20px auto 0; }
+.pp-hero-cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+
+/* marquee */
+.pp-marquee {
+  margin-top: 66px; overflow: hidden; padding: 18px 0;
+  background: var(--surface-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+}
+.pp-marquee-track { display: inline-flex; white-space: nowrap; will-change: transform; animation: ppMarquee 30s linear infinite; }
+.pp-marquee-item { display: inline-flex; align-items: center; font-family: var(--font-serif), Georgia, serif; font-size: clamp(20px, 3vw, 32px); font-weight: 600; color: var(--text); padding-left: 4px; }
+.pp-marquee-sep { color: #b0814c; margin: 0 30px; font-size: 0.7em; }
+@keyframes ppMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .pp-marquee-track { animation: none; } }
+
+/* brands — lưới logo tĩnh */
+.pp-brands { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
+.pp-brand {
+  display: flex; align-items: center; justify-content: center; height: 96px; padding: 16px;
+  border: 1px solid var(--border); border-radius: 16px; background: var(--surface);
+  color: var(--text-muted); font-weight: 700; font-size: 16px; text-align: center;
+  transition: color 0.2s var(--ease), box-shadow 0.25s var(--ease), transform 0.25s var(--ease);
+}
+.pp-brand:hover { color: var(--text); box-shadow: var(--shadow); transform: translateY(-3px); }
+.pp-brand img { max-width: 78%; max-height: 56%; object-fit: contain; filter: grayscale(1); opacity: 0.72; transition: filter 0.25s var(--ease), opacity 0.25s var(--ease); }
+.pp-brand:hover img { filter: none; opacity: 1; }
+@media (max-width: 600px) { .pp-brands { grid-template-columns: repeat(2, 1fr); } }
+
+/* dự án nổi bật */
+.pp-projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.pp-projects .card { min-height: 280px; }
+@media (max-width: 900px) { .pp-projects { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .pp-projects { grid-template-columns: 1fr; } }
+
+/* lĩnh vực / dịch vụ */
+.pp-services { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.pp-service { padding: 28px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); transition: box-shadow 0.25s var(--ease), transform 0.25s var(--ease); }
+.pp-service:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
+.pp-service-num { font-family: var(--font-serif), Georgia, serif; font-size: 26px; color: var(--text-faint); }
+.pp-service h3 { margin: 8px 0 8px; font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
+.pp-service p { margin: 0; color: var(--text-muted); font-size: 15px; line-height: 1.6; }
+@media (max-width: 600px) { .pp-services { grid-template-columns: 1fr; } }
