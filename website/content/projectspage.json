@@ -10,12 +10,12 @@
   "brandsTitle": "Thương hiệu đã hợp tác",
   "brandsSubtitle": "Một số thương hiệu mình từng đồng hành.",
   "brands": [
-    { "name": "Cà phê Local", "logo": "" },
-    { "name": "Fintech App", "logo": "" },
-    { "name": "Shop Đa kênh", "logo": "" },
-    { "name": "B2B SaaS", "logo": "" },
-    { "name": "Thời trang", "logo": "" },
-    { "name": "F&B Chain", "logo": "" }
+    { "name": "", "logo": "" },
+    { "name": "", "logo": "" },
+    { "name": "", "logo": "" },
+    { "name": "", "logo": "" },
+    { "name": "", "logo": "" },
+    { "name": "", "logo": "" }
   ],
   "featuredTitle": "Dự án nổi bật",
   "featuredSubtitle": "Tuyển chọn các dự án tiêu biểu, bấm để xem chi tiết.",
