@@ -223,8 +223,8 @@ img {
   border-radius: var(--radius);
   background: radial-gradient(120% 120% at 30% 20%, #ffffff 0%, #f0f0f1 55%, #e4e4e6 100%);
   border: 1px solid var(--border);
-  box-shadow: 22px 22px 0 -1px rgba(176, 129, 76, 0.18),
-    0 26px 60px -22px rgba(10, 10, 10, 0.45);
+  box-shadow: 16px 16px 0 -3px rgba(176, 129, 76, 0.1),
+    0 22px 50px -26px rgba(10, 10, 10, 0.3);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -236,8 +236,8 @@ img {
 }
 .hero-visual:hover {
   transform: translateY(-4px);
-  box-shadow: 30px 30px 0 -1px rgba(176, 129, 76, 0.24),
-    0 38px 84px -24px rgba(10, 10, 10, 0.52);
+  box-shadow: 20px 20px 0 -3px rgba(176, 129, 76, 0.14),
+    0 30px 64px -26px rgba(10, 10, 10, 0.36);
 }
 .hero-visual:hover img {
   transform: scale(1.05);
@@ -850,6 +850,12 @@ img {
 }
 [data-theme='dark'] .hero-visual {
   background: radial-gradient(120% 120% at 30% 20%, #1a1a1d 0%, #141417 55%, #0e0e10 100%);
+  box-shadow: 20px 20px 0 -1px rgba(198, 163, 106, 0.34),
+    0 30px 70px -22px rgba(0, 0, 0, 0.62);
+}
+[data-theme='dark'] .hero-visual:hover {
+  box-shadow: 26px 26px 0 -1px rgba(198, 163, 106, 0.46),
+    0 40px 90px -24px rgba(0, 0, 0, 0.72);
 }
 [data-theme='dark'] .btn-primary {
   background: #f4f4f5;
