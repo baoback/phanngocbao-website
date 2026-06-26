@@ -11,36 +11,34 @@ tags:
 draft: false
 ---
 
-Có những người quản lý cực kỳ giỏi mà đội ngũ vẫn không đi tới đâu, và có những người lãnh đạo truyền cảm hứng nhưng để mọi thứ rối tung trong vận hành. Lý do là lãnh đạo và quản lý là hai năng lực khác nhau, và một người làm chủ phải gánh cả hai — nhưng phải biết lúc nào cần cái nào.
+Có người quản lý giỏi kinh khủng mà đội vẫn giậm chân tại chỗ. Lại có người lãnh đạo cuốn hút, nói chuyện ai cũng nổi gai ốc, mà vận hành thì rối tung. Lý do là lãnh đạo với quản lý là hai năng lực khác nhau. Làm chủ thì phải gánh cả hai, nhưng cái khó là biết lúc nào cần cái nào.
 
-## Hai câu hỏi khác nhau
+## Hai câu hỏi khác hẳn nhau
 
-Cách phân biệt đơn giản nhất: quản lý trả lời câu hỏi "làm việc này thế nào cho đúng", còn lãnh đạo trả lời câu hỏi "đây có phải việc đúng để làm không". Quản lý hướng vào hiệu quả thực thi; lãnh đạo hướng vào phương hướng và ý nghĩa.
+Phân biệt cho dễ nhớ: quản lý lo câu "làm việc này sao cho đúng", còn lãnh đạo lo câu "đây có phải việc đáng làm không". Quản lý hướng vào chuyện thực thi cho ngon. Lãnh đạo hướng vào chuyện đi đâu, để làm gì.
 
-Một người quản lý giỏi đảm bảo con tàu chạy trơn tru, đúng giờ, ít hao phí. Một người lãnh đạo giỏi đảm bảo con tàu đang đi đúng hướng. Cả hai đều cần thiết — một con tàu vận hành hoàn hảo nhưng đi sai hướng vẫn đắm, và một hướng đi đúng nhưng vận hành bê bối thì không bao giờ tới đích.
+Người quản lý giỏi lo con tàu chạy êm, đúng giờ, ít hao. Người lãnh đạo giỏi lo con tàu đang đi đúng hướng. Cần cả hai. Một con tàu chạy mượt mà đi sai hướng thì vẫn chìm. Còn hướng có đúng mà vận hành bê bối thì cũng chẳng bao giờ tới nơi.
 
-## Vì sao chủ doanh nghiệp dễ kẹt ở vai quản lý
+## Vì sao chủ doanh nghiệp hay kẹt ở vai quản lý
 
-Phần lớn chủ doanh nghiệp nhỏ xuất phát từ việc tự tay làm mọi thứ. Họ giỏi vận hành, quen giải quyết vấn đề cụ thể, và thấy thoải mái khi bận rộn với các đầu việc. Vấn đề là khi doanh nghiệp lớn lên, thứ cản trở nó thường không còn là vận hành, mà là thiếu phương hướng — và đó là việc của lãnh đạo, vốn ít hữu hình hơn nên dễ bị bỏ bê.
+Phần lớn chủ doanh nghiệp nhỏ đi lên từ chỗ tự tay làm hết. Họ quen vận hành, quen xử lý mấy việc cụ thể, và thấy dễ chịu khi tay chân bận rộn. Vấn đề là tới lúc công ty lớn lên, thứ cản nó đi tiếp thường không còn là vận hành nữa, mà là thiếu hướng. Mà chuyện hướng đi thì ít hữu hình, nên dễ bị để đó.
 
-Cảm giác bận rộn dễ gây nghiện và tạo ảo giác về sự tiến bộ. Nhưng một người chủ ngập trong các việc quản lý hằng ngày mà không dành thời gian suy nghĩ về hướng đi sẽ thấy đội ngũ chăm chỉ nhưng cả tổ chức vẫn giậm chân tại chỗ.
+Bận rộn dễ gây nghiện, lại cho cảm giác mình đang tiến. Nhưng một ông chủ ngập trong việc quản lý hằng ngày, không chừa chút thời gian nào để nghĩ về hướng, thì sẽ thấy cảnh này: đội thì chăm chỉ thật đấy, mà cả tổ chức vẫn đứng yên một chỗ.
 
-## Lãnh đạo là tạo ra sự rõ ràng
+## Lãnh đạo là làm cho mọi thứ rõ ra
 
-Công việc cốt lõi của lãnh đạo là làm cho mọi người *hiểu rõ chúng ta đang đi đâu và vì sao*. Khi phương hướng rõ ràng, đội ngũ tự ra được nhiều quyết định nhỏ mà không cần hỏi, vì họ biết đâu là điều quan trọng. Khi phương hướng mơ hồ, mọi quyết định đều dồn ngược lên người chủ, tạo ra nút thắt cổ chai.
+Việc chính của người lãnh đạo là để mọi người *hiểu rõ mình đang đi đâu và vì sao đi*. Hướng mà rõ thì đội tự quyết được khối việc nhỏ, khỏi cần hỏi tới hỏi lui, vì họ biết cái gì là quan trọng. Hướng mà mù mờ thì mọi quyết định dồn hết ngược lên ông chủ, thành ra nghẽn cổ chai.
 
-Sự rõ ràng này không đến từ một bài phát biểu hoành tráng, mà từ việc lặp đi lặp lại cùng một thông điệp, ra quyết định nhất quán với nó, và làm gương. Người ta tin vào điều lãnh đạo *làm* nhiều hơn điều lãnh đạo *nói*.
+Cái rõ ràng này không tới từ một bài diễn văn hùng hồn đâu. Nó tới từ việc nói đi nói lại cùng một thông điệp, ra quyết định nhất quán với nó, và tự mình làm gương. Người ta tin vào điều sếp *làm* hơn nhiều so với điều sếp *nói*.
 
-## Chuyển đổi giữa hai vai
+## Đổi qua đổi lại giữa hai vai
 
-Người chủ trưởng thành học cách chuyển qua lại giữa hai vai một cách có ý thức. Có lúc cần đội mũ quản lý: rà soát quy trình, xử lý sự cố, đảm bảo chất lượng. Có lúc cần đội mũ lãnh đạo: lùi lại, nhìn bức tranh lớn, đặt câu hỏi về hướng đi, truyền năng lượng cho đội ngũ.
+Ông chủ trưởng thành học được cách đổi vai một cách có ý thức. Có lúc phải đội mũ quản lý: soát quy trình, dập sự cố, giữ chất lượng. Có lúc phải đội mũ lãnh đạo: lùi lại, nhìn bức tranh to, hỏi xem hướng có ổn không, bơm năng lượng cho anh em.
 
-Một mẹo thực tế là chủ động *bảo vệ thời gian cho việc lãnh đạo*. Việc quản lý luôn khẩn cấp và sẽ ngốn hết ngày của bạn nếu bạn cho phép. Việc lãnh đạo quan trọng nhưng hiếm khi khẩn cấp, nên nó cần được hẹn lịch và bảo vệ chủ động, nếu không nó sẽ không bao giờ xảy ra.
+Một mẹo rất đời: chủ động *giữ chỗ trong lịch cho việc lãnh đạo*. Việc quản lý lúc nào cũng khẩn, cứ để nó tự nhiên thì nó nuốt sạch cả ngày của bạn. Còn việc lãnh đạo thì quan trọng mà hiếm khi khẩn, nên phải hẹn lịch hẳn hoi và giữ cho bằng được. Không thì nó chẳng bao giờ xảy ra.
 
 ## Không phải chuyện chức danh
 
-Cuối cùng, lãnh đạo không phải là một chức danh hay vị trí, mà là một hành vi. Người ở bất kỳ cấp nào cũng có thể lãnh đạo khi họ tạo ra sự rõ ràng và chịu trách nhiệm cho kết quả chung. Một doanh nghiệp mạnh là nơi tinh thần lãnh đạo lan tỏa, chứ không dồn hết vào một người ở đỉnh.
+Cuối cùng, lãnh đạo không phải cái chức hay cái ghế, mà là một kiểu hành xử. Người ở cấp nào cũng lãnh đạo được, khi họ làm mọi thứ rõ ra và chịu trách nhiệm cho kết quả chung. Doanh nghiệp mạnh là chỗ tinh thần đó lan khắp, chứ không dồn hết vào mỗi một người trên đỉnh.
 
-## Tóm lại
-
-Hãy phân biệt rõ trong đầu: quản lý là làm đúng việc, lãnh đạo là chọn đúng việc. Đừng để sự bận rộn của vai quản lý nuốt mất thời gian cho vai lãnh đạo. Hãy chủ động lùi lại để tạo phương hướng và sự rõ ràng cho đội ngũ — vì đó là thứ mà không ai khác trong tổ chức có thể làm thay người đứng đầu.
+Nên nhớ trong đầu: quản lý là làm đúng việc, lãnh đạo là chọn đúng việc. Đừng để cái bận rộn của vai quản lý ăn mất thời gian của vai lãnh đạo. Chịu khó lùi lại để vạch hướng và làm mọi thứ rõ ra cho anh em đi. Vì cái đó, trong cả công ty, chẳng ai làm thay người đứng đầu được.

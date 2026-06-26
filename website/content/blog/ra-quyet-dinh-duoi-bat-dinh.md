@@ -11,32 +11,30 @@ tags:
 draft: false
 ---
 
-Một thực tế khó chịu của kinh doanh là bạn gần như không bao giờ có đủ thông tin để chắc chắn. Đợi đến khi mọi thứ rõ ràng thì cơ hội đã trôi qua, hoặc đối thủ đã hành động. Kỹ năng cốt lõi của người làm chủ không phải là tránh bất định, mà là ra quyết định tốt bên trong nó.
+Một sự thật hơi khó chịu của kinh doanh: bạn gần như chẳng bao giờ có đủ thông tin để chắc chắn cả. Ngồi đợi cho mọi thứ rõ ràng à? Đợi xong thì cơ hội trôi mất, hoặc đối thủ ra tay rồi. Kỹ năng quan trọng nhất của người làm chủ không phải là né bất định. Mà là ra quyết định tốt ngay trong cái bất định đó.
 
-## Phân biệt quyết định đảo ngược được và không
+## Quyết định nào sửa lại được, quyết định nào không
 
-Không phải mọi quyết định đều cần cùng mức độ cân nhắc. Một cách phân loại hữu ích: quyết định nào có thể đảo ngược, và quyết định nào không. Với quyết định đảo ngược được — thử một kênh bán mới, đổi cách trình bày sản phẩm — hãy quyết nhanh và sửa sau nếu sai. Chi phí của sự chậm trễ lớn hơn chi phí của một sai lầm nhỏ có thể sửa.
+Không phải quyết nào cũng cần cân nhắc như nhau. Có một cách chia khá tiện: cái nào đảo ngược được, cái nào không. Mấy quyết định đảo ngược được, kiểu thử một kênh bán mới, đổi cách bày sản phẩm, thì cứ quyết nhanh, sai thì sửa. Ngồi chần chừ còn tốn hơn là dính một lỗi nhỏ có thể sửa.
 
-Với quyết định khó đảo ngược — ký hợp đồng dài hạn, đầu tư lớn, sa thải nhân sự chủ chốt — hãy chậm lại, thu thập thêm thông tin, cân nhắc kỹ. Nhầm lẫn hai loại này là nguồn gốc của nhiều rắc rối: người ta đắn đo hàng tuần cho những việc nhỏ có thể sửa, rồi lại vội vàng với những việc lớn không quay đầu được.
+Còn mấy quyết định khó quay đầu, ký hợp đồng dài hạn, rót vốn lớn, cho một nhân sự chủ chốt nghỉ, thì chậm lại, gom thêm thông tin, cân cho kỹ. Lẫn lộn hai loại này là gốc của bao nhiêu rắc rối. Người ta đắn đo cả tuần cho mấy việc lặt vặt sửa được, rồi lại vội vàng với mấy việc lớn không có đường lùi.
 
-## Thoát khỏi tê liệt vì phân tích
+## Thoát cái bẫy phân tích mãi không quyết
 
-Khi đối diện bất định, phản xạ tự nhiên là thu thập thêm dữ liệu. Nhưng thông tin có quy luật lợi ích giảm dần: phần dữ liệu đầu tiên giúp ích rất nhiều, phần sau ngày càng ít giá trị trong khi vẫn ngốn thời gian. Đến một điểm, thu thập thêm chỉ là cách trì hoãn quyết định trong vỏ bọc của sự cẩn thận.
+Gặp bất định, phản xạ tự nhiên là đi gom thêm dữ liệu. Mà thông tin có cái quy luật lợi ích giảm dần: mớ dữ liệu đầu giúp ích nhiều lắm, mớ sau ngày càng ít giá trị mà vẫn ngốn thời gian như thường. Tới một điểm, gom thêm chỉ là cách trì hoãn quyết định, khoác lên cái áo "cẩn thận" cho đỡ ngại thôi.
 
-Một câu hỏi giúp thoát bẫy này: "Thông tin nào sẽ thực sự thay đổi quyết định của mình?" Nếu không có, thì bạn đã đủ dữ liệu để quyết — phần còn lại chỉ là chần chừ. Quyết định tốt với thông tin vừa đủ và đúng thời điểm thường thắng quyết định hoàn hảo nhưng quá muộn.
+Có một câu hỏi giúp thoát bẫy này: "Thông tin nào sẽ thật sự làm mình đổi quyết định?" Nếu không có cái nào, thì bạn đủ dữ liệu để quyết rồi. Phần còn lại chỉ là chần chừ. Một quyết định tốt với thông tin vừa đủ và đúng lúc thường thắng một quyết định hoàn hảo mà ra quá trễ.
 
-## Nghĩ theo xác suất, không theo chắc chắn
+## Nghĩ theo xác suất, đừng đòi chắc chắn
 
-Người ra quyết định giỏi không hỏi "điều này có chắc thành công không" mà hỏi "khả năng thành công bao nhiêu, và nếu sai thì hậu quả lớn cỡ nào". Đây là tư duy theo kỳ vọng: một lựa chọn có 60% thắng với mặt trái nhỏ thường tốt hơn một lựa chọn 90% thắng nhưng nếu thua thì sập tiệm.
+Người quyết giỏi không hỏi "cái này có chắc thành không". Họ hỏi "khả năng thành bao nhiêu, và lỡ sai thì hậu quả to cỡ nào". Đây là kiểu nghĩ theo kỳ vọng. Một lựa chọn 60% thắng mà mặt trái nhỏ thường ngon hơn cái 90% thắng nhưng lỡ thua là sập tiệm.
 
-Tư duy này cũng giúp bạn tách *chất lượng quyết định* khỏi *kết quả*. Một quyết định đúng đắn vẫn có thể dẫn tới kết quả xấu vì xui rủi, và một quyết định liều lĩnh đôi khi may mắn thành công. Đánh giá bản thân dựa trên việc bạn đã suy nghĩ thế nào với thông tin lúc đó, chứ không chỉ dựa trên kết quả, sẽ giúp bạn học đúng bài học.
+Kiểu nghĩ này còn giúp bạn tách *chất lượng quyết định* ra khỏi *kết quả*. Quyết đúng đắn vẫn có thể ra kết quả tệ vì xui. Mà quyết liều đôi khi lại may mà trúng. Chấm điểm bản thân dựa trên việc lúc đó bạn đã nghĩ thế nào với thông tin trong tay, đừng chỉ nhìn vào kết quả, thì mới học được đúng bài.
 
-## Bảo vệ mặt trái trước khi mơ mặt phải
+## Lo cái mặt trái trước khi mơ cái mặt phải
 
-Một nguyên tắc quản trị rủi ro đơn giản nhưng mạnh: trước khi lao vào một cơ hội, hãy hỏi "nếu điều này thất bại hoàn toàn, mình có sống sót không". Nếu câu trả lời là không, thì dù khả năng thắng cao đến đâu, đó vẫn là canh bạc không nên đặt. Tránh những sai lầm có thể kết liễu doanh nghiệp quan trọng hơn nhiều so với tối đa hóa từng cơ hội.
+Một nguyên tắc quản trị rủi ro nghe đơn giản mà mạnh: trước khi lao vào một cơ hội, hỏi đã, "nếu cái này toang hoàn toàn, mình có sống nổi không". Trả lời mà ra "không" thì dù khả năng thắng cao tới đâu, đó vẫn là canh bạc không nên đặt. Né mấy cú sai có thể kết liễu cả doanh nghiệp quan trọng hơn nhiều so với việc vắt kiệt từng cơ hội.
 
-Người chơi lâu dài là người không bao giờ để một quyết định đơn lẻ có thể xóa sổ mình, bất kể phần thưởng hấp dẫn ra sao.
+Người chơi đường dài là người không bao giờ để một quyết định lẻ có thể xoá sổ mình, phần thưởng có hấp dẫn cỡ nào cũng vậy.
 
-## Tóm lại
-
-Hãy phân loại quyết định theo mức độ đảo ngược để biết khi nào nên nhanh, khi nào nên chậm. Thu thập đủ thông tin rồi dừng lại, nghĩ theo xác suất thay vì đòi hỏi chắc chắn, và luôn bảo vệ mình khỏi những thất bại không thể phục hồi. Bạn sẽ không bao giờ hết bất định — nhưng bạn hoàn toàn có thể ra quyết định tốt một cách nhất quán bên trong nó.
+Vậy nên: chia quyết định theo mức đảo ngược để biết khi nào nhanh khi nào chậm. Gom đủ thông tin rồi dừng, nghĩ theo xác suất thay vì đòi chắc chắn, và luôn chừa đường sống cho mình. Bất định thì sẽ không bao giờ hết. Nhưng ra quyết định tốt một cách đều tay ngay trong nó thì hoàn toàn làm được.

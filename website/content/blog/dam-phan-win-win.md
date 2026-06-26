@@ -11,36 +11,34 @@ tags:
 draft: false
 ---
 
-Nhiều người sợ đàm phán vì hình dung nó như một trận đấu nơi một bên thắng thì bên kia phải thua. Với tư duy đó, họ hoặc né tránh thương lượng và chịu thiệt, hoặc lao vào ép đối phương và phá hỏng mối quan hệ. Người đàm phán giỏi nhìn khác: mục tiêu không phải là giành phần lớn hơn của một chiếc bánh cố định, mà là làm chiếc bánh to ra để cả hai cùng có nhiều hơn.
+Nhiều người sợ đàm phán vì cứ hình dung nó như một trận đấu, một bên thắng thì bên kia phải thua. Nghĩ vậy thì kết cục thường rơi vào một trong hai: hoặc né luôn cho đỡ mệt rồi chịu thiệt, hoặc lao vào ép cho bằng được rồi đập vỡ luôn mối quan hệ. Người đàm phán giỏi nhìn chuyện này hơi khác. Họ không tranh xem ai được phần to hơn của một cái bánh có sẵn. Họ tìm cách làm cái bánh đó nở ra, để cả hai cùng có nhiều hơn.
 
-## Tách con người khỏi vấn đề
+## Tách con người ra khỏi vấn đề
 
-Sai lầm thường gặp là biến cuộc thương lượng thành cuộc đối đầu cá nhân. Khi bạn xem đối phương là kẻ thù, mỗi nhượng bộ thành một thất bại, và cảm xúc lấn át lý trí. Người đàm phán giỏi tách bạch: cứng rắn với *vấn đề*, nhưng tôn trọng với *con người*. Bạn có thể bất đồng gay gắt về điều khoản mà vẫn giữ thái độ lịch sự, vì người ngồi đối diện hôm nay có thể là đối tác ngày mai.
+Cái hớ hay gặp là biến cuộc thương lượng thành một trận đối đầu cá nhân. Khi bạn coi người đối diện là kẻ địch, mỗi lần nhường một bước là một lần thua, và cảm xúc thì lấn hết lý trí. Người giỏi tách bạch hai thứ ra: cứng với vấn đề, nhưng nhẹ nhàng với con người. Bạn hoàn toàn có thể cãi nhau nảy lửa về điều khoản mà vẫn giữ thái độ lịch sự. Vì người ngồi đối diện hôm nay biết đâu là đối tác của bạn tháng sau.
 
-Thái độ này không chỉ tử tế mà còn hiệu quả. Khi đối phương không cảm thấy bị tấn công, họ cởi mở hơn, chia sẻ thật hơn, và sẵn lòng tìm giải pháp chung thay vì cố thủ.
+Mà cái này không chỉ là tử tế suông đâu, nó còn ăn tiền. Khi đối phương không thấy mình đang bị tấn công, họ cởi mở hơn, nói thật hơn, và chịu ngồi tìm giải pháp chung thay vì cố thủ.
 
-## Hỏi về lợi ích, đừng chỉ tranh về lập trường
+## Hỏi xem họ thật sự cần gì, đừng cãi nhau về câu chữ
 
-Đây là chìa khóa của đàm phán win-win. Lập trường là điều người ta *nói họ muốn* ("tôi cần giá này"); lợi ích là *lý do thật sự đằng sau* ("tôi cần dòng tiền ổn định" hoặc "tôi sợ rủi ro"). Khi hai bên chỉ cãi nhau về lập trường, họ kẹt cứng. Khi hiểu được lợi ích thật, thường có nhiều cách thỏa mãn cả hai mà lập trường ban đầu không nhìn thấy.
+Đây mới là chỗ then chốt của win-win. Lập trường là cái người ta nói ra ("tôi cần đúng cái giá này"). Còn lợi ích là cái lý do thật nằm sau lưng câu nói đó ("tôi cần dòng tiền cho ổn", hoặc "tôi sợ ôm rủi ro"). Hai bên mà chỉ cắm đầu cãi nhau về lập trường thì kẹt cứng, không ai nhúc nhích. Nhưng khi hiểu được cái lợi ích thật, thường sẽ lòi ra cả đống cách làm hài lòng cả hai mà lúc đầu chẳng ai nhìn ra.
 
-Ví dụ, một bên muốn giá thấp không phải vì tham, mà vì lo dòng tiền; bạn có thể giữ giá nhưng cho trả góp. Cách duy nhất để khám phá điều này là *hỏi* — hỏi nhiều, nghe kỹ, tò mò thật sự về điều đối phương cần. Người đàm phán giỏi nói ít và hỏi nhiều.
+Ví dụ, có người đòi giá thấp không phải vì tham, mà vì đang lo dòng tiền. Vậy thì bạn cứ giữ giá, nhưng cho trả góp. Cách duy nhất để moi ra mấy thứ này là hỏi. Hỏi nhiều, nghe kỹ, tò mò thật lòng xem người ta cần gì. Dân đàm phán cứng tay thường nói ít mà hỏi nhiều.
 
-## Biết điểm lui của mình trước khi vào bàn
+## Biết trước đường lui rồi hẵng ngồi vào bàn
 
-Sức mạnh lớn nhất trong đàm phán là có một phương án thay thế tốt nếu thương lượng đổ vỡ. Khi bạn biết rõ mình sẽ làm gì nếu không đạt thỏa thuận — và phương án đó đủ tốt — bạn thương lượng từ vị thế bình tĩnh, không bị ép phải đồng ý vì sợ trắng tay.
+Sức mạnh lớn nhất khi thương lượng là có sẵn một phương án khác đủ ngon nếu vụ này đổ. Khi bạn biết rõ mình sẽ làm gì nếu không chốt được, và cái phương án dự phòng đó cũng tạm ổn, thì bạn nói chuyện trong tâm thế bình tĩnh. Không bị dồn vào thế phải gật đại vì sợ về tay trắng.
 
-Ngược lại, nếu bạn bước vào bàn mà không có lối lui, bạn dễ chấp nhận một thỏa thuận tồi vì áp lực. Vì vậy, việc chuẩn bị quan trọng nhất trước mọi cuộc đàm phán là xác định rõ: nếu không có thỏa thuận này, lựa chọn tốt nhất của mình là gì, và nó tốt đến đâu.
+Ngược lại, bước vào bàn mà không có lối thoát thì rất dễ ôm về một thỏa thuận dở tệ chỉ vì áp lực. Cho nên việc chuẩn bị quan trọng nhất trước mỗi cuộc đàm phán là tự trả lời cho rõ: nếu vụ này không thành, lựa chọn tốt nhất của mình là gì, và nó tốt tới mức nào.
 
-## Đừng để bị neo bởi con số đầu tiên
+## Đừng để con số đầu tiên ghim đầu bạn
 
-Con số được nêu ra đầu tiên có sức kéo tâm lý mạnh, neo cả cuộc thương lượng quanh nó. Hãy ý thức về hiệu ứng này: một mức giá khởi điểm cao ngất không có nghĩa là món đồ đáng giá vậy. Đừng để con số của đối phương định nghĩa vùng thương lượng trong đầu bạn; hãy tự xác định trước đâu là mức hợp lý dựa trên giá trị thật.
+Con số được nói ra trước có một sức kéo tâm lý mạnh kinh khủng, nó ghim cả cuộc thương lượng quanh nó luôn. Bạn cần tỉnh táo với cái hiệu ứng này. Một mức giá chào cao chót vót không có nghĩa món đồ đáng từng đó tiền. Đừng để con số của đối phương vẽ ra vùng thương lượng trong đầu bạn. Hãy tự xác định trước, dựa trên giá trị thật, đâu mới là mức hợp lý.
 
-Khi phù hợp, chính bạn có thể là người neo trước với một đề xuất hợp lý nhưng có lợi, để đặt khung cho cuộc trò chuyện.
+Mà khi thấy hợp, chính bạn cũng có thể là người ra giá trước, với một đề xuất nghe hợp lý nhưng có lợi cho mình, để tự tay đặt cái khung cho cả cuộc nói chuyện.
 
-## Để đối phương giữ thể diện
+## Chừa cho người ta một đường giữ thể diện
 
-Một thỏa thuận chỉ bền khi cả hai bên đều thấy mình ra về với điều gì đó. Ngay cả khi bạn nắm thế thượng phong, ép đối phương vào đường cùng thường là nước đi dại: họ sẽ tìm cách lật kèo, không thực hiện đúng, hoặc không bao giờ hợp tác lại. Để người ta giữ được thể diện và cảm thấy thỏa thuận công bằng là cách bảo vệ giá trị dài hạn của mối quan hệ.
+Một thỏa thuận chỉ bền khi cả hai bên đều thấy mình về nhà có cầm theo cái gì đó. Kể cả lúc bạn đang nắm đằng chuôi, dồn người ta vào đường cùng thường là nước đi dại. Họ sẽ tìm cách lật kèo, làm cho có, hoặc cạch mặt không bao giờ hợp tác lại nữa. Chừa cho đối phương đường giữ thể diện, để họ thấy vụ này công bằng, đó là cách bạn giữ giá trị của mối quan hệ về lâu dài.
 
-## Tóm lại
-
-Hãy bỏ tư duy thắng-thua và tìm cách làm chiếc bánh lớn hơn. Tách con người khỏi vấn đề, đào sâu vào lợi ích thật thay vì cãi nhau về lập trường, chuẩn bị sẵn phương án lui, và để đối phương ra về trong danh dự. Đàm phán giỏi không để lại kẻ thua cuộc — nó tạo ra những thỏa thuận mà cả hai bên đều muốn giữ.
+Đàm phán cừ không phải là để lại một kẻ thua cuộc ngồi ôm cục tức. Nó tạo ra những cái thỏa thuận mà cả hai bên đều muốn giữ. Bỏ cái đầu thắng-thua đi, ngồi nghĩ cách làm cái bánh to ra, là tự khắc bạn đỡ phải đánh nhau.

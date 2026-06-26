@@ -11,36 +11,34 @@ tags:
 draft: false
 ---
 
-Có một niềm tin phổ biến nhưng sai lầm trong kinh doanh: rằng làm nhiều hơn sẽ đạt được nhiều hơn. Thực tế, phần lớn người làm chủ ngập trong việc nhưng kết quả vẫn lẹt đẹt, vì họ nhầm sự bận rộn với sự tiến bộ. Năng lực quản trị quan trọng nhất không phải là làm được nhiều việc, mà là chọn đúng một số ít việc thực sự tạo ra khác biệt.
+Có một niềm tin phổ biến mà sai bét trong kinh doanh: cứ làm nhiều hơn thì được nhiều hơn. Thực tế thì sao? Phần lớn người làm chủ ngập đầu trong việc mà kết quả vẫn lẹt đẹt, vì họ nhầm bận rộn với tiến bộ. Năng lực quản trị đáng giá nhất không phải là cày được nhiều việc. Mà là chọn trúng vài việc thật sự làm nên chuyện.
 
-## Không phải việc nào cũng đáng giá như nhau
+## Đâu phải việc nào cũng đáng giá ngang nhau
 
-Một quy luật lặp lại khắp nơi trong kinh doanh: một phần nhỏ nguyên nhân tạo ra phần lớn kết quả. Một số ít khách hàng mang lại phần lớn doanh thu; một số ít sản phẩm tạo phần lớn lợi nhuận; một số ít hoạt động đẩy phần lớn sự tăng trưởng. Phần còn lại — dù chiếm nhiều thời gian — đóng góp rất ít.
+Một quy luật lặp đi lặp lại khắp nơi: một phần nhỏ nguyên nhân đẻ ra phần lớn kết quả. Vài khách mang về phần lớn doanh thu. Vài sản phẩm ra phần lớn lợi nhuận. Vài hoạt động đẩy phần lớn tăng trưởng. Còn lại, dù ngốn cả đống thời gian, thì đóng góp chẳng bao nhiêu.
 
-Hệ quả rất rõ: nếu bạn dàn trải sức lực đều cho mọi việc, bạn đang bỏ đói những việc quan trọng nhất để nuôi những việc ít giá trị. Quản trị ưu tiên là nhận ra sự bất cân xứng này và hành động theo nó — dồn nguồn lực vào số ít việc tạo ra phần lớn kết quả.
+Hệ quả rõ luôn: cứ rải sức đều ra cho mọi việc, là bạn đang bỏ đói mấy việc quan trọng nhất để nuôi đám việc ít giá trị. Quản trị ưu tiên là nhìn ra cái sự lệch đó rồi làm theo nó. Dồn người dồn của vào số ít việc tạo ra phần lớn kết quả.
 
-## Câu hỏi giúp lọc
+## Vài câu hỏi để lọc
 
-Khi danh sách việc dài đến mức tê liệt, vài câu hỏi giúp cắt gọn. "Nếu chỉ được làm một việc hôm nay, việc nào đẩy mục tiêu đi xa nhất?" "Việc này, nếu bỏ qua, có thực sự gây hậu quả không?" "Mình đang làm việc này vì nó quan trọng, hay vì nó dễ và quen?"
+Khi danh sách việc dài tới mức nhìn vào là đơ, mấy câu này giúp cắt bớt. "Nếu hôm nay chỉ được làm một việc thôi, việc nào đẩy mục tiêu đi xa nhất?" "Việc này, bỏ qua luôn, có thật sự gây hậu quả gì không?" "Mình làm việc này vì nó quan trọng, hay vì nó dễ và quen tay?"
 
-Câu hỏi cuối đặc biệt hữu ích, vì con người có xu hướng làm những việc dễ và thoải mái trước, rồi tự nhủ mình đang năng suất. Trả lời mười email vụn vặt cho cảm giác hoàn thành, nhưng hiếm khi quan trọng bằng một giờ tập trung vào việc thật sự dịch chuyển doanh nghiệp.
+Câu cuối hữu ích đặc biệt. Vì con người có cái tật làm mấy việc dễ và thoải mái trước, rồi tự nhủ mình đang năng suất ghê. Trả lời mười cái email vụn vặt cho cảm giác xong việc đó, mà hiếm khi quan trọng bằng một giờ ngồi tập trung vào thứ thật sự dịch chuyển công ty.
 
 ## Sức mạnh của việc nói không
 
-Mỗi lần đồng ý làm một việc, bạn đang ngầm nói không với mọi việc khác mà thời gian đó có thể dành cho. Người không biết từ chối sẽ thấy lịch của mình bị lấp đầy bởi ưu tiên của người khác, không còn chỗ cho ưu tiên của chính mình.
+Mỗi lần gật đầu nhận một việc, là bạn đang ngầm lắc đầu với hết thảy mọi việc khác mà khoảng thời gian đó đáng lẽ dành cho. Người không biết từ chối sẽ thấy lịch của mình bị lấp đầy bởi ưu tiên của thiên hạ, chẳng còn chỗ nào cho ưu tiên của chính mình.
 
-Nói không khó, vì nó gây thất vọng tức thì và đòi hỏi can đảm. Nhưng một doanh nghiệp tập trung được xây từ hàng trăm lần nói không với những cơ hội "cũng hay" để bảo vệ năng lực cho những cơ hội thật sự lớn. Phân tán vào quá nhiều thứ tốt là cách chắc chắn để không xuất sắc ở bất cứ thứ gì.
+Nói không thì khó, vì nó làm người ta phật lòng ngay lúc đó, và đòi hỏi can đảm. Nhưng một doanh nghiệp tập trung được dựng nên từ hàng trăm lần nói không với mấy cơ hội "cũng hay đấy", để dành sức cho mấy cơ hội thật sự lớn. Rải mình vào quá nhiều thứ tốt là cách chắc cú nhất để chẳng giỏi cái gì cho ra hồn.
 
-## Bảo vệ thời gian cho việc sâu
+## Giữ chỗ cho việc làm sâu
 
-Những việc tạo ra giá trị lớn nhất — suy nghĩ chiến lược, giải bài toán khó, xây dựng cái mới — đòi hỏi những khối thời gian tập trung không bị ngắt quãng. Nhưng đây lại chính là thứ dễ bị xé vụn nhất bởi tin nhắn, cuộc gọi, và những việc khẩn cấp lặt vặt.
+Mấy việc tạo ra giá trị to nhất, kiểu ngồi nghĩ chiến lược, gỡ một bài toán khó, xây cái gì đó mới, đều cần những khối thời gian tập trung không bị cắt ngang. Mà trớ trêu, đây lại chính là thứ dễ bị xé vụn nhất, bởi tin nhắn, cuộc gọi, với cả mớ việc khẩn lặt vặt.
 
-Hãy chủ động bảo vệ vài khối thời gian sâu mỗi tuần, coi chúng quan trọng như một cuộc hẹn với khách hàng lớn. Trong những khối đó, tắt thông báo, từ chối gián đoạn, và chỉ làm việc quan trọng nhất. Vài giờ tập trung thật sự thường tạo ra nhiều giá trị hơn cả tuần làm việc bị phân mảnh.
+Chủ động giữ vài khối thời gian sâu mỗi tuần đi, coi nó quan trọng y như một cái hẹn với khách to. Trong mấy khối đó, tắt thông báo, từ chối bị làm phiền, chỉ làm đúng việc quan trọng nhất. Vài giờ tập trung thật sự thường ra nhiều giá trị hơn cả tuần làm việc bị băm nát.
 
-## Đều đặn quan trọng hơn bùng nổ
+## Đều đặn ăn đứt bùng nổ
 
-Cuối cùng, ưu tiên không phải là một cú dọn dẹp lịch một lần, mà là một kỷ luật lặp lại. Ưu tiên thay đổi, việc mới ập đến, và nếu không thường xuyên rà soát, bạn sẽ trôi dần về tình trạng bận rộn vô định. Một thói quen đơn giản — mỗi đầu tuần xác định vài việc quan trọng nhất và bảo vệ chúng — bền vững hơn nhiều so với những đợt sắp xếp lại hoành tráng rồi đâu lại vào đấy.
+Cuối cùng, ưu tiên không phải một cú dọn lịch một lần là xong. Nó là một kỷ luật phải lặp lại. Ưu tiên thay đổi, việc mới ập tới, không soát thường xuyên thì kiểu gì bạn cũng trôi dần về cái cảnh bận rộn vô định. Một thói quen đơn giản, đầu mỗi tuần chấm vài việc quan trọng nhất rồi giữ lấy chúng, ăn đứt mấy đợt sắp xếp lại hoành tráng rồi đâu lại vào đấy.
 
-## Tóm lại
-
-Hãy chấp nhận rằng một số ít việc tạo ra phần lớn kết quả, dồn sức vào chúng, và đủ can đảm để nói không với phần còn lại. Bảo vệ thời gian cho việc sâu, và biến việc rà soát ưu tiên thành thói quen đều đặn. Mục tiêu không phải làm được nhiều hơn, mà là làm đúng hơn — vì trong kinh doanh, sự tập trung gần như luôn đánh bại sự bận rộn.
+Nói gọn: chấp nhận rằng vài việc làm nên phần lớn kết quả, dồn sức vào đó, và đủ gan để nói không với phần còn lại. Giữ chỗ cho việc làm sâu, biến chuyện soát ưu tiên thành thói quen. Đích đến không phải làm được nhiều hơn, mà là làm trúng hơn. Vì trong kinh doanh, sự tập trung gần như luôn thắng sự bận rộn.

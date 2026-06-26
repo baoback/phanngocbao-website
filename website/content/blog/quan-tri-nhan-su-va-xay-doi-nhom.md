@@ -11,36 +11,34 @@ tags:
 draft: false
 ---
 
-Trong một tập đoàn, một nhân viên yếu chỉ là một mắt xích nhỏ. Trong một doanh nghiệp năm người, một người sai chỗ là 20% đội ngũ — và có thể kéo lùi cả nhóm. Đây là lý do quản trị nhân sự ở quy mô nhỏ vừa khó hơn vừa quan trọng hơn nhiều người nghĩ, dù bạn chẳng có phòng nhân sự hay ngân sách lớn.
+Ở tập đoàn, một nhân viên yếu chỉ là một mắt xích bé tí trong cả guồng. Nhưng ở một doanh nghiệp năm người, một người sai chỗ là mất đứt 20% đội ngũ, mà còn có khi kéo lùi cả nhóm. Đó là lý do quản nhân sự ở quy mô nhỏ vừa khó hơn vừa quan trọng hơn nhiều người tưởng, dù bạn chẳng có phòng nhân sự hay ngân sách rủng rỉnh gì.
 
-## Tuyển đúng quan trọng hơn quản giỏi
+## Tuyển đúng còn quan trọng hơn quản giỏi
 
-Không kỹ năng quản lý nào cứu được một quyết định tuyển dụng sai. Với đội nhỏ, hãy đầu tư thời gian cho khâu tuyển nhiều hơn bạn tưởng là cần. Một người phù hợp về thái độ và giá trị, dù còn thiếu kỹ năng, thường dạy được; một người giỏi kỹ năng nhưng sai thái độ thì gần như không sửa được và còn làm hỏng không khí chung.
+Không một kỹ năng quản lý nào cứu nổi một cú tuyển sai. Đội nhỏ thì càng phải đổ thời gian vô khâu tuyển, nhiều hơn cái mức bạn nghĩ là đủ. Một người hợp về thái độ với giá trị, dù còn non kỹ năng, thì dạy được. Còn người giỏi kỹ năng mà sai thái độ thì gần như chịu, không sửa nổi, lại còn làm hỏng cả không khí chung.
 
-Khi tuyển, hãy nhìn vào việc họ đã *làm* chứ không chỉ điều họ *nói*. Hỏi về những tình huống cụ thể trong quá khứ: họ đã xử lý một khách khó tính thế nào, đã làm gì khi mắc lỗi. Câu trả lời về hành vi thật trong quá khứ dự báo tương lai tốt hơn nhiều so với những lời hứa hẹn.
+Lúc tuyển, nhìn vào việc họ đã *làm* ấy, đừng chỉ nghe họ *nói*. Hỏi mấy chuyện cụ thể trong quá khứ: hồi đó họ xử ông khách khó tính kiểu gì, lỡ làm sai thì họ làm gì? Cách họ hành xử thật trong quá khứ báo trước tương lai chuẩn hơn nhiều so với mấy lời hứa hẹn ngọt xớt lúc phỏng vấn.
 
-## Giao việc kèm quyền và kết quả mong đợi
+## Giao việc thì giao luôn quyền và cái kết quả mong muốn
 
-Lỗi quản lý phổ biến nhất ở chủ doanh nghiệp nhỏ là giao việc nhưng không giao quyền — rồi can thiệp vào từng chi tiết. Cách này khiến nhân viên thụ động, còn bạn thì kiệt sức vì vẫn ôm mọi thứ. Giao việc đúng nghĩa là nói rõ *kết quả mong đợi* và *giới hạn*, rồi để người ta tự chọn cách làm.
+Lỗi quản lý hay gặp nhất ở chủ shop nhỏ là giao việc mà không giao quyền, rồi nhảy vô soi từng chi tiết. Kiểu này khiến nhân viên ì ra, thụ động, còn bạn thì kiệt sức vì rốt cuộc vẫn ôm hết. Giao việc cho ra giao là nói rõ *muốn ra kết quả gì* và *giới hạn tới đâu*, rồi để người ta tự chọn cách làm.
 
-Hãy đánh giá theo kết quả, không theo việc họ có làm giống cách của bạn hay không. Nhân viên sẽ chỉ trưởng thành khi được phép tự quyết và chịu trách nhiệm. Một đội ngũ chỉ biết làm theo lệnh từng bước sẽ không bao giờ gánh bớt được gánh nặng cho bạn.
+Cứ chấm theo kết quả, đừng chấm theo chuyện họ có làm y chang cách của bạn hay không. Nhân viên chỉ lớn lên khi được tự quyết và tự gánh. Một đội mà chỉ biết làm theo lệnh từng bước thì đời nào san sẻ bớt gánh nặng cho bạn được.
 
-## Phản hồi thường xuyên, cụ thể, và kịp thời
+## Phản hồi đều, cụ thể, và nói liền khi còn nóng
 
-Trong doanh nghiệp nhỏ, không khí thân mật dễ khiến người ta ngại nói thẳng. Nhưng tránh né phản hồi là tử tế giả tạo: nó để vấn đề tích tụ đến mức không cứu vãn. Phản hồi tốt là thường xuyên, cụ thể vào hành vi chứ không vào con người, và đến sớm khi sự việc còn nóng.
+Doanh nghiệp nhỏ thân tình, gần gũi, nên người ta hay ngại nói thẳng. Nhưng né phản hồi là kiểu tử tế giả tạo. Né riết thì vấn đề tích lại tới lúc hết cứu. Phản hồi tốt là phản hồi đều, nhắm vào hành vi chứ đừng đá tới con người, và tới sớm khi chuyện còn nóng hổi.
 
-Quan trọng không kém: hãy ghi nhận điều làm tốt, đừng chỉ chỉ ra cái sai. Trong đội nhỏ, một lời công nhận chân thành có sức giữ người mạnh không kém tiền thưởng, vì người ta cảm thấy đóng góp của mình được nhìn thấy.
+Quan trọng không kém: thấy người ta làm tốt thì khen, đừng chỉ chăm chăm bắt lỗi. Trong đội nhỏ, một câu công nhận thật lòng giữ người khoẻ chẳng kém tiền thưởng, vì người ta thấy công sức của mình có người để ý tới.
 
-## Giữ người không chỉ bằng lương
+## Giữ người đâu chỉ bằng lương
 
-Doanh nghiệp nhỏ khó cạnh tranh lương với công ty lớn, nhưng có những thứ tiền không mua được mà bạn cho được: sự tin tưởng, cơ hội học và lớn nhanh, được làm việc có ý nghĩa, và một môi trường mà tiếng nói của họ được lắng nghe.
+Shop nhỏ khó mà đấu lương với công ty lớn, đúng. Nhưng có mấy thứ tiền không mua được mà bạn lại cho được: sự tin tưởng, cơ hội học và lớn nhanh, được làm việc thấy có ý nghĩa, và một chỗ mà tiếng nói của họ có người chịu nghe.
 
-Người ta thường rời đi không phải vì lương, mà vì cảm thấy không phát triển, không được tôn trọng, hoặc không thấy tương lai. Nếu bạn tạo được nơi mà người giỏi cảm thấy mình quan trọng và đang tiến lên, bạn giữ được họ lâu hơn nhiều so với chỉ chạy đua lương.
+Người ta nghỉ việc thường không phải vì lương, mà vì thấy mình giậm chân tại chỗ, không được tôn trọng, hoặc nhìn quanh chẳng thấy tương lai đâu. Nếu bạn dựng được cái nơi mà người giỏi thấy mình quan trọng và đang tiến lên từng ngày, bạn giữ họ lâu hơn nhiều so với cứ lao vào cuộc đua tăng lương.
 
-## Văn hóa là thứ bạn dung túng
+## Văn hoá là cái mà bạn chịu cho nó tồn tại
 
-Văn hóa đội nhóm không nằm ở khẩu hiệu treo tường, mà ở những hành vi bạn cho phép tồn tại. Nếu bạn bỏ qua một người làm việc cẩu thả hay đối xử tệ với đồng đội, bạn đang ngầm tuyên bố điều đó được chấp nhận. Trong đội nhỏ, mọi người nhìn chủ để biết đâu là chuẩn — bạn làm gương, không chỉ ra lệnh.
+Văn hoá đội nhóm không nằm ở mấy cái khẩu hiệu treo tường đâu, nó nằm ở những hành vi bạn cho phép diễn ra. Bạn lờ đi một người làm cẩu thả, hay đối xử tệ với đồng đội? Vậy là bạn đang ngầm bảo: cái đó ổn, cứ thế mà làm. Trong đội nhỏ, mọi người nhìn chủ để biết đâu là chuẩn. Bạn làm gương, chứ không phải đứng đó ra lệnh.
 
-## Tóm lại
-
-Hãy tuyển chậm và kỹ, giao việc kèm quyền và kỳ vọng rõ ràng, phản hồi đều đặn và chân thành, và xây một môi trường khiến người giỏi muốn ở lại. Ở quy mô nhỏ, con người không phải là một nguồn lực bên cạnh sản phẩm — họ gần như *là* doanh nghiệp của bạn.
+Vậy nên: tuyển chậm mà kỹ, giao việc kèm quyền và kỳ vọng rõ ràng, phản hồi đều và thật lòng, dựng cái môi trường khiến người giỏi muốn ở lại. Ở quy mô nhỏ, con người không phải một thứ nguồn lực đứng cạnh sản phẩm. Họ gần như *là* cái doanh nghiệp của bạn rồi.

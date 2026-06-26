@@ -11,36 +11,34 @@ tags:
 draft: false
 ---
 
-Có một nghịch lý khiến nhiều chủ shop bối rối: báo cáo nói đang lãi, nhưng tài khoản lại cạn tiền, đến kỳ trả lương hay nhập hàng thì chật vật. Câu trả lời nằm ở sự khác biệt giữa hai khái niệm mà nhiều người gộp làm một: lợi nhuận và dòng tiền.
+Có một chuyện nghe vô lý mà gặp hoài: báo cáo nói đang lãi, mà tài khoản thì trống trơn. Đến kỳ trả lương, tới lúc nhập lô hàng mới là toát mồ hôi. Lý do nằm ở chỗ nhiều người gộp hai thứ vốn khác nhau làm một: lãi và tiền mặt.
 
-## Lợi nhuận và dòng tiền không phải một
+## Lãi là một chuyện, tiền trong túi là chuyện khác
 
-Lợi nhuận là con số kế toán: doanh thu trừ chi phí trong một kỳ. Dòng tiền là tiền thật sự ra vào tài khoản của bạn theo thời gian. Hai thứ này lệch nhau vì thời điểm ghi nhận khác thời điểm thu chi.
+Lãi chỉ là con số trên sổ: doanh thu trừ chi phí. Còn dòng tiền là tiền thật chạy ra chạy vào tài khoản. Hai cái lệch nhau, vì lúc bạn ghi nhận một khoản thường khác lúc tiền thực sự về tay.
 
-Ví dụ kinh điển trong bán hàng: bạn nhập một lô hàng phải trả tiền ngay, nhưng bán ra lại cho khách trả sau, hoặc sàn giữ tiền vài ngày mới đối soát. Trên sổ bạn đã "lãi" khi bán, nhưng tiền mặt thì đã ra trước và vào sau. Khoảng trống thời gian đó chính là nơi nhiều doanh nghiệp nhỏ chết — không phải vì kinh doanh tồi, mà vì hết tiền đúng lúc cần.
+Ví dụ quen thuộc với dân bán hàng: nhập lô hàng trả tiền liền, nhưng bán ra thì khách trả sau, hoặc sàn giữ tiền mấy ngày mới đối soát. Trên sổ thì "lãi" rồi đấy, nhưng tiền ra trước, vào sau. Cái khoảng trống đó chính là chỗ nhiều shop gục. Không phải vì làm ăn dở đâu, mà đơn giản là cháy túi đúng lúc cần tiền nhất.
 
-## Vốn lưu động: trái tim của shop bán hàng
+## Tiền của bạn đang nằm ngủ trong kho
 
-Với mô hình bán hàng, phần lớn tiền của bạn nằm trong **hàng tồn kho**. Mỗi đồng bỏ vào hàng chưa bán là một đồng bị "đóng băng". Nhập quá nhiều, bạn kẹt vốn và ôm rủi ro hàng ế; nhập quá ít, bạn lỡ đơn và mất khách. Quản trị dòng tiền trong bán lẻ phần lớn là bài toán cân đối tồn kho.
+Bán hàng thì phần lớn vốn nằm ở hàng tồn. Mỗi đồng đổ vào hàng chưa bán là một đồng bị đóng băng. Nhập nhiều quá thì kẹt vốn, ôm rủi ro hàng ế. Nhập ít quá thì hết hàng, lỡ đơn, mất khách. Nói gọn, quản dòng tiền khi bán lẻ phần lớn là quản cái kho.
 
-Một chỉ số đáng theo dõi là vòng quay hàng tồn: trung bình bao lâu một món hàng từ lúc nhập đến lúc bán hết. Vòng quay càng nhanh, tiền của bạn càng làm việc hiệu quả. Hàng nằm kho ba tháng không chỉ là hàng ế, đó là tiền của bạn đang nằm ngủ.
+Có một con số đáng để mắt: vòng quay hàng tồn, tức trung bình bao lâu một món từ lúc nhập tới lúc bán sạch. Quay càng nhanh thì tiền càng làm việc cho bạn. Còn hàng nằm kho ba tháng thì đừng gọi là tài sản, đó là tiền của bạn đang ngủ.
 
-## Lập dự báo dòng tiền đơn giản
+## Một bảng dòng tiền, khỏi cầu kỳ
 
-Bạn không cần phần mềm phức tạp. Một bảng tính liệt kê theo tuần là đủ: tiền dự kiến vào (đối soát từ sàn, khách trả) và tiền dự kiến ra (nhập hàng, lương, quảng cáo, phí sàn, mặt bằng). Cộng trừ ra số dư cuối mỗi tuần.
+Khỏi cần phần mềm gì ghê gớm. Một file Excel liệt kê theo tuần là đủ: tiền dự kiến vào (sàn đối soát, khách trả) và tiền dự kiến ra (nhập hàng, lương, quảng cáo, phí sàn, mặt bằng). Cộng trừ ra số dư cuối tuần.
 
-Sức mạnh của bảng này là nó giúp bạn *nhìn thấy trước* tuần nào sắp âm tiền, để xoay xở từ sớm thay vì bị động. Phát hiện vấn đề dòng tiền trước ba tuần thì còn cách giải quyết; phát hiện vào ngày phải trả tiền thì chỉ còn cách vay nóng.
+Cái hay là bạn thấy trước tuần nào sắp âm để còn xoay. Biết trước ba tuần thì còn đường giải quyết. Biết vào đúng ngày phải trả tiền thì chỉ còn nước đi vay nóng.
 
-## Những đòn bẩy để cải thiện dòng tiền
+## Vài cách kéo tiền về phía mình
 
-Có vài cách kéo dòng tiền về phía mình. Rút ngắn thời gian thu tiền: ưu tiên hình thức thanh toán nhanh, giảm bán chịu. Kéo dài hợp lý thời gian trả tiền: đàm phán công nợ với nhà cung cấp. Giảm tiền kẹt trong kho: nhập sát nhu cầu, xả sớm hàng chậm luân chuyển thay vì ôm chờ giá.
+Thu nhanh hơn: ưu tiên thanh toán liền, bớt bán chịu. Trả chậm lại trong mức hợp lý: ngồi lại đàm phán công nợ với nhà cung cấp. Và giảm tiền chôn trong kho: nhập sát nhu cầu thôi, hàng nào ì quá thì xả sớm, đừng ôm chờ được giá.
 
-Đặc biệt với người bán trên sàn, hãy nắm rõ chu kỳ đối soát: tiền bán hôm nay về tài khoản sau bao nhiêu ngày, phí sàn trừ bao nhiêu. Lập kế hoạch nhập hàng quanh nhịp tiền về này để không bao giờ rơi vào cảnh có đơn mà không có vốn nhập tiếp.
+Riêng anh em bán sàn, phải thuộc lòng chu kỳ đối soát: bán hôm nay mấy ngày tiền mới về, phí sàn cắn bao nhiêu. Canh lịch nhập theo nhịp tiền về đó, để khỏi rơi vào cảnh đơn thì có mà vốn nhập tiếp thì không.
 
-## Giữ một lớp đệm an toàn
+## Luôn thủ sẵn một khoản đệm
 
-Mọi doanh nghiệp nhỏ nên có một khoản dự phòng tiền mặt — đủ trang trải chi phí cố định trong vài tháng nếu doanh thu đột ngột sụt. Đây không phải tiền chết; đây là tấm đệm giúp bạn không phải ra quyết định tồi dưới áp lực, như bán tháo hàng hay vay lãi cao.
+Shop nào cũng nên có một cục tiền dự phòng, đủ gồng chi phí cố định vài tháng lỡ doanh thu tụt đột ngột. Đây không phải tiền chết. Đây là tấm nệm để bạn khỏi phải ra quyết định dại lúc bí, kiểu bán tháo hàng hay vay lãi cắt cổ.
 
-## Tóm lại
-
-Hãy tách bạch trong đầu: lãi là chuyện của sổ sách, sống còn là chuyện của tiền mặt. Theo dõi dòng tiền đều đặn, dự báo trước vài tuần, quản chặt tồn kho, và giữ một lớp đệm an toàn. Rất nhiều doanh nghiệp có sản phẩm tốt và đang có lãi vẫn gục ngã chỉ vì quản dòng tiền kém — đừng để mình nằm trong số đó.
+Nhớ một câu thôi: lãi là chuyện sổ sách, sống hay chết là chuyện tiền mặt. Theo dõi đều, dự báo trước vài tuần, siết cái kho, thủ sẵn khoản đệm. Nhiều shop sản phẩm ngon, đang lãi hẳn hoi, vẫn ngã chỉ vì quản dòng tiền kém. Đừng nằm trong số đó.

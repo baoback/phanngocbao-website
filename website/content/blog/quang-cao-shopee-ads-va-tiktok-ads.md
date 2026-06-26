@@ -11,36 +11,34 @@ tags:
 draft: false
 ---
 
-Quảng cáo trên sàn là con dao hai lưỡi. Dùng đúng, nó là cách nhanh nhất để đẩy một sản phẩm tiềm năng lên quỹ đạo bán chạy. Dùng sai, nó âm thầm ăn hết lợi nhuận trong khi báo cáo vẫn hiện đầy lượt hiển thị. Khác biệt không nằm ở ngân sách lớn hay nhỏ, mà ở việc bạn có hiểu mình đang trả tiền cho điều gì hay không.
+Quảng cáo trên sàn là con dao hai lưỡi. Dùng đúng thì nó là cách nhanh nhất đẩy một sản phẩm tiềm năng lên top bán chạy. Dùng sai thì nó âm thầm gặm hết lợi nhuận trong khi báo cáo vẫn đầy lượt hiển thị cho bạn vui. Khác nhau không nằm ở ngân sách to hay nhỏ, mà ở chỗ bạn có biết mình đang trả tiền cho cái gì hay không.
 
 ## Hai logic quảng cáo khác nhau
 
-Quảng cáo Shopee chủ yếu nhắm vào *ý định có sẵn*: khách đang tìm kiếm một sản phẩm, và bạn trả tiền để xuất hiện ngay khi họ tìm. Đây là quảng cáo bắt nhu cầu đã chín — gần với việc giành lấy người sắp mua khỏi tay đối thủ.
+Shopee Ads chủ yếu nhắm vào ý định có sẵn: khách đang đi kiếm một món, bạn trả tiền để xuất hiện ngay lúc họ tìm. Đây là kiểu bắt nhu cầu đã chín, gần như là giành lấy người sắp móc ví khỏi tay đối thủ.
 
-Quảng cáo TikTok thì ngược lại: nó *tạo nhu cầu* ở người chưa hề có ý định mua. Bạn trả tiền để đưa nội dung trước mặt người đang lướt giải trí và khiến họ phát sinh mong muốn. Hai logic này đòi hỏi hai cách làm khác nhau — quảng cáo Shopee thắng nhờ đúng từ khóa và giá thầu, quảng cáo TikTok thắng nhờ nội dung đủ cuốn.
+TikTok Ads thì ngược lại, nó tạo nhu cầu ở người chưa hề tính mua gì. Bạn trả tiền để dí nội dung trước mặt người đang lướt cho vui rồi làm họ nổi hứng muốn mua. Hai logic này đòi hai cách làm khác nhau. Shopee thắng nhờ đúng từ khóa và giá thầu, còn TikTok thắng nhờ nội dung đủ cuốn. Lẫn lộn hai cái là dễ đốt tiền oan.
 
-## Đừng quảng cáo cho một sản phẩm chưa sẵn sàng
+## Đừng quảng cáo cho hàng chưa sẵn sàng
 
-Sai lầm tốn kém nhất là đổ tiền quảng cáo vào một sản phẩm mà trang bán còn yếu. Quảng cáo chỉ làm một việc: đưa nhiều người hơn đến cửa hàng. Nếu hình ảnh xấu, giá không cạnh tranh, hoặc chưa có đánh giá để tạo niềm tin, bạn chỉ đang trả tiền để nhiều người hơn xem rồi bỏ đi.
+Sai lầm tốn nhất là đổ tiền ads vào một sản phẩm mà trang bán còn yếu. Quảng cáo chỉ làm đúng một việc thôi: lùa thêm người tới cửa hàng. Ảnh xấu, giá không cạnh tranh, chưa có review nào để khách tin thì bạn chỉ đang trả tiền để nhiều người hơn ghé vào, liếc một cái rồi bỏ đi.
 
-Vì vậy, trước khi bật quảng cáo, hãy đảm bảo sản phẩm có thể *tự bán* ở mức nào đó với lượng truy cập tự nhiên: hình ảnh tốt, mô tả rõ, vài đánh giá tích cực, giá hợp lý. Quảng cáo nên là chất xúc tác cho một sản phẩm đã có tỷ lệ chuyển đổi ổn, chứ không phải cách cứu một sản phẩm bán không nổi.
+Cho nên trước khi bật ads, lo cho sản phẩm tự bán được ở mức nào đó với traffic tự nhiên đã: ảnh ngon, mô tả rõ, vài đánh giá tốt, giá hợp lý. Quảng cáo nên là cú hích cho một sản phẩm vốn đã có tỷ lệ chốt đơn ổn, chứ không phải cái phao cứu một món bán mãi không nổi. Cứu kiểu đó chỉ tốn tiền thêm.
 
-## Chỉ số phải dẫn tới lợi nhuận
+## Chỉ số phải dẫn về lợi nhuận
 
-Đừng để bị mê hoặc bởi lượt hiển thị hay lượt nhấp. Con số duy nhất thực sự quan trọng là *quảng cáo có sinh lời không*. Hãy bám vào chỉ số doanh thu trên chi phí quảng cáo và chi phí để có một đơn hàng, rồi đối chiếu với biên lợi nhuận thật của sản phẩm.
+Đừng để bị mê hoặc bởi lượt hiển thị với lượt click. Con số duy nhất thật sự đáng quan tâm là quảng cáo có sinh lời không. Bám vào doanh thu trên chi phí quảng cáo (ROAS) và chi phí để có một đơn, rồi đối chiếu với biên lợi nhuận thật của sản phẩm. Thế thôi.
 
-Đây là chỗ nhiều người bán tự lừa mình: họ nhìn doanh số quảng cáo tăng mà quên rằng phần lớn lợi nhuận đã chảy vào tiền quảng cáo và phí sàn. Một chiến dịch "ra đơn ầm ầm" có thể đang lỗ ròng. Hãy luôn tính đến điểm hòa vốn: với biên lợi nhuận của bạn, quảng cáo được phép tốn tối đa bao nhiêu cho một đơn trước khi bắt đầu lỗ.
+Đây là chỗ nhiều người tự lừa mình: thấy doanh số từ ads tăng vù vù mà quên rằng phần lớn lãi đã chảy hết vào tiền quảng cáo với phí sàn. Một chiến dịch "ra đơn ầm ầm" hoàn toàn có thể đang lỗ ròng đấy. Cứ tính sẵn điểm hòa vốn đi: với biên lợi nhuận của mình, ads được phép tốn tối đa bao nhiêu cho một đơn trước khi bắt đầu lỗ. Biết con số đó rồi thì khó hớ.
 
-## Bắt đầu nhỏ, đọc dữ liệu, rồi mới mở rộng
+## Bắt đầu nhỏ, đọc số, rồi mới mở rộng
 
-Cách an toàn để vào quảng cáo là bắt đầu với ngân sách nhỏ trên vài sản phẩm tiềm năng, để hệ thống chạy đủ lâu thu thập dữ liệu, rồi mới kết luận. Đừng vội tắt sau nửa ngày, cũng đừng đổ thêm tiền chỉ vì sốt ruột.
+Cách an toàn để vào ads là khởi động với ngân sách nhỏ trên vài sản phẩm tiềm năng, để hệ thống chạy đủ lâu mà gom dữ liệu, rồi mới kết luận. Đừng nóng ruột tắt sau nửa ngày, mà cũng đừng đổ thêm tiền chỉ vì sốt ruột muốn thấy kết quả nhanh.
 
-Khi dữ liệu đủ rõ, quy tắc đơn giản: tắt những gì lỗ, dồn ngân sách cho những gì lãi, và mở rộng từ từ. Tăng ngân sách quá nhanh đôi khi làm hiệu quả tụt vì hệ thống phải học lại — hãy nâng dần và quan sát.
+Khi số liệu đủ rõ thì quy tắc đơn giản thôi: cái nào lỗ thì tắt, cái nào lãi thì dồn ngân sách vào, rồi mở rộng từ từ. Tăng ngân sách đột ngột đôi khi làm hiệu quả tụt vì hệ thống phải học lại từ đầu. Cứ nâng dần và quan sát, đừng vội.
 
-## Quảng cáo và tự nhiên nuôi nhau
+## Quảng cáo với tự nhiên nuôi nhau
 
-Một lợi ích ít người để ý: lượt bán đến từ quảng cáo cũng tạo ra đánh giá và tín hiệu bán chạy, vốn lại giúp sản phẩm leo thứ hạng tự nhiên. Dùng khéo, quảng cáo là cú hích ban đầu để một sản phẩm mới tích lũy đủ uy tín, sau đó tự đứng được mà không cần bơm tiền mãi.
+Một cái lợi ít người để ý: lượt bán đến từ ads cũng đẻ ra review với tín hiệu bán chạy, mà mấy thứ đó lại giúp sản phẩm leo thứ hạng tự nhiên. Khéo léo một chút thì ads là cú đẩy ban đầu để một món mới gom đủ uy tín, sau đó nó tự đứng được mà không cần bơm tiền hoài.
 
-## Tóm lại
-
-Hãy hiểu đúng logic của từng nền tảng, chỉ quảng cáo cho sản phẩm đã đủ sức tự bán, đo lường bằng chỉ số dẫn tới lợi nhuận thật chứ không phải con số bề mặt, và mở rộng dựa trên dữ liệu chứ không phải cảm xúc. Quảng cáo trên sàn không phải phép màu — nó là một cách mua tăng trưởng có tính toán, và chỉ đáng làm khi mỗi đồng bỏ ra mang về nhiều hơn một đồng.
+Túm lại: hiểu đúng logic từng nền tảng, chỉ ads cho hàng đã đủ sức tự bán, đo bằng chỉ số dẫn về lợi nhuận thật chứ đừng nhìn con số bề mặt, và mở rộng dựa trên số liệu chứ không dựa trên cảm xúc. Ads không phải phép màu, nó là cách mua tăng trưởng có tính toán, và chỉ đáng làm khi mỗi đồng bỏ ra mang về nhiều hơn một đồng.

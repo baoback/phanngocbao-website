@@ -11,42 +11,42 @@ tags:
 draft: false
 ---
 
-Có một câu hỏi mà sếp cũ của mình hay hỏi mỗi cuối tháng: "Tiền mình tiêu marketing tháng này đổi lại được gì?" Lúc mới đi làm, mình hay trả lời bằng những thứ nghe rất kêu: lượt tiếp cận, lượt thích, độ phủ thương hiệu. Nhưng câu trả lời thật ra né tránh điều quan trọng nhất — có ra tiền hay không. Đó là lúc mình bắt đầu nghiêm túc với Marketing Performance.
+Sếp cũ của mình có một câu hỏi quen thuộc, cứ cuối tháng là lôi ra: "Tiền tiêu marketing tháng này đổi lại được gì?". Hồi mới đi làm, mình hay trả lời bằng mấy thứ nghe rất kêu. Lượt tiếp cận này, lượt thích này, độ phủ thương hiệu này. Nghe thì oách, nhưng nói thật là né. Né cái câu hỏi thật sự quan trọng: có ra tiền hay không. Sau vài lần ấp úng như vậy, mình mới bắt đầu nghiêm túc với Marketing Performance.
 
-## Marketing Performance là gì
+## Nói cho dễ hiểu thì nó là gì
 
-Hiểu đơn giản, Marketing Performance là cách làm marketing mà mọi hoạt động đều gắn với một kết quả đo được, và bạn chỉ trả tiền (hoặc đánh giá) dựa trên kết quả đó. Thay vì hỏi "chiến dịch này có vẻ hiệu quả không", bạn hỏi "chiến dịch này tạo ra bao nhiêu khách hàng, với chi phí bao nhiêu một khách".
+Marketing Performance, gọn lại, là làm marketing mà cái gì cũng phải gắn với một kết quả đo được. Bạn trả tiền, hoặc đánh giá hiệu quả, dựa trên đúng kết quả đó. Thay vì ngồi đoán "chiến dịch này nhìn có vẻ ổn ha", bạn hỏi thẳng: chiến dịch này ra được bao nhiêu khách, mỗi khách tốn bao nhiêu.
 
-Nó không phủ nhận giá trị của thương hiệu hay cảm xúc. Nó chỉ yêu cầu rằng phần lớn ngân sách phải chứng minh được mình đáng giá bằng dữ liệu, chứ không bằng cảm tính.
+Nó không phủ nhận chuyện thương hiệu hay cảm xúc đâu nha. Chỉ là phần lớn ngân sách phải tự chứng minh được mình đáng đồng tiền, bằng dữ liệu, chứ không bằng cảm tính.
 
-## Vì sao nó quan trọng
+## Tại sao phải quan tâm
 
-Khi ngân sách còn dư dả, người ta dễ tha thứ cho những khoản chi mơ hồ. Nhưng thị trường càng khó, câu hỏi "đổi lại được gì" càng gắt. Marketing Performance cho bạn một lợi thế: bạn biết tắt cái gì, mở cái gì, và rót thêm tiền vào đâu — tất cả dựa trên bằng chứng.
+Khi tiền còn rủng rỉnh, người ta dễ tặc lưỡi cho qua mấy khoản chi mơ hồ. Nhưng thị trường càng khó thì câu "đổi lại được gì" càng gắt. Làm theo hướng performance cho bạn một thứ rất sướng: biết tắt cái gì, mở cái gì, rót thêm tiền vào đâu. Tất cả dựa trên bằng chứng, không phải linh cảm.
 
-Nó cũng thay đổi cách bạn nói chuyện với sếp hoặc khách hàng. Thay vì thuyết phục bằng tính từ, bạn đặt lên bàn một con số: bỏ ra 10 triệu, thu về 35 triệu doanh thu. Cuộc trò chuyện lập tức khác hẳn.
+Nó còn đổi luôn cách bạn nói chuyện với sếp hay với khách. Thay vì thuyết phục bằng một mớ tính từ, bạn đặt lên bàn một con số: bỏ 10 triệu, thu về 35 triệu doanh thu. Tin mình đi, không khí buổi họp khác hẳn.
 
-## Vài chỉ số mình luôn nhìn
+## Bốn con số mình luôn ngó tới
 
-Bạn không cần đo tất cả mọi thứ. Mình thường bắt đầu với bốn con số:
+Không cần đo hết mọi thứ trên đời đâu. Mình thường bắt đầu với bốn cái này thôi.
 
-**CPA — chi phí cho một kết quả.** Bao nhiêu tiền để có một khách hàng, một đơn hàng, hay một lượt đăng ký. Đây là con số kéo bạn về thực tế nhanh nhất.
+**CPA, tức chi phí cho một kết quả.** Bao nhiêu tiền để ra một khách, một đơn, hay một lượt đăng ký. Đây là con số kéo bạn về mặt đất nhanh nhất.
 
-**ROAS — doanh thu trên mỗi đồng quảng cáo.** Bỏ ra một đồng, thu về mấy đồng. ROAS bằng 1 nghĩa là hòa vốn quảng cáo, chưa tính các chi phí khác.
+**ROAS, doanh thu trên mỗi đồng quảng cáo.** Bỏ một đồng, thu về mấy đồng. ROAS bằng 1 là hòa vốn quảng cáo, mà mới chỉ tính riêng tiền quảng cáo thôi, chưa đụng tới các chi phí khác.
 
-**Tỷ lệ chuyển đổi.** Trong 100 người nhìn thấy, bao nhiêu người thực sự hành động. Con số này cho biết vấn đề nằm ở quảng cáo hay nằm ở trang đích, ở sản phẩm.
+**Tỷ lệ chuyển đổi.** Trong 100 người nhìn thấy, mấy người thật sự bấm vào, thật sự hành động. Con số này cho biết vấn đề nằm ở quảng cáo hay nằm ở trang đích, ở sản phẩm.
 
-**LTV — giá trị vòng đời khách hàng.** Một khách mang lại bao nhiêu trong suốt thời gian họ ở lại. Nếu LTV cao, bạn có thể mạnh tay hơn ở CPA mà vẫn lãi.
+**LTV, giá trị vòng đời khách hàng.** Một khách mang về bao nhiêu trong suốt thời gian họ ở lại với bạn. LTV mà cao thì bạn được phép mạnh tay hơn ở CPA mà vẫn lãi.
 
-Bốn con số này soi vào nhau. Một CPA "đắt" chưa chắc là xấu nếu LTV đủ lớn.
+Bốn con số này soi vào nhau chứ không đứng riêng. Một cái CPA nhìn "đắt" chưa chắc đã xấu, nếu LTV đủ lớn để gánh.
 
-## Cái bẫy dễ mắc nhất
+## Cái bẫy ai cũng dễ dính
 
-Đo lường giỏi không có nghĩa là tối ưu mọi thứ về con số ngắn hạn. Mình từng thấy những đội ép CPA xuống thấp bằng cách chỉ chạy nhắm vào người đã gần như chắc chắn mua. Báo cáo đẹp, nhưng thực ra họ đang trả tiền cho những đơn hàng vốn dĩ đã đến.
+Đo giỏi không có nghĩa là ép mọi thứ về con số đẹp trong ngắn hạn. Mình từng thấy mấy đội kéo CPA xuống thật thấp bằng cách chỉ nhắm vào người gần như chắc chắn sẽ mua. Báo cáo nhìn long lanh, nhưng thực ra họ đang trả tiền cho những đơn vốn dĩ đã tự đến. Mua rồi cũng mua.
 
-Performance tốt là khi bạn đo được cả phần khó đo: bao nhiêu khách mới thật sự được tạo ra, chứ không phải gặt lại thứ mình đã có. Con số phải phục vụ cho quyết định, chứ không phải để báo cáo cho đẹp.
+Performance ngon là khi bạn đo được cả phần khó đo: bao nhiêu khách mới thật sự được tạo ra, chứ không phải gặt lại thứ mình đã có sẵn. Con số sinh ra để phục vụ quyết định, không phải để báo cáo cho oách.
 
-## Bắt đầu từ đâu
+## Vậy bắt đầu từ đâu
 
-Nếu bạn đang làm marketing mà chưa theo hướng performance, đừng dựng cả hệ thống đo lường phức tạp ngay. Hãy chọn một mục tiêu rõ ràng — ví dụ số lượt đăng ký tư vấn — gắn nó với một cách đo trung thực, rồi chạy thử một chiến dịch nhỏ. Nhìn con số, điều chỉnh, chạy tiếp.
+Nếu bạn đang làm marketing mà chưa theo hướng này, đừng dại mà dựng cả một hệ thống đo lường phức tạp ngay. Chọn một mục tiêu rõ ràng thôi, ví dụ số lượt đăng ký tư vấn. Gắn nó với một cách đo trung thực, rồi chạy thử một chiến dịch nhỏ. Nhìn số, sửa, chạy tiếp. Cứ vòng vòng như vậy.
 
-Marketing Performance không phải là một công cụ hay một nền tảng quảng cáo nào đó. Nó là một thói quen: luôn hỏi "đổi lại được gì", và đủ kỷ luật để tin vào câu trả lời, kể cả khi nó không như mình mong.
+Mà nói cho cùng, Marketing Performance đâu phải một cái công cụ hay nền tảng quảng cáo nào. Nó là một thói quen: cứ hỏi "đổi lại được gì", và đủ lì để tin vào câu trả lời, kể cả khi nó phũ phàng hơn mình tưởng.

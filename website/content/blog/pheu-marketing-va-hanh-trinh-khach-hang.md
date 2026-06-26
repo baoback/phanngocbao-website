@@ -11,38 +11,36 @@ tags:
 draft: false
 ---
 
-Có một câu hỏi đơn giản khiến nhiều người làm marketing lúng túng: "Doanh thu không tăng, vậy vấn đề nằm ở đâu?" Nếu bạn không có một bản đồ về hành trình khách hàng, mọi câu trả lời đều là phỏng đoán. Phễu marketing chính là bản đồ đó.
+Có một câu hỏi nghe đơn giản mà làm nhiều người chạy quảng cáo đứng hình: "Doanh thu không nhúc nhích, vậy rốt cuộc kẹt ở đâu?" Mà nếu trong đầu bạn không có cái bản đồ về việc khách đi từ A tới Z thế nào, thì mọi câu trả lời chỉ là đoán mò. Phễu marketing chính là cái bản đồ đó.
 
-## Phễu marketing là gì
+## Phễu marketing rốt cuộc là cái gì
 
-Phễu mô tả các giai đoạn một người đi qua từ lúc chưa biết bạn đến lúc trở thành khách hàng trung thành. Cách diễn đạt cổ điển là: nhận biết, quan tâm, cân nhắc, quyết định. Mỗi giai đoạn, số người còn lại ít dần — nên gọi là phễu.
+Phễu mô tả các giai đoạn một người đi qua, từ lúc còn chưa biết bạn là ai cho tới lúc thành khách ruột. Kiểu cổ điển hay nói là: nhận biết, quan tâm, cân nhắc, rồi quyết định. Qua mỗi chặng số người rơi rụng bớt, nên người ta vẽ nó hình cái phễu.
 
-Giá trị của mô hình không nằm ở cái tên các giai đoạn, mà ở tư duy nó tạo ra: thay vì hỏi "làm sao bán được hàng", bạn hỏi "người ta rơi rụng nhiều nhất ở khâu nào, và vì sao". Đó là sự khác biệt giữa đoán mò và chẩn đoán.
+Nhưng giá trị thật không nằm ở mấy cái tên đó đâu. Nó nằm ở chỗ nó đổi cách bạn suy nghĩ. Thay vì hỏi "làm sao bán được hàng", bạn bắt đầu hỏi "người ta rớt nhiều nhất ở chặng nào, và tại sao họ rớt". Khác nhau một trời một vực giữa đoán bừa và chẩn đoán cho ra bệnh.
 
-## AARRR: phiên bản thực dụng cho người tăng trưởng
+## AARRR, bản dành cho dân thích ra số
 
-Một biến thể được dân tăng trưởng ưa dùng là **AARRR**, gồm năm bước: thu hút (acquisition), kích hoạt (activation), giữ chân (retention), giới thiệu (referral), và doanh thu (revenue). Cái hay của mô hình này là nó không dừng ở lần mua đầu, mà bao gồm cả việc giữ chân và lan truyền — nơi lợi nhuận thật sự thường nằm.
+Dân làm tăng trưởng khoái một biến thể tên là **AARRR**, gồm năm bước: thu hút (acquisition), kích hoạt (activation), giữ chân (retention), giới thiệu (referral), và doanh thu (revenue). Cái hay là nó không dừng lại ở lần mua đầu tiên. Nó tính luôn cả chuyện khách quay lại và rủ thêm người, mà tiền thật thường nằm đúng ở mấy chỗ này.
 
-Hãy xem từng bước như một câu hỏi cụ thể. Thu hút: người ta tìm thấy bạn bằng cách nào? Kích hoạt: lần đầu trải nghiệm, họ có nhận ra giá trị không? Giữ chân: họ có quay lại không? Giới thiệu: họ có rủ người khác không? Doanh thu: bạn kiếm tiền từ họ ở đâu?
+Bạn cứ coi mỗi bước là một câu hỏi cụ thể. Thu hút: người ta mò ra bạn bằng cách nào? Kích hoạt: lần đầu xài thử, họ có "à há, hay đấy" không? Giữ chân: họ có quay lại không? Giới thiệu: họ có khoe với bạn bè không? Còn doanh thu: bạn móc được tiền từ họ ở khúc nào?
 
-## Vì sao tăng lưu lượng đôi khi vô ích
+## Vì sao đổ thêm khách đôi khi chẳng được gì
 
-Đây là bài học đắt giá mà nhiều người học muộn: đổ thêm người vào đỉnh phễu không giúp ích gì nếu khâu rò rỉ nằm ở giữa. Nếu cứ 100 người ghé trang chỉ 1 người mua, việc tăng từ 1.000 lên 2.000 lượt ghé chỉ làm tăng chi phí, trong khi sửa tỷ lệ chuyển đổi từ 1% lên 2% sẽ nhân đôi kết quả mà không tốn thêm một đồng quảng cáo.
+Bài học này nhiều người trả học phí khá đắt mới hiểu: đổ thêm người vào miệng phễu vô nghĩa nếu chỗ rò rỉ nằm ở khúc giữa. Cứ 100 người ghé mà chỉ 1 người chốt, thì việc kéo từ 1.000 lên 2.000 lượt ghé chỉ tổ tốn thêm tiền. Trong khi đó nếu sửa tỷ lệ chuyển đổi từ 1% lên 2% thôi, kết quả đã nhân đôi mà không tốn thêm một đồng quảng cáo nào.
 
-Vì vậy, trước khi xin thêm ngân sách để kéo lưu lượng, hãy soi xem khâu nào đang rò rỉ nặng nhất. Thường thì sửa một điểm tắc ở giữa phễu rẻ và hiệu quả hơn nhiều so với mở rộng miệng phễu.
+Nên trước khi xin sếp thêm ngân sách để kéo traffic, ngồi soi lại xem khâu nào đang rò nặng nhất đã. Vá một chỗ tắc ở giữa phễu thường rẻ và đã hơn nhiều so với việc nong rộng cái miệng phễu ra.
 
-## Mỗi giai đoạn cần một loại nội dung khác
+## Mỗi chặng cần một kiểu nội dung khác
 
-Một lý do nội dung không chuyển đổi là vì nó nói sai ngôn ngữ của giai đoạn. Người ở đỉnh phễu chưa sẵn sàng nghe bạn chào bán; họ cần được giúp đỡ, được giáo dục. Người ở đáy phễu thì ngược lại — họ đã cân nhắc xong và cần bằng chứng, đánh giá, một lời mời rõ ràng.
+Một lý do khiến nội dung không ra đơn: nó nói sai ngôn ngữ của chặng đó. Người mới ở miệng phễu chưa sẵn sàng nghe bạn chào hàng đâu, họ cần được giúp, được chỉ cho cái gì đó. Còn người ở đáy phễu thì ngược lại, họ cân nhắc xong xuôi rồi, giờ chỉ cần bằng chứng, review, một lời mời gọn gàng dứt khoát.
 
-Sai lầm hay gặp là dùng nội dung bán hàng cho người mới biết bạn, hoặc ngược lại, nuôi dưỡng mãi một người đã sẵn sàng mua. Khi bạn xếp đúng nội dung vào đúng giai đoạn, toàn bộ hệ thống chảy mượt hơn hẳn.
+Lỗi hay gặp là quăng nội dung bán hàng vào mặt người vừa mới biết bạn. Hoặc ngược lại, cứ nuôi dưỡng dài dòng một người rõ ràng đã muốn móc ví. Xếp đúng nội dung vào đúng chặng thôi là cả hệ thống tự nhiên chảy mượt hẳn.
 
-## Đo lường theo từng khâu
+## Đo theo từng khâu, đừng đo mỗi cái cuối
 
-Sức mạnh của tư duy phễu là nó cho bạn các chỉ số theo từng bước, thay vì chỉ một con số doanh thu mơ hồ ở cuối. Bạn đo được tỷ lệ chuyển từ bước này sang bước kế tiếp, và lập tức thấy khâu nào yếu nhất.
+Cái sướng của tư duy phễu là nó cho bạn số liệu ở từng bước, thay vì một con số doanh thu mơ hồ ở cuối đường. Bạn đo được tỷ lệ người đi từ bước này sang bước kế, và nhìn phát là thấy ngay khâu nào đang yếu.
 
-Khi đã định vị được điểm rò rỉ, mọi nỗ lực tối ưu trở nên tập trung. Bạn không còn cải thiện mọi thứ cùng lúc một cách lan man; bạn dồn sức vào đúng chỗ đang khiến cả hệ thống nghẽn.
+Khi đã khoanh vùng được chỗ rò, mọi nỗ lực tối ưu bỗng có địa chỉ. Không còn cảnh cải thiện tùm lum mọi thứ cùng lúc rồi đâu lại vào đấy. Bạn dồn sức đúng vào cái khúc đang làm nghẽn cả dây chuyền.
 
-## Bắt đầu từ việc vẽ phễu của chính bạn
-
-Hãy ngồi xuống và vẽ ra hành trình thực tế của khách hàng bạn, từ điểm chạm đầu tiên đến lúc mua và quay lại. Gắn con số vào mỗi bước nếu có thể. Bạn gần như chắc chắn sẽ phát hiện một khâu rò rỉ mà trước đây mình không để ý — và đó thường là cơ hội tăng trưởng rẻ nhất bạn đang bỏ lỡ.
+Giờ thì làm thử đi: lấy giấy bút ra vẽ hành trình thật của khách bạn, từ điểm chạm đầu tiên tới lúc mua và quay lại. Có số thì gắn số vào từng bước. Mình cá là bạn sẽ lòi ra một chỗ rò mà lâu nay chẳng để ý, và đó thường là cơ hội tăng trưởng rẻ nhất đang nằm chình ình mà bạn bỏ quên.

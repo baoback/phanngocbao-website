@@ -11,40 +11,40 @@ tags:
 draft: false
 ---
 
-Nhiều người tuyên bố email marketing đã chết. Thực ra thứ đã chết là kiểu gửi một thông điệp giống hệt nhau cho toàn bộ danh sách. Email vẫn là kênh có tỷ suất hoàn vốn cao bậc nhất, với điều kiện bạn ngừng coi nó là cái loa phát thanh và bắt đầu coi nó là một cuộc trò chuyện theo ngữ cảnh.
+Cứ vài bữa lại nghe ai đó tuyên bố email marketing chết rồi. Thật ra cái chết là kiểu gửi một thông điệp y hệt nhau cho cả danh sách. Còn email thì vẫn là một trong những kênh có tỷ suất hoàn vốn cao nhất, với điều kiện bạn ngừng coi nó là cái loa phát thanh và bắt đầu coi nó là một cuộc trò chuyện đúng ngữ cảnh.
 
-## Tư duy vòng đời thay vì tư duy chiến dịch
+## Nghĩ theo vòng đời, đừng nghĩ theo chiến dịch
 
-Mỗi người trong danh sách của bạn đang ở một giai đoạn khác nhau: người vừa để lại email lần đầu, người đã mua một lần, người mua thường xuyên, người đã lâu không tương tác. Gửi cùng một email cho tất cả là lãng phí. Người mới cần được làm quen; khách trung thành cần được ghi nhận; người đang nguội cần một lý do để quay lại.
+Mỗi người trong danh sách của bạn đang đứng ở một chỗ khác nhau. Người vừa để lại email lần đầu, người đã mua một lần, người mua đều đều, người lâu rồi chẳng đoái hoài. Gửi chung một email cho hết thảy là phí. Người mới thì cần được làm quen, khách ruột thì cần được ghi nhận, người đang nguội thì cần một cái cớ để quay lại.
 
-Tư duy vòng đời đặt câu hỏi khác: ở mỗi giai đoạn, người này cần nghe điều gì để tiến một bước? Khi bạn trả lời được câu hỏi đó, các chuỗi email gần như tự thiết kế ra.
+Tư duy vòng đời đặt câu hỏi khác hẳn: ở mỗi giai đoạn, người này cần nghe gì để nhích thêm một bước? Khi bạn trả lời được câu đó, các chuỗi email gần như tự nó hiện ra.
 
-## Bốn chuỗi tự động nền tảng
+## Bốn chuỗi tự động nên dựng trước
 
-Có vài chuỗi tự động mang lại phần lớn giá trị, và bạn nên dựng chúng trước.
+Có vài chuỗi mang về phần lớn giá trị, và bạn nên dựng chúng đầu tiên.
 
-**Chuỗi chào mừng.** Khi ai đó đăng ký, đây là lúc họ quan tâm nhất. Đừng để im lặng. Một chuỗi 3–4 email giới thiệu bạn là ai, mang lại giá trị ngay, và dẫn họ tới hành động đầu tiên. Email đầu tiên nên gửi trong vài phút, khi sự chú ý còn nóng.
+**Chuỗi chào mừng.** Khi ai đó vừa đăng ký, đó là lúc họ quan tâm tới bạn nhất. Đừng để im lặng. Một chuỗi 3 tới 4 email giới thiệu bạn là ai, mang lại giá trị ngay, rồi dẫn họ tới hành động đầu tiên. Email đầu tiên nên gửi trong vài phút, lúc sự chú ý còn nóng hổi.
 
-**Chuỗi nuôi dưỡng.** Với người chưa sẵn sàng mua, bạn cung cấp giá trị đều đặn — mẹo, câu chuyện, hướng dẫn — để giữ mối quan hệ ấm cho tới khi họ chín.
+**Chuỗi nuôi dưỡng.** Với người chưa sẵn sàng mua, bạn cứ đều đặn cho họ giá trị. Mẹo này, câu chuyện kia, hướng dẫn nọ. Giữ mối quan hệ ấm cho tới khi họ chín.
 
-**Chuỗi giỏ hàng bị bỏ quên (hoặc tương đương).** Khi ai đó thể hiện ý định rõ rệt rồi dừng lại, một lời nhắc nhẹ nhàng đúng lúc thường mang lại tỷ lệ chuyển đổi cao bất ngờ, vì bạn nhắm vào người đã gần ra quyết định.
+**Chuỗi giỏ hàng bị bỏ quên (hoặc cái gì tương đương).** Khi ai đó đã thể hiện ý định rõ ràng rồi bỗng dưng dừng lại, một lời nhắc nhẹ nhàng đúng lúc thường ra tỷ lệ chuyển đổi cao bất ngờ. Đơn giản vì bạn đang nhắm vào người đã gần chốt.
 
-**Chuỗi tái kích hoạt.** Với người đã lâu không mở email, một chiến dịch "chúng tôi nhớ bạn" hoặc một ưu đãi đặc biệt giúp khơi lại — hoặc giúp bạn dọn sạch danh sách những địa chỉ đã chết.
+**Chuỗi tái kích hoạt.** Với người lâu rồi không thèm mở email, một chiến dịch kiểu "chúng tôi nhớ bạn" hoặc một ưu đãi đặc biệt sẽ khơi lại được. Hoặc, ít ra, giúp bạn dọn sạch những địa chỉ đã chết hẳn.
 
-## Kích hoạt bằng hành vi, không phải lịch cố định
+## Kích hoạt bằng hành vi, đừng theo lịch cứng
 
-Sức mạnh thật sự của automation là gửi theo *hành vi* chứ không theo lịch. Một người vừa đọc trang giá nên nhận thông điệp khác với người vừa tải tài liệu cho người mới. Khi email phản hồi đúng việc người ta vừa làm, nó cảm giác như được viết riêng — và tỷ lệ tương tác phản ánh điều đó.
+Cái hay thật sự của automation là gửi theo hành vi chứ không theo lịch cố định. Một người vừa đọc trang giá nên nhận thông điệp khác với người vừa tải tài liệu cho người mới. Khi email phản hồi đúng việc người ta vừa làm, nó cho cảm giác như được viết riêng cho họ. Và tỷ lệ tương tác phản ánh đúng điều đó.
 
-Bạn không cần công cụ đắt tiền để bắt đầu. Hầu hết nền tảng email phổ biến đều cho phép tạo luồng dựa trên hành động: mở email, nhấp liên kết, ghé một trang. Hãy bắt đầu với một quy tắc đơn giản và mở rộng dần.
+Không cần công cụ đắt tiền mới làm được đâu. Hầu hết nền tảng email phổ biến đều cho bạn tạo luồng dựa trên hành động: mở email, nhấp liên kết, ghé một trang nào đó. Cứ bắt đầu với một quy tắc đơn giản, rồi mở rộng dần.
 
-## Đo cái đúng
+## Đo cho đúng cái
 
-Tỷ lệ mở từng là chỉ số vàng, nhưng nó ngày càng kém tin cậy do các cơ chế bảo vệ quyền riêng tư. Hãy nhìn sâu hơn: tỷ lệ nhấp, tỷ lệ chuyển đổi từ email, và doanh thu trên mỗi người nhận. Một danh sách nhỏ mà tương tác cao luôn giá trị hơn một danh sách lớn mà im lìm.
+Tỷ lệ mở từng là chỉ số vàng, nhưng giờ nó ngày càng kém tin cậy vì mấy cơ chế bảo vệ quyền riêng tư. Nhìn sâu hơn đi: tỷ lệ nhấp, tỷ lệ chuyển đổi từ email, và doanh thu trên mỗi người nhận. Một danh sách nhỏ mà tương tác cao luôn đáng giá hơn một danh sách to đùng mà im lìm.
 
-Cũng đừng ngại làm danh sách nhỏ lại. Giữ những địa chỉ không bao giờ mở email chỉ làm hỏng khả năng gửi đến hộp thư đến của bạn. Một danh sách sạch, tự nguyện, và tương tác tốt là tài sản; một danh sách phình to nhưng nguội lạnh là gánh nặng.
+Mà cũng đừng ngại làm danh sách nhỏ lại. Cứ giữ những địa chỉ không bao giờ mở email chỉ tổ làm hỏng khả năng vào hộp thư đến của bạn thôi. Một danh sách sạch, tự nguyện, tương tác tốt là tài sản. Còn một danh sách phình to nhưng nguội ngắt là gánh nặng.
 
-## Khởi đầu thực tế
+## Khởi đầu cho thực tế
 
-Nếu bạn chưa có gì, hãy dựng chuỗi chào mừng trước. Đó là chuỗi cho lợi tức nhanh nhất vì nó đón người ta đúng lúc họ quan tâm nhất. Khi nó chạy ổn, thêm chuỗi nuôi dưỡng, rồi đến các chuỗi còn lại.
+Chưa có gì hết thì dựng chuỗi chào mừng trước. Đó là chuỗi cho lợi tức nhanh nhất, vì nó đón người ta đúng lúc họ quan tâm nhất. Khi nó chạy ổn rồi thì thêm chuỗi nuôi dưỡng, rồi tới mấy chuỗi còn lại sau.
 
-Email làm tốt không phải là spam — nó là việc xuất hiện hữu ích, đúng lúc, trong một không gian riêng tư mà người ta đã cho phép bạn bước vào. Hãy đối xử với sự cho phép đó một cách trân trọng, và nó sẽ trả lại bạn bằng lòng tin.
+Email làm cho tử tế thì không phải spam. Nó là việc bạn xuất hiện hữu ích, đúng lúc, trong một không gian riêng tư mà người ta đã cho phép bạn bước vào. Trân trọng cái sự cho phép đó, rồi nó sẽ trả lại bạn bằng lòng tin.
