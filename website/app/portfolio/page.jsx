@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import { getProjectsPage, getFeaturedProjects } from '@/lib/posts';
 
+const ppDesc = 'Dự án Marketing thực chiến — thương hiệu, performance và content. Các thương hiệu đã hợp tác.';
 export const metadata = {
   title: 'Dự án · Phan Ngọc Bảo',
-  description: 'Dự án Marketing thực chiến — thương hiệu, performance và content. Các thương hiệu đã hợp tác.',
+  description: ppDesc,
+  alternates: { canonical: '/portfolio' },
+  openGraph: { title: 'Dự án · Phan Ngọc Bảo', description: ppDesc, url: 'https://phanngocbao.vn/portfolio', type: 'website' },
 };
 
 function ProjectCard({ p }) {
