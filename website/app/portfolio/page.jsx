@@ -37,7 +37,7 @@ export default function PortfolioPage() {
   const pg = getProjectsPage();
   const projects = getFeaturedProjects().slice(0, 6);
   const marquee = Array.isArray(pg.marquee) ? pg.marquee.filter(Boolean) : [];
-  const brands = Array.isArray(pg.brands) ? pg.brands.filter((b) => b && (b.name || b.logo)) : [];
+  const brands = Array.isArray(pg.brands) ? pg.brands.filter(Boolean) : [];
   const services = Array.isArray(pg.services) ? pg.services.filter((s) => s && s.title) : [];
 
   return (
@@ -80,8 +80,19 @@ export default function PortfolioPage() {
             </div>
             <div className="pp-brands">
               {brands.map((b, i) => (
-                <div className="pp-brand reveal-up" key={i} title={b.name}>
-                  {b.logo ? <img src={b.logo} alt={b.name} loading="lazy" /> : <span>{b.name}</span>}
+                <div className={`pp-brand reveal-up${b.logo ? '' : ' pp-brand--empty'}`} key={i} title={b.name || 'Ô chờ logo'}>
+                  {b.logo ? (
+                    <img src={b.logo} alt={b.name || 'Logo'} loading="lazy" />
+                  ) : (
+                    <span className="pp-brand-ph">
+                      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="9" cy="9" r="2" />
+                        <path d="m21 15-3.5-3.5L9 20" />
+                      </svg>
+                      <span>{b.name || 'Logo'}</span>
+                    </span>
+                  )}
                 </div>
               ))}
             </div>
