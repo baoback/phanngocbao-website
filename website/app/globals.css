@@ -2097,7 +2097,7 @@ body.pf-immersive { background:#0c0b09; }
 /* ============ Header hoà vào gallery tối (trang Dự án) ============ */
 body.pf-immersive .site-header,
 body.pf-immersive .site-header.scrolled {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  background: transparent;
   border-bottom-color: transparent;
   box-shadow: none;
   -webkit-backdrop-filter: none;
