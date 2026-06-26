@@ -155,6 +155,7 @@ collections:
           - { label: "Tên thương hiệu (header)", name: "brandName", widget: "string" }
           - { label: "Phụ đề thương hiệu", name: "brandSuffix", widget: "string" }
           - { label: "Menu — nhãn Bài viết", name: "navBlog", widget: "string", required: false }
+          - { label: "Placeholder thanh tìm kiếm", name: "searchPlaceholder", widget: "string", required: false }
           - { label: "Menu — nhãn Dự án", name: "navProjects", widget: "string", required: false }
           - { label: "Menu — nhãn Hồ sơ", name: "navAbout", widget: "string", required: false }
           - label: "Màu nhấn (accent)"
