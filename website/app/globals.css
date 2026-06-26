@@ -2040,3 +2040,24 @@ body.pf-immersive { background:#0c0b09; }
   .showcase, .showcase *{ cursor:auto; }
   .sc-cursor, .sc-reveal{ display:none; }
 }
+
+/* ============ Blog: nhóm chủ đề + tag thu gọn ============ */
+.section-topic { padding: 30px 0; }
+.section-head .see-all { font-size: 15px; font-weight: 600; color: var(--text); white-space: nowrap; background: none; border: none; padding: 0; cursor: pointer; font-family: inherit; transition: opacity 0.18s var(--ease); }
+.section-head .see-all:hover { opacity: 0.6; }
+
+.topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.topic-grid .card { min-height: 260px; }
+@media (max-width: 900px) { .topic-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .topic-grid { grid-template-columns: 1fr; } }
+
+.tagcloud { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 30px; }
+.tagcloud-label { font-size: 13px; font-weight: 600; color: var(--text-faint); }
+.tagchip {
+  font-size: 13px; font-weight: 500; font-family: inherit;
+  padding: 6px 14px; border: 1px solid var(--border); border-radius: var(--radius-pill);
+  color: var(--text-muted); background: var(--surface); cursor: pointer;
+  transition: color 0.18s var(--ease), border-color 0.18s var(--ease);
+}
+.tagchip:hover { color: var(--text); border-color: var(--text-faint); }
+.tagchip-more { font-weight: 600; }
