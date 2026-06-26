@@ -400,8 +400,10 @@ img {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0) 35%,
-    rgba(0, 0, 0, 0.55) 100%
+    rgba(0, 0, 0, 0.08) 0%,
+    rgba(0, 0, 0, 0) 28%,
+    rgba(0, 0, 0, 0.5) 64%,
+    rgba(0, 0, 0, 0.86) 100%
   );
 }
 .card.has-cover .card-body {
@@ -411,9 +413,11 @@ img {
 }
 .card.has-cover .card-body h3 {
   color: #fff;
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.55), 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 .card.has-cover .card-body .meta {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
 .card.has-cover .pill {
   background: rgba(255, 255, 255, 0.18);
