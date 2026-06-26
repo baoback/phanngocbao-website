@@ -194,6 +194,43 @@ export function getSettings() {
 }
 
 
+const PROJECTS_PAGE_FILE = path.join(process.cwd(), 'content', 'projectspage.json');
+
+const DEFAULT_PROJECTS_PAGE = {
+  heroEyebrow: 'Portfolio',
+  heroTitle: 'Nơi chiến lược gặp kết quả',
+  heroSubtitle: 'Mình đồng hành cùng các thương hiệu để xây định vị, tối ưu hiệu suất và tăng trưởng bền vững.',
+  heroCtaPrimaryLabel: 'Xem dự án nổi bật',
+  heroCtaPrimaryHref: '#du-an',
+  heroCtaSecondaryLabel: 'Liên hệ hợp tác',
+  heroCtaSecondaryHref: '/about#contact',
+  marquee: ['Thương hiệu', 'Performance', 'Content', 'Tăng trưởng', 'SEO'],
+  brandsTitle: 'Thương hiệu đã hợp tác',
+  brandsSubtitle: '',
+  brands: [],
+  featuredTitle: 'Dự án nổi bật',
+  featuredSubtitle: '',
+  servicesTitle: 'Lĩnh vực mình làm',
+  servicesSubtitle: '',
+  services: [],
+  ctaTitle: 'Cùng xây điều đáng nhớ?',
+  ctaText: '',
+  ctaButtonLabel: 'Kết nối với mình',
+  ctaButtonHref: '/about#contact',
+};
+
+export function getProjectsPage() {
+  try {
+    if (fs.existsSync(PROJECTS_PAGE_FILE)) {
+      const data = JSON.parse(fs.readFileSync(PROJECTS_PAGE_FILE, 'utf-8'));
+      return { ...DEFAULT_PROJECTS_PAGE, ...data };
+    }
+  } catch (e) {
+    // dùng mặc định nếu lỗi
+  }
+  return DEFAULT_PROJECTS_PAGE;
+}
+
 const PROJECTS_DIR = path.join(process.cwd(), 'content', 'projects');
 
 function readProjectFile(file) {
