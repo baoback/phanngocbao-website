@@ -17,6 +17,7 @@ function readPostFile(file) {
     pubDate: data.pubDate ? new Date(data.pubDate).toISOString() : new Date().toISOString(),
     cover: data.cover || null,
     tags: Array.isArray(data.tags) ? data.tags : [],
+    category: data.category || '',
     draft: !!data.draft,
     content,
   };
@@ -83,6 +84,20 @@ export function getAllTags() {
 
 export function getPostsByTag(tag) {
   return getAllPosts().filter((p) => p.tags.includes(tag));
+}
+
+export const CATEGORIES = ['Quản trị', 'Marketing', 'Kinh doanh', 'Cuộc sống'];
+
+export function categorySlug(c) {
+  return slugifyVi(c || '');
+}
+
+export function getPostsByCategory(cat) {
+  return getAllPosts().filter((p) => p.category === cat);
+}
+
+export function getCategoryBySlug(slug) {
+  return CATEGORIES.find((c) => slugifyVi(c) === slug) || '';
 }
 
 export function getAbout() {
