@@ -12,6 +12,10 @@ import TopicSection from './components/TopicSection';
 import CTASection from './components/CTASection';
 import NewsletterForm from './components/NewsletterForm';
 
+export const metadata = {
+  alternates: { canonical: '/' },
+};
+
 const slim = (p) => ({
   slug: p.slug,
   title: p.title,

@@ -1,4 +1,4 @@
-import { getAllPosts, getAllProjects, getAllTags } from '@/lib/posts';
+import { getAllPosts, getAllProjects } from '@/lib/posts';
 
 const BASE = 'https://phanngocbao.vn';
 
@@ -22,11 +22,5 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
-  const tags = getAllTags().map((t) => ({
-    url: `${BASE}/tags/${encodeURIComponent(t)}/`,
-    changeFrequency: 'weekly',
-    priority: 0.5,
-  }));
-
-  return [...staticPages, ...posts, ...projects, ...tags];
+  return [...staticPages, ...posts, ...projects];
 }
