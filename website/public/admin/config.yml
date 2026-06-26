@@ -26,7 +26,8 @@ collections:
           - { label: "Mô tả ngắn (cho SEO & thẻ tóm tắt)", name: "description", widget: "text", required: false }
           - { label: "Ngày đăng", name: "pubDate", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
           - { label: "Ảnh bìa", name: "cover", widget: "image", required: false, hint: "Nên dùng ảnh thật (photography). Tải ảnh lên hoặc dán link ảnh." }
-          - { label: "Thẻ / chủ đề", name: "tags", widget: "list", required: false, hint: "Ví dụ: Content, Thương hiệu" }
+          - { label: "Chủ đề (phân loại trang chủ)", name: "category", widget: "select", required: false, default: "Marketing", options: ["Quản trị", "Marketing", "Kinh doanh", "Cuộc sống"] }
+          - { label: "Thẻ (chi tiết)", name: "tags", widget: "list", required: false, hint: "Ví dụ: Content, Thương hiệu" }
           - { label: "Bản nháp (chưa hiển thị)", name: "draft", widget: "boolean", default: false }
           - { label: "Nội dung bài viết", name: "body", widget: "markdown" }
 
