@@ -137,6 +137,7 @@ const DEFAULT_SETTINGS = {
   brandName: 'Phan Ngọc Bảo',
   brandSuffix: 'Marketing',
   navBlog: 'Bài viết',
+  searchPlaceholder: 'Tìm bài viết, chủ đề quản trị, marketing...',
   navProjects: 'Dự án',
   navAbout: 'Hồ sơ',
   heroEyebrow: 'Chiến lược · Thương hiệu · Performance',
