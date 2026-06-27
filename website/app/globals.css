@@ -614,11 +614,19 @@ img {
 }
 .post .cover {
   width: 100%;
+  height: clamp(220px, 42vw, 460px);
   border-radius: var(--radius);
   margin-bottom: 36px;
-  max-height: 460px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  animation: coverIn 0.7s var(--ease) both;
+}
+@keyframes coverIn {
+  from { opacity: 0; transform: scale(1.03); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .post .cover { animation: none; }
 }
 .post h1 {
   font-size: clamp(32px, 4.4vw, 46px);
