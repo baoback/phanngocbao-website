@@ -15,7 +15,7 @@ function ProjectCard({ p }) {
     return (
       <Link href={`/portfolio/${p.slug}/`} className="card has-cover reveal">
         <div className="thumb-wrap">
-          <img className="thumb" src={p.cover} alt={p.title} loading="lazy" />
+          <img className="thumb" src={p.cover} alt={p.title} loading="lazy" decoding="async" />
         </div>
         <div className="veil" />
         <div className="card-body">
@@ -90,7 +90,7 @@ export default function PortfolioPage() {
               {brands.map((b, i) => (
                 <div className={`pp-brand reveal-up${b.logo ? '' : ' pp-brand--empty'}`} key={i} title={b.name || 'Ô chờ logo'}>
                   {b.logo ? (
-                    <img src={b.logo} alt={b.name || 'Logo'} loading="lazy" />
+                    <img src={b.logo} alt={b.name || 'Logo'} loading="lazy" decoding="async" />
                   ) : (
                     <span className="pp-brand-ph">
                       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
