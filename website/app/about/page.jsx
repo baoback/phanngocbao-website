@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import { getAbout, getSettings, getFeaturedProjects } from '@/lib/posts';
+import { getAbout, getSettings } from '@/lib/posts';
 import ProfileFX from '@/app/components/ProfileFX';
 import ImageRotator from '@/app/components/ImageRotator';
 
@@ -18,7 +17,6 @@ export function generateMetadata() {
 export default function AboutPage() {
   const a = getAbout();
   const cfg = getSettings();
-  const cases = getFeaturedProjects();
 
   const links = [
     a.email && { label: 'Email', href: `mailto:${a.email}` },
@@ -56,7 +54,7 @@ export default function AboutPage() {
             {(a.lead || a.tagline) && <p className="hero-lead">{a.lead || a.tagline}</p>}
             {(a.heroCtaPrimaryLabel || a.heroCtaSecondaryLabel) && (
               <div className="hero-actions">
-                {a.heroCtaPrimaryLabel && <a className="btn-bronze" href="#case">{a.heroCtaPrimaryLabel}</a>}
+                {a.heroCtaPrimaryLabel && <a className="btn-bronze" href="#hanh-trinh">{a.heroCtaPrimaryLabel}</a>}
                 {a.heroCtaSecondaryLabel && <a className="btn-outline" href="#contact">{a.heroCtaSecondaryLabel}</a>}
               </div>
             )}
@@ -71,15 +69,6 @@ export default function AboutPage() {
         </div>
         <span className="story-scroll hero-scroll">scroll ↓</span>
       </section>
-
-      {/* LEAD */}
-      {(a.lead || a.tagline) && (
-        <section className="story-section">
-          <div className="container narrow">
-            <p className="story-lead reveal-up">{a.lead || a.tagline}</p>
-          </div>
-        </section>
-      )}
 
       {/* STATS — count-up + bar */}
       {a.stats.length > 0 && (
@@ -98,22 +87,33 @@ export default function AboutPage() {
         </section>
       )}
 
-      {/* STORY BLOCKS */}
-      {a.storyBlocks.map((b, i) => (
-        <section className={`story-section story-block${i % 2 ? ' reverse' : ''}`} key={i}>
-          <div className="container story-block-grid">
-            {b.image && (
-              <div className="story-block-media reveal-up">
-                <img className="parallax-img" src={b.image} alt={b.heading || ''} />
-              </div>
-            )}
-            <div className="story-block-text reveal-up">
-              {b.heading && <h2 className="story-h2">{b.heading}</h2>}
-              {b.text && <p>{b.text}</p>}
+      {/* JOURNEY — timeline dọc */}
+      {a.journey.length > 0 && (
+        <section className="story-section" id="hanh-trinh">
+          <div className="container">
+            <div className="sec-head reveal-up">
+              <span className="story-eyebrow alt">Hành trình</span>
+              <h2 className="story-h2">Đi qua nhiều vai, mỗi chặng để lại một bài học.</h2>
+            </div>
+            <div className="jty">
+              {a.journey.map((j, i) => (
+                <div className="jty-item reveal-up" key={i} style={{ transitionDelay: `${i * 60}ms` }}>
+                  <div className="jty-marker" aria-hidden="true"><span /></div>
+                  <div className="jty-card">
+                    {j.period && <span className="jty-period">{j.period}</span>}
+                    {j.role && <h3 className="jty-role">{j.role}</h3>}
+                    {j.place && <span className="jty-place">{j.place}</span>}
+                    {j.text && <p className="jty-text">{j.text}</p>}
+                    {j.takeaway && (
+                      <p className="jty-take"><span className="jty-take-tag">Điều rút ra</span>{j.takeaway}</p>
+                    )}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
-      ))}
+      )}
 
       {/* CAPABILITIES — skill bars */}
       {a.skills.length > 0 && (
@@ -142,53 +142,6 @@ export default function AboutPage() {
         </section>
       )}
 
-      {/* CASE STUDIES — from featured projects */}
-      {cases.length > 0 && (
-        <section className="story-section" id="case">
-          <div className="container">
-            <div className="sec-head reveal-up">
-              <span className="story-eyebrow alt">Dự án thực chiến</span>
-              <h2 className="story-h2">Mỗi dự án là một bài toán tăng trưởng có lời giải.</h2>
-            </div>
-            {cases.map((c) => (
-              <article className="case reveal-up" key={c.slug}>
-                <div className="case-top">
-                  <h3>{c.title}</h3>
-                  {(c.role || c.year) && (
-                    <span className="case-role">{[c.role, c.year].filter(Boolean).join(' · ')}</span>
-                  )}
-                </div>
-                {c.description && <p className="case-obj">{c.description}</p>}
-                {c.phases.length > 0 && (
-                  <div className="case-timeline">
-                    {c.phases.map((ph, j) => (
-                      <div className="case-tl" key={j}>
-                        <span className="case-tl-yr">{ph.label}</span>
-                        <span className="case-tl-ev">{ph.text}</span>
-                      </div>
-                    ))}
-                  </div>
-                )}
-                {c.metrics.length > 0 && (
-                  <div className="case-metrics">
-                    {c.metrics.map((m, j) => (
-                      <div className="case-metric" key={j}>
-                        <span className="case-metric-val">{m.value}</span>
-                        <span className="case-metric-cap">{m.caption}</span>
-                        {typeof m.percent === 'number' && (
-                          <div className="mini-bar"><span className="mini-bar-fill" style={{ '--pct': `${m.percent}%` }} /></div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-                <Link href={`/portfolio/${c.slug}/`} className="case-link">Xem chi tiết →</Link>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-
       {/* TOOLKIT — dark, tag groups */}
       {a.toolkit.length > 0 && (
         <section className="story-section">
@@ -210,6 +163,27 @@ export default function AboutPage() {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* LIFE — ngoài công việc */}
+      {a.life.length > 0 && (
+        <section className="story-section" id="cuoc-song">
+          <div className="container">
+            <div className="sec-head reveal-up">
+              <span className="story-eyebrow alt">Ngoài công việc</span>
+              <h2 className="story-h2">Vài điều làm nên mình, ngoài những con số.</h2>
+            </div>
+            <div className="life-grid">
+              {a.life.map((l, i) => (
+                <div className="life-card reveal-up" key={i} style={{ transitionDelay: `${i * 60}ms` }}>
+                  {l.emoji && <span className="life-emoji" aria-hidden="true">{l.emoji}</span>}
+                  {l.title && <h3>{l.title}</h3>}
+                  {l.text && <p>{l.text}</p>}
+                </div>
+              ))}
             </div>
           </div>
         </section>
