@@ -1780,6 +1780,52 @@ img {
 }
 .reveal-up.in-view .cap-bar-fill { transform: scaleX(1); }
 
+/* Journey timeline */
+.jty { position: relative; display: flex; flex-direction: column; gap: 22px; }
+.jty-item { position: relative; padding-left: 46px; }
+.jty-item::before {
+  content: ''; position: absolute; left: 11px; top: 8px; bottom: -30px;
+  width: 2px; background: var(--story-line);
+}
+.jty-item:last-child::before { display: none; }
+.jty-marker {
+  position: absolute; left: 0; top: 4px; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--surface); border: 2px solid var(--story-accent);
+  display: grid; place-items: center; z-index: 1;
+}
+.jty-marker span { width: 8px; height: 8px; border-radius: 50%; background: var(--story-accent); }
+.jty-card {
+  border: 1px solid var(--story-line); background: var(--surface); border-radius: 20px;
+  padding: 22px 24px;
+  transition: transform 0.4s var(--ease), border-color 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+.jty-card:hover { transform: translateY(-4px); border-color: var(--story-accent); box-shadow: var(--shadow-hover); }
+.jty-period { display: inline-block; font-family: var(--font); font-weight: 700; font-size: 13px; letter-spacing: 0.06em; color: var(--story-accent); }
+.jty-role { font-family: var(--font); font-weight: 700; font-size: 21px; color: var(--story-ink); margin: 6px 0 0; }
+.jty-place { display: inline-block; margin-top: 4px; font-size: 14px; color: var(--story-muted); }
+.jty-text { font-size: 15px; line-height: 1.7; color: var(--story-muted); margin: 12px 0 0; }
+.jty-take {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 16px 0 0;
+  font-size: 14.5px; line-height: 1.55; color: var(--story-ink); font-weight: 500;
+}
+.jty-take-tag {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--story-accent); background: color-mix(in srgb, var(--story-accent) 14%, transparent);
+  padding: 4px 9px; border-radius: 999px;
+}
+
+/* Life — ngoài công việc */
+.life-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(228px, 1fr)); gap: 18px; }
+.life-card {
+  border: 1px solid var(--story-line); background: var(--surface); border-radius: 20px;
+  padding: 26px 24px;
+  transition: transform 0.4s var(--ease), border-color 0.4s var(--ease), box-shadow 0.4s var(--ease);
+}
+.life-card:hover { transform: translateY(-5px); border-color: var(--story-accent); box-shadow: var(--shadow-hover); }
+.life-emoji { font-size: 30px; line-height: 1; display: block; }
+.life-card h3 { font-family: var(--font); font-weight: 700; font-size: 19px; color: var(--story-ink); margin: 14px 0 0; }
+.life-card p { font-size: 14.5px; line-height: 1.65; color: var(--story-muted); margin: 8px 0 0; }
+
 /* Case studies (infographic) */
 .case {
   border: 1px solid var(--story-line);
