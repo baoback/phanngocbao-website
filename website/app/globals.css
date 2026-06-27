@@ -1814,17 +1814,71 @@ img {
   padding: 4px 9px; border-radius: 999px;
 }
 
-/* Life — ngoài công việc */
-.life-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(228px, 1fr)); gap: 18px; }
-.life-card {
-  border: 1px solid var(--story-line); background: var(--surface); border-radius: 20px;
-  padding: 26px 24px;
-  transition: transform 0.4s var(--ease), border-color 0.4s var(--ease), box-shadow 0.4s var(--ease);
+/* Life — gallery ảnh, hover ra video + câu chuyện */
+.life-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
 }
-.life-card:hover { transform: translateY(-5px); border-color: var(--story-accent); box-shadow: var(--shadow-hover); }
-.life-emoji { font-size: 30px; line-height: 1; display: block; }
-.life-card h3 { font-family: var(--font); font-weight: 700; font-size: 19px; color: var(--story-ink); margin: 14px 0 0; }
-.life-card p { font-size: 14.5px; line-height: 1.65; color: var(--story-muted); margin: 8px 0 0; }
+.life-tile {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border-radius: 20px;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--surface-2);
+}
+.life-media { position: absolute; inset: 0; }
+.life-img,
+.life-video {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.life-img { transition: transform 0.8s var(--ease); }
+.life-video { opacity: 0; transition: opacity 0.5s var(--ease); z-index: 1; }
+.life-tile:hover .life-img { transform: scale(1.06); }
+.life-tile:hover .life-video { opacity: 1; }
+.life-veil {
+  position: absolute; inset: 0; z-index: 2;
+  background: linear-gradient(to top, rgba(0,0,0,0.74), rgba(0,0,0,0.12) 48%, rgba(0,0,0,0.34));
+  transition: background 0.45s var(--ease);
+}
+.life-tile:hover .life-veil {
+  background: linear-gradient(to top, rgba(0,0,0,0.84), rgba(0,0,0,0.42));
+}
+.life-content {
+  position: absolute; inset: 0; z-index: 3;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: 26px;
+}
+.life-title {
+  font-family: var(--font); font-weight: 700;
+  font-size: clamp(18px, 1.6vw, 22px);
+  color: #fff; margin: 0; letter-spacing: 0.01em;
+  text-shadow: 0 1px 18px rgba(0,0,0,0.4);
+}
+.life-story {
+  color: rgba(255,255,255,0.92);
+  font-size: 14.5px; line-height: 1.6;
+  max-width: 32ch; margin: 0;
+  opacity: 0; transform: translateY(10px);
+  max-height: 0; overflow: hidden;
+  transition: opacity 0.45s var(--ease), transform 0.45s var(--ease),
+    max-height 0.45s var(--ease), margin-top 0.45s var(--ease);
+}
+.life-tile:hover .life-story {
+  opacity: 1; transform: none; max-height: 240px; margin-top: 12px;
+}
+@media (max-width: 768px) {
+  .life-tile { aspect-ratio: 16 / 10; }
+  .life-content { justify-content: flex-end; align-items: flex-start; text-align: left; }
+  .life-story { opacity: 1; transform: none; max-height: none; margin-top: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .life-img, .life-tile:hover .life-img { transition: none; transform: none; }
+}
 
 /* Case studies (infographic) */
 .case {
