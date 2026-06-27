@@ -1,7 +1,7 @@
 ---
 title: Dự án YouTube Vườn Hành
 description: "Phát triển kênh YouTube DIY giai đoạn chập chững YouTube phát triển "
-cover: /uploads/screenshot-2026-06-27-at-22.09.39.png
+cover: /uploads/screenshot-2026-06-27-at-22.23.25.png
 role: Co Founder
 year: 2015-2016
 tags: Content Creator · Creative · Social Media
