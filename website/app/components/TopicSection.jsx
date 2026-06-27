@@ -1,22 +1,9 @@
-'use client';
-
-import { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import PostCard from './PostCard';
 
-export default function TopicSection({ title, posts = [], initial = 3 }) {
-  const [open, setOpen] = useState(false);
-  const wrapRef = useRef(null);
-  const shown = open ? posts : posts.slice(0, initial);
-
-  useEffect(() => {
-    if (open && wrapRef.current) {
-      wrapRef.current
-        .querySelectorAll('.reveal, .reveal-up')
-        .forEach((el) => el.classList.add('in-view'));
-    }
-  }, [open]);
-
+export default function TopicSection({ title, posts = [], href, initial = 3 }) {
   if (posts.length === 0) return null;
+  const shown = posts.slice(0, initial);
 
   return (
     <section className="section section-topic">
@@ -25,13 +12,11 @@ export default function TopicSection({ title, posts = [], initial = 3 }) {
           <div>
             <h2>Bài viết chủ đề {title}</h2>
           </div>
-          {posts.length > initial && (
-            <button type="button" className="see-all" onClick={() => setOpen(!open)}>
-              {open ? 'Thu gọn' : `Xem tất cả (${posts.length}) →`}
-            </button>
+          {href && posts.length > initial && (
+            <Link className="see-all" href={href}>Xem tất cả ({posts.length}) →</Link>
           )}
         </div>
-        <div className="topic-grid" ref={wrapRef}>
+        <div className="topic-grid">
           {shown.map((p) => <PostCard key={p.slug} post={p} />)}
         </div>
       </div>
