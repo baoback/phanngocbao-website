@@ -141,9 +141,10 @@ collections:
             widget: "list"
             required: false
             fields:
-              - { label: "Emoji / Icon (vd 📚)", name: "emoji", widget: "string", required: false }
+              - { label: "Ảnh", name: "image", widget: "image", required: false }
+              - { label: "Video (hiện khi hover, tuỳ chọn)", name: "video", widget: "file", required: false, hint: "Tải video mp4 ngắn, không tiếng. Để trống thì chỉ hiện ảnh." }
               - { label: "Tiêu đề", name: "title", widget: "string" }
-              - { label: "Mô tả", name: "text", widget: "text", required: false }
+              - { label: "Câu chuyện (hiện khi hover)", name: "text", widget: "text", required: false }
           - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string", required: false }
           - { label: "CTA — mô tả", name: "ctaText", widget: "text", required: false }
           - { label: "Trình chiếu — tiêu đề lớn", name: "showcaseTitle", widget: "string", required: false }
