@@ -1,6 +1,7 @@
 import { getAbout, getSettings } from '@/lib/posts';
 import ProfileFX from '@/app/components/ProfileFX';
 import ImageRotator from '@/app/components/ImageRotator';
+import LifeGallery from '@/app/components/LifeGallery';
 
 export function generateMetadata() {
   const a = getAbout();
@@ -176,15 +177,7 @@ export default function AboutPage() {
               <span className="story-eyebrow alt">Ngoài công việc</span>
               <h2 className="story-h2">Vài điều làm nên mình, ngoài những con số.</h2>
             </div>
-            <div className="life-grid">
-              {a.life.map((l, i) => (
-                <div className="life-card reveal-up" key={i} style={{ transitionDelay: `${i * 60}ms` }}>
-                  {l.emoji && <span className="life-emoji" aria-hidden="true">{l.emoji}</span>}
-                  {l.title && <h3>{l.title}</h3>}
-                  {l.text && <p>{l.text}</p>}
-                </div>
-              ))}
-            </div>
+            <LifeGallery items={a.life} />
           </div>
         </section>
       )}
