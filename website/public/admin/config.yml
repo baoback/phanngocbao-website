@@ -151,6 +151,7 @@ collections:
           - { label: "Hero — nhãn nhỏ", name: "heroEyebrow", widget: "string", required: false }
           - { label: "Hero — tiêu đề", name: "heroTitle", widget: "string" }
           - { label: "Hero — mô tả", name: "heroSubtitle", widget: "text", required: false }
+          - { label: "Hero — ảnh nền", name: "heroImage", widget: "image", required: false, hint: "Ảnh nền phía sau tiêu đề Hero (có lớp phủ tối để chữ rõ). Để trống = nền tối trơn." }
           - { label: "Hero — nút chính (chữ)", name: "heroCtaPrimaryLabel", widget: "string", required: false }
           - { label: "Hero — nút chính (link)", name: "heroCtaPrimaryHref", widget: "string", required: false }
           - { label: "Hero — nút phụ (chữ)", name: "heroCtaSecondaryLabel", widget: "string", required: false }
