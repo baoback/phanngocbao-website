@@ -200,6 +200,7 @@ const DEFAULT_PROJECTS_PAGE = {
   heroEyebrow: 'Portfolio',
   heroTitle: 'Nơi chiến lược gặp kết quả',
   heroSubtitle: 'Mình đồng hành cùng các thương hiệu để xây định vị, tối ưu hiệu suất và tăng trưởng bền vững.',
+  heroImage: '',
   heroCtaPrimaryLabel: 'Xem dự án nổi bật',
   heroCtaPrimaryHref: '#du-an',
   heroCtaSecondaryLabel: 'Liên hệ hợp tác',
