@@ -38,7 +38,7 @@ function ProjectCard({ p }) {
 
 export default function PortfolioPage() {
   const pg = getProjectsPage();
-  const projects = getFeaturedProjects().slice(0, 6);
+  const projects = getFeaturedProjects();
   const marquee = Array.isArray(pg.marquee) ? pg.marquee.filter(Boolean) : [];
   const brands = Array.isArray(pg.brands) ? pg.brands.filter(Boolean) : [];
   const services = Array.isArray(pg.services) ? pg.services.filter((s) => s && s.title) : [];
