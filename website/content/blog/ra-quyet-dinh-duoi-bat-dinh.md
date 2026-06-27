@@ -2,7 +2,7 @@
 title: "Chọn sao cho đúng khi không bao giờ đủ thông tin"
 category: "Quản trị"
 description: Trong kinh doanh, bạn luôn phải quyết định với thông tin chưa đầy đủ. Đây là cách tư duy về rủi ro, tránh tê liệt vì phân tích, và quyết định tốt một cách nhất quán.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T13:57
 cover: https://images.unsplash.com/photo-1573164574511-73c773193279?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

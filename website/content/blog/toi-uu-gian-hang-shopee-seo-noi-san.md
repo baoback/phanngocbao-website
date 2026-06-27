@@ -2,7 +2,7 @@
 title: "Lên Shopee, được tìm thấy trước rồi hẵng nói chuyện bán"
 category: "Kinh doanh"
 description: Trên sàn, sản phẩm tốt mà không ai thấy thì cũng vô nghĩa. Đây là cách tối ưu listing và SEO nội sàn để gian hàng Shopee của bạn xuất hiện đúng lúc khách tìm.
-pubDate: 2026-06-25
+pubDate: 2026-06-25T17:24
 cover: https://images.unsplash.com/photo-1612103198005-b238154f4590?auto=format&fit=crop&w=1200&q=80
 tags:
   - Thương mại điện tử

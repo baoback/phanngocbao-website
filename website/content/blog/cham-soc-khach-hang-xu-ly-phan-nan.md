@@ -2,7 +2,7 @@
 title: "Chăm khách và xử lý phàn nàn cho ra"
 category: "Kinh doanh"
 description: Một khách phàn nàn được xử lý tốt có thể thành khách trung thành. Cách chăm khách và xử lý phàn nàn cho ra.
-pubDate: 2026-05-23
+pubDate: 2026-05-23T22:45
 cover: https://images.unsplash.com/photo-1626863905121-3b0c0ed7b94c?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

@@ -2,7 +2,7 @@
 title: "Kéo người đã ghé rồi đi quay trở lại"
 category: "Marketing"
 description: Phần lớn người ghé lần đầu rồi đi luôn. Retargeting là cách nhắc khéo để họ quay lại, làm đúng thì rẻ mà hiệu quả.
-pubDate: 2026-05-06
+pubDate: 2026-05-06T15:54
 cover: https://images.unsplash.com/photo-1603217039863-aa0c865404f7?auto=format&fit=crop&w=1200&q=80
 tags:
   - Marketing

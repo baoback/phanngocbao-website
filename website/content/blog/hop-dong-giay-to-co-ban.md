@@ -2,7 +2,7 @@
 title: "Đừng làm ăn bằng niềm tin suông"
 category: "Kinh doanh"
 description: Nhiều người làm ăn bằng niềm tin tới lúc toang mới tiếc. Vài thứ giấy tờ, hợp đồng cơ bản đừng coi thường.
-pubDate: 2026-05-27
+pubDate: 2026-05-27T16:15
 cover: https://images.unsplash.com/photo-1551232865-e24823b9e922?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

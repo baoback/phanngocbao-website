@@ -2,7 +2,7 @@
 title: "Vài KPI mà chủ shop nào cũng nên nhìn"
 category: "Quản trị"
 description: Quản lý bằng cảm giác là cách nhanh nhất để chệch hướng mà không biết. Đây là những chỉ số cốt lõi giúp chủ doanh nghiệp nhỏ nhìn rõ sức khỏe kinh doanh.
-pubDate: 2026-06-24
+pubDate: 2026-06-24T14:18
 cover: https://images.unsplash.com/photo-1631511258193-252ab3da6b8b?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

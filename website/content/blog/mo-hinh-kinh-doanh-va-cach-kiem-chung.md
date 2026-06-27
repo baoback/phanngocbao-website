@@ -2,7 +2,7 @@
 title: "Kiểm chứng mô hình trước khi dồn hết tiền và sức"
 category: "Kinh doanh"
 description: Phần lớn doanh nghiệp thất bại không phải vì sản phẩm tồi, mà vì xây thứ không ai cần. Đây là cách nghĩ về mô hình kinh doanh và kiểm chứng nó trước khi đặt cược lớn.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T21:48
 cover: https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

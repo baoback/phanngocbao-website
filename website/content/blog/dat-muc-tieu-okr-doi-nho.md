@@ -2,7 +2,7 @@
 title: "Đặt mục tiêu kiểu OKR cho đội nhỏ"
 category: "Quản trị"
 description: Mục tiêu mơ hồ thì đội chạy lung tung. Cách dùng OKR đơn giản để cả đội nhắm về một hướng.
-pubDate: 2026-06-07
+pubDate: 2026-06-07T22:48
 cover: https://images.unsplash.com/photo-1688380692117-63178554d76d?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

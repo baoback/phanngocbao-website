@@ -2,7 +2,7 @@
 title: "Thuê đúng người trước khi nói chuyện quản giỏi"
 category: "Quản trị"
 description: Với đội nhóm nhỏ, mỗi người tuyển sai là một gánh nặng lớn. Đây là cách tuyển, giao việc và giữ người khi bạn chưa có phòng nhân sự hay ngân sách lớn.
-pubDate: 2026-06-25
+pubDate: 2026-06-25T21:36
 cover: https://images.unsplash.com/photo-1604594849809-dfedbc827105?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

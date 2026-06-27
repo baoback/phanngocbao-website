@@ -2,7 +2,7 @@
 title: "Nghiên cứu thị trường trước khi nhảy vào"
 category: "Kinh doanh"
 description: Đừng đổ tiền vào một thị trường bạn chưa hiểu. Cách nghiên cứu thị trường nhanh gọn trước khi nhảy vào.
-pubDate: 2026-04-03
+pubDate: 2026-04-03T11:18
 cover: https://images.unsplash.com/photo-1581091877018-dac6a371d50f?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

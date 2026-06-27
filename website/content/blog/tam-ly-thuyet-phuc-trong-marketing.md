@@ -2,7 +2,7 @@
 title: "Vài cú hích tâm lý khiến khách gật đầu"
 category: "Marketing"
 description: Người ta mua bằng cảm xúc rồi mới biện minh bằng lý trí. Vài nguyên tắc tâm lý giúp thông điệp của bạn dễ được gật đầu hơn.
-pubDate: 2026-04-12
+pubDate: 2026-04-12T13:57
 cover: https://images.unsplash.com/photo-1726594701749-04cfbc6e2007?auto=format&fit=crop&w=1200&q=80
 tags:
   - Marketing

@@ -2,7 +2,7 @@
 title: "Lắng nghe khách hàng kiểu rẻ mà vẫn ra insight"
 category: "Marketing"
 description: Bạn không cần thuê công ty nghiên cứu đắt đỏ. Vài cách lắng nghe khách hàng rẻ tiền mà ra insight thật.
-pubDate: 2026-06-12
+pubDate: 2026-06-12T17:15
 cover: https://images.unsplash.com/photo-1556764900-fa065610b0e4?auto=format&fit=crop&w=1200&q=80
 tags:
   - Marketing

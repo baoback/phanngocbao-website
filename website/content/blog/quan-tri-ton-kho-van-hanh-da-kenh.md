@@ -2,7 +2,7 @@
 title: "Tồn kho đa kênh, nơi lợi nhuận âm thầm rò rỉ"
 category: "Quản trị"
 description: Bán cùng lúc trên Shopee, TikTok và nhiều kênh khác mang lại doanh thu, nhưng cũng tạo ra hỗn loạn tồn kho. Đây là cách quản để không hết hàng, không tồn đọng.
-pubDate: 2026-06-26
+pubDate: 2026-06-26T20:24
 cover: https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=1200&q=80
 tags:
   - Thương mại điện tử

@@ -2,7 +2,7 @@
 title: "Ba bảng số mà chủ doanh nghiệp nào cũng nên đọc được"
 category: "Quản trị"
 description: Không cần là kế toán, nhưng chủ doanh nghiệp phải đọc được sức khỏe của mình qua con số. Đây là cách hiểu báo cáo lãi lỗ, dòng tiền và bảng cân đối một cách thực dụng.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T10:36
 cover: https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

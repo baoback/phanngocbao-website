@@ -2,7 +2,7 @@
 title: "Đừng bỏ hết trứng vào một giỏ"
 category: "Kinh doanh"
 description: Sống nhờ một khách hay một kênh duy nhất là chơi với lửa. Cách đa dạng nguồn doanh thu mà không loãng sức.
-pubDate: 2026-06-15
+pubDate: 2026-06-15T10:33
 cover: https://images.unsplash.com/photo-1669399213378-2853e748f217?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

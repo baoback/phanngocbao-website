@@ -2,7 +2,7 @@
 title: "Hai tuần đầu của người mới quyết định nhiều thứ"
 category: "Quản trị"
 description: Hai tuần đầu của người mới quyết định họ gắn bó hay sớm nghỉ. Cách đón người mới cho ra hồn dù bạn bận.
-pubDate: 2026-05-15
+pubDate: 2026-05-15T22:51
 cover: https://images.unsplash.com/photo-1690264617102-0d4d1faa1322?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

@@ -2,7 +2,7 @@
 title: "Lập kế hoạch marketing theo quý cho doanh nghiệp nhỏ"
 category: "Marketing"
 description: Kế hoạch marketing không cần dày cộp. Cách dựng một kế hoạch quý gọn, làm được, cho doanh nghiệp nhỏ.
-pubDate: 2026-04-22
+pubDate: 2026-04-22T13:15
 cover: https://images.unsplash.com/photo-1548430077-773fa74bda9d?auto=format&fit=crop&w=1200&q=80
 tags:
   - Marketing

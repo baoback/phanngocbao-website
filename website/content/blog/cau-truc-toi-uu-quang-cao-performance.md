@@ -2,7 +2,7 @@
 title: "Chạy quảng cáo Performance: nền tảng ăn đứt mẹo vặt"
 category: "Marketing"
 description: Đa số tài khoản quảng cáo kém hiệu quả không phải vì thiếu mẹo, mà vì cấu trúc sai và tối ưu vội. Đây là cách xây nền tảng đúng cho Meta và Google Ads.
-pubDate: 2026-06-19
+pubDate: 2026-06-19T18:18
 cover: https://images.unsplash.com/photo-1562577308-9e66f0c65ce5?auto=format&fit=crop&w=1200&q=80
 tags:
   - Performance

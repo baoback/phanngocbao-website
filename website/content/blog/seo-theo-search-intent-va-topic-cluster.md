@@ -2,7 +2,7 @@
 title: "Làm SEO bằng cách trả lời đúng ý người tìm"
 category: "Marketing"
 description: Thứ hạng bền vững không đến từ việc nhồi từ khóa, mà từ việc hiểu đúng ý định tìm kiếm. Đây là cách dùng search intent và topic cluster để xây nội dung.
-pubDate: 2026-06-17
+pubDate: 2026-06-17T17:05
 cover: https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80
 tags:
   - SEO

@@ -2,7 +2,7 @@
 title: "Chọn ngách thay vì bán cho tất cả mọi người"
 category: "Kinh doanh"
 description: Bán cho tất cả mọi người là cách chắc nhất để không ai nhớ tới bạn. Vì sao chọn ngách lại giúp bạn thắng.
-pubDate: 2026-05-09
+pubDate: 2026-05-09T19:57
 cover: https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

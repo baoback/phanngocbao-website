@@ -2,7 +2,7 @@
 title: "Lương thưởng công bằng cho doanh nghiệp nhỏ"
 category: "Quản trị"
 description: Lương thưởng mập mờ là mầm mống bất mãn. Cách xây cơ chế lương thưởng minh bạch, công bằng cho doanh nghiệp nhỏ.
-pubDate: 2026-04-28
+pubDate: 2026-04-28T15:48
 cover: https://images.unsplash.com/photo-1586448317606-cb1ec00298fc?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

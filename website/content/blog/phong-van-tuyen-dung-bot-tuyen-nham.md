@@ -2,7 +2,7 @@
 title: "Phỏng vấn sao cho bớt tuyển nhầm người"
 category: "Quản trị"
 description: Một người tuyển sai trong đội nhỏ là gánh nặng lớn. Cách phỏng vấn để nhìn ra con người thật, bớt tuyển nhầm.
-pubDate: 2026-04-08
+pubDate: 2026-04-08T14:33
 cover: https://images.unsplash.com/photo-1573496130407-57329f01f769?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

@@ -2,7 +2,7 @@
 title: "Họp ít lại, họp ra việc"
 category: "Quản trị"
 description: Họp nhiều không có nghĩa là làm việc nhiều. Cách cắt bớt họp vô bổ và khiến cuộc họp nào cũng ra việc.
-pubDate: 2026-05-02
+pubDate: 2026-05-02T14:12
 cover: https://images.unsplash.com/photo-1686771416282-3888ddaf249b?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

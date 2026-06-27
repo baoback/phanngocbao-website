@@ -2,7 +2,7 @@
 title: "Giao việc mà không buông, kiểm soát mà không bóp nghẹt"
 category: "Quản trị"
 description: Không ủy quyền thì bạn là trần của doanh nghiệp. Nhưng giao việc sai cách còn tệ hơn ôm hết. Đây là cách ủy quyền để vừa nhẹ gánh vừa giữ chất lượng.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T08:45
 cover: https://images.unsplash.com/photo-1518135714426-c18f5ffb6f4d?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

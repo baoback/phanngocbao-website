@@ -2,7 +2,7 @@
 title: "Vì sao bán chạy chưa chắc đã an toàn"
 category: "Kinh doanh"
 description: Một sản phẩm bán chạy có thể bị sao chép sau một đêm. Lợi thế cạnh tranh bền vững là thứ giữ cho đối thủ không đuổi kịp. Đây là các loại moat và cách xây chúng.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T10:27
 cover: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

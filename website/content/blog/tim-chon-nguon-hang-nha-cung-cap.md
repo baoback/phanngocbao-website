@@ -2,7 +2,7 @@
 title: "Tìm và chọn nguồn hàng, nhà cung cấp"
 category: "Kinh doanh"
 description: Nguồn hàng quyết định biên lợi nhuận và uy tín của bạn. Cách tìm, đánh giá và giữ quan hệ với nhà cung cấp.
-pubDate: 2026-04-17
+pubDate: 2026-04-17T22:24
 cover: https://images.unsplash.com/photo-1672380135241-c024f7fbfa13?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

@@ -2,7 +2,7 @@
 title: "Thắng cuộc đàm phán mà vẫn giữ được mối quan hệ"
 category: "Kinh doanh"
 description: Đàm phán giỏi không phải là ép đối phương xuống đáy, mà là tìm ra chiếc bánh lớn hơn cho cả hai. Đây là tư duy và kỹ thuật để thương lượng vừa lợi vừa bền.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T21:24
 cover: https://images.unsplash.com/photo-1549923746-c502d488b3ea?auto=format&fit=crop&w=1200&q=80
 tags:
   - Kinh doanh

@@ -2,7 +2,7 @@
 title: "Thứ bạn dung túng chính là văn hóa"
 category: "Quản trị"
 description: Văn hóa không phải khẩu hiệu treo tường, mà là những hành vi thực sự được thưởng và bị phạt mỗi ngày. Đây là cách xây văn hóa có chủ đích từ những đội nhóm nhỏ.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T11:09
 cover: https://images.unsplash.com/photo-1638262052640-82e94d64664a?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

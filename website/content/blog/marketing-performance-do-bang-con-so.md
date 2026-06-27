@@ -2,7 +2,7 @@
 title: "Làm marketing mà đo được bằng con số"
 category: "Marketing"
 description: Marketing Performance không phải là chạy thật nhiều quảng cáo, mà là biết mỗi đồng bỏ ra mang lại gì. Đây là cách mình hiểu và áp dụng nó.
-pubDate: 2026-06-16
+pubDate: 2026-06-16T22:21
 cover: /uploads/marketing-performance.svg
 tags:
   - Marketing Performance

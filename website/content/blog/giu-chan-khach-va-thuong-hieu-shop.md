@@ -2,7 +2,7 @@
 title: "Thoát khỏi cuộc đua giá trên sàn"
 category: "Kinh doanh"
 description: Cạnh tranh trên sàn dễ biến thành cuộc đua xuống đáy về giá. Lối thoát là giữ chân khách cũ và xây một thương hiệu shop khiến người ta chọn bạn vì tin, không vì rẻ.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T17:21
 cover: https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?auto=format&fit=crop&w=1200&q=80
 tags:
   - Thương mại điện tử

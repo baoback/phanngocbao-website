@@ -2,7 +2,7 @@
 title: "Đặt tiêu đề khiến người ta phải dừng lại và bấm vào"
 category: "Marketing"
 description: Tiêu đề quyết định người ta đọc tiếp hay lướt qua. Vài cách đặt tiêu đề khiến người ta dừng lại mà không cần giật tít rẻ tiền.
-pubDate: 2026-04-05
+pubDate: 2026-04-05T19:42
 cover: https://images.unsplash.com/photo-1651094856217-6f30970b1521?auto=format&fit=crop&w=1200&q=80
 tags:
   - Marketing

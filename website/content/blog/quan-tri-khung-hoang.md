@@ -2,7 +2,7 @@
 title: "Khi mọi thứ cháy cùng một lúc"
 category: "Quản trị"
 description: Sớm muộn cũng có lúc mọi thứ cháy cùng lúc. Cách giữ cái đầu lạnh và xử lý khủng hoảng mà không làm hỏng thêm.
-pubDate: 2026-06-18
+pubDate: 2026-06-18T10:09
 cover: https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị

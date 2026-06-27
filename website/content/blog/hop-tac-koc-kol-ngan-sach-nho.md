@@ -2,7 +2,7 @@
 title: "Booking KOC/KOL khi ví chưa dày"
 category: "Marketing"
 description: Không cần ngân sách khủng mới làm việc được với người có ảnh hưởng. Cách chọn và hợp tác với KOC/KOL khi tiền không nhiều.
-pubDate: 2026-05-19
+pubDate: 2026-05-19T12:18
 cover: https://images.unsplash.com/photo-1726066012749-f81bf4422d4e?auto=format&fit=crop&w=1200&q=80
 tags:
   - Marketing

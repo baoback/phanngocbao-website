@@ -2,7 +2,7 @@
 title: "Content pillar: viết một lần, dùng mười lần"
 category: "Marketing"
 description: Bí quyết của những người làm nội dung bền bỉ không phải là sáng tạo liên tục, mà là biết xây trụ nội dung và tái chế thông minh. Đây là cách làm.
-pubDate: 2026-06-18
+pubDate: 2026-06-18T09:18
 cover: https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=80
 tags:
   - Content

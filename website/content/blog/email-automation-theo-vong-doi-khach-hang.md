@@ -2,7 +2,7 @@
 title: "Gửi đúng email vào đúng thời điểm trong vòng đời khách"
 category: "Marketing"
 description: Email không chết, chỉ là cách dùng cũ đã chết. Bí quyết nằm ở việc tự động hóa theo hành vi và giai đoạn vòng đời của khách hàng, thay vì gửi hàng loạt.
-pubDate: 2026-06-18
+pubDate: 2026-06-18T09:15
 cover: https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1200&q=80
 tags:
   - Email

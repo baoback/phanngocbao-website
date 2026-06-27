@@ -2,7 +2,7 @@
 title: "Làm ít hơn để được nhiều hơn"
 category: "Quản trị"
 description: Bận rộn không phải là hiệu quả. Phần lớn kết quả đến từ một số ít việc quan trọng. Đây là cách chọn đúng việc để làm và đủ can đảm để bỏ phần còn lại.
-pubDate: 2026-06-27
+pubDate: 2026-06-27T22:27
 cover: https://images.unsplash.com/photo-1551135049-8a33b5883817?auto=format&fit=crop&w=1200&q=80
 tags:
   - Quản trị
