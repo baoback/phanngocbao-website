@@ -111,7 +111,7 @@ life:
     title: Đọc và ghi chép
     text: Mình đọc mỗi ngày, chủ yếu về kinh doanh, tâm lý và công nghệ, rồi ghi lại thành ghi chú để dùng dần.
   - image: https://picsum.photos/seed/ngbao-life-travel/1200/1500
-    video: ""
+    video: https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
     title: Đi và quan sát
     text: Mỗi chuyến đi là một lần quan sát thị trường và con người ở một góc khác.
   - image: https://picsum.photos/seed/ngbao-life-coffee/1200/1500
