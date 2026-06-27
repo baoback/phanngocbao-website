@@ -6,7 +6,7 @@ description: >
 
   Phát triển 1 team Affiliate Marketing triển khai đa dạng các hoạt động quảng cáo, performance cũng như Social Comminities trên các nền tảng Shopee và TikTok
 cover: /uploads/screenshot-2026-06-27-at-14.27.00.png
-role: Performance & Growth
+role: Investor & Advisor
 year: 2025 - Present
 tags: Performance · Growth · Management
 url: ""
