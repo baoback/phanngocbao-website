@@ -24,7 +24,7 @@ collections:
     fields:
           - { label: "Tiêu đề", name: "title", widget: "string" }
           - { label: "Mô tả ngắn (cho SEO & thẻ tóm tắt)", name: "description", widget: "text", required: false }
-          - { label: "Ngày đăng", name: "pubDate", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD" }
+          - { label: "Ngày & giờ đăng", name: "pubDate", widget: "datetime", date_format: "DD/MM/YYYY", time_format: "HH:mm", format: "YYYY-MM-DDTHH:mm", hint: "Để mặc định là thời điểm hiện tại; bài đăng sau sẽ tự lên đầu mục Mới nhất." }
           - { label: "Ảnh bìa", name: "cover", widget: "image", required: false, hint: "Nên dùng ảnh thật (photography). Tải ảnh lên hoặc dán link ảnh." }
           - { label: "Chủ đề (phân loại trang chủ)", name: "category", widget: "select", required: false, default: "Marketing", options: ["Quản trị", "Marketing", "Kinh doanh", "Cuộc sống"] }
           - { label: "Thẻ (chi tiết)", name: "tags", widget: "list", required: false, hint: "Ví dụ: Content, Thương hiệu" }
