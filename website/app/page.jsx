@@ -3,6 +3,7 @@ import {
   getAllTags,
   getSettings,
   CATEGORIES,
+  categorySlug,
   getPostsByCategory,
 } from '@/lib/posts';
 import Hero from './components/Hero';
@@ -59,7 +60,12 @@ export default async function Home() {
       </section>
 
       {CATEGORIES.map((cat) => (
-        <TopicSection key={cat} title={cat} posts={getPostsByCategory(cat).map(slim)} />
+        <TopicSection
+          key={cat}
+          title={cat}
+          posts={getPostsByCategory(cat).map(slim)}
+          href={`/${categorySlug(cat)}`}
+        />
       ))}
 
       <section className="section">
