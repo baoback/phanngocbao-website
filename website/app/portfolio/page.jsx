@@ -47,17 +47,22 @@ export default function PortfolioPage() {
     <div className="pp">
       {/* Hero — tạp chí căn giữa + marquee */}
       <section className="pp-hero">
-        <div className="container">
-          {pg.heroEyebrow && <span className="pp-hero-eyebrow reveal-up">{pg.heroEyebrow}</span>}
-          <h1 className="pp-hero-title reveal-up">{pg.heroTitle}</h1>
-          {pg.heroSubtitle && <p className="pp-hero-sub reveal-up">{pg.heroSubtitle}</p>}
-          <div className="pp-hero-cta reveal-up">
-            {pg.heroCtaPrimaryLabel && (
-              <Link className="btn btn-primary" href={pg.heroCtaPrimaryHref || '#du-an'}>{pg.heroCtaPrimaryLabel}</Link>
-            )}
-            {pg.heroCtaSecondaryLabel && (
-              <Link className="btn btn-ghost" href={pg.heroCtaSecondaryHref || '/about#contact'}>{pg.heroCtaSecondaryLabel} →</Link>
-            )}
+        <div className={`pp-hero-top${pg.heroImage ? ' has-bg' : ''}`}>
+          {pg.heroImage && (
+            <div className="pp-hero-bg" style={{ backgroundImage: `url("${pg.heroImage}")` }} aria-hidden="true" />
+          )}
+          <div className="container pp-hero-inner">
+            {pg.heroEyebrow && <span className="pp-hero-eyebrow reveal-up">{pg.heroEyebrow}</span>}
+            <h1 className="pp-hero-title reveal-up">{pg.heroTitle}</h1>
+            {pg.heroSubtitle && <p className="pp-hero-sub reveal-up">{pg.heroSubtitle}</p>}
+            <div className="pp-hero-cta reveal-up">
+              {pg.heroCtaPrimaryLabel && (
+                <Link className="btn btn-primary" href={pg.heroCtaPrimaryHref || '#du-an'}>{pg.heroCtaPrimaryLabel}</Link>
+              )}
+              {pg.heroCtaSecondaryLabel && (
+                <Link className="btn btn-ghost" href={pg.heroCtaSecondaryHref || '/about#contact'}>{pg.heroCtaSecondaryLabel} →</Link>
+              )}
+            </div>
           </div>
         </div>
         {marquee.length > 0 && (
