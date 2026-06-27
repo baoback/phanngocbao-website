@@ -11,12 +11,6 @@ backend:
 media_folder: "website/public/uploads"
 public_folder: "/uploads"
 
-# Tự bỏ dấu tiếng Việt khi tạo slug (tránh lỗi 404 với link có dấu)
-slug:
-  encoding: "ascii"
-  clean_accents: true
-  sanitize_replacement: "-"
-
 collections:
   # ---------- Bài viết blog ----------
   - name: "blog"
@@ -117,14 +111,16 @@ collections:
               - { label: "Con số", name: "number", widget: "string" }
               - { label: "Nhãn", name: "label", widget: "string" }
               - { label: "Mức % cho biểu đồ (0-100, tuỳ chọn)", name: "percent", widget: "number", required: false, value_type: "int", min: 0, max: 100 }
-          - label: "Khối câu chuyện"
-            name: "storyBlocks"
+          - label: "Hành trình làm việc (timeline)"
+            name: "journey"
             widget: "list"
             required: false
             fields:
-              - { label: "Tiêu đề", name: "heading", widget: "string" }
-              - { label: "Nội dung", name: "text", widget: "text" }
-              - { label: "Ảnh", name: "image", widget: "image", required: false }
+              - { label: "Giai đoạn / Năm (vd 2018 – 2020)", name: "period", widget: "string" }
+              - { label: "Vai trò / Chức danh", name: "role", widget: "string" }
+              - { label: "Nơi làm (công ty / tổ chức)", name: "place", widget: "string", required: false }
+              - { label: "Mô tả", name: "text", widget: "text", required: false }
+              - { label: "Điều rút ra", name: "takeaway", widget: "string", required: false }
           - label: "Năng lực / Mình làm gì"
             name: "skills"
             widget: "list"
@@ -140,6 +136,14 @@ collections:
             fields:
               - { label: "Tên nhóm", name: "group", widget: "string" }
               - { label: "Công cụ", name: "items", widget: "list", field: { label: "Tên", name: "name", widget: "string" } }
+          - label: "Cuộc sống ngoài công việc"
+            name: "life"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Emoji / Icon (vd 📚)", name: "emoji", widget: "string", required: false }
+              - { label: "Tiêu đề", name: "title", widget: "string" }
+              - { label: "Mô tả", name: "text", widget: "text", required: false }
           - { label: "CTA — tiêu đề", name: "ctaTitle", widget: "string", required: false }
           - { label: "CTA — mô tả", name: "ctaText", widget: "text", required: false }
           - { label: "Trình chiếu — tiêu đề lớn", name: "showcaseTitle", widget: "string", required: false }
