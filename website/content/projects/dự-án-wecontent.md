@@ -24,15 +24,20 @@ metrics:
 ---
 ## Bối cảnh
 
-Dự án được triển khai nhằm tăng lượng traffic mới cho WeFit nhằm gia tăng doanh số
+WeFit thời điểm đó cần traffic, và cần nó với chi phí hợp lý để đẩy doanh số. Quảng cáo trả phí thì luôn có, nhưng càng chạy càng đắt, và phụ thuộc hoàn toàn vào ngân sách. Bọn mình đặt một bài toán khác: thay vì thuê traffic, mình tự xây lấy một nguồn traffic của riêng mình.
 
+Dưới vai trò CMO, mình chủ trì Wecontent, một hệ thống các kênh nội dung trên mạng xã hội được dựng lên để nuôi và hứng lượng người dùng khổng lồ, rồi dẫn họ về phục vụ cho hoạt động của WeFit.
 
 ## Mình đã làm gì
 
-- Triển khai thành công nhiều fanpage, group đa dạng nội dung từ tình cảm, thể thao, vẽ tranh, châm biếm cho đến lifestyle, dinh dưỡng, sức khoẻ
+- Mình triển khai thành công một mạng lưới fanpage và group đa dạng đề tài, từ tình cảm, thể thao, vẽ tranh, châm biếm, cho tới lifestyle, dinh dưỡng, sức khỏe. Ý đồ là phủ rộng nhiều tệp người dùng khác nhau, mỗi kênh đánh đúng một nhóm sở thích, thay vì gom tất cả vào một chỗ.
+- Mình vận hành theo tư duy hệ thống chứ không làm lẻ. Kênh nào lên nhanh thì nhân mô hình, nội dung nào viral thì mổ xẻ để tái lặp. Cả cỗ máy nội dung này chạy như một dây chuyền, sản xuất đều và lan tỏa đều.
+- Mình giữ cho nội dung luôn bám vào thứ người ta thật sự muốn xem, muốn chia sẻ, vì trên social, reach tự nhiên mới là phần rẻ và bền nhất.
 
 ## Kết quả
 
-- Tuy WeFit sau cùng cũng không tránh khỏi được áp lực tài chính đè nặng nhưng dự án thực sự đã đem lại nhiều thành công đáng kể. Góp phần tăng trưởng và đưa về nhiều khách hàng mới cho Công ty
+Hệ thống lớn dần thành một mạng đáng nể: khoảng 30 fanpage cán mốc trên 10 nghìn follow, trong đó fanpage lớn nhất chạm 300 nghìn thành viên và group lớn nhất quanh 100 nghìn thành viên, tính ở thời điểm 2019.
 
-- Dự án đã triển khai lâu nên về số liệu mình quả thực không nhớ cụ thể, nhưng bạn có thể hình dung trung bình mỗi ngày lượt tiếp cận không dưới 100,000 impression
+Dự án đã triển khai khá lâu nên về số liệu chi tiết mình thú thật là không nhớ chính xác từng con số. Nhưng để bạn dễ hình dung về quy mô, trung bình mỗi ngày lượng tiếp cận không dưới 100 nghìn impression. Đó là một dòng traffic khổng lồ và gần như tự chủ.
+
+WeFit sau cùng không thoát khỏi áp lực tài chính của riêng nó, đó là câu chuyện khác. Nhưng riêng Wecontent thì thực sự đã làm tốt phần việc của mình, góp phần tăng trưởng và đưa về rất nhiều khách hàng mới cho công ty. Với mình, đây là minh chứng cho một niềm tin: nội dung làm bài bản, ở quy mô đủ lớn, có thể trở thành một kênh tăng trưởng mạnh chẳng kém gì quảng cáo trả phí.

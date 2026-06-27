@@ -37,15 +37,17 @@ metrics:
 
 ## Bối cảnh
 
-Team đã cùng mình triển khai nhiều dự án, có ý tưởng thực hiện 1 sản phẩm về giáo dục kết hợp AI và Robotics. Mình sẽ phụ trách về Growth và product
+Team này đã đi cùng mình qua nhiều dự án trước đó, nên khi có ý tưởng làm một sản phẩm giáo dục kết hợp AI và Robotics, mọi người gần như bắt nhịp được ngay. Sản phẩm là Otto DIY, một con robot lắp ráp giúp trẻ em từ 6 tới 15 tuổi làm quen với lập trình và tư duy STEM. Ý tưởng cốt lõi là biến chuyện học lập trình khô khan thành một thứ trẻ con cầm nắm được, ráp được, và thấy nó cử động ngay trước mắt.
+
+Mình nhận phần Growth và Product, tức là hai câu hỏi sống còn: làm sao bán được và làm sao sản phẩm thật sự đáng để mua.
 
 ## Triển khai
 
-- Mình đã bán được rất nhiều các sản phẩm về đồ chơi giáo dục trong giai đoạn Milestone 1 do áp dụng được nhiều kiến thức Growth và có sự chuẩn bị kỹ lưỡng trong khâu sản phẩm .
-- Phối hợp cùng các đồng đội triển khai ra được nhiều nguyên mẫu thiết kế sản phẩm robot sử dụng công nghệ in 3D.
+- Ở Milestone 1, mình tập trung bán các sản phẩm đồ chơi giáo dục để vừa tạo doanh thu vừa gây dựng cộng đồng phụ huynh và trẻ quan tâm tới STEM. Giai đoạn này bán rất chạy, mình bán được hơn 2 nghìn sản phẩm, nhờ áp dụng được nhiều kiến thức Growth và chuẩn bị kỹ phần sản phẩm trước khi tung ra. Cộng đồng này về sau chính là tệp khách sẵn sàng cho mấy sản phẩm robot.
+- Qua Milestone 2, bọn mình bắt tay vào phần lõi công nghệ. Mình phối hợp cùng đồng đội triển khai in 3D các mô hình robot Otto và lập trình các module cho nó. Cả nhóm ra được hơn 10 nguyên mẫu thiết kế khác nhau, mỗi bản là một vòng thử rồi sửa, một cách rất "DIY" đúng nghĩa.
 
 ## Kết quả
 
-- Nhìn chung dưới góc độ của OKR, mình đã hoàn thành phần dự án ở milestone 1 và 2.
-- Tuy nhiên vì 1 số lý do về location cũng như thời gian dành cho dự án, mình đã dừng lại không tham gia nữa ở giai đoạn 3. 
-- Hiện tại dự án vẫn đang triển khai ở giữa giai đoạn 3 và 4
+Nhìn dưới góc độ OKR, mình hoàn thành phần việc của mình ở Milestone 1 và 2. Phần bán hàng và phát triển cộng đồng đạt mục tiêu, phần sản phẩm cũng ra được bộ nguyên mẫu để đi tiếp.
+
+Tới giai đoạn 3, vì một số lý do về location cũng như thời gian mình dành được cho dự án, mình quyết định dừng lại, không tham gia nữa. Đây là một quyết định không dễ, nhưng mình tin việc biết rút lui đúng lúc cũng quan trọng như biết lao vào. Hiện tại dự án vẫn đang chạy, ở khoảng giữa giai đoạn 3 và 4, với đích đến là đưa Otto vào làm chương trình giảng dạy trong các trường học. Mình vẫn dõi theo nó với nhiều thiện cảm.

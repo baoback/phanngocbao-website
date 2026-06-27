@@ -12,18 +12,18 @@ featured: true
 ---
 ## Bối cảnh
 
-Dự án được triển khai bởi đam mê và tham vọng của những người trẻ tuổi mong muốn có kênh DIY triệu sub
+Vườn Hành ra đời từ máu liều của tuổi trẻ. Đó là giai đoạn 2015 đến 2016, lúc YouTube ở Việt Nam mới chập chững, người làm nội dung bài bản còn ít, và ai bước vào sớm đều mơ giấc mơ kênh triệu sub. Bọn tôi cũng vậy, một nhóm người trẻ vừa có đam mê vừa có tham vọng, muốn dựng một kênh DIY thật sự ra trò.
+
+Cái hay của thời điểm đó là sân chơi còn rộng, còn cái khó là chẳng có mấy ai đi trước để mà học theo. Gần như mọi thứ bọn tôi đều tự mò.
 
 ## Mình đã làm gì
 
-- Quản trị chính, lên ý tưởng nội dung và triển khai hoạt động quay dựng
-- Quản lý timeline, và cũng là những lần đầu tiên được triển khai OKR trong 1 dự án
+- Tôi giữ vai trò quản trị chính, từ lên ý tưởng nội dung cho tới triển khai quay dựng. Làm DIY nghĩa là phải nghĩ ra thứ vừa lạ mắt vừa làm theo được, rồi tự tay biến nó thành video coi được.
+- Tôi quản lý timeline sản xuất, ép cả team giữ nhịp ra video đều đặn. Đây cũng là một trong những lần đầu tiên tôi áp dụng OKR vào một dự án thật, đặt mục tiêu rõ ràng rồi đo lại, thay vì làm theo cảm hứng. Bài học quản trị đầu đời của tôi nằm ở đây.
+- Tôi xoay xở trong điều kiện thiếu thốn đủ thứ, từ thiết bị tới ngân sách, và học cách làm ra nội dung tử tế bằng nguồn lực eo hẹp.
 
 ## Kết quả
 
-Xét về mục đích của tôi về kênh, thì thực tế view rất tốt nhưng ngân sách của team trong giai đoạn đó thực sự hạn chế nên dự án đành phải dừng lại dang dở 
+Xét riêng về nội dung, kênh chạy rất tốt, view tốt hơn cả kỳ vọng. Vấn đề nằm ở chỗ ngân sách của team thời điểm đó thực sự hạn chế, không đủ sức nuôi một dự án nội dung đường dài, nên cuối cùng phải dừng lại khi còn dang dở. Tiếc, nhưng đó là một cái tiếc đẹp.
 
-Dự án đã từ cách đây 10 năm
-
-Có sự tham gia của các nhân vật nổi tiếng như Thái Đinh, Lil' Kani
-
+Dự án này đã cách đây 10 năm rồi. Nhìn lại, nó vẫn là một kỷ niệm đáng nhớ, một phần vì có sự tham gia của những gương mặt mà sau này nhiều người biết tới như Thái Đinh, Lil' Kani. Vườn Hành dạy tôi rằng nội dung hay là cần thiết nhưng chưa đủ, một dự án muốn đi xa còn phải có cái nền tài chính đủ vững để nuôi nó qua giai đoạn chưa sinh ra tiền.

@@ -40,18 +40,18 @@ metrics:
 
 ## Bối cảnh
 
-Dự án được triển khai khi bản thân tôi đã đạt được 1 số thành công nhất định trong mảng bán lẻ nên việc dò đường để triển khai là tương đối nhẹ nhàng
+Nam Linh Digital là nước đi tiếp theo sau khi tôi đã gặt được một số thành công nhất định trong mảng bán lẻ. Chính cái nền đó khiến việc dò đường lần này tương đối nhẹ nhàng. Tôi đã hiểu khá rõ cách thị trường vận hành, biết đâu là chỗ kiếm được tiền, đâu là cái bẫy, nên không phải mò mẫm từ đầu như người mới.
 
-Mong muốn tìm thêm kênh đầu tư để đa dạng hoá dòng tiền
+Động cơ phía sau rất thực tế: tôi muốn tìm thêm kênh đầu tư để đa dạng hóa dòng tiền, không để mọi thứ phụ thuộc vào một nguồn. Lần này tôi chọn mảng điện tử, điện gia dụng, một thị trường có nhu cầu ổn định và còn nhiều dư địa cho một người làm bài bản.
 
 ## Mình đã làm gì
 
-- Tôi đóng vai trò nhà đầu tư thiên thần nhưng cũng chiếm vai trò rất lớn trong đội ngũ sáng lập
-- Tôi tư vấn cách thức đội ngũ vận quản trị,vận hành, tuyển dụng, triển khai các dự án lớn nhỏ
-- Tôi đem về các đối tác lớn cho Namlinh Digital như Smartlink, Hợp Long, Xiaomi, Dreame, Minh Long Digital
+- Tôi đóng vai trò nhà đầu tư thiên thần, nhưng thực tế tham gia rất sâu vào đội ngũ sáng lập chứ không đứng ngoài. Tôi muốn dự án được nắn đúng hướng ngay từ những viên gạch đầu tiên.
+- Tôi tư vấn cho đội ngũ về cách quản trị, vận hành, tuyển dụng, và triển khai các dự án lớn nhỏ. Đây là phần tôi mang lại nhiều giá trị nhất, vì nó đến trực tiếp từ những gì tôi đã va vấp và rút ra qua các dự án trước.
+- Tôi tận dụng quan hệ của mình để đem về các đối tác lớn cho Nam Linh Digital, như Smartlink, Hợp Long, Xiaomi, Dreame, Minh Long Digital. Với một startup TMĐT mảng điện tử, có được nguồn hàng và đối tác mạnh ngay từ sớm là một lợi thế cạnh tranh thật sự.
 
 ## Kết quả
 
-Xét về mục đích của tôi về mặt tài chính, đây là 1 dự án tương đối thành công.
+Xét đúng theo mục tiêu tài chính mà tôi đặt ra, đây là một dự án tương đối thành công. Con số nói rõ nhất: dự án đạt điểm hòa vốn chỉ sau 2 tháng hoạt động, một tốc độ rất đáng nể với một startup mới. Hiện tại đội ngũ đã có hơn 10 đối tác là các brand điện tử, điện gia dụng lớn, và đang ở giai đoạn mở rộng quy mô thị trường, bắt tay với các đối tác chiến lược.
 
-Tuy nhiên tôi cũng muốn dành ít thời gian hơn cho dự án ở các giai đoạn tiếp theo để tối ưu hơn về sức người/profit
+Về phía cá nhân, ở các giai đoạn tới tôi muốn dành ít thời gian hơn cho dự án, để tối ưu lại bài toán sức người trên lợi nhuận. Tôi tin một khoản đầu tư tốt là khoản tự nó chạy được mà không cần mình cắm mặt vào hàng ngày, và Nam Linh Digital đang dần đi tới được trạng thái đó.
