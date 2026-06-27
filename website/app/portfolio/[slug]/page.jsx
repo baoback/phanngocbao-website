@@ -32,7 +32,7 @@ export default async function ProjectDetail({ params }) {
     <div className="story" style={{ '--story-accent': s.accent || '#B0814C' }}>
       <article className="post container">
         <Link href="/portfolio" className="back-link">← Tất cả dự án</Link>
-        {p.cover && <img className="cover" src={p.cover} alt={p.title} />}
+        {p.cover && <img className="cover" src={p.cover} alt={p.title} decoding="async" fetchPriority="high" />}
         <h1>{p.title}</h1>
         {meta && <div className="post-meta">{meta}</div>}
         {p.description && (
