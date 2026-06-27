@@ -106,16 +106,20 @@ toolkit:
       - Claude
       - Midjourney
 life:
-  - emoji: "📚"
+  - image: https://picsum.photos/seed/ngbao-life-read/1200/1500
+    video: ""
     title: Đọc và ghi chép
     text: Mình đọc mỗi ngày, chủ yếu về kinh doanh, tâm lý và công nghệ, rồi ghi lại thành ghi chú để dùng dần.
-  - emoji: "✈️"
+  - image: https://picsum.photos/seed/ngbao-life-travel/1200/1500
+    video: ""
     title: Đi và quan sát
     text: Mỗi chuyến đi là một lần quan sát thị trường và con người ở một góc khác.
-  - emoji: "☕"
+  - image: https://picsum.photos/seed/ngbao-life-coffee/1200/1500
+    video: ""
     title: Cà phê và trò chuyện
     text: Mình thích những buổi cà phê dài, nghe người khác kể về công việc và cuộc sống của họ.
-  - emoji: "🏋️"
+  - image: https://picsum.photos/seed/ngbao-life-gym/1200/1500
+    video: ""
     title: Rèn thể lực
     text: Giữ sức khỏe để đủ năng lượng theo đuổi mấy thứ dài hơi.
 ctaTitle: Cùng xây điều gì đó đáng nhớ?
