@@ -2195,7 +2195,7 @@ body.pf-immersive .site-header.scrolled {
   background: var(--surface-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
 }
 .pp-marquee-track { display: inline-flex; white-space: nowrap; will-change: transform; animation: ppMarquee 30s linear infinite; }
-.pp-marquee-item { display: inline-flex; align-items: center; font-family: var(--font-serif), Georgia, serif; font-size: clamp(20px, 3vw, 32px); font-weight: 600; color: var(--text); padding-left: 4px; }
+.pp-marquee-item { display: inline-flex; align-items: center; font-family: var(--font); font-size: clamp(20px, 3vw, 32px); font-weight: 700; color: var(--text); padding-left: 4px; letter-spacing: -0.01em; }
 .pp-marquee-sep { color: #b0814c; margin: 0 30px; font-size: 0.7em; }
 @keyframes ppMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .pp-marquee-track { animation: none; } }
