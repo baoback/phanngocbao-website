@@ -7,7 +7,7 @@ cover: /uploads/giu-lanh-cuc-sau-3.png
 role: Investor & Advisor
 year: 2025 - Present
 tags: Strategy · Investment · Retail
-url: namlinh.vn
+url: https://namlinh.vn
 order: 1
 draft: false
 featured: true
