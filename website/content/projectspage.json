@@ -1,35 +1,51 @@
 {
-  "heroEyebrow": "Portfolio",
-  "heroTitle": "Nơi chiến lược gặp kết quả",
-  "heroSubtitle": "Mình đồng hành cùng các thương hiệu để xây định vị, tối ưu hiệu suất và tăng trưởng bền vững — đo lường được, lặp lại được.",
-  "heroImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=2000&q=80",
-  "heroCtaPrimaryLabel": "Xem dự án nổi bật",
-  "heroCtaPrimaryHref": "#du-an",
-  "heroCtaSecondaryLabel": "Liên hệ hợp tác",
-  "heroCtaSecondaryHref": "/about#contact",
-  "marquee": ["Thương hiệu", "Performance", "Content", "Tăng trưởng", "Thương mại điện tử", "Storytelling", "SEO", "Automation"],
-  "brandsTitle": "Thương hiệu đã hợp tác",
-  "brandsSubtitle": "Một số thương hiệu mình từng đồng hành.",
-  "brands": [
-    { "name": "", "logo": "" },
-    { "name": "", "logo": "" },
-    { "name": "", "logo": "" },
-    { "name": "", "logo": "" },
-    { "name": "", "logo": "" },
-    { "name": "", "logo": "" }
+  "marquee": [
+    "Growth",
+    "Management",
+    "Partnership",
+    "R&D",
+    "Startup",
+    "Ecommerce"
   ],
-  "featuredTitle": "Dự án nổi bật",
+  "brandsSubtitle": "Một số Công ty, thương hiệu mình từng đồng hành. Có thể là từng làm việc tại đó, đã tư vấn hoặc hợp tác trong các dự án thương mại riêng",
   "featuredSubtitle": "Tuyển chọn các dự án tiêu biểu, bấm để xem chi tiết.",
-  "servicesTitle": "Lĩnh vực mình làm",
-  "servicesSubtitle": "Những mảng mình có thể đồng hành cùng bạn.",
-  "services": [
-    { "title": "Thương hiệu & Định vị", "desc": "Xây định vị, thông điệp và hệ thống nhận diện nhất quán." },
-    { "title": "Performance & Quảng cáo", "desc": "Tối ưu kênh trả phí, đo lường, tăng hiệu quả chi tiêu." },
-    { "title": "Content & SEO", "desc": "Hệ thống nội dung theo search intent và topic cluster." },
-    { "title": "Tăng trưởng & Vận hành", "desc": "Phễu, automation và quy trình tăng trưởng bền vững." }
-  ],
+  "heroCtaPrimaryLabel": "Xem dự án nổi bật",
   "ctaTitle": "Cùng xây điều đáng nhớ?",
-  "ctaText": "Nếu bạn đang tìm người đồng hành về marketing, mình rất sẵn lòng trò chuyện.",
+  "heroCtaSecondaryHref": "/about#contact",
+  "featuredTitle": "Dự án nổi bật",
+  "brands": [
+    {
+      "name": "One Mount Group",
+      "logo": "/uploads/183053882_2x4-onemount-wordmark-rgb-black.png"
+    }
+  ],
+  "brandsTitle": "Đồng hành và hợp tác",
+  "ctaButtonHref": "/about#contact",
+  "heroEyebrow": "Portfolio",
+  "heroSubtitle": "Có nhiều dự án thành công nhưng cũng nhiều dự án thì không may mắn như vậy. Tuy nhiên những bài học rút ra được và những con người trải nghiệm cùng chặng đường thật sự rất đáng giá",
   "ctaButtonLabel": "Kết nối với mình",
-  "ctaButtonHref": "/about#contact"
+  "servicesSubtitle": "Những mảng mình có thể đồng hành cùng bạn.",
+  "heroCtaSecondaryLabel": "Liên hệ hợp tác",
+  "heroCtaPrimaryHref": "#du-an",
+  "servicesTitle": "Lĩnh vực mình làm",
+  "ctaText": "Nếu bạn đang tìm người đồng hành về marketing, mình rất sẵn lòng trò chuyện.",
+  "services": [
+    {
+      "title": "Thương hiệu & Định vị",
+      "desc": "Xây định vị, thông điệp và hệ thống nhận diện nhất quán."
+    },
+    {
+      "title": "Performance & Quảng cáo",
+      "desc": "Tối ưu kênh trả phí, đo lường, tăng hiệu quả chi tiêu."
+    },
+    {
+      "title": "Content & SEO",
+      "desc": "Hệ thống nội dung theo search intent và topic cluster."
+    },
+    {
+      "title": "Tăng trưởng & Vận hành",
+      "desc": "Phễu, automation và quy trình tăng trưởng bền vững."
+    }
+  ],
+  "heroTitle": "Những dự án mình đã thực hiện"
 }
