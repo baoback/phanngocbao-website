@@ -11,6 +11,12 @@ backend:
 media_folder: "website/public/uploads"
 public_folder: "/uploads"
 
+# Tự bỏ dấu tiếng Việt khi tạo slug (tránh lỗi 404 với link có dấu)
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
 collections:
   # ---------- Bài viết blog ----------
   - name: "blog"
