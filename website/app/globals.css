@@ -2072,7 +2072,33 @@ body.pf-immersive { background:#0c0b09; }
   transition: color 0.18s var(--ease), border-color 0.18s var(--ease);
 }
 .tagchip:hover { color: var(--text); border-color: var(--text-faint); }
-.tagchip-more { font-weight: 600; }
+
+/* Nút mở rộng / thu gọn thẻ — tông vàng đồng, khác hẳn thẻ chính */
+.tagchip-toggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 600; font-family: inherit;
+  padding: 6px 14px; border-radius: var(--radius-pill); cursor: pointer;
+  color: #9a6f3e;
+  background: color-mix(in srgb, #b0814c 13%, transparent);
+  border: 1px solid color-mix(in srgb, #b0814c 42%, transparent);
+  transition: background 0.18s var(--ease), border-color 0.18s var(--ease), transform 0.18s var(--ease);
+}
+.tagchip-toggle:hover {
+  background: color-mix(in srgb, #b0814c 22%, transparent);
+  border-color: #b0814c;
+  transform: translateY(-1px);
+}
+.tagchip-toggle svg { transition: transform 0.25s var(--ease); }
+.tagchip-toggle.open svg { transform: rotate(180deg); }
+[data-theme='dark'] .tagchip-toggle {
+  color: #d3ad72;
+  background: color-mix(in srgb, #c6a36a 16%, transparent);
+  border-color: color-mix(in srgb, #c6a36a 42%, transparent);
+}
+[data-theme='dark'] .tagchip-toggle:hover {
+  background: color-mix(in srgb, #c6a36a 26%, transparent);
+  border-color: #c6a36a;
+}
 
 /* ============ Mobile: tiêu đề & chữ dài ============ */
 @media (max-width: 600px) {
