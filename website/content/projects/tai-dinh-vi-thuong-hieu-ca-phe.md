@@ -1,5 +1,5 @@
 ---
-title: Dự án thương mại điện tử Nam Linh Digital
+title: Dự án TMĐT Nam Linh Digital
 description: >
   Với kinh nghiệm trong mảng bán lẻ những năm gần đây. Tôi quyết định đầu tư vào
   1 Startup mới. Tập trung vào những sản phẩm trong mảng Điện tử điện gia dụng 
