@@ -8,9 +8,9 @@
     "Ecommerce"
   ],
   "brandsSubtitle": "Một số Công ty, thương hiệu mình từng đồng hành. Có thể là từng làm việc tại đó, đã tư vấn hoặc hợp tác trong các dự án thương mại riêng",
-  "featuredSubtitle": "Tuyển chọn các dự án tiêu biểu, bấm để xem chi tiết.",
+  "featuredSubtitle": "Các dự án đáng nhớ",
   "heroCtaPrimaryLabel": "Xem dự án nổi bật",
-  "ctaTitle": "Cùng xây điều đáng nhớ?",
+  "ctaTitle": "Contact me",
   "heroCtaSecondaryHref": "/about#contact",
   "featuredTitle": "Dự án nổi bật",
   "brands": [
@@ -72,23 +72,23 @@
   "heroCtaSecondaryLabel": "Liên hệ hợp tác",
   "heroCtaPrimaryHref": "#du-an",
   "servicesTitle": "Lĩnh vực mình làm",
-  "ctaText": "Nếu bạn đang tìm người đồng hành về marketing, mình rất sẵn lòng trò chuyện.",
+  "ctaText": "Nếu bạn đang tìm người đồng hành về quản trị, marketing và kinh doanh hay thậm chí về cuộc sống mình rất sẵn lòng trò chuyện.",
   "services": [
     {
-      "title": "Thương hiệu & Định vị",
-      "desc": "Xây định vị, thông điệp và hệ thống nhận diện nhất quán."
+      "title": "Project & Business Management",
+      "desc": "Mình có 8 năm kinh nghiệm quản lý đa dạng mảng kinh doanh từ Lifestyle, Fintech đến bán lẻ.\n\nĐã từng trải qua nhiều môi trường từ Big Corp đến SME, thậm chí từng quản lý trong 1 số doanh nghiệp có vốn nhà nước "
     },
     {
-      "title": "Performance & Quảng cáo",
-      "desc": "Tối ưu kênh trả phí, đo lường, tăng hiệu quả chi tiêu."
+      "title": "Growth & Performance ",
+      "desc": "Mình trải qua 6 năm ở vị trí Growth Leader, quản lý nhiều campaign về Digital Marketing\n\nMình cũng có 1 số dự án về MMO rất thành công"
     },
     {
-      "title": "Content & SEO",
-      "desc": "Hệ thống nội dung theo search intent và topic cluster."
+      "title": "Product Development",
+      "desc": "Mình có 5 năm kinh nghiệm làm về sản phẩm. Đảm nhận nhiều vai trò từ PO, PM đến quản trị bộ phận R&D\n\nCó kinh nghiệm làm các sản phẩm về AI từ 2017"
     },
     {
       "title": "Tăng trưởng & Vận hành",
-      "desc": "Phễu, automation và quy trình tăng trưởng bền vững."
+      "desc": "Mình nắm rõ về phễu, automation và quy trình tăng trưởng bền vững.\n\nCó kinh nghiệm vận hành trực tiếp nhiều doanh nghiệp, đội nhóm. "
     }
   ],
   "heroTitle": "Những dự án mình đã thực hiện"
