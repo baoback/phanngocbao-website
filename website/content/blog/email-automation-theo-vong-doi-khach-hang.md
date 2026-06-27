@@ -1,5 +1,5 @@
 ---
-title: "Email automation: gửi đúng thông điệp vào đúng thời điểm vòng đời"
+title: "Gửi đúng email vào đúng thời điểm trong vòng đời khách"
 category: "Marketing"
 description: Email không chết, chỉ là cách dùng cũ đã chết. Bí quyết nằm ở việc tự động hóa theo hành vi và giai đoạn vòng đời của khách hàng, thay vì gửi hàng loạt.
 pubDate: 2026-06-18

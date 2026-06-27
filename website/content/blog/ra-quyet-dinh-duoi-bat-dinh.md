@@ -1,5 +1,5 @@
 ---
-title: "Ra quyết định dưới bất định: làm sao chọn đúng khi không đủ thông tin"
+title: "Chọn sao cho đúng khi không bao giờ đủ thông tin"
 category: "Quản trị"
 description: Trong kinh doanh, bạn luôn phải quyết định với thông tin chưa đầy đủ. Đây là cách tư duy về rủi ro, tránh tê liệt vì phân tích, và quyết định tốt một cách nhất quán.
 pubDate: 2026-06-27

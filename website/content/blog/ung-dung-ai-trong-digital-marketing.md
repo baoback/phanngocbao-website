@@ -1,5 +1,5 @@
 ---
-title: "Ứng dụng AI trong Digital Marketing: công cụ khuếch đại, không phải nút thần kỳ"
+title: "AI trong marketing: công cụ khuếch đại, không phải nút thần kỳ"
 category: "Marketing"
 description: AI đang thay đổi cách làm marketing, nhưng không theo cách nhiều người tưởng. Đây là những ứng dụng thực tế đáng làm ngay và những cạm bẫy cần tránh.
 pubDate: 2026-06-25

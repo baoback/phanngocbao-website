@@ -1,5 +1,5 @@
 ---
-title: "Khi nào nên mở rộng quy mô: và vì sao tăng trưởng quá nhanh có thể giết doanh nghiệp"
+title: "Khi nào nên mở rộng, và vì sao lớn nhanh có thể giết doanh nghiệp"
 category: "Kinh doanh"
 description: Mở rộng đúng lúc nhân thành quả; mở rộng quá sớm nhân cả vấn đề. Đây là cách nhận biết khi nào đã sẵn sàng scale và những cái bẫy của tăng trưởng nóng.
 pubDate: 2026-06-27

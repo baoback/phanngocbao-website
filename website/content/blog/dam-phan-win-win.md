@@ -1,5 +1,5 @@
 ---
-title: "Đàm phán win-win: thắng cuộc thương lượng mà vẫn giữ được mối quan hệ"
+title: "Thắng cuộc đàm phán mà vẫn giữ được mối quan hệ"
 category: "Kinh doanh"
 description: Đàm phán giỏi không phải là ép đối phương xuống đáy, mà là tìm ra chiếc bánh lớn hơn cho cả hai. Đây là tư duy và kỹ thuật để thương lượng vừa lợi vừa bền.
 pubDate: 2026-06-27

@@ -1,5 +1,5 @@
 ---
-title: "Hợp đồng và giấy tờ cơ bản: đừng làm ăn bằng niềm tin suông"
+title: "Đừng làm ăn bằng niềm tin suông"
 category: "Kinh doanh"
 description: Nhiều người làm ăn bằng niềm tin tới lúc toang mới tiếc. Vài thứ giấy tờ, hợp đồng cơ bản đừng coi thường.
 pubDate: 2026-05-27

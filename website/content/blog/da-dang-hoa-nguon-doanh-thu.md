@@ -1,5 +1,5 @@
 ---
-title: "Đừng bỏ trứng một giỏ: đa dạng nguồn doanh thu"
+title: "Đừng bỏ hết trứng vào một giỏ"
 category: "Kinh doanh"
 description: Sống nhờ một khách hay một kênh duy nhất là chơi với lửa. Cách đa dạng nguồn doanh thu mà không loãng sức.
 pubDate: 2026-06-15

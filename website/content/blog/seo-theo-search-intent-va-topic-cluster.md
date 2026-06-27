@@ -1,5 +1,5 @@
 ---
-title: "SEO theo search intent: ngừng đuổi theo từ khóa, bắt đầu trả lời câu hỏi"
+title: "Làm SEO bằng cách trả lời đúng ý người tìm"
 category: "Marketing"
 description: Thứ hạng bền vững không đến từ việc nhồi từ khóa, mà từ việc hiểu đúng ý định tìm kiếm. Đây là cách dùng search intent và topic cluster để xây nội dung.
 pubDate: 2026-06-17

@@ -1,5 +1,5 @@
 ---
-title: "Đọc hiểu báo cáo tài chính: ba bảng số mà chủ doanh nghiệp nào cũng nên nắm"
+title: "Ba bảng số mà chủ doanh nghiệp nào cũng nên đọc được"
 category: "Quản trị"
 description: Không cần là kế toán, nhưng chủ doanh nghiệp phải đọc được sức khỏe của mình qua con số. Đây là cách hiểu báo cáo lãi lỗ, dòng tiền và bảng cân đối một cách thực dụng.
 pubDate: 2026-06-27

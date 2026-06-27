@@ -1,5 +1,5 @@
 ---
-title: "Tâm lý thuyết phục: vài cú hích khiến khách gật đầu"
+title: "Vài cú hích tâm lý khiến khách gật đầu"
 category: "Marketing"
 description: Người ta mua bằng cảm xúc rồi mới biện minh bằng lý trí. Vài nguyên tắc tâm lý giúp thông điệp của bạn dễ được gật đầu hơn.
 pubDate: 2026-04-12

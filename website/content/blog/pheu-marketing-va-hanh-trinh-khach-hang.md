@@ -1,5 +1,5 @@
 ---
-title: "Phễu marketing và hành trình khách hàng: bản đồ để không đốt tiền mù"
+title: "Phễu marketing là tấm bản đồ để khỏi đốt tiền mù"
 category: "Marketing"
 description: Hiểu phễu marketing và mô hình AARRR giúp bạn biết tiền nên đổ vào đâu, vấn đề nằm ở khâu nào, và vì sao tăng lưu lượng đôi khi không tăng doanh thu.
 pubDate: 2026-06-20

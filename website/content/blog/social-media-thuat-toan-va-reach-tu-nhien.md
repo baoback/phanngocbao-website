@@ -1,5 +1,5 @@
 ---
-title: "Thuật toán mạng xã hội: vì sao reach tự nhiên giảm và làm gì với nó"
+title: "Vì sao reach tự nhiên ngày càng tệ, và làm gì với nó"
 category: "Marketing"
 description: Reach tự nhiên ngày càng khó không phải vì nền tảng ghét bạn, mà vì cách thuật toán phân phối đã đổi. Hiểu cơ chế để tạo nội dung được lan tỏa thật sự.
 pubDate: 2026-06-23

@@ -1,5 +1,5 @@
 ---
-title: "Cấu trúc và tối ưu quảng cáo Performance: nền tảng quan trọng hơn mẹo"
+title: "Chạy quảng cáo Performance: nền tảng ăn đứt mẹo vặt"
 category: "Marketing"
 description: Đa số tài khoản quảng cáo kém hiệu quả không phải vì thiếu mẹo, mà vì cấu trúc sai và tối ưu vội. Đây là cách xây nền tảng đúng cho Meta và Google Ads.
 pubDate: 2026-06-19

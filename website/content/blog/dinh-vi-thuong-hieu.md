@@ -1,5 +1,5 @@
 ---
-title: "Định vị thương hiệu: chiếm một chỗ trong đầu khách"
+title: "Định vị thương hiệu là chiếm một chỗ trong đầu khách"
 category: "Marketing"
 description: Định vị là chiếm lấy một chỗ rõ ràng trong đầu khách. Cố làm vừa lòng tất cả thì chẳng là gì với ai.
 pubDate: 2026-06-03

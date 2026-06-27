@@ -1,5 +1,5 @@
 ---
-title: "Lãnh đạo khác quản lý: hai việc khác nhau mà ai làm chủ cũng phải gánh"
+title: "Lãnh đạo và quản lý không phải một việc"
 category: "Quản trị"
 description: Quản lý là làm đúng việc, lãnh đạo là chọn đúng việc để làm. Lẫn lộn hai vai trò này khiến nhiều chủ doanh nghiệp bận rộn mà đội ngũ vẫn lạc hướng.
 pubDate: 2026-06-27

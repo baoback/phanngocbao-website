@@ -1,5 +1,5 @@
 ---
-title: "Retargeting: kéo người ghé rồi đi quay trở lại"
+title: "Kéo người đã ghé rồi đi quay trở lại"
 category: "Marketing"
 description: Phần lớn người ghé lần đầu rồi đi luôn. Retargeting là cách nhắc khéo để họ quay lại, làm đúng thì rẻ mà hiệu quả.
 pubDate: 2026-05-06

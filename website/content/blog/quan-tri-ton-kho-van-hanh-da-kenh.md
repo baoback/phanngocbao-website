@@ -1,5 +1,5 @@
 ---
-title: "Quản trị tồn kho khi bán đa kênh: nơi lợi nhuận âm thầm rò rỉ"
+title: "Tồn kho đa kênh, nơi lợi nhuận âm thầm rò rỉ"
 category: "Quản trị"
 description: Bán cùng lúc trên Shopee, TikTok và nhiều kênh khác mang lại doanh thu, nhưng cũng tạo ra hỗn loạn tồn kho. Đây là cách quản để không hết hàng, không tồn đọng.
 pubDate: 2026-06-26

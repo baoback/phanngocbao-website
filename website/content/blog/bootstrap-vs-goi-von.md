@@ -1,5 +1,5 @@
 ---
-title: "Tự thân hay gọi vốn: chọn đường nào"
+title: "Tự thân hay gọi vốn?"
 category: "Kinh doanh"
 description: Tự thân hay gọi vốn, mỗi đường một cái giá. Cách nghĩ cho tỉnh trước khi quyết kêu gọi đầu tư.
 pubDate: 2026-06-05

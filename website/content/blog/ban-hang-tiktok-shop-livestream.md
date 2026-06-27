@@ -1,5 +1,5 @@
 ---
-title: "Bán hàng trên TikTok Shop: khi nội dung và mua sắm hòa làm một"
+title: "Bán trên TikTok Shop khi nội dung và mua sắm hòa làm một"
 category: "Kinh doanh"
 description: TikTok Shop không vận hành như Shopee. Ở đây người ta không đi tìm để mua, mà bị cuốn rồi mua. Đây là cách nghĩ đúng về nội dung, livestream và shoppertainment.
 pubDate: 2026-06-26

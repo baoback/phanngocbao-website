@@ -1,5 +1,5 @@
 ---
-title: "Personalization và marketing automation: cá nhân hóa mà không đáng sợ"
+title: "Cá nhân hóa sao cho khách thấy được chăm chứ không bị soi"
 category: "Marketing"
 description: Cá nhân hóa đúng cách giúp khách thấy được thấu hiểu; sai cách khiến họ thấy bị theo dõi. Đây là ranh giới, và cách dùng dữ liệu để phục vụ chứ không hù dọa.
 pubDate: 2026-06-24

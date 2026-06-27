@@ -1,5 +1,5 @@
 ---
-title: "Quản trị ưu tiên: làm ít hơn để đạt được nhiều hơn"
+title: "Làm ít hơn để được nhiều hơn"
 category: "Quản trị"
 description: Bận rộn không phải là hiệu quả. Phần lớn kết quả đến từ một số ít việc quan trọng. Đây là cách chọn đúng việc để làm và đủ can đảm để bỏ phần còn lại.
 pubDate: 2026-06-27

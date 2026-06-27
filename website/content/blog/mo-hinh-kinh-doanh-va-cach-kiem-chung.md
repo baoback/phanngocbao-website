@@ -1,5 +1,5 @@
 ---
-title: "Mô hình kinh doanh: kiểm chứng trước khi dồn hết tiền và sức"
+title: "Kiểm chứng mô hình trước khi dồn hết tiền và sức"
 category: "Kinh doanh"
 description: Phần lớn doanh nghiệp thất bại không phải vì sản phẩm tồi, mà vì xây thứ không ai cần. Đây là cách nghĩ về mô hình kinh doanh và kiểm chứng nó trước khi đặt cược lớn.
 pubDate: 2026-06-27

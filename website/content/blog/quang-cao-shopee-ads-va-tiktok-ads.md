@@ -1,5 +1,5 @@
 ---
-title: "Quảng cáo trên sàn: tiêu tiền đúng chỗ với Shopee Ads và TikTok Ads"
+title: "Tiêu tiền đúng chỗ với Shopee Ads và TikTok Ads"
 category: "Kinh doanh"
 description: Quảng cáo nội sàn có thể nhân doanh số hoặc đốt sạch lợi nhuận. Khác biệt nằm ở việc hiểu logic từng nền tảng và kỷ luật đo lường. Đây là khung tư duy cốt lõi.
 pubDate: 2026-06-26

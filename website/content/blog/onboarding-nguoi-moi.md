@@ -1,5 +1,5 @@
 ---
-title: "Onboarding người mới: hai tuần đầu quyết định nhiều thứ"
+title: "Hai tuần đầu của người mới quyết định nhiều thứ"
 category: "Quản trị"
 description: Hai tuần đầu của người mới quyết định họ gắn bó hay sớm nghỉ. Cách đón người mới cho ra hồn dù bạn bận.
 pubDate: 2026-05-15

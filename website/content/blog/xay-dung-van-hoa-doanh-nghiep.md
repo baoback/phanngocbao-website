@@ -1,5 +1,5 @@
 ---
-title: "Xây dựng văn hóa doanh nghiệp: thứ bạn dung túng chính là văn hóa"
+title: "Thứ bạn dung túng chính là văn hóa"
 category: "Quản trị"
 description: Văn hóa không phải khẩu hiệu treo tường, mà là những hành vi thực sự được thưởng và bị phạt mỗi ngày. Đây là cách xây văn hóa có chủ đích từ những đội nhóm nhỏ.
 pubDate: 2026-06-27

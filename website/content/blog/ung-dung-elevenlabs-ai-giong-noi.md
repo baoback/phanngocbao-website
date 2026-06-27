@@ -1,5 +1,5 @@
 ---
-title: "ElevenLabs: AI giọng nói như thật và cả tá cách xài cho người làm nội dung"
+title: "ElevenLabs: AI giọng nói như thật và cả tá cách xài"
 category: "Marketing"
 description: ElevenLabs không còn là cái máy đọc chữ giọng robot. Nó thành cả một xưởng âm thanh AI. Đây là những gì nó làm được và cách xài cho ra tiền.
 pubDate: 2026-06-27

@@ -1,5 +1,5 @@
 ---
-title: "Nghệ thuật ủy quyền: giao việc mà không buông tay, kiểm soát mà không bóp nghẹt"
+title: "Giao việc mà không buông, kiểm soát mà không bóp nghẹt"
 category: "Quản trị"
 description: Không ủy quyền thì bạn là trần của doanh nghiệp. Nhưng giao việc sai cách còn tệ hơn ôm hết. Đây là cách ủy quyền để vừa nhẹ gánh vừa giữ chất lượng.
 pubDate: 2026-06-27

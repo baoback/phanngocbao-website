@@ -1,5 +1,5 @@
 ---
-title: "Quản trị khủng hoảng: khi mọi thứ cháy cùng lúc"
+title: "Khi mọi thứ cháy cùng một lúc"
 category: "Quản trị"
 description: Sớm muộn cũng có lúc mọi thứ cháy cùng lúc. Cách giữ cái đầu lạnh và xử lý khủng hoảng mà không làm hỏng thêm.
 pubDate: 2026-06-18

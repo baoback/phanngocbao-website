@@ -1,5 +1,5 @@
 ---
-title: "Ra quyết định bằng số liệu: vài KPI mà chủ shop nào cũng nên nhìn"
+title: "Vài KPI mà chủ shop nào cũng nên nhìn"
 category: "Quản trị"
 description: Quản lý bằng cảm giác là cách nhanh nhất để chệch hướng mà không biết. Đây là những chỉ số cốt lõi giúp chủ doanh nghiệp nhỏ nhìn rõ sức khỏe kinh doanh.
 pubDate: 2026-06-24
