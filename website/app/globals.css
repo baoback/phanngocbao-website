@@ -1988,7 +1988,13 @@ img {
   70% { box-shadow: 0 0 0 9px transparent; }
   100% { box-shadow: 0 0 0 0 transparent; }
 }
-.hero-v2 .hero-eyebrow { color: rgba(255, 255, 255, 0.62) !important; }
+.hero-v2 .hero-eyebrow {
+  color: rgba(255, 255, 255, 0.92) !important;
+  background: rgba(0, 0, 0, 0.32);
+  border-color: rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
 .hero-headline { color: #fff; margin: 0; font-size: clamp(40px, 5.4vw, 84px); max-width: none; }
 .hero-rotate { font-family: var(--font); font-size: clamp(26px, 3.4vw, 46px); color: rgba(255, 255, 255, 0.85); margin: 0; line-height: 1.1; }
 .hero-rotate-word { color: var(--story-accent); display: inline-block; transition: opacity 0.35s var(--ease), transform 0.35s var(--ease); }
