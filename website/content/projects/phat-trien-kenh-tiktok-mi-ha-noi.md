@@ -7,7 +7,7 @@ cover: /uploads/screenshot-2026-06-28-at-23.20.16.png
 role: Content & TikTok Lead
 year: "2022"
 tags: TikTok · Content · Livestream
-url: https://www.tiktok.com/@xiaomihanoi
+url: ""
 order: 1
 draft: false
 featured: true
