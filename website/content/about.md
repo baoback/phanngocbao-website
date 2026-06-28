@@ -13,6 +13,8 @@ socials:
 heroEyebrow: Hồ sơ · Phan Ngọc Bảo
 heroTitle: Hello to my world
 heroImage: https://picsum.photos/seed/ngbao-profile-hero/2000/1300
+heroContactLabel: Contact me
+heroContactHref: "#contact"
 lead: Hơn cả việc chạy quảng cáo hay viết nội dung, mình tin Marketing là cách một thương hiệu kết nối với con người, có chủ đích, đo lường được và bền vững theo thời gian.
 stats:
   - number: 8+
