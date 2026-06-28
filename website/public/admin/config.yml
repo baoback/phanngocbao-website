@@ -119,8 +119,9 @@ collections:
               - { label: "Giai đoạn / Năm (vd 2018 – 2020)", name: "period", widget: "string" }
               - { label: "Vai trò / Chức danh", name: "role", widget: "string" }
               - { label: "Nơi làm (công ty / tổ chức)", name: "place", widget: "string", required: false }
-              - { label: "Mô tả", name: "text", widget: "text", required: false }
-              - { label: "Điều rút ra", name: "takeaway", widget: "string", required: false }
+              - { label: "Logo công ty", name: "logo", widget: "image", required: false, hint: "Logo hiển thị ở góc phải thẻ. Để trống thì ẩn." }
+              - { label: "Trách nhiệm", name: "text", widget: "text", required: false }
+              - { label: "Thành tựu", name: "takeaway", widget: "string", required: false }
           - label: "Năng lực / Mình làm gì"
             name: "skills"
             widget: "list"
