@@ -144,6 +144,14 @@ export default function AboutPage() {
             ) : (
               <div className="hero-portrait placeholder" />
             )}
+            {a.heroContactLabel && (
+              <a className="hero-portrait-cta" href={a.heroContactHref || '#contact'}>
+                {a.heroContactLabel}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </a>
+            )}
           </div>
         </div>
         <span className="story-scroll hero-scroll">scroll ↓</span>
