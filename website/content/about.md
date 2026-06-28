@@ -1,34 +1,4 @@
 ---
-name: Phan Ngọc Bảo
-role: Marketing Specialist
-avatar: /uploads/avatar.svg
-tagline: Mình viết về Marketing mỗi ngày, từ chiến lược thương hiệu đến những thử nghiệm thực chiến.
-email: phanngocbao.vn@gmail.com
-phone: ""
-socials:
-  - label: Facebook
-    url: https://facebook.com
-  - label: LinkedIn
-    url: https://linkedin.com
-heroEyebrow: Hồ sơ · Phan Ngọc Bảo
-heroTitle: Hello to my world
-heroImage: https://picsum.photos/seed/ngbao-profile-hero/2000/1300
-heroContactLabel: Contact me
-heroContactHref: "#contact"
-lead: Hơn cả việc chạy quảng cáo hay viết nội dung, mình tin Marketing là cách một thương hiệu kết nối với con người, có chủ đích, đo lường được và bền vững theo thời gian.
-stats:
-  - number: 8+
-    label: Năm làm Marketing
-    percent: 80
-  - number: 50+
-    label: Dự án & chiến dịch
-    percent: 90
-  - number: "5"
-    label: Ngành đã đồng hành
-    percent: 60
-  - number: "1"
-    label: Bài viết mỗi ngày
-    percent: 100
 journey:
   - period: "2015 – 2018"
     role: R&D Manager / Head of AI
@@ -100,6 +70,43 @@ journey:
       Tham gia chương trình mentoring 1:1 cho sinh viên
       Chia sẻ kinh nghiệm thực chiến về quản trị, marketing và kinh doanh
     takeaway: ""
+name: Phan Ngọc Bảo
+role: Marketing Specialist
+avatar: /uploads/avatar.svg
+tagline: Mình viết về Marketing mỗi ngày, từ chiến lược thương hiệu đến những
+  thử nghiệm thực chiến.
+email: phanngocbao.vn@gmail.com
+phone: ""
+socials:
+  - label: Facebook
+    url: https://facebook.com
+  - label: LinkedIn
+    url: https://linkedin.com
+heroEyebrow: Information
+heroTitle: Xin chào bạn
+heroImage: https://picsum.photos/seed/ngbao-profile-hero/2000/1300
+heroPortrait: /uploads/virtual-headshot-69d7f8ecc10ddab62b0d5c75.jpg
+heroRotatePrefix: Hãy
+heroWords:
+  - cùng kết nối
+  - cùng trò chuyện
+  - cùng làm việc
+lead: Kiến tạo tăng trưởng. Chuyển đổi số. Hơn một thập kỷ qua, đam mê của tôi
+  là biến những nền tảng tiềm năng thành các hệ sinh thái bứt phá tại thị trường
+  Việt Nam
+stats:
+  - number: 12+
+    label: Năm kinh nghiệm
+    percent: 80
+  - number: 30+
+    label: Dự án & chiến dịch
+    percent: 90
+  - number: 10+
+    label: Đơn vị đã đồng hành
+    percent: 60
+  - number: "1"
+    label: Bài viết mỗi ngày
+    percent: 100
 skills:
   - title: Chiến lược thương hiệu
     desc: Định vị, thông điệp và kiến trúc thương hiệu rõ ràng, nhất quán.
@@ -147,11 +154,23 @@ toolkit:
       - ChatGPT
       - Claude
       - Midjourney
+ctaTitle: Cùng xây điều gì đó đáng nhớ?
+ctaText: Nếu bạn đang tìm người đồng hành cho bài toán thương hiệu hoặc
+  performance, mình rất sẵn lòng trò chuyện.
+showcaseTitle: Mỗi dự án là một hành trình
+showcaseSubtitle: Khoảnh khắc & câu chuyện
+showcaseImages:
+  - https://picsum.photos/seed/ngbao-show1/2200/1300
+  - https://picsum.photos/seed/ngbao-show2/2200/1300
+  - https://picsum.photos/seed/ngbao-show3/2200/1300
+heroContactLabel: Contact me
+heroContactHref: "#contact"
 life:
   - image: https://picsum.photos/seed/ngbao-life-read/1200/1500
     video: ""
     title: Đọc và ghi chép
-    text: Mình đọc mỗi ngày, chủ yếu về kinh doanh, tâm lý và công nghệ, rồi ghi lại thành ghi chú để dùng dần.
+    text: Mình đọc mỗi ngày, chủ yếu về kinh doanh, tâm lý và công nghệ, rồi ghi lại
+      thành ghi chú để dùng dần.
   - image: https://picsum.photos/seed/ngbao-life-travel/1200/1500
     video: /uploads/demo-life.mp4
     title: Đi và quan sát
@@ -159,19 +178,12 @@ life:
   - image: https://picsum.photos/seed/ngbao-life-coffee/1200/1500
     video: ""
     title: Cà phê và trò chuyện
-    text: Mình thích những buổi cà phê dài, nghe người khác kể về công việc và cuộc sống của họ.
+    text: Mình thích những buổi cà phê dài, nghe người khác kể về công việc và cuộc
+      sống của họ.
   - image: https://picsum.photos/seed/ngbao-life-gym/1200/1500
     video: ""
     title: Rèn thể lực
     text: Giữ sức khỏe để đủ năng lượng theo đuổi mấy thứ dài hơi.
-ctaTitle: Cùng xây điều gì đó đáng nhớ?
-ctaText: Nếu bạn đang tìm người đồng hành cho bài toán thương hiệu hoặc performance, mình rất sẵn lòng trò chuyện.
-showcaseTitle: Mỗi dự án là một hành trình
-showcaseSubtitle: Khoảnh khắc & câu chuyện
-showcaseImages:
-  - https://picsum.photos/seed/ngbao-show1/2200/1300
-  - https://picsum.photos/seed/ngbao-show2/2200/1300
-  - https://picsum.photos/seed/ngbao-show3/2200/1300
 ---
 
 Xin chào, mình là **Phan Ngọc Bảo**. Trang này là nơi mình ghi lại, hệ thống hóa và chia sẻ những gì học được mỗi ngày trong nghề Marketing, mong rằng có điều gì đó hữu ích cho bạn.
