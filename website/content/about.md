@@ -47,21 +47,17 @@ journey:
     place: Mihanoi
     logo: ""
     text: |-
-      Thúc đẩy tăng trưởng kinh doanh và độ phủ thương hiệu trên toàn quốc
-      Mở rộng vận hành thương mại điện tử ở phía Nam: phát triển sàn, logistics và performance marketing
-      Xây mạng lưới đối tác phủ toàn khu vực phía Nam
+      Đồng sáng lập và phụ trách toàn bộ hoạt động khu vực phía Nam
+      Hoạch định và triển khai chiến lược tăng trưởng kinh doanh, xây dựng độ phủ thương hiệu trên toàn quốc
+      Trực tiếp dẫn dắt việc mở rộng vận hành thương mại điện tử tại khu vực phía Nam
+      Phát triển hiện diện và gian hàng trên các sàn thương mại điện tử (marketplace)
+      Thiết lập và tối ưu hệ thống logistics, kho vận phục vụ thị trường phía Nam
+      Lập kế hoạch và vận hành các chiến dịch performance marketing để thúc đẩy doanh số
+      Xây dựng và quản lý mạng lưới đối tác phủ toàn bộ khu vực phía Nam
     takeaway: |-
-      Xây hệ sinh thái đối tác chiến lược khu vực phía Nam
-      Hỗ trợ GMV khoảng 4 triệu USD
-  - period: "Từ 2024"
-    role: Investor
-    place: GW
-    logo: ""
-    text: |-
-      Đầu tư vào GW, công ty chuyên lĩnh vực MMO (Make Money Online)
-      Đồng hành cùng đội ngũ xây hệ thống affiliate trên Shopee và TikTok qua Digital Marketing
-    takeaway: |-
-      Phát triển hệ thống affiliate trên các nền tảng thương mại điện tử lớn
+      Xây dựng hệ thống vận hành thương mại điện tử ở phía Nam gần như từ đầu, đồng bộ cả sàn, logistics và performance marketing
+      Phát triển hệ sinh thái đối tác chiến lược trải khắp các tỉnh phía Nam
+      Hỗ trợ tổng GMV khoảng 4 triệu USD trong giai đoạn vận hành
   - period: "Từ 2025"
     role: Speaker / Mentor
     place: Viện Đào tạo Quốc tế, ĐH Kinh tế Quốc dân
