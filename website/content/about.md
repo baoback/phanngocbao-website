@@ -65,14 +65,14 @@ socials:
   - label: LinkedIn
     url: https://linkedin.com
 heroEyebrow: Information
-heroTitle: "Hi Fellow, "
+heroTitle: Xin chào bạn
 heroImage: https://picsum.photos/seed/ngbao-profile-hero/2000/1300
 heroPortrait: /uploads/virtual-headshot-69d7f8ecc10ddab62b0d5c75.jpg
-heroRotatePrefix: Hi
+heroRotatePrefix: Hãy
 heroWords:
-  - Companion
-  - Partner
-  - Member
+  - cùng kết nối
+  - cùng trò chuyện
+  - cùng làm việc
 lead: I'm a Digital Marketing & Business Leader |  12+ years scaling consumer
   platforms across Vietnam’s retail, fintech, edtech sectors
 stats:
