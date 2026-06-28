@@ -3,7 +3,7 @@ title: Dự án kênh media TikTok Mi Hà Nội
 description: Xây kênh TikTok cho Mi Hà Nội từ con số 0 lên 100k followers bằng
   nội dung organic, là một trong những project TikTok Live thành công sớm ở thời
   điểm đó.
-cover: https://images.unsplash.com/photo-1764162051244-1391c41122ac?auto=format&fit=crop&w=1200&q=80
+cover: /uploads/screenshot-2026-06-28-at-23.35.53.png
 role: Content & TikTok Lead
 year: "2022"
 tags: TikTok · Content · Livestream
