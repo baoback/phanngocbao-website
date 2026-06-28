@@ -102,6 +102,8 @@ collections:
             field: { label: "Từ", name: "word", widget: "string" }
           - { label: "Hero — nút chính (nhãn)", name: "heroCtaPrimaryLabel", widget: "string", required: false }
           - { label: "Hero — nút phụ (nhãn)", name: "heroCtaSecondaryLabel", widget: "string", required: false }
+          - { label: "Hero — nút Contact dưới ảnh (nhãn)", name: "heroContactLabel", widget: "string", required: false }
+          - { label: "Hero — nút Contact dưới ảnh (link)", name: "heroContactHref", widget: "string", required: false, hint: "Mặc định #contact (cuộn xuống mục Kết nối)." }
           - { label: "Đoạn mở đầu (lead)", name: "lead", widget: "text", required: false }
           - label: "Số liệu nổi bật"
             name: "stats"
