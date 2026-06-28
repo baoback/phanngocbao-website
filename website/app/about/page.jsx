@@ -202,13 +202,21 @@ export default function AboutPage() {
                     {j.text && (
                       <div className="jty-block">
                         <span className="jty-block-tag">Trách nhiệm</span>
-                        <p>{j.text}</p>
+                        <ul className="jty-list">
+                          {j.text.split('\n').map((x) => x.replace(/^[-•*]\s*/, '').trim()).filter(Boolean).map((x, k) => (
+                            <li key={k}>{x}</li>
+                          ))}
+                        </ul>
                       </div>
                     )}
                     {j.takeaway && (
                       <div className="jty-block jty-block--win">
                         <span className="jty-block-tag">Thành tựu</span>
-                        <p>{j.takeaway}</p>
+                        <ul className="jty-list jty-list--win">
+                          {j.takeaway.split('\n').map((x) => x.replace(/^[-•*]\s*/, '').trim()).filter(Boolean).map((x, k) => (
+                            <li key={k}>{x}</li>
+                          ))}
+                        </ul>
                       </div>
                     )}
                   </div>
