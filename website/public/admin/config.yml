@@ -122,8 +122,8 @@ collections:
               - { label: "Vai trò / Chức danh", name: "role", widget: "string" }
               - { label: "Nơi làm (công ty / tổ chức)", name: "place", widget: "string", required: false }
               - { label: "Logo công ty", name: "logo", widget: "image", required: false, hint: "Logo hiển thị ở góc phải thẻ. Để trống thì ẩn." }
-              - { label: "Trách nhiệm", name: "text", widget: "text", required: false }
-              - { label: "Thành tựu", name: "takeaway", widget: "string", required: false }
+              - { label: "Trách nhiệm", name: "text", widget: "text", required: false, hint: "Mỗi dòng là một gạch đầu dòng." }
+              - { label: "Thành tựu", name: "takeaway", widget: "text", required: false, hint: "Mỗi dòng là một gạch đầu dòng." }
           - label: "Năng lực / Mình làm gì"
             name: "skills"
             widget: "list"
