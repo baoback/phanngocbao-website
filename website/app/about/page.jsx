@@ -101,12 +101,29 @@ export default function AboutPage() {
                 <div className="jty-item reveal-up" key={i} style={{ transitionDelay: `${i * 60}ms` }}>
                   <div className="jty-marker" aria-hidden="true"><span /></div>
                   <div className="jty-card">
-                    {j.period && <span className="jty-period">{j.period}</span>}
-                    {j.role && <h3 className="jty-role">{j.role}</h3>}
-                    {j.place && <span className="jty-place">{j.place}</span>}
-                    {j.text && <p className="jty-text">{j.text}</p>}
+                    <div className="jty-head">
+                      <div className="jty-headmain">
+                        {j.period && <span className="jty-period">{j.period}</span>}
+                        {j.role && <h3 className="jty-role">{j.role}</h3>}
+                        {j.place && <span className="jty-place">{j.place}</span>}
+                      </div>
+                      {j.logo && (
+                        <div className="jty-logo-wrap">
+                          <img className="jty-logo" src={j.logo} alt={j.place || ''} loading="lazy" decoding="async" />
+                        </div>
+                      )}
+                    </div>
+                    {j.text && (
+                      <div className="jty-block">
+                        <span className="jty-block-tag">Trách nhiệm</span>
+                        <p>{j.text}</p>
+                      </div>
+                    )}
                     {j.takeaway && (
-                      <p className="jty-take"><span className="jty-take-tag">Điều rút ra</span>{j.takeaway}</p>
+                      <div className="jty-block jty-block--win">
+                        <span className="jty-block-tag">Thành tựu</span>
+                        <p>{j.takeaway}</p>
+                      </div>
                     )}
                   </div>
                 </div>
