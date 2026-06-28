@@ -5,7 +5,7 @@ cover: /uploads/ogilvy2-1480663233400.webp
 role: Account Executive
 year: "2013"
 tags: Brand · Management · Planning
-order: 4
+order: 12
 draft: false
 featured: true
 ---

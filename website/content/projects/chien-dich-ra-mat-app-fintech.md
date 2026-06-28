@@ -10,7 +10,7 @@ role: Investor & Advisor
 year: 2025 - Present
 tags: Performance · Growth · Management
 url: ""
-order: 2
+order: 5
 draft: false
 featured: true
 phases:

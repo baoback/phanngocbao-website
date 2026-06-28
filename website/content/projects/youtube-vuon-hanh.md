@@ -6,7 +6,7 @@ role: Co Founder
 year: 2015-2016
 tags: Content Creator · Creative · Social Media
 url: https://www.youtube.com/@V%C6%B0%E1%BB%9DnH%C3%A0nh
-order: 5
+order: 8
 draft: false
 featured: true
 ---

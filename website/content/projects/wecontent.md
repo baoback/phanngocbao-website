@@ -7,7 +7,7 @@ cover: /uploads/screenshot-2026-06-27-at-14.59.11.png
 role: Project Leader
 year: 2019-2020
 tags: Brand · Marketing · Social Content
-order: 4
+order: 3
 draft: false
 featured: true
 metrics:

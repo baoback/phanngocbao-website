@@ -7,7 +7,7 @@ role: Growth & Product Lead
 year: 2022-2023
 tags: Growth · Product · Management
 url: ""
-order: 3
+order: 10
 draft: false
 featured: true
 phases:

@@ -5,7 +5,7 @@ cover: /uploads/470226516_1579537326019611_8554345041056167016_n.jpg
 role: Co Founder
 year: 2020-2021
 tags: Startup · Management · F&B
-order: 1
+order: 13
 draft: false
 featured: true
 metrics:

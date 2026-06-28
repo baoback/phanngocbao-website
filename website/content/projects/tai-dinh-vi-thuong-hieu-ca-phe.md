@@ -8,7 +8,7 @@ role: Investor & Advisor
 year: 2025 - Present
 tags: Strategy · Investment · Retail
 url: https://namlinh.vn
-order: 1
+order: 4
 draft: false
 featured: true
 phases:

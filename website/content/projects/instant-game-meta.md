@@ -6,7 +6,7 @@ cover: /uploads/tai-tic-tac-toe.jpg
 role: R&D Lead
 year: "2017"
 tags: Product · Management · Growth
-order: 2
+order: 9
 draft: false
 featured: true
 metrics: []

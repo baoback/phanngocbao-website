@@ -1,13 +1,12 @@
 ---
-title: Diễn giả tại Vietnam Web Summit
-description: Mình tham gia Vietnam Web Summit 2019 với tư cách diễn giả, chia sẻ
-  về chủ đề "Trending impacts on the picture of social media".
-cover: /uploads/vietnam-web-summit-2024-cover_1735889256.webp
+title: Diễn giả tại Vietnam Web Summit 2019
+description: Mình tham gia Vietnam Web Summit 2019 với tư cách diễn giả, chia sẻ về chủ đề "Trending impacts on the picture of social media".
+cover: https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=1200&q=80
 role: Speaker
 year: "2019"
 tags: Speaking · Social Media · Marketing
 url: ""
-order: 4
+order: 6
 draft: false
 featured: true
 metrics:

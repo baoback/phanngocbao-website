@@ -7,7 +7,7 @@ role: Investor & Management Team
 year: 2026 - Present
 tags: Management · Strategy · Finance
 url: https://novalife.vn
-order: 2
+order: 7
 draft: false
 featured: true
 phases: []
