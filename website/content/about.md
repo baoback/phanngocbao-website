@@ -73,8 +73,9 @@ heroWords:
   - cùng kết nối
   - cùng trò chuyện
   - cùng làm việc
-lead: I'm a Digital Marketing & Business Leader |  12+ years scaling consumer
-  platforms across Vietnam’s retail, fintech, edtech sectors
+lead: Kiến tạo tăng trưởng. Chuyển đổi số. Hơn một thập kỷ qua, đam mê của tôi
+  là biến những nền tảng tiềm năng thành các hệ sinh thái bứt phá tại thị trường
+  Việt Nam
 stats:
   - number: 8+
     label: Năm làm Marketing
