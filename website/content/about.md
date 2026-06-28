@@ -77,14 +77,14 @@ lead: Kiến tạo tăng trưởng. Chuyển đổi số. Hơn một thập kỷ
   là biến những nền tảng tiềm năng thành các hệ sinh thái bứt phá tại thị trường
   Việt Nam
 stats:
-  - number: 8+
-    label: Năm làm Marketing
+  - number: 12+
+    label: Năm kinh nghiệm
     percent: 80
-  - number: 50+
+  - number: 30+
     label: Dự án & chiến dịch
     percent: 90
-  - number: "5"
-    label: Ngành đã đồng hành
+  - number: 10+
+    label: Đơn vị đã đồng hành
     percent: 60
   - number: "1"
     label: Bài viết mỗi ngày
