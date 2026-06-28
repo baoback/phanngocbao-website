@@ -122,6 +122,8 @@ export function getAbout() {
       : [],
     heroCtaPrimaryLabel: data.heroCtaPrimaryLabel || '',
     heroCtaSecondaryLabel: data.heroCtaSecondaryLabel || '',
+    heroContactLabel: data.heroContactLabel || '',
+    heroContactHref: data.heroContactHref || '#contact',
     lead: data.lead || '',
     stats: Array.isArray(data.stats) ? data.stats : [],
     journey: Array.isArray(data.journey) ? data.journey : [],
