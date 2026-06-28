@@ -1823,6 +1823,13 @@ img {
 }
 .jty-block p { font-size: 15px; line-height: 1.7; color: var(--story-muted); margin: 0; }
 .jty-block--win p { color: var(--story-ink); font-weight: 500; }
+.jty-list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 7px; }
+.jty-list li { position: relative; padding-left: 18px; font-size: 15px; line-height: 1.55; color: var(--story-muted); }
+.jty-list li::before {
+  content: ''; position: absolute; left: 1px; top: 8px;
+  width: 5px; height: 5px; border-radius: 50%; background: var(--story-accent);
+}
+.jty-list--win li { color: var(--story-ink); font-weight: 500; }
 /* Dark mode: làm sáng accent (nhãn nhỏ, mốc, eyebrow) cho rõ trên nền tối.
    !important để vượt qua inline style --story-accent gán cứng theo settings. */
 [data-theme='dark'] .story { --story-accent: #c6a36a !important; }
