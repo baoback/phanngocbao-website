@@ -5,43 +5,47 @@ journey:
     place: VTC Intecom
     logo: /uploads/vtc_intecom_logo.webp
     text: |-
-      Dẫn dắt chiến lược sản phẩm và monetization cho game casual và mobile trên nhiều nền tảng
-      Kết nối đội kỹ thuật với đội kinh doanh để đảm bảo hiệu quả vận hành sản phẩm
-      Phối hợp phân tích thị trường cùng các phòng ban để đưa về sản phẩm game phù hợp
-      Ứng dụng big data vào phân tích và ra quyết định kinh doanh
+      Phụ trách bộ phận R&D và mảng AI, dẫn dắt chiến lược sản phẩm và monetization cho game casual và mobile trên nhiều nền tảng
+      Làm cầu nối giữa đội kỹ thuật và đội kinh doanh để đảm bảo hiệu quả vận hành sản phẩm
+      Phối hợp phân tích thị trường cùng các phòng ban để lựa chọn và đưa về các sản phẩm game phù hợp
+      Ứng dụng big data vào phân tích hành vi người dùng và ra quyết định kinh doanh
+      Tham gia trực tiếp vào quá trình phát triển và ra mắt sản phẩm
     takeaway: |-
-      Đóng góp doanh thu hơn 2 triệu USD/tháng
-      Mở rộng hệ sinh thái game lên 13 triệu người dùng, hơn 1 tỷ lượt hiển thị/tháng
-      Tham gia phát triển và ra mắt nhiều sản phẩm nổi tiếng tại Việt Nam
-      Xây nền tảng cho nhiều sản phẩm số của VTC Game, đến nay vẫn vận hành
+      Đóng góp vào doanh thu hơn 2 triệu USD/tháng
+      Mở rộng hệ sinh thái game lên 13 triệu người dùng, tạo hơn 1 tỷ lượt hiển thị/tháng trên các kênh số
+      Góp phần phát triển và ra mắt nhiều sản phẩm nổi tiếng tại Việt Nam
+      Xây nền tảng cho nhiều sản phẩm số của VTC Game, đến nay vẫn đang vận hành
   - period: "2018 – 2020"
     role: Co-Founder / Strategic Growth Leader
     place: WeFit
     logo: /uploads/1575431176974.png
     text: |-
-      Thiết kế và triển khai chiến lược marketing quy mô toàn quốc cho nền tảng
-      Xây dựng và vận hành hệ thống đối tác cấp C ngành Lifestyle
-      Xây dựng, dẫn dắt đội marketing và sản phẩm đa chức năng, tinh gọn
-      Tối ưu hệ thống digital marketing (Search, Lead Form, Display Ads) qua Google và Meta
+      Đồng sáng lập, phụ trách chiến lược tăng trưởng cho nền tảng
+      Thiết kế và triển khai chiến lược marketing quy mô toàn quốc thúc đẩy tăng trưởng nền tảng
+      Xây dựng và vận hành hệ thống đối tác cấp C trong ngành Lifestyle trên khắp cả nước
+      Tuyển chọn, xây dựng và dẫn dắt đội marketing và sản phẩm đa chức năng, tinh gọn
+      Tối ưu hệ thống digital marketing đa kênh (Search, Lead Form, Display Ads) qua Google và Meta
+      Quản lý và phân bổ ngân sách quảng cáo hiệu quả theo mục tiêu tăng trưởng
     takeaway: |-
       Phát triển mạng lưới hơn 2.000 đối tác trên toàn quốc
-      Quản lý ngân sách quảng cáo hơn 50.000 USD/tháng
-      Vận hành đội ngũ tinh gọn khoảng 50 người
-      Tạo ra xu hướng gym mới tại Việt Nam: trải nghiệm nhiều phòng tập thay vì một
+      Quản lý ngân sách quảng cáo hơn 50.000 USD/tháng qua Google và Meta
+      Xây dựng và vận hành đội ngũ tinh gọn khoảng 50 người
+      Tạo ra một xu hướng gym mới tại Việt Nam: cho người dùng trải nghiệm nhiều phòng tập thay vì chỉ một
   - period: "2020 – 2022"
     role: Head of Product / Head of Growth
     place: Solvee (Topica Edtech Group)
     logo: /uploads/280-2804196_based-online-english-teacher-topica-edtech-group.png
     text: |-
-      Dẫn dắt chiến lược sản phẩm và tăng trưởng cho app học bằng AI
-      Điều phối growth toàn phễu cho ứng dụng giáo dục
-      Quản lý performance marketing và in-app communication để tăng tương tác
-      Phối hợp đội tech và data tối ưu hành trình người dùng và tỷ lệ chuyển đổi
-      Dùng Google Data Studio cho hoạt động Business Intelligence
+      Phụ trách đồng thời chiến lược sản phẩm và tăng trưởng cho ứng dụng học bằng AI
+      Điều phối chiến lược growth toàn phễu cho ứng dụng giáo dục
+      Quản lý performance marketing và in-app communication để tăng tương tác và giữ chân người dùng
+      Phối hợp chặt chẽ với đội tech và data để tối ưu hành trình người dùng và tỷ lệ chuyển đổi
+      Sử dụng Google Data Studio cho các hoạt động Business Intelligence và báo cáo
+      Xây dựng và dẫn dắt đội ngũ đa chức năng, tinh gọn
     takeaway: |-
-      Đưa app AI lên 300.000 người dùng hoạt động hàng tháng (MAU) giai đoạn đỉnh
+      Đưa ứng dụng học bằng AI lên 300.000 người dùng hoạt động hàng tháng (MAU) ở giai đoạn đỉnh
       Giữ vị trí top 2 ngành Giáo dục trên App Store và Google Play
-      Xây và dẫn dắt đội đa chức năng tinh gọn khoảng 25 người
+      Vận hành đội ngũ đa chức năng khoảng 25 người
   - period: "2022 – 2025"
     role: Co-Founder / Regional Director
     place: Mihanoi
@@ -63,8 +67,9 @@ journey:
     place: Viện Đào tạo Quốc tế, ĐH Kinh tế Quốc dân
     logo: ""
     text: |-
-      Tham gia chương trình mentoring 1:1 cho sinh viên
+      Tham gia chương trình mentoring 1:1 cho sinh viên tại Viện Đào tạo Quốc tế
       Chia sẻ kinh nghiệm thực chiến về quản trị, marketing và kinh doanh
+      Đồng hành định hướng nghề nghiệp và tư duy hệ thống cho người trẻ
     takeaway: ""
 name: Phan Ngọc Bảo
 role: Marketing Specialist
