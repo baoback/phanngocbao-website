@@ -128,9 +128,11 @@ journey:
       Lập kế hoạch và vận hành các chiến dịch performance marketing để thúc đẩy doanh số
 
       Xây dựng và quản lý mạng lưới đối tác phủ toàn bộ khu vực phía Nam
-    takeaway: >-
+    takeaway: >
       Xây dựng hệ thống vận hành thương mại điện tử ở phía Nam gần như từ đầu,
       đồng bộ cả sàn, logistics và performance marketing
+
+      Thành công phát triển kênh media TikTok 100k follower ( 1 kênh phụ 20k follower) trực tiếp đem thành công về cho Công ty
 
       Phát triển hệ sinh thái đối tác chiến lược trải khắp các tỉnh phía Nam
 
