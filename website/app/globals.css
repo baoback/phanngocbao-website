@@ -1800,18 +1800,29 @@ img {
   transition: transform 0.4s var(--ease), border-color 0.4s var(--ease), box-shadow 0.4s var(--ease);
 }
 .jty-card:hover { transform: translateY(-4px); border-color: var(--story-accent); box-shadow: var(--shadow-hover); }
+.jty-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.jty-headmain { min-width: 0; }
 .jty-period { display: inline-block; font-family: var(--font); font-weight: 700; font-size: 13px; letter-spacing: 0.06em; color: var(--story-accent); }
 .jty-role { font-family: var(--font); font-weight: 700; font-size: 21px; color: var(--story-ink); margin: 6px 0 0; }
 .jty-place { display: inline-block; margin-top: 4px; font-size: 14px; color: var(--story-muted); }
-.jty-text { font-size: 15px; line-height: 1.7; color: var(--story-muted); margin: 12px 0 0; }
-.jty-take {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 16px 0 0;
-  font-size: 14.5px; line-height: 1.55; color: var(--story-ink); font-weight: 500;
+.jty-logo-wrap {
+  flex: none; height: 46px; min-width: 70px; max-width: 150px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 6px 14px; background: #fff;
+  border: 1px solid var(--story-line); border-radius: 10px;
 }
-.jty-take-tag {
-  font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
-  color: var(--story-accent); background: color-mix(in srgb, var(--story-accent) 14%, transparent);
-  padding: 4px 9px; border-radius: 999px;
+.jty-logo { max-height: 30px; max-width: 118px; width: auto; object-fit: contain; display: block; }
+.jty-block { margin-top: 18px; }
+.jty-block-tag {
+  display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--story-accent);
+  background: color-mix(in srgb, var(--story-accent) 14%, transparent);
+  padding: 4px 9px; border-radius: 999px; margin-bottom: 8px;
+}
+.jty-block p { font-size: 15px; line-height: 1.7; color: var(--story-muted); margin: 0; }
+.jty-block--win p { color: var(--story-ink); font-weight: 500; }
+@media (max-width: 600px) {
+  .jty-head { flex-direction: column-reverse; align-items: flex-start; gap: 12px; }
 }
 
 /* Life — gallery ảnh, hover ra video + câu chuyện */
