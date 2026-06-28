@@ -1,5 +1,5 @@
 ---
-title: Dự án Wecontent
+title: Dự án Media WeContent
 description: |-
   Dự án nhằm tìm kiếm nguồn traffic cho hoạt động của WeFit
   Dưới tư cách là CMO, mình chủ trì dự án này
