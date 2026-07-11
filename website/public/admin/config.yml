@@ -216,18 +216,19 @@ collections:
           - { label: "Hero — nhãn nhỏ", name: "heroEyebrow", widget: "string", required: false }
           - { label: "Hero — tiêu đề", name: "heroTitle", widget: "string" }
           - { label: "Hero — mô tả", name: "heroSubtitle", widget: "text", required: false }
-          - label: "Ô số liệu nhập tay (vd vàng SJC)"
+          - label: "Ô số liệu bổ sung (tuỳ chọn)"
             name: "manualCards"
             widget: "list"
             required: false
             summary: "{{fields.label}}: {{fields.value}}"
-            hint: "Dùng cho số liệu không có API đáng tin. Để trống giá trị thì ô hiện dấu --."
+            hint: "Chỉ dùng cho chỉ số chưa có nguồn tự động. Để trống thì không hiện ô nào."
             fields:
-              - { label: "Tên (vd Vàng SJC bán ra)", name: "label", widget: "string" }
+              - { label: "Tên", name: "label", widget: "string" }
               - { label: "Giá trị (vd 92,5)", name: "value", widget: "string", required: false }
               - { label: "Đơn vị (vd triệu đồng/lượng)", name: "unit", widget: "string", required: false }
               - { label: "Ghi chú (vd cập nhật 11/07)", name: "note", widget: "string", required: false }
           - { label: "Tiêu đề mục Xu hướng", name: "trendsTitle", widget: "string", required: false }
+          - { label: "Ghi chú dưới tiêu đề Xu hướng (giải thích đã lọc gì)", name: "trendsNote", widget: "text", required: false }
           - { label: "Bật mục Xu hướng (tự động từ Google Trends)", name: "trendsEnabled", widget: "boolean", default: true, required: false }
           - label: "Xu hướng — từ khoá loại trừ"
             name: "trendsExclude"
