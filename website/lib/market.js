@@ -162,10 +162,15 @@ export async function getNews(limit = 10, { minMarketing = 3 } = {}) {
   const all = results.flat();
   const byDate = (a, b) => b.date - a.date;
 
-  const marketing = all.filter((x) => x.group === 'marketing').sort(byDate);
-  const invest = all.filter((x) => x.group === 'invest').sort(byDate);
+  // Marketing: lấy đều theo từng nguồn, tránh việc một nguồn đăng dày chiếm hết suất
+  // (vd Marketing Dive đẩy tin liên tục sẽ nuốt chỗ của nguồn tiếng Việt).
+  const marketingSources = [...new Set(NEWS_FEEDS.filter((f) => f.group === 'marketing').map((f) => f.source))];
+  const perSource = Math.max(1, Math.ceil(minMarketing / Math.max(1, marketingSources.length)));
+  const takeMarketing = marketingSources
+    .flatMap((src) => all.filter((x) => x.source === src).sort(byDate).slice(0, perSource))
+    .slice(0, minMarketing);
 
-  const takeMarketing = marketing.slice(0, Math.min(minMarketing, marketing.length));
+  const invest = all.filter((x) => x.group === 'invest').sort(byDate);
   const takeInvest = invest.slice(0, Math.max(0, limit - takeMarketing.length));
 
   return [...takeInvest, ...takeMarketing].sort(byDate).slice(0, limit);
