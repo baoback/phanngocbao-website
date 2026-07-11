@@ -2466,3 +2466,26 @@ body.pf-immersive .site-header.scrolled {
 .pp-service h3 { margin: 8px 0 8px; font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
 .pp-service p { margin: 0; color: var(--text-muted); font-size: 15px; line-height: 1.6; }
 @media (max-width: 600px) { .pp-services { grid-template-columns: 1fr; } }
+
+/* ---------- Market Trend: bổ sung ---------- */
+/* Card thiếu dữ liệu: vẫn hiện nhưng làm mờ, không biến mất im lặng */
+.mk-card-empty { opacity: 0.62; }
+.mk-card-empty .mk-price { color: var(--text-muted); }
+/* Card nhập tay từ CMS (vd vàng SJC) */
+.mk-card-manual { border-style: dashed; }
+
+/* Lịch sự kiện sắp tới */
+.mk-events { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.mk-event {
+  display: flex; align-items: baseline; gap: 12px; padding: 14px 16px;
+  border: 1px solid var(--border); border-radius: 12px; background: var(--surface);
+}
+.mk-event-date { font-weight: 800; font-size: 13px; color: var(--story-accent); white-space: nowrap; }
+.mk-event-label { flex: 1; min-width: 0; font-size: 15px; color: var(--text); }
+.mk-event-note { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+
+/* Miễn trừ trách nhiệm */
+.mk-disclaimer {
+  margin-top: 26px; font-size: 13px; line-height: 1.6; color: var(--text-muted);
+  border-top: 1px solid var(--border); padding-top: 16px; max-width: 760px;
+}
