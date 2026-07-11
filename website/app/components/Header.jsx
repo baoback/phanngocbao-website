@@ -12,6 +12,7 @@ export default function Header({
   navBlog = 'Bài viết',
   navProjects = 'Dự án',
   navAbout = 'Hồ sơ',
+  navMarket = 'Market Trend',
   searchPlaceholder,
 }) {
   const [scrolled, setScrolled] = useState(false);
@@ -51,6 +52,7 @@ export default function Header({
             <Link href="/" onClick={close}>{navBlog}</Link>
             <Link href="/portfolio" onClick={close}>{navProjects}</Link>
             <Link href="/about" onClick={close}>{navAbout}</Link>
+            <Link href="/market-trend" onClick={close}>{navMarket}</Link>
           </div>
           <ThemeToggle />
           <button
