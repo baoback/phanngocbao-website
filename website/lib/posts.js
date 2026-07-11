@@ -158,6 +158,7 @@ const DEFAULT_SETTINGS = {
   searchPlaceholder: 'Tìm bài viết, chủ đề quản trị, marketing...',
   navProjects: 'Dự án',
   navAbout: 'Hồ sơ',
+  navMarket: 'Market Trend',
   heroEyebrow: 'Chiến lược · Thương hiệu · Performance',
   heroTitle: 'Marketing là tư duy hệ thống,',
   heroTitleAccent: 'không phải may rủi.',
@@ -233,6 +234,31 @@ export function getProjectsPage() {
     // dùng mặc định nếu lỗi
   }
   return DEFAULT_PROJECTS_PAGE;
+}
+
+const MARKET_PAGE_FILE = path.join(process.cwd(), 'content', 'marketpage.json');
+
+const DEFAULT_MARKET_PAGE = {
+  heroEyebrow: 'Market Trend',
+  heroTitle: 'Nhịp thị trường mỗi ngày',
+  heroSubtitle:
+    'Cập nhật nhanh vàng, tỷ giá, crypto và chứng khoán, cùng tin đầu tư và marketing đáng chú ý trong ngày.',
+  trendsTitle: 'Đang được quan tâm ở Việt Nam',
+  newsTitle: 'Tin đầu tư & marketing mới nhất',
+  newsletterTitle: 'Nhận nhịp thị trường qua email',
+  newsletterText: 'Mỗi tuần một bản tin ngắn về đầu tư và marketing, không spam.',
+};
+
+export function getMarketPage() {
+  try {
+    if (fs.existsSync(MARKET_PAGE_FILE)) {
+      const data = JSON.parse(fs.readFileSync(MARKET_PAGE_FILE, 'utf-8'));
+      return { ...DEFAULT_MARKET_PAGE, ...data };
+    }
+  } catch (e) {
+    // dùng mặc định nếu lỗi
+  }
+  return DEFAULT_MARKET_PAGE;
 }
 
 const PROJECTS_DIR = path.join(process.cwd(), 'content', 'projects');
