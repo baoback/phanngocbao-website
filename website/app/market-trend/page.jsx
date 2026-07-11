@@ -16,11 +16,22 @@ export async function generateMetadata() {
   };
 }
 
+// Ưu tiên danh sách chủ đề do CMS nhập tay; nếu trống thì dùng Google Trends đã lọc.
+async function resolveTrends(pg) {
+  const manual = (pg.trendsManual || []).filter((t) => t && (t.title || typeof t === 'string'));
+  if (manual.length) {
+    return manual.map((t) => (typeof t === 'string' ? { title: t, traffic: '' } : { title: t.title, traffic: t.note || '' }));
+  }
+  if (pg.trendsEnabled === false) return [];
+  return getTrends(8, { exclude: pg.trendsExclude || [] });
+}
+
 export default async function MarketTrendPage() {
   const pg = getMarketPage();
   const cfg = getSettings();
   const briefs = getMarketBriefs();
-  const [trends, news] = await Promise.all([getTrends(8), getNews(9)]);
+  const [trends, news] = await Promise.all([resolveTrends(pg), getNews(10, { minMarketing: 3 })]);
+  const events = (pg.events || []).filter((e) => e && e.label);
 
   return (
     <div className="mk">
@@ -34,7 +45,7 @@ export default async function MarketTrendPage() {
 
       <section className="section">
         <div className="container">
-          <MarketDashboard />
+          <MarketDashboard manualCards={pg.manualCards || []} />
         </div>
       </section>
 
@@ -57,6 +68,26 @@ export default async function MarketTrendPage() {
                   <span className="mk-brief-title">{b.title}</span>
                   {b.description && <span className="mk-brief-desc">{b.description}</span>}
                 </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {events.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <div className="sec-head reveal-up">
+              <span className="story-eyebrow alt">Sắp tới</span>
+              <h2 className="story-h2">{pg.eventsTitle}</h2>
+            </div>
+            <div className="mk-events">
+              {events.map((e, i) => (
+                <div className="mk-event reveal-up" key={i} style={{ transitionDelay: `${i * 30}ms` }}>
+                  <span className="mk-event-date">{e.date}</span>
+                  <span className="mk-event-label">{e.label}</span>
+                  {e.note && <span className="mk-event-note">{e.note}</span>}
+                </div>
               ))}
             </div>
           </div>
@@ -123,6 +154,8 @@ export default async function MarketTrendPage() {
               <Link className="btn btn-primary" href="/about#contact">Kết nối để nhận bản tin</Link>
             )}
           </div>
+
+          {pg.disclaimer && <p className="mk-disclaimer">{pg.disclaimer}</p>}
         </div>
       </section>
     </div>
