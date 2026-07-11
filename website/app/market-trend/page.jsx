@@ -103,6 +103,7 @@ export default async function MarketTrendPage() {
               <span className="story-eyebrow alt">Xu hướng</span>
               <h2 className="story-h2">{pg.trendsTitle}</h2>
             </div>
+            {pg.trendsNote && <p className="mk-trends-note">{pg.trendsNote}</p>}
             <div className="mk-trends">
               {trends.map((t, i) => (
                 <div className="mk-trend reveal-up" key={i} style={{ transitionDelay: `${i * 40}ms` }}>
