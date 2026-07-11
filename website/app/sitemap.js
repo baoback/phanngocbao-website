@@ -7,6 +7,7 @@ export default function sitemap() {
     { url: `${BASE}/`, lastModified: new Date(), changeFrequency: 'daily', priority: 1 },
     { url: `${BASE}/about`, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/portfolio`, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/market-trend`, changeFrequency: 'daily', priority: 0.8 },
   ];
 
   const categories = CATEGORIES.map((c) => ({

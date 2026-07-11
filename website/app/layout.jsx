@@ -57,6 +57,7 @@ export default function RootLayout({ children }) {
           navBlog={s.navBlog}
           navProjects={s.navProjects}
           navAbout={s.navAbout}
+          navMarket={s.navMarket}
           searchPlaceholder={s.searchPlaceholder}
         />
         <main>{children}</main>
