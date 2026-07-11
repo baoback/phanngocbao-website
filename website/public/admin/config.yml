@@ -195,6 +195,17 @@ collections:
           - { label: "CTA — mô tả", name: "ctaText", widget: "text", required: false }
           - { label: "CTA — nút (chữ)", name: "ctaButtonLabel", widget: "string", required: false }
           - { label: "CTA — nút (link)", name: "ctaButtonHref", widget: "string", required: false }
+      - name: "marketpage"
+        label: "Trang Market Trend"
+        file: "website/content/marketpage.json"
+        fields:
+          - { label: "Hero — nhãn nhỏ", name: "heroEyebrow", widget: "string", required: false }
+          - { label: "Hero — tiêu đề", name: "heroTitle", widget: "string" }
+          - { label: "Hero — mô tả", name: "heroSubtitle", widget: "text", required: false }
+          - { label: "Tiêu đề mục Xu hướng", name: "trendsTitle", widget: "string", required: false }
+          - { label: "Tiêu đề mục Tin mới", name: "newsTitle", widget: "string", required: false }
+          - { label: "Newsletter — tiêu đề", name: "newsletterTitle", widget: "string", required: false }
+          - { label: "Newsletter — mô tả", name: "newsletterText", widget: "text", required: false }
 
   # ---------- Cài đặt chung ----------
   - name: "settings"
@@ -210,6 +221,7 @@ collections:
           - { label: "Placeholder thanh tìm kiếm", name: "searchPlaceholder", widget: "string", required: false }
           - { label: "Menu — nhãn Dự án", name: "navProjects", widget: "string", required: false }
           - { label: "Menu — nhãn Hồ sơ", name: "navAbout", widget: "string", required: false }
+          - { label: "Menu — nhãn Market Trend", name: "navMarket", widget: "string", required: false }
           - label: "Màu nhấn (accent)"
             name: "accent"
             widget: "select"
