@@ -2499,3 +2499,42 @@ body.pf-immersive .site-header.scrolled {
   margin-top: 26px; font-size: 13px; line-height: 1.6; color: var(--text-muted);
   border-top: 1px solid var(--border); padding-top: 16px; max-width: 760px;
 }
+
+/* Market Trend: bấm vào card VN-Index để mở bảng mã đang nóng */
+.mk-card-clickable {
+  font: inherit; color: inherit; text-align: left; width: 100%; cursor: pointer;
+  position: relative; padding-bottom: 34px;
+}
+.mk-card-clickable:hover, .mk-card-clickable:focus-visible {
+  border-color: var(--story-accent); box-shadow: var(--shadow); transform: translateY(-2px);
+}
+.mk-card-clickable.is-open { border-color: var(--story-accent); }
+.mk-card-cta {
+  position: absolute; left: 20px; bottom: 12px;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.02em; color: var(--story-accent);
+}
+.mk-card-cta::after { content: ' ›'; }
+.mk-card-clickable.is-open .mk-card-cta::after { content: ' ‹'; }
+
+.mk-stocks {
+  margin-top: 16px; border: 1px solid var(--border); border-radius: 18px;
+  background: var(--surface-2); padding: 18px 20px;
+  animation: mkStocksIn 0.35s var(--ease) both;
+}
+@keyframes mkStocksIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+.mk-stocks-note { margin: 0 0 14px; font-size: 12.5px; line-height: 1.6; color: var(--text-muted); }
+.mk-stocks-retry {
+  font: inherit; font-weight: 700; color: var(--story-accent);
+  background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline;
+}
+.mk-stocks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.mk-stock {
+  display: flex; flex-direction: column; gap: 2px;
+  border: 1px solid var(--border); border-radius: 12px; background: var(--surface); padding: 12px 14px;
+}
+.mk-stock-code { font-weight: 800; font-size: 14px; color: var(--text); letter-spacing: 0.02em; }
+.mk-stock-price { font-weight: 700; font-size: 18px; color: var(--text); }
+.mk-stock-change { font-size: 13px; font-weight: 700; }
+.mk-stock-change.up { color: var(--mk-up); }
+.mk-stock-change.down { color: var(--mk-down); }
+.mk-stock-vol { font-size: 11.5px; color: var(--text-faint); }
