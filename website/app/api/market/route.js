@@ -5,13 +5,14 @@ export const revalidate = 300;
 
 const YQ = 'https://query1.finance.yahoo.com/v8/finance/chart/';
 const VNDIRECT = 'https://dchart-api.vndirect.com.vn/dchart/history';
-// Bảo Tín Minh Châu: API công khai, trả XML, giá theo VNĐ/chỉ. Chỉ có vàng BTMC, không có vàng miếng SJC.
-const BTMC = 'http://api.btmc.vn/api/BTMCAPI/getpricebtmc?key=3kd8ub1llcg9t45hnoh8hmn7t5kc2v';
+// Vàng SJC: API công khai của sjc.com.vn, có HTTPS nên gọi được từ máy chủ.
+// (API của Bảo Tín Minh Châu chỉ chạy HTTP và bị timeout khi gọi từ máy chủ đặt ngoài Việt Nam.)
+const SJC = 'https://sjc.com.vn/GoldPrice/Services/PriceService.ashx';
 const TIMEOUT_MS = 6000;
 
 const SYMBOLS = [
   { key: 'vnindex', label: 'VN-Index', unit: 'điểm', src: 'vndirect', code: 'VNINDEX', digits: 2 },
-  { key: 'goldvn', label: 'Vàng BTMC', unit: 'triệu đ/lượng', src: 'btmc', digits: 2 },
+  { key: 'goldvn', label: 'Vàng SJC', unit: 'triệu đ/lượng', src: 'sjc', digits: 2 },
   { key: 'gold', label: 'Vàng thế giới', unit: 'USD/oz', src: 'yahoo', y: 'GC=F', digits: 1 },
   { key: 'usdvnd', label: 'USD / VND', unit: 'VND', src: 'yahoo', y: 'VND=X', digits: 0 },
   { key: 'btc', label: 'Bitcoin', unit: 'USD', src: 'yahoo', y: 'BTC-USD', digits: 0 },
@@ -64,35 +65,41 @@ async function fromVnDirect(code) {
 }
 
 // Vàng Bảo Tín Minh Châu (Rồng Thăng Long 999.9). API trả XML với pb_1 (mua) và ps_1 (bán), đơn vị VNĐ/chỉ.
-async function fromBtmc() {
+// Vàng miếng SJC. API trả JSON, giá theo VNĐ/lượng (SellValue, BuyValue).
+async function fromSjc() {
   const ctrl = new AbortController();
-  // BTMC là máy chủ trong nước, gọi từ vùng nước ngoài có thể chậm nên nới timeout.
+  // Máy chủ trong nước, gọi từ vùng nước ngoài có thể chậm nên nới timeout.
   const t = setTimeout(() => ctrl.abort(), 9000);
-  let xml;
+  let j;
   try {
-    const r = await fetch(BTMC, {
+    const r = await fetch(SJC, {
       headers: {
         'User-Agent':
           'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
-        Accept: 'application/xml, text/xml, */*',
+        Accept: 'application/json, text/plain, */*',
       },
       next: { revalidate: 300 },
       signal: ctrl.signal,
     });
-    if (!r.ok) throw new Error('btmc http ' + r.status);
-    xml = await r.text();
+    if (!r.ok) throw new Error('sjc http ' + r.status);
+    j = await r.json();
   } finally {
     clearTimeout(t);
   }
-  const sell = Number((xml.match(/ps_1="(\d+)"/) || [])[1]);
-  const buy = Number((xml.match(/pb_1="(\d+)"/) || [])[1]);
-  if (!sell) throw new Error('btmc no price');
-  const toLuong = (vndPerChi) => (vndPerChi * 10) / 1e6; // VNĐ/chỉ -> triệu đồng/lượng
+  const rows = Array.isArray(j?.data) ? j.data : [];
+  // Ưu tiên vàng miếng SJC 1L tại TP.HCM, không có thì lấy dòng SJC đầu tiên có giá bán.
+  const pick =
+    rows.find((x) => /SJC\s*1L/i.test(x?.TypeName || '') && /Hồ Chí Minh/i.test(x?.BranchName || '')) ||
+    rows.find((x) => /SJC\s*1L/i.test(x?.TypeName || '')) ||
+    rows.find((x) => Number(x?.SellValue) > 0);
+  const sell = Number(pick?.SellValue);
+  const buy = Number(pick?.BuyValue);
+  if (!sell) throw new Error('sjc no price');
   return {
-    price: toLuong(sell),
+    price: sell / 1e6,
     changePct: null,
     spark: [],
-    note: buy ? `mua vào ${toLuong(buy).toFixed(2)}` : 'giá bán ra',
+    note: buy ? `mua vào ${(buy / 1e6).toFixed(2)}` : 'giá bán ra',
   };
 }
 
@@ -101,7 +108,7 @@ async function resolveOne(s) {
   try {
     let d;
     if (s.src === 'vndirect') d = await fromVnDirect(s.code);
-    else if (s.src === 'btmc') d = await fromBtmc();
+    else if (s.src === 'sjc') d = await fromSjc();
     else d = await fromYahoo(s.y);
     return { ...base, ...d, ok: true };
   } catch (e) {
