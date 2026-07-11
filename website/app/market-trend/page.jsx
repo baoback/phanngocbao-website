@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getMarketPage, getSettings, getMarketBriefs, formatDate } from '@/lib/posts';
+import { getMarketPage, getSettings, getMarketBriefs, formatDate, getGoldVn } from '@/lib/posts';
 import { getTrends, getNews, getUpcomingEvents } from '@/lib/market';
 import MarketDashboard from '@/app/components/MarketDashboard';
 
@@ -31,6 +31,22 @@ export default async function MarketTrendPage() {
   const cfg = getSettings();
   const briefs = getMarketBriefs();
   const [trends, news] = await Promise.all([resolveTrends(pg), getNews(10, { minMarketing: 3 })]);
+  // Vàng trong nước: lấy từ file do tác vụ hằng ngày cập nhật (API vàng VN chặn IP máy chủ nước ngoài).
+  const gold = getGoldVn();
+  const num2 = (n) => Number(n).toLocaleString('vi-VN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const goldCards = gold
+    ? [
+        {
+          label: gold.label || 'Vàng SJC (bán ra)',
+          unit: gold.unit || 'triệu đ/lượng',
+          value: num2(gold.sell),
+          note: [gold.buy ? `mua vào ${num2(gold.buy)}` : null, gold.updatedAt ? `cập nhật ${gold.updatedAt}` : null]
+            .filter(Boolean)
+            .join(' · '),
+        },
+      ]
+    : [];
+
   // Sự kiện nhập tay trong CMS được ghim lên đầu; phần còn lại tự sinh theo lịch lặp hằng năm/quý.
   const manualEvents = (pg.events || []).filter((e) => e && e.label);
   const events = [...manualEvents, ...getUpcomingEvents(Math.max(0, 6 - manualEvents.length))];
@@ -47,7 +63,7 @@ export default async function MarketTrendPage() {
 
       <section className="section">
         <div className="container">
-          <MarketDashboard manualCards={pg.manualCards || []} />
+          <MarketDashboard manualCards={[...goldCards, ...(pg.manualCards || [])]} />
         </div>
       </section>
 
