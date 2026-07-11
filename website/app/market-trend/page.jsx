@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getMarketPage, getSettings } from '@/lib/posts';
+import { getMarketPage, getSettings, getMarketBriefs, formatDate } from '@/lib/posts';
 import { getTrends, getNews } from '@/lib/market';
 import MarketDashboard from '@/app/components/MarketDashboard';
 
@@ -19,6 +19,7 @@ export async function generateMetadata() {
 export default async function MarketTrendPage() {
   const pg = getMarketPage();
   const cfg = getSettings();
+  const briefs = getMarketBriefs();
   const [trends, news] = await Promise.all([getTrends(8), getNews(9)]);
 
   return (
@@ -36,6 +37,31 @@ export default async function MarketTrendPage() {
           <MarketDashboard />
         </div>
       </section>
+
+      {briefs.length > 0 && (
+        <section className="section">
+          <div className="container">
+            <div className="sec-head reveal-up">
+              <span className="story-eyebrow alt">Bản tin</span>
+              <h2 className="story-h2">Nhận định thị trường theo ngày</h2>
+            </div>
+            <div className="mk-briefs">
+              {briefs.slice(0, 12).map((b, i) => (
+                <Link
+                  className="mk-brief reveal-up"
+                  key={b.slug}
+                  href={`/market-trend/${b.slug}`}
+                  style={{ transitionDelay: `${i * 30}ms` }}
+                >
+                  <span className="mk-brief-date">{formatDate(b.date)}</span>
+                  <span className="mk-brief-title">{b.title}</span>
+                  {b.description && <span className="mk-brief-desc">{b.description}</span>}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {trends.length > 0 && (
         <section className="section">
