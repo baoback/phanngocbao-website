@@ -2475,14 +2475,19 @@ body.pf-immersive .site-header.scrolled {
 .mk-card-manual { border-style: dashed; }
 
 /* Lịch sự kiện sắp tới */
-.mk-events { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.mk-events { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
 .mk-event {
-  display: flex; align-items: baseline; gap: 12px; padding: 14px 16px;
-  border: 1px solid var(--border); border-radius: 12px; background: var(--surface);
+  display: flex; flex-direction: column; gap: 6px; padding: 18px 20px;
+  border: 1px solid var(--border); border-radius: 14px; background: var(--surface);
+  transition: border-color 0.3s var(--ease), box-shadow 0.3s var(--ease);
 }
-.mk-event-date { font-weight: 800; font-size: 13px; color: var(--story-accent); white-space: nowrap; }
-.mk-event-label { flex: 1; min-width: 0; font-size: 15px; color: var(--text); }
-.mk-event-note { font-size: 12px; color: var(--text-muted); white-space: nowrap; }
+.mk-event:hover { border-color: var(--story-accent); box-shadow: var(--shadow); }
+.mk-event-date {
+  font-family: var(--font); font-weight: 800; font-size: 12px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--story-accent);
+}
+.mk-event-label { font-family: var(--font); font-weight: 600; font-size: 15.5px; line-height: 1.4; color: var(--text); }
+.mk-event-note { font-size: 13px; line-height: 1.5; color: var(--text-muted); }
 
 /* Miễn trừ trách nhiệm */
 .mk-disclaimer {
