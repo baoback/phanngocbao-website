@@ -111,10 +111,22 @@ export function isRelevantTrend(title, extraExclude = []) {
   return matchesAny(t, TOPIC_KEYWORDS);
 }
 
+// Lọc cơ bản: bỏ mục nhiễu, mục quá ngắn, chữ không phải Latin và các từ người dùng loại trừ.
+function passesBasic(title, extraExclude = []) {
+  const t = deaccent(title);
+  if (!t || t.length < 3) return false;
+  if (hasNonLatinScript(title)) return false;
+  if (matchesAny(t, NOISE_KEYWORDS)) return false;
+  if (matchesAny(t, extraExclude)) return false;
+  return true;
+}
+
 /**
- * Trends đã lọc. Trả [] nếu số mục hợp lệ quá ít (trang sẽ tự ẩn khối thay vì hiện list nhảm).
+ * Trends: KHÔNG chặn cứng theo whitelist chủ đề (Google Trends VN là xu hướng chung cả nước,
+ * lọc cứng sẽ ra rỗng và khối biến mất). Chỉ bỏ nhiễu + từ loại trừ, rồi đẩy các mục
+ * liên quan tới kinh doanh/tài chính lên đầu danh sách.
  */
-export async function getTrends(limit = 8, { exclude = [], min = 3 } = {}) {
+export async function getTrends(limit = 8, { exclude = [] } = {}) {
   for (const url of TREND_URLS) {
     try {
       const xml = await getXml(url);
@@ -122,8 +134,11 @@ export async function getTrends(limit = 8, { exclude = [], min = 3 } = {}) {
         .map((b) => ({ title: field(b, 'title'), traffic: field(b, 'ht:approx_traffic') }))
         .filter((x) => x.title);
       if (!raw.length) continue;
-      const list = raw.filter((x) => isRelevantTrend(x.title, exclude)).slice(0, limit);
-      return list.length >= min ? list : [];
+      const clean = raw.filter((x) => passesBasic(x.title, exclude));
+      if (!clean.length) continue;
+      const relevant = clean.filter((x) => isRelevantTrend(x.title, exclude));
+      const rest = clean.filter((x) => !isRelevantTrend(x.title, exclude));
+      return [...relevant, ...rest].slice(0, limit);
     } catch (e) {
       // thử endpoint tiếp theo
     }
