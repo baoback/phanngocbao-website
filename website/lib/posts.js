@@ -249,6 +249,39 @@ const DEFAULT_MARKET_PAGE = {
   newsletterText: 'Mỗi tuần một bản tin ngắn về đầu tư và marketing, không spam.',
 };
 
+const MARKET_DIR = path.join(process.cwd(), 'content', 'market');
+
+function readBriefFile(file) {
+  const slug = file.replace(/\.md$/, '');
+  const raw = fs.readFileSync(path.join(MARKET_DIR, file), 'utf-8');
+  const { data, content } = matter(raw);
+  return {
+    slug,
+    title: data.title || slug,
+    description: data.description || '',
+    date: data.date ? new Date(data.date).toISOString() : new Date().toISOString(),
+    draft: !!data.draft,
+    content,
+  };
+}
+
+export function getMarketBriefs() {
+  if (!fs.existsSync(MARKET_DIR)) return [];
+  return fs
+    .readdirSync(MARKET_DIR)
+    .filter((f) => f.endsWith('.md'))
+    .map(readBriefFile)
+    .filter((b) => !b.draft)
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+}
+
+export function getMarketBriefBySlug(slug) {
+  const fp = path.join(MARKET_DIR, `${slug}.md`);
+  if (!fs.existsSync(fp)) return null;
+  const b = readBriefFile(`${slug}.md`);
+  return { ...b, html: marked.parse(b.content) };
+}
+
 export function getMarketPage() {
   try {
     if (fs.existsSync(MARKET_PAGE_FILE)) {
