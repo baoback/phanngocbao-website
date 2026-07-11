@@ -195,3 +195,50 @@ export async function getNews(limit = 10, { minMarketing = 3 } = {}) {
 
   return [...takeInvest, ...takeMarketing].sort(byDate).slice(0, limit);
 }
+
+/* ------------------------------ Lịch sự kiện ------------------------------ */
+// Các mốc lặp lại hằng năm/quý: tính được từ ngày hiện tại nên không cần API,
+// không bao giờ lỗi nguồn và không cần nhập tay.
+
+function nthWeekdayOfMonth(year, month, weekday, n) {
+  const first = new Date(year, month, 1);
+  const shift = (weekday - first.getDay() + 7) % 7;
+  return new Date(year, month, 1 + shift + (n - 1) * 7);
+}
+
+function yearlyEvents(year) {
+  const thanksgiving = nthWeekdayOfMonth(year, 10, 4, 4); // thứ Năm tuần 4 tháng 11
+  const blackFriday = new Date(year, 10, thanksgiving.getDate() + 1);
+  const earnings = 'Cổ phiếu thường biến động mạnh quanh ngày ra báo cáo';
+  const gift = 'Cao điểm quà tặng, chi phí quảng cáo tăng';
+  return [
+    { d: new Date(year, 0, 25), label: 'Mùa công bố KQKD quý 4 và cả năm', note: earnings },
+    { d: new Date(year, 1, 14), label: 'Valentine 14/2', note: gift },
+    { d: new Date(year, 2, 8), label: 'Quốc tế Phụ nữ 8/3', note: gift },
+    { d: new Date(year, 3, 25), label: 'Mùa công bố KQKD quý 1', note: earnings },
+    { d: new Date(year, 3, 30), label: 'Nghỉ lễ 30/4 và 1/5', note: 'Bán lẻ và du lịch tăng, quảng cáo B2B chậm lại' },
+    { d: new Date(year, 6, 25), label: 'Mùa công bố KQKD quý 2', note: earnings },
+    { d: new Date(year, 8, 2), label: 'Quốc khánh 2/9', note: 'Cao điểm du lịch và bán lẻ' },
+    { d: new Date(year, 9, 20), label: 'Ngày Phụ nữ Việt Nam 20/10', note: gift },
+    { d: new Date(year, 9, 25), label: 'Mùa công bố KQKD quý 3', note: earnings },
+    { d: new Date(year, 10, 11), label: 'Ngày độc thân 11/11', note: 'Cao điểm sale sàn thương mại điện tử, chốt ngân sách trước 3 tuần' },
+    { d: new Date(year, 10, 20), label: 'Ngày Nhà giáo 20/11', note: gift },
+    { d: blackFriday, label: 'Black Friday', note: 'Chi phí quảng cáo tăng mạnh, cạnh tranh đấu giá cao' },
+    { d: new Date(year, 11, 12), label: 'Sale 12/12', note: 'Đợt sale lớn cuối cùng của năm' },
+  ];
+}
+
+export function getUpcomingEvents(limit = 6, now = new Date()) {
+  if (limit <= 0) return [];
+  const y = now.getFullYear();
+  const today = new Date(y, now.getMonth(), now.getDate());
+  return [...yearlyEvents(y), ...yearlyEvents(y + 1)]
+    .filter((e) => e.d >= today)
+    .sort((a, b) => a.d - b.d)
+    .slice(0, limit)
+    .map((e) => ({
+      date: `${String(e.d.getDate()).padStart(2, '0')}/${String(e.d.getMonth() + 1).padStart(2, '0')}`,
+      label: e.label,
+      note: e.note,
+    }));
+}
