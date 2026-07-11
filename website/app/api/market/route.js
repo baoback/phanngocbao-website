@@ -11,7 +11,7 @@ const TIMEOUT_MS = 6000;
 
 const SYMBOLS = [
   { key: 'vnindex', label: 'VN-Index', unit: 'điểm', src: 'vndirect', code: 'VNINDEX', digits: 2 },
-  { key: 'goldvn', label: 'Vàng BTMC (bán ra)', unit: 'triệu đồng/lượng', src: 'btmc', digits: 2 },
+  { key: 'goldvn', label: 'Vàng BTMC', unit: 'triệu đ/lượng', src: 'btmc', digits: 2 },
   { key: 'gold', label: 'Vàng thế giới', unit: 'USD/oz', src: 'yahoo', y: 'GC=F', digits: 1 },
   { key: 'usdvnd', label: 'USD / VND', unit: 'VND', src: 'yahoo', y: 'VND=X', digits: 0 },
   { key: 'btc', label: 'Bitcoin', unit: 'USD', src: 'yahoo', y: 'BTC-USD', digits: 0 },
@@ -66,11 +66,16 @@ async function fromVnDirect(code) {
 // Vàng Bảo Tín Minh Châu (Rồng Thăng Long 999.9). API trả XML với pb_1 (mua) và ps_1 (bán), đơn vị VNĐ/chỉ.
 async function fromBtmc() {
   const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  // BTMC là máy chủ trong nước, gọi từ vùng nước ngoài có thể chậm nên nới timeout.
+  const t = setTimeout(() => ctrl.abort(), 9000);
   let xml;
   try {
     const r = await fetch(BTMC, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PNBmarket/1.0)' },
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
+        Accept: 'application/xml, text/xml, */*',
+      },
       next: { revalidate: 300 },
       signal: ctrl.signal,
     });
@@ -101,7 +106,15 @@ async function resolveOne(s) {
     return { ...base, ...d, ok: true };
   } catch (e) {
     // Không nuốt card: trả ô rỗng để giao diện hiện "--" thay vì mất hẳn.
-    return { ...base, price: null, changePct: null, spark: [], ok: false };
+    // Kèm lý do lỗi để dễ chẩn đoán khi một nguồn chết.
+    return {
+      ...base,
+      price: null,
+      changePct: null,
+      spark: [],
+      ok: false,
+      err: String((e && e.message) || e || 'error').slice(0, 90),
+    };
   }
 }
 
