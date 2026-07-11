@@ -68,6 +68,20 @@ collections:
               - { label: "Mức % cho biểu đồ (0-100, tuỳ chọn)", name: "percent", widget: "number", required: false, value_type: "int", min: 0, max: 100 }
           - { label: "Nội dung chi tiết", name: "body", widget: "markdown" }
 
+  # ---------- Bản tin thị trường (Market Trend) ----------
+  - name: "market"
+    label: "Bản tin thị trường"
+    label_singular: "Bản tin"
+    folder: "website/content/market"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Ngày", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm" }
+      - { label: "Mô tả ngắn", name: "description", widget: "text", required: false }
+      - { label: "Nháp", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
+
   # ---------- Trang cố định ----------
   - name: "pages"
     label: "Trang cố định"
