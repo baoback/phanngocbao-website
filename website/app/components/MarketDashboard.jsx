@@ -46,7 +46,7 @@ function LiveCard({ it }) {
             {up ? '▲' : '▼'} {Math.abs(it.changePct).toFixed(2)}%
           </span>
         ) : (
-          <span className="mk-change flat">giá hiện tại</span>
+          <span className="mk-change flat">{it.note || 'giá hiện tại'}</span>
         )}
         <Spark data={it.spark} up={up} />
       </div>
@@ -54,7 +54,7 @@ function LiveCard({ it }) {
   );
 }
 
-// Card nhập tay từ CMS (vd vàng SJC, vàng nhẫn) vì không có API công khai đáng tin.
+// Card số liệu bổ sung, điền từ CMS (dùng cho chỉ số chưa có nguồn tự động).
 function ManualCard({ c }) {
   return (
     <div className="mk-card mk-card-manual">
@@ -64,7 +64,7 @@ function ManualCard({ c }) {
       </div>
       <div className="mk-price">{c.value || '--'}</div>
       <div className="mk-card-bottom">
-        <span className="mk-change flat">{c.note || 'cập nhật thủ công'}</span>
+        {c.note ? <span className="mk-change flat">{c.note}</span> : <span />}
       </div>
     </div>
   );
