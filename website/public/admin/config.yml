@@ -227,6 +227,11 @@ collections:
               - { label: "Giá trị (vd 92,5)", name: "value", widget: "string", required: false }
               - { label: "Đơn vị (vd triệu đồng/lượng)", name: "unit", widget: "string", required: false }
               - { label: "Ghi chú (vd cập nhật 11/07)", name: "note", widget: "string", required: false }
+          - label: "Rổ mã cổ phiếu (hiện ra khi bấm vào ô VN-Index)"
+            name: "tickers"
+            widget: "list"
+            required: false
+            hint: "Mỗi dòng một mã, viết hoa, vd VCB. Để trống sẽ dùng rổ mặc định gồm 12 mã vốn hoá lớn."
           - { label: "Tiêu đề mục Xu hướng", name: "trendsTitle", widget: "string", required: false }
           - { label: "Ghi chú dưới tiêu đề Xu hướng (giải thích đã lọc gì)", name: "trendsNote", widget: "text", required: false }
           - { label: "Bật mục Xu hướng (tự động từ Google Trends)", name: "trendsEnabled", widget: "boolean", default: true, required: false }
