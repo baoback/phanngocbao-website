@@ -292,6 +292,22 @@ export function getMarketBriefBySlug(slug) {
   return { ...b, html: marked.parse(b.content) };
 }
 
+// Giá vàng trong nước. Các API vàng VN (SJC, BTMC) chặn IP máy chủ nước ngoài nên
+// không gọi trực tiếp từ Vercel được. File này do tác vụ chạy mỗi sáng (từ máy ở VN) cập nhật.
+const GOLDVN_FILE = path.join(process.cwd(), 'content', 'goldvn.json');
+
+export function getGoldVn() {
+  try {
+    if (fs.existsSync(GOLDVN_FILE)) {
+      const d = JSON.parse(fs.readFileSync(GOLDVN_FILE, 'utf-8'));
+      if (d && Number(d.sell) > 0) return d;
+    }
+  } catch (e) {
+    // không có dữ liệu thì thôi, trang vẫn chạy
+  }
+  return null;
+}
+
 export function getMarketPage() {
   try {
     if (fs.existsSync(MARKET_PAGE_FILE)) {
