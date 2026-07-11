@@ -244,6 +244,8 @@ const DEFAULT_MARKET_PAGE = {
   heroSubtitle:
     'Cập nhật nhanh vàng, tỷ giá, crypto và chứng khoán, cùng tin đầu tư và marketing đáng chú ý trong ngày.',
   manualCards: [],
+  // Rổ mã hiện ra khi bấm vào card VN-Index.
+  tickers: ['VCB', 'VIC', 'VHM', 'HPG', 'FPT', 'MWG', 'MSN', 'TCB', 'SSI', 'VNM', 'GAS', 'VPB'],
   trendsTitle: 'Đang được quan tâm ở Việt Nam',
   trendsNote:
     'Lấy từ Google Trends Việt Nam (xu hướng tìm kiếm chung cả nước). Đã lọc bỏ nhóm nhiễu như xổ số, bóng đá, showbiz, phim ảnh, thời tiết, điểm thi, và ưu tiên đưa chủ đề kinh doanh, tài chính, công nghệ lên đầu danh sách.',
