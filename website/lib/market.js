@@ -24,12 +24,20 @@ function items(xml) {
 }
 
 async function getXml(url) {
-  const r = await fetch(url, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PNBmarket/1.0)' },
-    next: { revalidate: 1800 },
-  });
-  if (!r.ok) throw new Error(url + ' ' + r.status);
-  return r.text();
+  // Timeout để fetch không bao giờ treo (tránh treo build khi prerender trang).
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), 6000);
+  try {
+    const r = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PNBmarket/1.0)' },
+      next: { revalidate: 1800 },
+      signal: ctrl.signal,
+    });
+    if (!r.ok) throw new Error(url + ' ' + r.status);
+    return await r.text();
+  } finally {
+    clearTimeout(t);
+  }
 }
 
 const TREND_URLS = [
