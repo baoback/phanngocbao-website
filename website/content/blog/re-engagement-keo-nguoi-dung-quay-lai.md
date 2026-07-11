@@ -1,7 +1,7 @@
 ---
 title: "Kéo người dùng đã bỏ đi quay lại, phần UA ai cũng quên"
 category: "Marketing"
-description: Ai làm UA cũng chăm chăm mua người mới, mà quên mất một mỏ vàng ngay dưới chân: những người đã cài rồi bỏ đi. Kéo họ quay lại thường rẻ và đáng hơn nhiều.
+description: "Ai làm UA cũng chăm chăm mua người mới, mà quên mất một mỏ vàng ngay dưới chân, đó là những người đã cài rồi bỏ đi. Kéo họ quay lại thường rẻ và đáng hơn nhiều."
 pubDate: 2026-07-11T08:55
 cover: https://images.pexels.com/photos/7948071/pexels-photo-7948071.jpeg?auto=compress&cs=tinysrgb&w=1200
 tags:
