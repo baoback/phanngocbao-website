@@ -63,7 +63,7 @@ export default async function MarketTrendPage() {
 
       <section className="section">
         <div className="container">
-          <MarketDashboard manualCards={[...goldCards, ...(pg.manualCards || [])]} />
+          <MarketDashboard manualCards={[...goldCards, ...(pg.manualCards || [])]} tickers={pg.tickers || []} />
         </div>
       </section>
 
