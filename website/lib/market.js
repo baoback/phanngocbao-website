@@ -32,16 +32,26 @@ async function getXml(url) {
   return r.text();
 }
 
+const TREND_URLS = [
+  'https://trends.google.com/trending/rss?geo=VN',
+  'https://trends.google.com.vn/trending/rss?geo=VN',
+  'https://trends.google.com/trends/trendingsearches/daily/rss?geo=VN',
+];
+
 export async function getTrends(limit = 8) {
-  try {
-    const xml = await getXml('https://trends.google.com/trends/trendingsearches/daily/rss?geo=VN');
-    return items(xml)
-      .slice(0, limit)
-      .map((b) => ({ title: field(b, 'title'), traffic: field(b, 'ht:approx_traffic') }))
-      .filter((x) => x.title);
-  } catch (e) {
-    return [];
+  for (const url of TREND_URLS) {
+    try {
+      const xml = await getXml(url);
+      const list = items(xml)
+        .slice(0, limit)
+        .map((b) => ({ title: field(b, 'title'), traffic: field(b, 'ht:approx_traffic') }))
+        .filter((x) => x.title);
+      if (list.length) return list;
+    } catch (e) {
+      // thử endpoint tiếp theo
+    }
   }
+  return [];
 }
 
 const NEWS_FEEDS = [
