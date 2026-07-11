@@ -27,7 +27,50 @@ function Spark({ data, up }) {
   );
 }
 
-export default function MarketDashboard() {
+// Card lấy tự động từ API.
+function LiveCard({ it }) {
+  const up = (it.changePct ?? 0) >= 0;
+  const hasData = it.price != null;
+  return (
+    <div className={`mk-card${hasData ? '' : ' mk-card-empty'}`}>
+      <div className="mk-card-top">
+        <span className="mk-label">{it.label}</span>
+        <span className="mk-unit">{it.unit}</span>
+      </div>
+      <div className="mk-price">{fmt(it.price, it.digits ?? 2)}</div>
+      <div className="mk-card-bottom">
+        {!hasData ? (
+          <span className="mk-change flat">chưa lấy được dữ liệu</span>
+        ) : it.changePct != null ? (
+          <span className={`mk-change ${up ? 'up' : 'down'}`}>
+            {up ? '▲' : '▼'} {Math.abs(it.changePct).toFixed(2)}%
+          </span>
+        ) : (
+          <span className="mk-change flat">giá hiện tại</span>
+        )}
+        <Spark data={it.spark} up={up} />
+      </div>
+    </div>
+  );
+}
+
+// Card nhập tay từ CMS (vd vàng SJC, vàng nhẫn) vì không có API công khai đáng tin.
+function ManualCard({ c }) {
+  return (
+    <div className="mk-card mk-card-manual">
+      <div className="mk-card-top">
+        <span className="mk-label">{c.label}</span>
+        {c.unit && <span className="mk-unit">{c.unit}</span>}
+      </div>
+      <div className="mk-price">{c.value || '--'}</div>
+      <div className="mk-card-bottom">
+        <span className="mk-change flat">{c.note || 'cập nhật thủ công'}</span>
+      </div>
+    </div>
+  );
+}
+
+export default function MarketDashboard({ manualCards = [] }) {
   const [state, setState] = useState({ loading: true, error: false, items: [], updatedAt: null });
 
   const load = useCallback(async () => {
@@ -47,6 +90,8 @@ export default function MarketDashboard() {
     return () => clearInterval(id);
   }, [load]);
 
+  const manual = Array.isArray(manualCards) ? manualCards.filter((c) => c && c.label) : [];
+
   if (state.loading) {
     return (
       <div className="mk-grid">
@@ -57,40 +102,39 @@ export default function MarketDashboard() {
     );
   }
 
-  if (state.error) {
-    return <p className="mk-note">Chưa tải được dữ liệu thị trường. Thử lại sau ít phút nhé.</p>;
+  // Lỗi toàn phần: vẫn hiện các card nhập tay nếu có, thay vì trắng trang.
+  if (state.error && state.items.length === 0) {
+    return (
+      <>
+        {manual.length > 0 && (
+          <div className="mk-grid">
+            {manual.map((c, i) => (
+              <ManualCard c={c} key={`m-${i}`} />
+            ))}
+          </div>
+        )}
+        <p className="mk-note">Chưa tải được dữ liệu thị trường. Thử lại sau ít phút nhé.</p>
+      </>
+    );
   }
+
+  const failed = state.items.filter((it) => it.price == null).length;
 
   return (
     <>
       <div className="mk-grid">
-        {state.items.map((it) => {
-          const up = (it.changePct ?? 0) >= 0;
-          return (
-            <div className="mk-card" key={it.key}>
-              <div className="mk-card-top">
-                <span className="mk-label">{it.label}</span>
-                <span className="mk-unit">{it.unit}</span>
-              </div>
-              <div className="mk-price">{fmt(it.price, it.digits ?? 2)}</div>
-              <div className="mk-card-bottom">
-                {it.changePct != null ? (
-                  <span className={`mk-change ${up ? 'up' : 'down'}`}>
-                    {up ? '▲' : '▼'} {Math.abs(it.changePct).toFixed(2)}%
-                  </span>
-                ) : (
-                  <span className="mk-change flat">giá hiện tại</span>
-                )}
-                <Spark data={it.spark} up={up} />
-              </div>
-            </div>
-          );
-        })}
+        {state.items.map((it) => (
+          <LiveCard it={it} key={it.key} />
+        ))}
+        {manual.map((c, i) => (
+          <ManualCard c={c} key={`m-${i}`} />
+        ))}
       </div>
       {state.updatedAt && (
         <p className="mk-updated">
           Cập nhật lúc{' '}
           {new Date(state.updatedAt).toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })} · tự làm mới mỗi 2 phút
+          {failed > 0 ? ` · ${failed} nguồn đang lỗi` : ''}
         </p>
       )}
     </>
