@@ -5,10 +5,13 @@ export const revalidate = 300;
 
 const YQ = 'https://query1.finance.yahoo.com/v8/finance/chart/';
 const VNDIRECT = 'https://dchart-api.vndirect.com.vn/dchart/history';
+// Bảo Tín Minh Châu: API công khai, trả XML, giá theo VNĐ/chỉ. Chỉ có vàng BTMC, không có vàng miếng SJC.
+const BTMC = 'http://api.btmc.vn/api/BTMCAPI/getpricebtmc?key=3kd8ub1llcg9t45hnoh8hmn7t5kc2v';
 const TIMEOUT_MS = 6000;
 
 const SYMBOLS = [
   { key: 'vnindex', label: 'VN-Index', unit: 'điểm', src: 'vndirect', code: 'VNINDEX', digits: 2 },
+  { key: 'goldvn', label: 'Vàng BTMC (bán ra)', unit: 'triệu đồng/lượng', src: 'btmc', digits: 2 },
   { key: 'gold', label: 'Vàng thế giới', unit: 'USD/oz', src: 'yahoo', y: 'GC=F', digits: 1 },
   { key: 'usdvnd', label: 'USD / VND', unit: 'VND', src: 'yahoo', y: 'VND=X', digits: 0 },
   { key: 'btc', label: 'Bitcoin', unit: 'USD', src: 'yahoo', y: 'BTC-USD', digits: 0 },
@@ -60,10 +63,41 @@ async function fromVnDirect(code) {
   return fromCloses(j.c);
 }
 
+// Vàng Bảo Tín Minh Châu (Rồng Thăng Long 999.9). API trả XML với pb_1 (mua) và ps_1 (bán), đơn vị VNĐ/chỉ.
+async function fromBtmc() {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  let xml;
+  try {
+    const r = await fetch(BTMC, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PNBmarket/1.0)' },
+      next: { revalidate: 300 },
+      signal: ctrl.signal,
+    });
+    if (!r.ok) throw new Error('btmc http ' + r.status);
+    xml = await r.text();
+  } finally {
+    clearTimeout(t);
+  }
+  const sell = Number((xml.match(/ps_1="(\d+)"/) || [])[1]);
+  const buy = Number((xml.match(/pb_1="(\d+)"/) || [])[1]);
+  if (!sell) throw new Error('btmc no price');
+  const toLuong = (vndPerChi) => (vndPerChi * 10) / 1e6; // VNĐ/chỉ -> triệu đồng/lượng
+  return {
+    price: toLuong(sell),
+    changePct: null,
+    spark: [],
+    note: buy ? `mua vào ${toLuong(buy).toFixed(2)}` : 'giá bán ra',
+  };
+}
+
 async function resolveOne(s) {
   const base = { key: s.key, label: s.label, unit: s.unit, digits: s.digits };
   try {
-    const d = s.src === 'vndirect' ? await fromVnDirect(s.code) : await fromYahoo(s.y);
+    let d;
+    if (s.src === 'vndirect') d = await fromVnDirect(s.code);
+    else if (s.src === 'btmc') d = await fromBtmc();
+    else d = await fromYahoo(s.y);
     return { ...base, ...d, ok: true };
   } catch (e) {
     // Không nuốt card: trả ô rỗng để giao diện hiện "--" thay vì mất hẳn.
