@@ -27,12 +27,27 @@ function Spark({ data, up }) {
   );
 }
 
-// Card lấy tự động từ API.
-function LiveCard({ it }) {
+// Card lấy tự động từ API. Card có thể bấm (VN-Index) sẽ render bằng <button> để dùng được bàn phím.
+function LiveCard({ it, onClick, expanded }) {
   const up = (it.changePct ?? 0) >= 0;
   const hasData = it.price != null;
+  const clickable = typeof onClick === 'function';
+  const Tag = clickable ? 'button' : 'div';
+  const extra = clickable
+    ? {
+        type: 'button',
+        onClick,
+        'aria-expanded': expanded,
+        title: 'Xem các mã đang nóng',
+      }
+    : {};
   return (
-    <div className={`mk-card${hasData ? '' : ' mk-card-empty'}`}>
+    <Tag
+      className={`mk-card${hasData ? '' : ' mk-card-empty'}${clickable ? ' mk-card-clickable' : ''}${
+        expanded ? ' is-open' : ''
+      }`}
+      {...extra}
+    >
       <div className="mk-card-top">
         <span className="mk-label">{it.label}</span>
         <span className="mk-unit">{it.unit}</span>
@@ -49,6 +64,56 @@ function LiveCard({ it }) {
           <span className="mk-change flat">{it.note || 'giá hiện tại'}</span>
         )}
         <Spark data={it.spark} up={up} />
+      </div>
+      {clickable && (
+        <span className="mk-card-cta">{expanded ? 'Ẩn mã nóng' : 'Xem mã nóng'}</span>
+      )}
+    </Tag>
+  );
+}
+
+// Bảng các mã đang nóng, mở ra khi bấm vào card VN-Index.
+function StocksPanel({ state, onRetry }) {
+  if (state.loading) {
+    return (
+      <div className="mk-stocks">
+        <p className="mk-stocks-note">Đang lấy dữ liệu các mã...</p>
+      </div>
+    );
+  }
+  if (state.error || state.items.length === 0) {
+    return (
+      <div className="mk-stocks">
+        <p className="mk-stocks-note">
+          Chưa lấy được dữ liệu các mã.{' '}
+          <button type="button" className="mk-stocks-retry" onClick={onRetry}>
+            Thử lại
+          </button>
+        </p>
+      </div>
+    );
+  }
+  return (
+    <div className="mk-stocks">
+      <p className="mk-stocks-note">
+        Các mã trong rổ theo dõi, xếp theo biên độ biến động phiên gần nhất. Giá tính bằng nghìn đồng một cổ phiếu.
+      </p>
+      <div className="mk-stocks-grid">
+        {state.items.map((s) => {
+          const up = (s.changePct ?? 0) >= 0;
+          return (
+            <div className="mk-stock" key={s.code}>
+              <span className="mk-stock-code">{s.code}</span>
+              <span className="mk-stock-price">{fmt(s.price, 2)}</span>
+              <span className={`mk-stock-change ${up ? 'up' : 'down'}`}>
+                {up ? '▲' : '▼'} {Math.abs(s.changePct ?? 0).toFixed(2)}%
+              </span>
+              <span className="mk-stock-vol">
+                {s.vol ? `${(s.vol / 1e6).toFixed(1)} triệu cp` : ''}
+              </span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
@@ -70,8 +135,33 @@ function ManualCard({ c }) {
   );
 }
 
-export default function MarketDashboard({ manualCards = [] }) {
+export default function MarketDashboard({ manualCards = [], tickers = [] }) {
   const [state, setState] = useState({ loading: true, error: false, items: [], updatedAt: null });
+  const [open, setOpen] = useState(false);
+  const [stocks, setStocks] = useState({ loading: false, error: false, items: [], loaded: false });
+
+  const codes = (Array.isArray(tickers) ? tickers : [])
+    .map((t) => String(t || '').trim().toUpperCase())
+    .filter((t) => /^[A-Z0-9]{3,5}$/.test(t))
+    .join(',');
+
+  const loadStocks = useCallback(async () => {
+    setStocks((s) => ({ ...s, loading: true, error: false }));
+    try {
+      const r = await fetch(`/api/market/stocks${codes ? `?codes=${codes}` : ''}`, { cache: 'no-store' });
+      if (!r.ok) throw new Error('bad');
+      const j = await r.json();
+      setStocks({ loading: false, error: false, items: j.items || [], loaded: true });
+    } catch (e) {
+      setStocks({ loading: false, error: true, items: [], loaded: true });
+    }
+  }, [codes]);
+
+  // Chỉ gọi API khi người dùng thực sự mở bảng, tránh tải thừa cho mọi lượt vào trang.
+  const toggleStocks = useCallback(() => {
+    if (!open && !stocks.loaded && !stocks.loading) loadStocks();
+    setOpen((v) => !v);
+  }, [open, stocks.loaded, stocks.loading, loadStocks]);
 
   const load = useCallback(async () => {
     try {
@@ -123,13 +213,18 @@ export default function MarketDashboard({ manualCards = [] }) {
   return (
     <>
       <div className="mk-grid">
-        {state.items.map((it) => (
-          <LiveCard it={it} key={it.key} />
-        ))}
+        {state.items.map((it) =>
+          it.key === 'vnindex' && it.price != null ? (
+            <LiveCard it={it} key={it.key} onClick={toggleStocks} expanded={open} />
+          ) : (
+            <LiveCard it={it} key={it.key} />
+          )
+        )}
         {manual.map((c, i) => (
           <ManualCard c={c} key={`m-${i}`} />
         ))}
       </div>
+      {open && <StocksPanel state={stocks} onRetry={loadStocks} />}
       {state.updatedAt && (
         <p className="mk-updated">
           Cập nhật lúc{' '}
