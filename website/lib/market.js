@@ -29,7 +29,12 @@ async function getXml(url) {
   const t = setTimeout(() => ctrl.abort(), 6000);
   try {
     const r = await fetch(url, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PNBmarket/1.0)' },
+      // Một số site (vd Advertising Vietnam) chặn User-Agent lạ, nên giả lập trình duyệt thật.
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
+        Accept: 'application/rss+xml, application/xml, text/xml;q=0.9, */*;q=0.8',
+      },
       next: { revalidate: 1800 },
       signal: ctrl.signal,
     });
