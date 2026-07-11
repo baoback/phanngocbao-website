@@ -243,10 +243,18 @@ const DEFAULT_MARKET_PAGE = {
   heroTitle: 'Nhịp thị trường mỗi ngày',
   heroSubtitle:
     'Cập nhật nhanh vàng, tỷ giá, crypto và chứng khoán, cùng tin đầu tư và marketing đáng chú ý trong ngày.',
+  manualCards: [],
   trendsTitle: 'Đang được quan tâm ở Việt Nam',
+  trendsEnabled: true,
+  trendsExclude: [],
+  trendsManual: [],
   newsTitle: 'Tin đầu tư & marketing mới nhất',
+  eventsTitle: 'Lịch sự kiện đáng chú ý',
+  events: [],
   newsletterTitle: 'Nhận nhịp thị trường qua email',
   newsletterText: 'Mỗi tuần một bản tin ngắn về đầu tư và marketing, không spam.',
+  disclaimer:
+    'Thông tin trên trang chỉ mang tính tham khảo, tổng hợp từ nguồn công khai và có thể có độ trễ. Đây không phải khuyến nghị đầu tư. Bạn tự chịu trách nhiệm với quyết định của mình.',
 };
 
 const MARKET_DIR = path.join(process.cwd(), 'content', 'market');
