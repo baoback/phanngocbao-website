@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getMarketPage, getSettings, getMarketBriefs, formatDate } from '@/lib/posts';
-import { getTrends, getNews } from '@/lib/market';
+import { getTrends, getNews, getUpcomingEvents } from '@/lib/market';
 import MarketDashboard from '@/app/components/MarketDashboard';
 
 export const revalidate = 1800;
@@ -31,7 +31,9 @@ export default async function MarketTrendPage() {
   const cfg = getSettings();
   const briefs = getMarketBriefs();
   const [trends, news] = await Promise.all([resolveTrends(pg), getNews(10, { minMarketing: 3 })]);
-  const events = (pg.events || []).filter((e) => e && e.label);
+  // Sự kiện nhập tay trong CMS được ghim lên đầu; phần còn lại tự sinh theo lịch lặp hằng năm/quý.
+  const manualEvents = (pg.events || []).filter((e) => e && e.label);
+  const events = [...manualEvents, ...getUpcomingEvents(Math.max(0, 6 - manualEvents.length))];
 
   return (
     <div className="mk">
