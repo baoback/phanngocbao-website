@@ -1,4 +1,4 @@
-import { getAllPosts, getAllProjects, CATEGORIES, categorySlug } from '@/lib/posts';
+import { getAllPosts, getAllProjects, CATEGORIES, categorySlug, getMarketBriefs } from '@/lib/posts';
 
 const BASE = 'https://phanngocbao.vn';
 
@@ -29,5 +29,12 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...categories, ...posts, ...projects];
+  const briefs = getMarketBriefs().map((b) => ({
+    url: `${BASE}/market-trend/${b.slug}`,
+    lastModified: b.date ? new Date(b.date) : new Date(),
+    changeFrequency: 'daily',
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...categories, ...posts, ...projects, ...briefs];
 }
