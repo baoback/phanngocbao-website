@@ -16,7 +16,28 @@
   "trendsManual": [],
   "newsTitle": "Tin đầu tư & marketing mới nhất",
   "eventsTitle": "Lịch sự kiện đáng chú ý",
-  "events": [],
+  "events": [
+    {
+      "date": "Cuối tháng 7",
+      "label": "Mùa công bố kết quả kinh doanh quý 2",
+      "note": "Cổ phiếu thường biến động mạnh quanh ngày ra báo cáo"
+    },
+    {
+      "date": "11/11",
+      "label": "Ngày độc thân, cao điểm sale sàn thương mại điện tử",
+      "note": "Chốt ngân sách quảng cáo và hàng tồn trước ít nhất 3 tuần"
+    },
+    {
+      "date": "27/11",
+      "label": "Black Friday",
+      "note": "Cao điểm mua sắm cuối năm, chi phí quảng cáo tăng"
+    },
+    {
+      "date": "12/12",
+      "label": "Sale 12/12",
+      "note": "Đợt sale lớn cuối cùng của năm"
+    }
+  ],
   "newsletterTitle": "Nhận nhịp thị trường qua email",
   "newsletterText": "Mỗi tuần một bản tin ngắn về đầu tư và marketing, không spam.",
   "disclaimer": "Thông tin trên trang chỉ mang tính tham khảo, tổng hợp từ nguồn công khai và có thể có độ trễ. Đây không phải khuyến nghị đầu tư. Bạn tự chịu trách nhiệm với quyết định của mình."
