@@ -1,19 +1,19 @@
 ---
 title: "Nhận định thị trường ngày 04/08/2026"
 date: 2026-08-04T23:45:00+07:00
-description: "VN-Index vượt 1.777 điểm nhờ nhóm Vingroup dẫn dắt, vàng SJC lùi nhẹ về 140,5 triệu mỗi lượng, trong khi S&P 500 tăng hơn 3% và Ethereum bật gần 5%."
+description: "VN-Index bật lên vùng 1.777 điểm, vàng SJC hạ nhiệt về 140,5 triệu mỗi lượng dù giá thế giới vượt 4.145 USD, trong khi chứng khoán Mỹ tăng mạnh hơn 3% và Ethereum tiếp tục giữ nhịp tăng của tuần."
 ---
 
-Thị trường hôm nay nghiêng hẳn về sắc xanh, và điều đáng chú ý là sắc xanh này xuất hiện đồng loạt ở gần như mọi nhóm tài sản, từ chứng khoán trong nước, chứng khoán Mỹ cho tới crypto.
+Phiên đầu tuần khép lại với sắc xanh lan khá đều, từ chứng khoán Việt Nam sang tới Mỹ và crypto. Điểm lạ duy nhất là vàng trong nước, khi giá thế giới đi lên nhưng SJC lại lùi nhẹ.
 
-VN-Index đóng cửa ở 1.777,23 điểm, tăng 0,82%. Nhìn lại một tuần qua, chỉ số đã đi một mạch từ vùng 1.669 lên 1.777, tức là lấy lại toàn bộ những gì đã mất trong nhịp điều chỉnh cuối tháng 7. Động lực chính đến từ nhóm cổ phiếu họ Vingroup, kéo chỉ số tiến sát mốc tâm lý 1.800 điểm. Mốc này đã ba lần bị từ chối trong tháng 7, nên phiên chinh phục sắp tới sẽ rất đáng theo dõi.
+Chứng khoán Việt Nam có phiên hồi phục rõ ràng. VN-Index đóng cửa quanh 1.777 điểm, tăng 0,82%, lấy lại phần lớn những gì đã mất trong phiên mở đầu tháng 8. Dòng tiền có dấu hiệu quay lại nhóm cổ phiếu có câu chuyện riêng, điển hình là Thaiholdings kịch trần sau đề xuất xây tháp đôi tại Việt Nam. Dù vậy nhà đầu tư dùng margin nên lưu ý HOSE vừa công bố 57 mã bị cắt margin trong tháng 8, kiểm tra lại danh mục trước khi giải ngân là việc nên làm.
 
-Vàng thế giới tăng 0,79% lên 4.145 USD một ounce, mức cao nhất trong khoảng một tuần trở lại đây. Điều thú vị là vàng SJC trong nước lại đi ngược, giảm nhẹ về 140,5 triệu mỗi lượng ở chiều bán ra, mua vào 137,5 triệu. Chênh lệch mua bán vẫn giữ ở mức 3 triệu, cho thấy các nhà vàng chưa vội thay đổi trạng thái phòng thủ.
+Vàng đang có một khoảng lệch thú vị. Giá thế giới lên 4.145 USD một ounce, tăng gần 0,8% trong ngày, nhưng SJC chiều nay lại được niêm yết bán ra 140,5 triệu mỗi lượng, mua vào 137,5 triệu, thấp hơn mốc 141 triệu cuối tuần trước. Báo chí trong nước cũng ghi nhận giá vàng miếng giảm về vùng 140 triệu. Chênh lệch mua bán 3 triệu mỗi lượng vẫn là con số đáng cân nhắc với ai định lướt sóng ngắn.
 
-Tỷ giá USD/VND hạ nhiệt về 26.258 đồng, giảm 0,1%. Mức giảm không lớn nhưng là tín hiệu dễ chịu sau chuỗi ngày neo quanh 26.300.
+Tỷ giá USD/VND dịu lại quanh 26.258 đồng, giảm nhẹ 0,1%. Không nhiều biến động, nhưng với doanh nghiệp nhập khẩu thì mỗi nhịp hạ nhiệt của tỷ giá đều là cơ hội chốt hợp đồng tốt hơn.
 
-Bên crypto, Ethereum tiếp tục là cái tên nổi bật nhất với mức tăng 4,82% lên 1.865 USD, trong khi Bitcoin nhích 1,21% lên gần 63.900 USD. Kịch bản ETH chạy trước, BTC theo sau đã lặp lại nhiều lần trong tháng qua.
+Bên crypto, Bitcoin giao dịch quanh 63.850 USD, tăng hơn 1% trong ngày. Ethereum đứng ở 1.865 USD, vẫn giữ mức tăng gần 5% và tiếp tục là cái tên khỏe nhất tuần. Nhịp tăng của ETH kéo dài nhiều tuần liền cho thấy dòng tiền đầu cơ vẫn chưa rời thị trường.
 
-Chứng khoán Mỹ mới là điểm nhấn lớn nhất phiên này. S&P 500 tăng tới 3,21% lên 7.723 điểm, một phiên bứt phá hiếm thấy ở chỉ số vốn quen với biên độ dưới 1%. Đà tăng mạnh của thị trường Mỹ thường lan tỏa tâm lý tích cực sang châu Á trong một hai phiên kế tiếp.
+Chứng khoán Mỹ là điểm sáng lớn nhất phiên. S&P 500 vọt lên 7.723 điểm, tăng hơn 3,2%, bất chấp những ồn ào chính sách khi 25 bang đang kiện các mức thuế của ông Trump. Thị trường có vẻ đang chọn tin vào lợi nhuận doanh nghiệp hơn là rủi ro chính trị.
 
-Về góc nhìn kinh doanh, tin Domino's trả tiền cho khách để thử nghiệm app và website mới là một bài học đáng suy nghĩ. Thay vì thuê agency làm khảo sát, họ biến chính khách hàng thành đội QA có trả phí, vừa thu dữ liệu thật vừa tạo cảm giác được lắng nghe. Trong giai đoạn thị trường hưng phấn, người tiêu dùng cũng cởi mở hơn với trải nghiệm mới, nên đây là thời điểm tốt để các thương hiệu Việt mạnh dạn thử những chương trình đồng sáng tạo kiểu này thay vì chỉ chạy khuyến mãi giảm giá.
+Góc nhìn kinh doanh hôm nay đến từ Domino's. Hãng này trả tiền cho thực khách để beta test app và website mới trước khi ra mắt chính thức. Bài học rất đáng chép lại: đừng đợi sản phẩm hoàn hảo rồi mới cho khách dùng, hãy biến chính khách hàng thành đội QA có trả phí. Chi phí bỏ ra nhỏ hơn nhiều so với cái giá của một lần ra mắt lỗi, lại có thêm nhóm khách trung thành cảm thấy mình được lắng nghe. Với doanh nghiệp Việt, một chương trình dùng thử có thưởng cho nhóm khách quen hoàn toàn có thể làm được ngay trong tháng này.
