@@ -1,0 +1,32 @@
+{
+  "heroEyebrow": "Công cụ",
+  "heroTitle": "Bộ công cụ marketing",
+  "heroSubtitle": "Vài phép tính nhanh cho quảng cáo và kinh doanh: nhập số, ra kết quả ngay. Không cần Excel, không lưu dữ liệu của bạn.",
+  "tools": [
+    {
+      "key": "roi",
+      "enabled": true,
+      "title": "Tính ROI / ROAS quảng cáo",
+      "note": "Nhập chi phí quảng cáo và doanh thu thu về để biết bạn lãi hay lỗ, và mỗi đồng quảng cáo mang lại bao nhiêu đồng doanh thu."
+    },
+    {
+      "key": "adbudget",
+      "enabled": true,
+      "title": "Ngân sách Ads ra bao nhiêu đơn",
+      "note": "Từ ngân sách, giá mỗi click (CPC) và tỷ lệ chuyển đổi, ước lượng số click, số đơn/lead và chi phí trung bình cho mỗi đơn."
+    },
+    {
+      "key": "breakeven",
+      "enabled": true,
+      "title": "Điểm hòa vốn & biên lợi nhuận",
+      "note": "Nhập giá bán, giá vốn và chi phí cố định để biết biên lợi nhuận mỗi sản phẩm và cần bán bao nhiêu để hòa vốn."
+    },
+    {
+      "key": "cacltv",
+      "enabled": true,
+      "title": "CAC & LTV",
+      "note": "So sánh chi phí thu hút một khách hàng với giá trị họ mang lại trong suốt vòng đời, để biết mô hình có bền vững không."
+    }
+  ],
+  "disclaimer": "Các công cụ chỉ mang tính tham khảo, kết quả phụ thuộc vào số liệu bạn nhập. Mọi phép tính chạy ngay trên trình duyệt của bạn và không được lưu lại."
+}
