@@ -13,6 +13,7 @@ export default function Header({
   navProjects = 'Dự án',
   navAbout = 'Hồ sơ',
   navMarket = 'Market Trend',
+  navTools = 'Công cụ',
   searchPlaceholder,
 }) {
   const [scrolled, setScrolled] = useState(false);
@@ -51,8 +52,8 @@ export default function Header({
           <div className={`nav-links${menuOpen ? ' open' : ''}`}>
             <Link href="/" onClick={close}>{navBlog}</Link>
             <Link href="/portfolio" onClick={close}>{navProjects}</Link>
-            <Link href="/about" onClick={close}>{navAbout}</Link>
             <Link href="/market-trend" onClick={close}>{navMarket}</Link>
+            <Link href="/tools" onClick={close}>{navTools}</Link>
           </div>
           <ThemeToggle />
           <button
