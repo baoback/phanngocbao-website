@@ -159,6 +159,7 @@ const DEFAULT_SETTINGS = {
   navProjects: 'Dự án',
   navAbout: 'Hồ sơ',
   navMarket: 'Market Trend',
+  navTools: 'Công cụ',
   heroEyebrow: 'Chiến lược · Thương hiệu · Performance',
   heroTitle: 'Marketing là tư duy hệ thống,',
   heroTitleAccent: 'không phải may rủi.',
@@ -320,6 +321,65 @@ export function getMarketPage() {
     // dùng mặc định nếu lỗi
   }
   return DEFAULT_MARKET_PAGE;
+}
+
+// Trang Công cụ (/tools). Nội dung tiêu đề + bật/tắt, đổi tên, ghi chú từng công cụ sửa qua CMS.
+// Công thức tính nằm trong component; ở đây chỉ là phần chữ + cấu hình hiển thị.
+const TOOLS_PAGE_FILE = path.join(process.cwd(), 'content', 'toolspage.json');
+
+const DEFAULT_TOOLS_PAGE = {
+  heroEyebrow: 'Công cụ',
+  heroTitle: 'Bộ công cụ marketing',
+  heroSubtitle:
+    'Vài phép tính nhanh cho quảng cáo và kinh doanh: nhập số, ra kết quả ngay. Không cần Excel, không lưu dữ liệu của bạn.',
+  // Mỗi công cụ: key cố định (khớp với code), có thể bật/tắt, đổi tên và ghi chú (mô tả cho SEO).
+  tools: [
+    {
+      key: 'roi',
+      enabled: true,
+      title: 'Tính ROI / ROAS quảng cáo',
+      note: 'Nhập chi phí quảng cáo và doanh thu thu về để biết bạn lãi hay lỗ, và mỗi đồng quảng cáo mang lại bao nhiêu đồng doanh thu.',
+    },
+    {
+      key: 'adbudget',
+      enabled: true,
+      title: 'Ngân sách Ads ra bao nhiêu đơn',
+      note: 'Từ ngân sách, giá mỗi click (CPC) và tỷ lệ chuyển đổi, ước lượng số click, số đơn/lead và chi phí trung bình cho mỗi đơn.',
+    },
+    {
+      key: 'breakeven',
+      enabled: true,
+      title: 'Điểm hòa vốn & biên lợi nhuận',
+      note: 'Nhập giá bán, giá vốn và chi phí cố định để biết biên lợi nhuận mỗi sản phẩm và cần bán bao nhiêu để hòa vốn.',
+    },
+    {
+      key: 'cacltv',
+      enabled: true,
+      title: 'CAC & LTV',
+      note: 'So sánh chi phí thu hút một khách hàng với giá trị họ mang lại trong suốt vòng đời, để biết mô hình có bền vững không.',
+    },
+  ],
+  disclaimer:
+    'Các công cụ chỉ mang tính tham khảo, kết quả phụ thuộc vào số liệu bạn nhập. Mọi phép tính chạy ngay trên trình duyệt của bạn và không được lưu lại.',
+};
+
+export function getToolsPage() {
+  try {
+    if (fs.existsSync(TOOLS_PAGE_FILE)) {
+      const data = JSON.parse(fs.readFileSync(TOOLS_PAGE_FILE, 'utf-8'));
+      // Gộp cấu hình CMS (bật/tắt, đổi tên) đè lên danh sách mặc định, giữ nguyên thứ tự & key gốc.
+      const overrides = Array.isArray(data.tools) ? data.tools : [];
+      const byKey = {};
+      overrides.forEach((t) => {
+        if (t && t.key) byKey[t.key] = t;
+      });
+      const tools = DEFAULT_TOOLS_PAGE.tools.map((base) => ({ ...base, ...(byKey[base.key] || {}) }));
+      return { ...DEFAULT_TOOLS_PAGE, ...data, tools };
+    }
+  } catch (e) {
+    // dùng mặc định nếu lỗi
+  }
+  return DEFAULT_TOOLS_PAGE;
 }
 
 const PROJECTS_DIR = path.join(process.cwd(), 'content', 'projects');
