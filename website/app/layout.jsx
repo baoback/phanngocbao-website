@@ -58,10 +58,11 @@ export default function RootLayout({ children }) {
           navProjects={s.navProjects}
           navAbout={s.navAbout}
           navMarket={s.navMarket}
+          navTools={s.navTools}
           searchPlaceholder={s.searchPlaceholder}
         />
         <main>{children}</main>
-        <Footer note={s.footerNote} brandName={s.brandName} />
+        <Footer note={s.footerNote} brandName={s.brandName} navAbout={s.navAbout} />
         <ScrollReveal />
         <GoogleAnalytics gaId={s.gaId} />
       </body>
