@@ -82,6 +82,39 @@ collections:
       - { label: "Nháp", name: "draft", widget: "boolean", default: false, required: false }
       - { label: "Nội dung", name: "body", widget: "markdown" }
 
+  # ---------- Bài Fanpage Facebook (KHÔNG hiện trên website) ----------
+  - name: "fanpage"
+    label: "Bài Fanpage"
+    label_singular: "Bài Fanpage"
+    description: "Soạn bài cho fanpage Facebook. Bấm Lưu (Publish) trước, rồi dùng khung 'Đăng lên Facebook' ở cuối bài để đăng ngay hoặc hẹn giờ. Các bài ở mục này không hiện trên website."
+    folder: "website/content/fanpage"
+    create: true
+    slug: "fb-{{year}}{{month}}{{day}}-{{hour}}{{minute}}{{second}}"
+    summary: "{{title}} — {{facebook.statusLabel}}"
+    sortable_fields: ["title"]
+    fields:
+      - { label: "Tên bài (chỉ để quản lý, không đăng lên Facebook)", name: "title", widget: "string" }
+      - label: "Tạo nhanh từ bài blog"
+        name: "fromBlog"
+        widget: "relation"
+        collection: "blog"
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        required: false
+        hint: "Chọn một bài blog và để trống ô Nội dung, Link. Khi bấm Lưu, hệ thống tự điền tiêu đề, mô tả và link bài blog để bạn sửa tiếp."
+      - { label: "Nội dung bài đăng", name: "message", widget: "text", required: false, hint: "Nội dung hiện trên fanpage. Xuống dòng sẽ được giữ nguyên." }
+      - label: "Ảnh (tối đa 10)"
+        name: "images"
+        widget: "list"
+        label_singular: "ảnh"
+        required: false
+        max: 10
+        hint: "1 ảnh: bài ảnh đơn. Nhiều ảnh: album trong một bài. Không có ảnh: Facebook hiện thẻ xem trước của link."
+        field: { label: "Ảnh", name: "image", widget: "image" }
+      - { label: "Link đính kèm", name: "link", widget: "string", required: false, pattern: ['^$|^https?://', "Link phải bắt đầu bằng https://"], hint: "Không có ảnh: link hiện dạng thẻ xem trước. Có ảnh: link được thêm vào cuối nội dung." }
+      - { label: "Đăng lên Facebook", name: "facebook", widget: "fbpublish", required: false, default: { status: "draft", statusLabel: "Nháp" } }
+
   # ---------- Trang cố định ----------
   - name: "pages"
     label: "Trang cố định"
@@ -264,6 +297,13 @@ collections:
           - { label: "Newsletter — mô tả", name: "newsletterText", widget: "text", required: false }
           - { label: "Miễn trừ trách nhiệm (cuối trang)", name: "disclaimer", widget: "text", required: false }
 
+      - name: "privacy"
+        label: "Trang Chính sách quyền riêng tư"
+        file: "website/content/privacy.md"
+        fields:
+          - { label: "Tiêu đề", name: "title", widget: "string" }
+          - { label: "Cập nhật lần cuối", name: "updated", widget: "string", required: false, hint: "Ví dụ: 17/10/2026" }
+          - { label: "Nội dung", name: "body", widget: "markdown" }
       - name: "toolspage"
         label: "Trang Công cụ"
         file: "website/content/toolspage.json"
